@@ -36,8 +36,8 @@ params:
   ##
   ## Options for overriding theme or page defaults
   ##
-  #customStylesheets: # Use to override theme styles, like logo size
-  #  - "css/custom.css"
+  customStylesheets: # Use to override theme styles, like logo size
+   - "css/custom.css"
   readingSpeed: 600 # Use to set custom reading speed
   readingSpeedMin: 25 # Use to set custom reading speed range
   readingSpeedMax: 175 # Use to set custom reading speed range
