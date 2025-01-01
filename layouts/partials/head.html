@@ -1,0 +1,30 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="{{ .Site.Params.description }}"
+  />
+  {{ if (eq .Title .Site.Title) }}
+    {{ with $title := .Title }}
+      <title>{{ . }}</title>
+    {{ end }}
+  {{ else }}
+    {{ with $title := printf "%s | %s" .Title .Site.Title }}
+      <title>{{ . }}</title>
+    {{ end }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ "css/reset.css" | relURL }}"/>
+  <link rel="stylesheet" href="{{ "css/font.css" | relURL }}"/>
+  <link rel="stylesheet" href="{{ "css/smigle.css" | relURL }}"/>
+  {{ range .Site.Params.customStylesheets }}
+    <link rel="stylesheet" href="{{ . | relURL }}"/>
+  {{ end }}
+  <link rel="apple-touch-icon" sizes="180x180" href="/logo.svg">
+  <link rel="icon" type="image/svg" sizes="32x32" href="/logo.svg">
+  <link rel="icon" type="image/svg" sizes="16x16" href="/logo.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/logo.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>

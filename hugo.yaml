@@ -1,0 +1,51 @@
+baseURL: 'https://butbrah.com/'
+languageCode: 'en-us'
+theme: smigle
+title: But Brah!
+menu:
+  main: # Change menu as needed
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 3
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 4
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 5
+    - identifier: rss
+      name: RSS
+      url: /index.xml
+      weight: 6
+params:
+  abbrDateFmt: "Jan 2"
+  author: "Piyush Itankar"
+  brandIconFile: "brah.svg"
+  dateFmt: "2006-01-02"
+  ##
+  ## Options for overriding theme or page defaults
+  ##
+  #customStylesheets: # Use to override theme styles, like logo size
+  #  - "css/custom.css"
+  readingSpeed: 600 # Use to set custom reading speed
+  readingSpeedMin: 25 # Use to set custom reading speed range
+  readingSpeedMax: 175 # Use to set custom reading speed range
+  social:
+    - name: x
+      url: https://x.com/dstreetdogg
+    - name: GitHub
+      url: https://github.com/streetdogg
+    - name: Linkedin
+      url: https://www.linkedin.com/in/streetdogg/
+  subtitle: "Software. Electronics. Insights."
