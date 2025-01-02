@@ -6,10 +6,6 @@ body {
   width: 125px
 }
 
-header nav {
-  padding-left: 50%;
-}
-
 #root {
   max-width: 800px
 }
