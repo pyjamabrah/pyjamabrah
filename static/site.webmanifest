@@ -1,0 +1,14 @@
+{
+    "name": "",
+    "short_name": "",
+    "icons": [
+        {
+            "src": "images/logo.png",
+            "sizes": "1080x1080",
+            "type": "image/svg"
+        }
+    ],
+    "theme_color": "#FFE15C",
+    "background_color": "#FFE15C",
+    "display": "standalone"
+}

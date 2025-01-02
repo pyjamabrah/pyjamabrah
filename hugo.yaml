@@ -31,7 +31,7 @@ menu:
 params:
   abbrDateFmt: "Jan 2"
   author: "Piyush Itankar"
-  brandIconFile: "brah.svg"
+  brandIconFile: "images/brah.svg"
   dateFmt: "2006-01-02"
   ##
   ## Options for overriding theme or page defaults

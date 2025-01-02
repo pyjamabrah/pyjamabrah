@@ -3,9 +3,9 @@ body {
 }
 
 #brand .icon {
-  width: 125px
+  width: 125px !important;
 }
 
 #root {
-  max-width: 800px
+  max-width: 800px !important;
 }
