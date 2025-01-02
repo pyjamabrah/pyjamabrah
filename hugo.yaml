@@ -1,7 +1,7 @@
-baseURL: 'https://butbrah.com/'
+baseURL: 'https://pyjamabrah.com/'
 languageCode: 'en-us'
 theme: smigle
-title: But Brah!
+title: Pyjama Brah!
 menu:
   main: # Change menu as needed
     - identifier: home
@@ -42,10 +42,12 @@ params:
   readingSpeedMin: 25 # Use to set custom reading speed range
   readingSpeedMax: 175 # Use to set custom reading speed range
   social:
-    - name: x
+    - name: X
       url: https://x.com/dstreetdogg
-    - name: GitHub
-      url: https://github.com/streetdogg
     - name: Linkedin
       url: https://www.linkedin.com/in/streetdogg/
+    - name: Mail
+      url: mailto:piyush@pyjamabrah.com
+    - name: GitHub
+      url: https://github.com/streetdogg
   subtitle: "Software. Electronics. Insights."

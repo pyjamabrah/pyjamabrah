@@ -2,8 +2,7 @@
   <hr />
   {{ if .Site.Params.social }}
     <p id="social">
-      Find me around the web:
-      <br />
+      Reach me no web:
       {{ range $i, $e := .Site.Params.social }}
         {{ if $i }} | {{ end }}
         <a href="{{ .url }}">{{ .name }}</a>
