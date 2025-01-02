@@ -1,0 +1,24 @@
+<header>
+  <div id="brand">
+    <a class="icon-link" href="{{ .Site.BaseURL }}">
+      <img
+        class="icon"
+        src="{{ default "images/brandIcon.svg" .Site.Params.brandIconFile | relURL }}"
+      />
+    </a>
+    <div class="text">
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <h3>{{ default "Description about Blog Author" .Site.Params.subtitle }}</h3>
+    </div>
+  </div>
+  <hr />
+  <nav>
+    {{ with .Site.Menus.main }}
+      {{ range $index, $value := . }}
+        {{ if $index }} | {{ end }}
+        <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>
+      {{ end }}
+    {{ end }}
+  </nav>
+  <hr />
+</header>
