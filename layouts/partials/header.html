@@ -11,14 +11,14 @@
       <h3>{{ default "Description about Blog Author" .Site.Params.subtitle }}</h3>
     </div>
   </div>
-  <hr />
-  <nav>
+  <nav class="navbar">
+    <hr />
     {{ with .Site.Menus.main }}
       {{ range $index, $value := . }}
         {{ if $index }} | {{ end }}
         <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>
       {{ end }}
     {{ end }}
+    <hr />
   </nav>
-  <hr />
 </header>

@@ -27,3 +27,7 @@ input {
   font-size: 0.8em;
   color: cadetblue;
 }
+
+.navbar {
+  margin: 0px !important;
+}
