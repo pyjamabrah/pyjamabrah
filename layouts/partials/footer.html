@@ -2,7 +2,7 @@
   <hr />
   {{ if .Site.Params.social }}
     <span id="social">
-      Reach me on web:
+      Web:
       {{ range $i, $e := .Site.Params.social }}
         {{ if $i }} | {{ end }}
         <a href="{{ .url }}" target="_blank">{{ .name }}</a>
