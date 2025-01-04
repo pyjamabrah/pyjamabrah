@@ -44,6 +44,8 @@ params:
   social:
     - name: X
       url: https://x.com/dstreetdogg
+    - name: YouTube
+      url: https://youtube.com/@pyjamabrah
     - name: Linkedin
       url: https://www.linkedin.com/in/streetdogg/
     - name: Mail

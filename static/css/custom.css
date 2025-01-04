@@ -8,6 +8,7 @@
 
 #newsletter {
   color:brown;
+  text-align: center;
 }
 
 figcaption {
@@ -20,4 +21,9 @@ button {
 
 input {
   padding: 5px;
+}
+
+#owner {
+  font-size: 0.8em;
+  color: cadetblue;
 }

@@ -4,10 +4,10 @@
   <body>
     <div id="root">
       {{ partial "header.html" . }}
-      {{ partial "form.html" . }}
       <div id="content">
         {{ block "main" . }}{{ end }}
       </div>
+      {{ partial "form.html" . }}
       {{ partial "footer.html" . }}
     </div>
   </body>
