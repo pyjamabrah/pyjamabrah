@@ -5,3 +5,11 @@
 #root {
   max-width: 800px !important;
 }
+
+#newsletter {
+  color:brown;
+}
+
+figcaption {
+  margin-top: 10px !important;
+}
