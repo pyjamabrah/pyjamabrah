@@ -3,11 +3,10 @@
 }
 
 #root {
-  max-width: 800px !important;
+  max-width: 1024px !important;
 }
 
 #newsletter {
-  color:brown;
   text-align: center;
 }
 
@@ -16,11 +15,25 @@ figcaption {
 }
 
 button {
-  padding: 5px;
+  background-color: #1C7AA2;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  box-shadow: 0px 0px 10px 1px grey;
 }
 
 input {
   padding: 5px;
+  margin: 5px;
+  font-size: 1em;
+  border: 1px solid #000000;
 }
 
 #owner {
@@ -30,4 +43,43 @@ input {
 
 .navbar {
   margin: 0px !important;
+}
+
+.sidebar {
+  border: 1px solid black;
+  padding: 10px;
+  height: fit-content;
+}
+
+@media all and (width > 1024px) {
+  .post-container {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 70% 30%
+  }
+
+  .post-content {
+    grid-column: 1;
+  }
+
+  .sidebar {
+    grid-column: 2;
+    border: 1px solid black;
+    padding: 10px;
+    height: fit-content;
+    position: sticky;
+    top: 10px;
+  }
+}
+
+.book-title {
+  text-align: center;
+}
+
+.cover-image {
+  box-shadow: 0px 0px 5px 1px grey;
+}
+
+.cover-image:hover {
+  box-shadow: 0px 0px 10px 1px grey;
 }
