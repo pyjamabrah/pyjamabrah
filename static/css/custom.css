@@ -16,14 +16,16 @@ figcaption {
 }
 
 button {
-  background-color: #1C7AA2;
+  background-color: #F55E58;
   border: none;
   color: white;
   padding: 12px 32px;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 1.125em;
+  font-family: monospace;
+  font-weight: 600;
 }
 
 button:hover {
