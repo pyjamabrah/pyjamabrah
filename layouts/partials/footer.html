@@ -1,16 +1,6 @@
 <footer>
   <hr />
-  {{ if .Site.Params.social }}
-    <span id="social">
-      Web:
-      {{ range $i, $e := .Site.Params.social }}
-        {{ if $i }} | {{ end }}
-        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
-      {{ end }}
-    </span>
-  {{ end }}
-  </br>
-  <div id="owner">
+  <span id="owner">
   <span class="copyright">
     Copyright © {{ now.Format "2006"}}
     <a href="{{ .Site.BaseURL }}"><strong>{{ default "Blog Author" .Site.Params.Author }}</strong></a>.
@@ -21,5 +11,14 @@
     &
     <a href="https://gitlab.com/ian-s-mcb/smigle-hugo-theme">smigle</a>.
   </span>
-  </div>
+  </span>
+  {{ if .Site.Params.social }}
+  <span id="social">
+    Connect on Web:
+    {{ range $i, $e := .Site.Params.social }}
+      {{ if $i }} | {{ end }}
+      <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+    {{ end }}
+  </span>
+{{ end }}
 </footer>
