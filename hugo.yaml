@@ -29,6 +29,7 @@ menu:
       url: /index.xml
       weight: 6
 params:
+  math: true
   abbrDateFmt: "Jan 2"
   author: "Piyush Itankar"
   brandIconFile: "images/brah.svg"
@@ -52,4 +53,4 @@ params:
       url: mailto:piyush@pyjamabrah.com
     - name: GitHub
       url: https://github.com/streetdogg
-  subtitle: "Hardware/Software Abstraction layers and Insights."
+  subtitle: "Peeling Abstractions - From AI down to Transistor!"
