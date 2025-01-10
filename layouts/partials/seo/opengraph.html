@@ -1,0 +1,17 @@
+{{- with .Title | default .Site.Title }}
+<meta property="og:title" content="{{ . }}" />
+{{- end }}
+{{- with .Description | default .Params.subtitle | default .Summary }}
+<meta property="og:description" content="{{ . }}">
+{{- end }}
+{{- $featured := partial "opengraph/get-featured-image.html" . }}
+{{- with $featured -}}
+<meta name="og:image" content="{{ $featured.Permalink }}"/>
+{{- end -}}
+<!-- testing... -->
+{{- with .Site.Params.fb_app_id }}
+<meta property="fb:app_id" content="{{ . }}" />
+{{- end }}
+<meta property="og:url" content="{{ .Permalink | absLangURL }}" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />

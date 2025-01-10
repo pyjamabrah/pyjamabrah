@@ -1,0 +1,18 @@
+{{- with .Title | default .Site.Title }}
+  <meta name="twitter:title" content="{{ . | truncate 70 }}" />
+{{- end }}
+{{- with .Description | default .Params.subtitle | default .Summary }}
+  <meta name="twitter:description" content="{{ . | truncate 200 }}">
+{{- end }}
+
+{{- $featured := partial "opengraph/get-featured-image.html" . }}
+{{- with $featured -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ $featured.Permalink }}"/>
+{{- end -}}
+<!-- testing... -->
+
+{{- with .Site.Author.twitter }}
+  <meta name="twitter:site" content="@{{ . }}" />
+  <meta name="twitter:creator" content="@{{ . }}" />
+{{- end }}
