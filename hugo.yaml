@@ -33,7 +33,7 @@ params:
   abbrDateFmt: "Jan 2"
   author: "Piyush Itankar"
   brandIconFile: "images/brah.svg"
-  thumbnail: "opengraph.png"
+  thumbnail: "/opengraph.png"
   dateFmt: "2 Jan, 2006"
   ##
   ## Options for overriding theme or page defaults
