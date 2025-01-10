@@ -11,7 +11,7 @@ categories = [
 ]
 
 series = ["basics"]
-images = [""]
+images = ["c.svg"]
 
 draft=true
 +++
@@ -28,8 +28,6 @@ While the answer to this can vary depending on who is answering it, I think we c
 
 As I mentioned earlier, we don't necessarily know all the laws of Nature. It's a constant pursuit to measure changes[^1] by running experiments. And as we perform experiments, we make **tables** tracking the changes in one parameter by varying another. Usually, we start by tabulating the data. That is what the early day scientists and explorer did - **Kepler** tabulated the positions of the planets and **Ohm** did the same with Voltage and current.
 
-![](1.svg "fig 1. Voltage and Current Values captured as a Table. The relation plotted as a linear curve!")
-
 He discovered the linear relation between the two. And the relation stays linear as long as other physical quantities like temperature and pressure remain constant. That is the contract!
 
 And again, we can use the equation as long as the contract or preconditions are met (the temperature and pressure being constant). The moment we break the contract we can no longer expect the equation to give us the right predictions and we must go back to measuring and making tables mapping the relation between the quantities in different conditions...
@@ -37,8 +35,6 @@ And again, we can use the equation as long as the contract or preconditions are 
 ## Maxwell's Equations
 
 As we experimented more and more, we discovered Laws of Nature that we represent using equations. The Ohm's Law for example is $V=IR$. We no longer have to maintain tables, we can predict the future/behavior by relying on equations.
-
-![](2.svg "fig 2. A Positive charge with the Electric field going radially outward.")
 
 Studying nature to look for Laws is `Physics`. Studying the behavior of charges is captured within the specialization of Electromagnetism. And `Maxwell's Equations` (as listed below) sum all of it.
 
