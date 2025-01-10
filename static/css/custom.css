@@ -102,3 +102,11 @@ input {
 #content {
   margin-bottom: 10px !important;
 }
+
+div.content > figure {
+  display: none;
+}
+
+div.content > figure > figcaption {
+  display: none;
+}
