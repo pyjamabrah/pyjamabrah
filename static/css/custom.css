@@ -110,3 +110,65 @@ div.content > figure {
 div.content > figure > figcaption {
   display: none;
 }
+
+.product-image {
+  cursor: pointer;
+}
+
+.sidebar-product {
+  border-style: solid;
+  border-width: 1px;
+  height: fit-content;
+}
+
+@media all and (width > 1024px) {
+
+  .sidebar-product {
+    border-width: 1px;
+    grid-column: 2;
+    height: fit-content;
+    position: sticky;
+    top: 10px;
+  }
+}
+
+.product-body {
+  padding: 0 10px 10px 10px;
+  font-size: 0.9em;
+}
+
+summary {
+  cursor: pointer;
+}
+
+.course-name {
+  font-size: larger;
+
+  padding: 2px;
+}
+
+.details-body {
+  padding: 0px 0px 20px 20px;
+}
+
+.section-list {
+  margin-bottom: 10px;
+}
+
+.section-name {
+  font-weight: bold;
+}
+
+.section-description {
+  margin-left: 20px;
+}
+.chapter-names {
+  padding-left: 20px;
+  color: blue;
+}
+
+.chapter-preview {
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}

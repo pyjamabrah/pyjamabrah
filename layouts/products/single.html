@@ -1,0 +1,65 @@
+{{ define "main" }}
+  <main>
+    <article>
+      <h1 class="title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <p class="subtitle">{{ . }}</p>
+      {{ end }}
+
+      <div class="content post-container">
+        <div class="post-content">
+          {{ .Content }}
+
+          {{ if .Params.param.bundle }}
+            {{ range .Params.param.bundle }}
+
+                <h2 class="course-name">{{ .course }}</h2>
+                <div class="details-body">
+                  <span class="bi bi-person-video3"></span> Taught by <b>{{ .instructor }}</b> </br>
+                  <span class="bi bi-check2-square"></span> <b>{{ .lessons }}</b> Lessons. </br>
+                  <span class="bi bi-camera-video"></span> <b>{{ .length }}</b> of recorded content. </br>
+                  <span class="bi bi-file-earmark-pdf"></span> <b>{{ .files }}</b> downloadable resources. </br>
+                  <span class="bi bi bi-bookmark-check"></span> {{ .quizzes }} </br>
+                  {{ if .certificate }}<span class="bi bi-postcard"></span> <b>Certificate</b> on completion of course.</br> {{ end }}
+                  <span class="bi bi bi-clock"></span> Access of <b>{{ .validity }}</b>. </br>
+                  <span class="bi bi-people"></span> <b>{{ .enrolled }}</b> learners already enrolled. </br>
+                  <p>{{ .description }}</p>
+
+                  {{ range .sections }}
+                  <!-- sections list -->
+                  <details class="section-list">
+                    <summary class="section-name">{{ .section }}</summary>
+                    <p class="section-description">{{.description}}</p>
+                    {{ range .chapters }}
+                    <!-- chapter list -->
+                    <div>
+
+                      {{ if .preview }}
+                      <div class="chapter-names">{{ .chapter }} (preview)</div>
+                      <div class="chapter-preview">
+                        <iframe style="aspect-ratio: 16 / 9; width: 100%" src="https://www.youtube.com/embed/{{.preview}}?si=6k3BBUuORkcnDFEy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
+                      {{ else }}
+                      <div class="chapter-names">{{ .chapter }}</div>
+                      {{ end }}
+
+                    </div>
+                    {{ end }}
+
+                  </details>
+                  {{ end }}
+
+                </div>
+
+              <hr/>
+            {{ end }}
+
+          {{ end }}
+        </div>
+        <div class="sidebar-product">
+          {{ partial "product.html" . }}
+        </div>
+      </div>
+    </article>
+  </main>
+{{ end }}

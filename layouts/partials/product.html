@@ -1,0 +1,19 @@
+{{ with . }}
+{{ with .Params }}
+
+<a class="btn" href="{{ .param.link }}" target="_blank">
+  <img class="product-image" src="{{ .param.image }}"/>
+</a>
+
+<h3 class="book-title">{{ .param.product }}</h3>
+
+<div class="product-body">
+  <p>{{ .param.description }}</p>
+  <div class="align-in-center">
+    <a class="btn" href="{{ .param.link }}" target="_blank">
+      <button><span class="bi bi-cart4"></span> Buy Now!</button>
+    </a>
+  </div>
+</div>
+{{ end }}
+{{ end }}
