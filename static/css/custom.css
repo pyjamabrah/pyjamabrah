@@ -197,13 +197,11 @@ summary {
   max-width: 100%;
 }
 
-
-
 .clear {
   clear: both;
 }
 
-main {
+.post-list {
   display: flex;
   flex-wrap: wrap;
 }
