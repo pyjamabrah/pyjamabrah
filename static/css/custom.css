@@ -185,14 +185,30 @@ summary {
     border: solid black 1px;
     margin: 5px;
     max-width: 30% !important;
-    padding: 10px;
+    /* padding: 10px; */
     text-decoration: none;
     cursor: pointer;
+    color: var(--fontcolor) !important;
   }
 
   .blog-card:hover {
     box-shadow: 0px 0px 5px 0px rgb(128, 128, 128);
     text-decoration: none;
+  }
+
+  .post-title {
+    margin: 0px !important;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+
+  .post-card-content {
+    padding: 0px;
+    font-size: 0.9em;
+
+    p {
+      padding: 0 10px 0 10px;
+    }
   }
 }
 
@@ -209,10 +225,3 @@ summary {
   flex-wrap: wrap;
 }
 
-article > div > p {
-  font-size: 0.85em;
-}
-
-.post-meta {
-  font-size: 0.8em;
-}

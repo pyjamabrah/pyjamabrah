@@ -1,18 +1,11 @@
 <article class="summary">
-    <h1 class="title">
+    <h4 class="post-title">
       {{ .Title }}
-    </h1>
-
-    {{ with .Params.subtitle }}
-    <h3 class="subtitle">
-      {{ . }}
-    </h3>
-    {{ end }}
-
-    <div class="content">
-      <p>{{ .Summary }}</p>
+    </h4>
+    <div class="post-card-content">
+      {{ .Summary }}
       {{ if .Truncated }}
-        Read more...
+        <p>Read more...</p>
       {{ end }}
     </div>
 </article>
