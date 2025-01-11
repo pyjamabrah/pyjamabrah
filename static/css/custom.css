@@ -103,14 +103,6 @@ input {
   margin-bottom: 10px !important;
 }
 
-/* div.content > figure {
-  display: none;
-}
-
-div.content > figure > figcaption {
-  display: none;
-} */
-
 .product-image {
   cursor: pointer;
 }
@@ -185,7 +177,6 @@ summary {
     border: solid black 1px;
     margin: 5px;
     max-width: 30% !important;
-    /* padding: 10px; */
     text-decoration: none;
     cursor: pointer;
     color: var(--fontcolor) !important;
@@ -214,6 +205,10 @@ summary {
 
 .blog-card {
   max-width: 100%;
+}
+
+.blog-card:hover {
+  text-decoration: none !important;
 }
 
 .clear {
