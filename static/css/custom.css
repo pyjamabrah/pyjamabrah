@@ -103,13 +103,13 @@ input {
   margin-bottom: 10px !important;
 }
 
-div.content > figure {
+/* div.content > figure {
   display: none;
 }
 
 div.content > figure > figcaption {
   display: none;
-}
+} */
 
 .product-image {
   cursor: pointer;
@@ -122,7 +122,6 @@ div.content > figure > figcaption {
 }
 
 @media all and (width > 1024px) {
-
   .sidebar-product {
     border-width: 1px;
     grid-column: 2;
@@ -171,4 +170,48 @@ summary {
   padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+@media all and (width > 1024px) {
+  .sidebar-product {
+    border-width: 1px;
+    grid-column: 2;
+    height: fit-content;
+    position: sticky;
+    top: 10px;
+  }
+
+  .blog-card {
+    border: solid black 1px;
+    margin: 5px;
+    max-width: 30% !important;
+    padding: 10px;
+  }
+
+  .blog-card:hover {
+    box-shadow: 0px 0px 5px 0px grey;
+  }
+}
+
+.blog-card {
+  max-width: 100%;
+}
+
+
+
+.clear {
+  clear: both;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article > div > p {
+  font-size: 0.85em;
+}
+
+.post-meta {
+  font-size: 0.8em;
 }

@@ -14,6 +14,8 @@ series = ["risc-v"]
 images = ["cover.jpeg"]
 +++
 
+![](/posts/writing-a-risc-v-cpu/cover.jpeg "Harris & Harris")
+
 Few days back I decided to implement a RISC-V rv32i CPU and deploy it on an FPGA. Here are some initial thoughts on how I will go about doing this (and potentially you can follow).
 
 <!--more-->
@@ -23,8 +25,6 @@ As part of the journey. I am going to journal the ideas and execution in a serie
 ![](cpu.png "MIPS Single Cycle CPU.")
 
 In both cases, I had only attempted a Single cycle CPU with a subset of instructions. While I could deploy the MIPS CPU on a Cyclone V FPGA based DE1SoC, the RISC-V project was abandoned. I wanted to base RISC-V project on verilator based simulation.
-
-![](cover.jpeg "Harris and Harris.")
 
 The book by **Harris and Harris** is a great reference. I am going to read that again and this time around implement the Multi Cycle CPU.
 
