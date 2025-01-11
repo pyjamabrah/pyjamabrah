@@ -1,7 +1,6 @@
 ---
 title: "Test Bundle Landing Page"
 date: "2025-01-08T17:48:22+05:30"
-draft: true
 tags:
   - bundle
 
