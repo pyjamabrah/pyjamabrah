@@ -1,0 +1,18 @@
+<article class="summary">
+    <h1 class="title">
+      {{ .Title }}
+    </h1>
+
+    {{ with .Params.subtitle }}
+    <h3 class="subtitle">
+      {{ . }}
+    </h3>
+    {{ end }}
+
+    <div class="content">
+      <p>{{ .Summary }}</p>
+      {{ if .Truncated }}
+        Read more...
+      {{ end }}
+    </div>
+</article>

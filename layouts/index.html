@@ -2,9 +2,9 @@
 	<main class="post-list">
 		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 		{{ range $paginator.Pages }}
-			<div class="blog-card">
-			{{ .Render "summary" }}
-			</div>
+		<a class="blog-card" href="{{ .RelPermalink }}" >
+				{{ .Render "summary" }}
+		</a>
 		{{ end }}
 	</main>
 	<div class="clear"></div>
