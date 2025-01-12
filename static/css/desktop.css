@@ -10,7 +10,6 @@
   }
 
   .sidebar {
-    border-width: 1px;
     grid-column: 2;
     padding: 10px;
     height: fit-content;
