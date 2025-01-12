@@ -17,9 +17,9 @@ figcaption {
 }
 
 button {
-  background-color: #FFE15C;
-  border: solid 1px;
-  color: black;
+  background-color: var(--theme-primary);
+  border: solid 1px var(--prebgcolor);
+  color: var(--fontcolor);
   padding: 12px 32px;
   text-decoration: none;
   margin: 4px 2px;
@@ -38,14 +38,14 @@ button {
 }
 
 button:hover {
-  box-shadow: 0px 0px 2px 0px grey;
+  box-shadow: 0px 0px 2px 0px var(--prebgcolor);
 }
 
 input {
   padding: 5px;
   margin: 5px;
   font-size: 1em;
-  border: 1px solid #000000;
+  border: 1px solid var(--prebgcolor);
   font-family: monospace;
 }
 
@@ -59,32 +59,11 @@ input {
 }
 
 .sidebar {
-  border-style: solid;
+  border-style: 1px solid var(--prebgcolor);
   border-width: 2px;
   padding: 10px;
   height: fit-content;
   font-size: 0.85em;
-}
-
-@media all and (width > 1024px) {
-  .post-container {
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns: 70% 30%
-  }
-
-  .post-content {
-    grid-column: 1;
-  }
-
-  .sidebar {
-    border-width: 1px;
-    grid-column: 2;
-    padding: 10px;
-    height: fit-content;
-    position: sticky;
-    top: 10px;
-  }
 }
 
 .book-title {
@@ -92,11 +71,11 @@ input {
 }
 
 .cover-image {
-  box-shadow: 0px 0px 5px 1px grey;
+  box-shadow: 0px 0px 5px 1px var(--prebgcolor);
 }
 
 .cover-image:hover {
-  box-shadow: 0px 0px 10px 1px grey;
+  box-shadow: 0px 0px 10px 1px var(--prebgcolor);
 }
 
 #content {
@@ -108,19 +87,9 @@ input {
 }
 
 .sidebar-product {
-  border-style: solid;
+  border-style: 1px solid var(--prebgcolor);
   border-width: 1px;
   height: fit-content;
-}
-
-@media all and (width > 1024px) {
-  .sidebar-product {
-    border-width: 1px;
-    grid-column: 2;
-    height: fit-content;
-    position: sticky;
-    top: 10px;
-  }
 }
 
 .product-body {
@@ -153,6 +122,7 @@ summary {
 .section-description {
   margin-left: 20px;
 }
+
 .chapter-names {
   padding-left: 20px;
   color: blue;
@@ -164,51 +134,34 @@ summary {
   margin-right: 20px;
 }
 
-@media all and (width > 1024px) {
-  .sidebar-product {
-    border-width: 1px;
-    grid-column: 2;
-    height: fit-content;
-    position: sticky;
-    top: 10px;
-  }
-
-  .blog-card {
-    border: solid black 1px;
-    margin: 5px;
-    max-width: 30% !important;
-    text-decoration: none;
-    cursor: pointer;
-    color: var(--fontcolor) !important;
-  }
-
-  .blog-card:hover {
-    box-shadow: 0px 0px 5px 0px rgb(128, 128, 128);
-    text-decoration: none;
-  }
-
-  .post-title {
-    margin: 0px !important;
-    padding: 10px;
-    padding-bottom: 0px;
-  }
-
-  .post-card-content {
-    padding: 0px;
-    font-size: 0.9em;
-
-    p {
-      padding: 0 10px 0 10px;
-    }
-  }
+.blog-card {
+  max-width: 100%;
+  text-decoration: none;
+  color: var(--fontcolor) !important;
 }
 
 .blog-card {
-  max-width: 100%;
+  border: solid var(--prebgcolor) 1px;
+  margin: 5px 0 5px 0;
+  max-width: 100% !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  color: var(--fontcolor) !important;
 }
 
-.blog-card:hover {
-  text-decoration: none !important;
+.post-title {
+  margin: 0px !important;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.post-card-content {
+  padding: 0px;
+  font-size: 0.9em;
+
+  p {
+    padding: 0 10px 0 10px;
+  }
 }
 
 .clear {

@@ -9,7 +9,9 @@ html {
   --visitedcolor: #551a8b;
   --precolor: #fff;
   --prebgcolor: #000;
+  --theme-primary: #FFE15C;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
      --bgcolor: #000000;
@@ -19,6 +21,7 @@ html {
      --visitedcolor: #ae5ee0;
      --precolor: #fff;
      --prebgcolor: #383838;
+     --theme-primary: #F45E58;
   }
 }
 body {
