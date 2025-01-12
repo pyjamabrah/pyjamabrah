@@ -173,3 +173,6 @@ summary {
   flex-wrap: wrap;
 }
 
+iframe {
+  border: none;
+}

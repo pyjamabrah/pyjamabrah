@@ -37,7 +37,8 @@
                       {{ if .preview }}
                       <div class="chapter-names">{{ .chapter }} (preview)</div>
                       <div class="chapter-preview">
-                        <iframe style="aspect-ratio: 16 / 9; width: 100%" src="https://www.youtube.com/embed/{{.preview}}?si=6k3BBUuORkcnDFEy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe style="aspect-ratio: 16 / 9; width: 100%" frameBorder="0" src="https://www.youtube.com/embed/{{.preview}}?mute=1">
+                        </iframe>
                       </div>
                       {{ else }}
                       <div class="chapter-names">{{ .chapter }}</div>
