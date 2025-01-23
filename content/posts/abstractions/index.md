@@ -44,13 +44,13 @@ $$\nabla \cdot \mathbf{B} = 0 \quad$$
 $$\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} \quad$$
 $$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t} \quad$$
 
-These equations give us the general behavior of charges and the effect of Electric and Magnetic field. We can predicting everything about the electrical and magnetic behavior using these equations.
+These equations give us the general behavior of charges and the effect of Electric and Magnetic field. We can predict everything about the electrical and magnetic behavior using these equations.
 
 ## Lumped Matter Abstraction
 
 Solving **Maxwell's Equations** for every electrical/magnetic configuration/setup is tedious. One can of course use these to solve it but what folks observed over time is, if certain boundary conditions are met, the equations boil down to being simple equations.
 
-One such abstraction is (the `lumped matter abstraction`) if the fields are changing very slowly compared to the size of the material under consideration (that is to say the wavelength in much much greater than the size of the material), the electromagnetic radiation can be assumed to be zero. This then lets us consider and make practical passive components like the - **Resistors**, **Capacitors** and **Inductors**.
+One such abstraction is (the `lumped matter abstraction`) if the fields are changing very slowly compared to the size of the material under consideration (that is to say the wavelength is much much greater than the size of the material), the electromagnetic radiation can be assumed to be zero. This then lets us consider and make practical passive components like the - **Resistors**, **Capacitors** and **Inductors**.
 
 `Kirchhoff's Current Law` for example holds only when there is no charge accumulation at a node. And this is possible only when the frequency of change of the field/potential is way low than the size of the circuit.
 
