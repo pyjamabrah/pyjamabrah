@@ -13,12 +13,20 @@
   </span>
   </span>
   {{ if .Site.Params.social }}
-  <span id="social">
+  <div id="social">
     Connect on Web:
     {{ range $i, $e := .Site.Params.social }}
       {{ if $i }} | {{ end }}
       <a href="{{ .url }}" target="_blank">{{ .name }}</a>
     {{ end }}
-  </span>
-{{ end }}
+  </div>
+  {{ end }}
+  {{ if .Site.Params.legal }}
+  <div id="social">
+    {{ range $i, $e := .Site.Params.legal }}
+      {{ if $i }} | {{ end }}
+      <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
 </footer>

@@ -53,4 +53,15 @@ params:
       url: mailto:piyush@pyjamabrah.com
     - name: GitHub
       url: https://github.com/streetdogg
+  legal:
+    - name: Privacy Policy
+      url: /privacy
+    - name: Terms and Conditions
+      url: /terms
+    - name: Cancellation and Refund
+      url: /refund
+    - name: Shipping and Delivery
+      url: /shipping
+    - name: Contact Us
+      url: /contact
   subtitle: "Peeling Abstractions - From AI down to Transistor!"
