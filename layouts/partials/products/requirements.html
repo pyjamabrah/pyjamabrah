@@ -1,0 +1,13 @@
+{{ with . }}
+
+<h2>Requirements</h2>
+
+<div>
+  {{ range .requirements }}
+    <div>
+      <span class="bi bi-check2"></span> <span>{{ . }}</span>
+    </div>
+  {{ end }}
+</div>
+
+{{ end }}

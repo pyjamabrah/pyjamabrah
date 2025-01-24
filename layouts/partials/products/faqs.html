@@ -1,0 +1,13 @@
+{{ with . }}
+
+<h2>FAQs</h2>
+
+{{ range .faqs }}
+  <!-- sections list -->
+  <details class="section-list" {{ .open }}>
+    <summary class="section-name">{{ .q }}</summary>
+    <p class="section-description">{{.a}}</p>
+  </details>
+{{ end }}
+
+{{ end }}

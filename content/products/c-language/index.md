@@ -91,4 +91,17 @@ param:
               preview: ""
             - chapter: "The toolchain"
               preview: ""
+      requirements:
+        - Some exposure to Digital systems.
+        - Basic understanding of number systems , logic gates , bits and bytes.
+      instructors:
+        - instructor: Piyush Itankar
+          link: ""
+          bio: ""
+      faqs:
+        - q: "Do I need a special configuration to pursue this course?"
+          a: "No. You will need access to Chrome browser. The course and the labs can all be completed online."
+          open: "open"
+        - q: "Is this course good for begineers?"
+          a: "Yes!"
 ---
