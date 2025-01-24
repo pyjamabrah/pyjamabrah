@@ -1,0 +1,27 @@
+{{ with . }}
+
+<h2>Course Contents</h2>
+{{ range .sections }}
+  <!-- sections list -->
+  <details class="section-list" {{ .open }}>
+    <summary class="section-name">{{ .section }}</summary>
+    <p class="section-description">{{.description}}</p>
+
+    {{ range .chapters }}
+      <!-- chapter list -->
+      <div>
+        {{ if .preview }}
+          <div class="chapter-names">{{ .chapter }} (preview)</div>
+          <div class="chapter-preview">
+            <iframe style="aspect-ratio: 16 / 9; width: 100%" frameBorder="0" src="https://www.youtube.com/embed/{{.preview}}?mute=1">
+            </iframe>
+          </div>
+        {{ else }}
+          <div class="chapter-names">{{ .chapter }}</div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </details>
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,23 @@
+{{ with . }}
+<h3>Course Includes</h3>
+<div class="prod-content-summary">
+
+  <span class="bi bi-play-btn prod-content-summary-tick"></span>
+  <span class="prod-content-summary-point"><b>{{ .length }}&nbsp</b> on-demand Video.</span>
+
+  <span class="bi bi-check2-square prod-content-summary-tick"></span>
+  <span class="prod-content-summary-point"><b>{{ .lessons }}&nbsp</b> Lessons.</span>
+
+  <span class="bi bi-cloud-arrow-down prod-content-summary-tick"></span>
+  <span class="prod-content-summary-point"><b>{{ .files }}&nbsp</b> downloadable resources.</span>
+
+  <span class="bi bi bi-bookmark-check prod-content-summary-tick"></span>
+  <span class="prod-content-summary-point"><b>{{ .quizzes }}&nbsp</b> Quizzes.</span>
+
+  {{ if .certificate }}
+    <span class="bi bi-trophy prod-content-summary-tick"></span>
+    <span class="prod-content-summary-point"> <b>Certificate&nbsp</b> on completion of course.</span>
+  {{ end }}
+</div>
+
+{{ end }}

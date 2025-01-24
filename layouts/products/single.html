@@ -2,10 +2,6 @@
   <main>
     <article>
       <h1 class="title">{{ .Title }}</h1>
-      {{ with .Params.subtitle }}
-        <p class="subtitle">{{ . }}</p>
-      {{ end }}
-
       <div class="content post-container">
         <div class="post-content">
           {{ .Content }}
@@ -14,49 +10,11 @@
             {{ range .Params.param.bundle }}
                 <h2 class="course-name">{{ .course }}</h2>
                 <div class="details-body">
-                  <p>{{ .description }}</p>
-                  <span class="bi bi-person-video3"></span> Taught by <b>{{ .instructor }}</b> </br>
-                  <span class="bi bi-check2-square"></span> <b>{{ .lessons }}</b> Lessons. </br>
-                  <span class="bi bi-camera-video"></span> <b>{{ .length }}</b> of recorded content. </br>
-                  <span class="bi bi-file-earmark-pdf"></span> <b>{{ .files }}</b> downloadable resources. </br>
-                  <span class="bi bi bi-bookmark-check"></span> {{ .quizzes }} </br>
-                  {{ if .certificate }}<span class="bi bi-postcard"></span> <b>Certificate</b> on completion of course.</br> {{ end }}
-                  <span class="bi bi bi-clock"></span> Access of <b>{{ .validity }}</b>. </br>
-                  <span class="bi bi-people"></span> <b>{{ .enrolled }}</b> learners already enrolled. </br>
-
-                  <h2>Contents</h2>
-                  {{ $section_counter := 0 }}
-                  {{ $chapter_counter := 0 }}
-
-                  {{ range .sections }}
-                  {{ $section_counter = add $section_counter 1 }}
-                  <!-- sections list -->
-                  <details class="section-list" {{ .open }}>
-                    <summary class="section-name">Section {{$section_counter}}: {{ .section }}</summary>
-                    <p class="section-description">{{.description}}</p>
-
-
-                    {{ range .chapters }}
-                    {{ $chapter_counter = add $chapter_counter 1 }}
-                    <!-- chapter list -->
-                    <div>
-
-                      {{ if .preview }}
-                      <div class="chapter-names">Chapter {{$chapter_counter}}: {{ .chapter }} (preview)</div>
-                      <div class="chapter-preview">
-                        <iframe style="aspect-ratio: 16 / 9; width: 100%" frameBorder="0" src="https://www.youtube.com/embed/{{.preview}}?mute=1">
-                        </iframe>
-                      </div>
-                      {{ else }}
-                      <div class="chapter-names">Chapter {{$chapter_counter}}: {{ .chapter }}</div>
-                      {{ end }}
-                    </div>
-                    {{ end }}
-                    <p></p>
-                  </details>
-                  {{ end }}
+                  {{ partial "products/description.html" . }}
+                  {{ partial "products/learning.html" . }}
+                  {{ partial "products/content-summary.html" . }}
+                  {{ partial "products/sections-list.html" . }}
                 </div>
-              <hr/>
             {{ end }}
           {{ end }}
         </div>

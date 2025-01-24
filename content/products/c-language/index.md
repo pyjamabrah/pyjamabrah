@@ -15,16 +15,45 @@ param:
   link: "https://pyjamabrah.com/posts/abstractions/c.png"
   bundle:
     - course: ""
-      description: "A comprehensive course on C language that is focused on insights and use in industrial setting. You will start with mental models and end with the mastery of the C concepts in C."
-      instructor: "Piyush Itankar"
-      lessons: "-"
-      length: "-"
-      files: "-"
-      quizzes: "-"
+      description: "Foundation course on C programming with a hands on journey from Machine code to Design using C."
+      bestSeller: "true"
+      rating: "N/A"
+      ratingCount: "N/A"
+      studentsCount: "N/A"
+      creators:
+        name: "Piyush Itankar"
+        contactLink: ""
+      lastUpdated: "1/1/2025"
+      language: "English"
+      lessons: "30"
+      length: "3 Hours 25 mins"
+      files: "7"
+      quizzes: "25"
       certificate: true
       validity: 365 days
-      enrolled: "-"
-      stars: "-"
+      learning:
+        - Models of computation
+        - Machine code
+        - Instruction Set Architecture
+        - Basics of Assembly Language
+        - How text is converted to 0s and 1s
+        - C programming from scratch
+        - Data types, variables, declarations.
+        - Bit-Wise operators
+        - Bit manipulation techniques using bit-wise operators and examples
+        - Bit extraction and working with memory mapped peripheral registers
+        - Other operators of C (arithmetic, logical, relation, assignment )
+        - The concept and idea of Functions in C
+        - Pointers and casting
+        - Types of pointers and how to use them
+        - Structures and unions
+        - Structure and bit fields
+        - Structures and pointers
+        - Const and volatile type qualifiers
+        - Significance of volatile
+        - const data, const pointer, cont volatile explanation with examples
+        - Importance of const
+        - Loops - for, while, do while
       sections:
         - section: "C Language Tour"
           description: "This section enables the learner to quickly get started with programming in the C language."
@@ -39,7 +68,7 @@ param:
             - chapter: "Example Program and Compilation"
               preview: ""
         - section: "Mental Models to Brain tattoo"
-          open: "open"
+          open: ""
           description: "In this section we will explore the models and visualisation you can use when reasoning about the system."
           chapters:
             - chapter: "The CPU"
@@ -51,7 +80,7 @@ param:
             - chapter: "Interacting with the Environment"
               preview: ""
         - section: "From text to 0s and 1s"
-          open: "open"
+          open: ""
           description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
           chapters:
             - chapter: "Instruction Set Architecture (ISA)"

@@ -110,7 +110,9 @@ summary {
 }
 
 .section-list {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  border: solid 1px grey;
+  padding: 10px 10px 10px 10px;
 }
 
 .section-name {
@@ -174,4 +176,56 @@ summary {
 
 iframe {
   border: none;
+}
+
+
+
+.produc-bestseller {
+  border: solid black 1px;
+  padding: 0px 2px 0px 2px;
+  background-color: greenyellow;
+}
+
+
+.prod-description {
+  /* background-color: rgb(255, 255, 182); */
+}
+
+.prod-what-u-learn {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px grey;
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+.prod-what-u-learn-tick {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.prod-what-u-learn-point {
+  min-width: 45%;
+  max-width: 45%;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.prod-content-summary {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prod-content-summary-tick {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.prod-content-summary-point {
+  min-width: 45%;
+  max-width: 45%;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+  display: flex;
 }

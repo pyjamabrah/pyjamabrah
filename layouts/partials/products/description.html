@@ -1,0 +1,27 @@
+{{ with . }}
+
+<div class="prod-description">
+  <p>
+    {{ .description }}
+  </p>
+
+  <div>
+    <span class="produc-bestseller">{{ if .bestSeller }}Bestsellar{{ end }}</span>
+    <!-- Print stars for Rating -->
+    {{ .rating }}
+    ({{ .ratingCount }} ratings)
+    {{ .studentsCount }} students
+  </div>
+
+  <div>
+    Created by <a href="{{ .creators.link }}" target="_blank"><b>{{ .creators.name }}</b></a>
+  </div>
+
+  <div>
+    <span class="bi bi-exclamation-circle-fill"></span> Last updated: {{ .lastUpdated }} |
+    <span class="bi bi-globe"></span> {{ .language }} |
+    <span class="bi bi bi-clock"></span> <b>{{ .validity }}</b> Access.</br>
+  </div>
+</div>
+
+{{ end }}

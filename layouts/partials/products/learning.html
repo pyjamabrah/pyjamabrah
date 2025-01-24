@@ -1,0 +1,13 @@
+{{ with . }}
+
+<h3>What you Learn</h3>
+<div class="prod-what-u-learn">
+  {{ range .learning }}
+  <div class="prod-what-u-learn-point">
+    <div class="bi bi-check2 prod-what-u-learn-tick"></div>
+    <div>{{ . }}</div>
+  </div>
+  {{ end }}
+</div>
+
+{{ end }}
