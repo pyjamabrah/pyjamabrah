@@ -5,25 +5,25 @@
     {{ .description }}
   </p>
 
-  <div>
+  <p>
     <span class="produc-bestseller">{{ if .bestSeller }}Bestsellar{{ end }}</span>
     {{ partial "products/render-stars.html" .rating }}
     ({{ .ratingCount }} ratings)
     {{ .studentsCount }} students
-  </div>
+  </p>
 
-  <div>
+  <p>
     Created by
     {{ range .creators }}
     <a href="{{ .link }}" target="_blank"><b>{{ .name }}</b></a>
     {{ end }}
-  </div>
+  </p>
 
-  <div>
+  <p>
     <span class="bi bi-exclamation-circle-fill"></span> Last updated: {{ .lastUpdated }} |
     <span class="bi bi-globe"></span> {{ .language }} |
     <span class="bi bi bi-clock"></span> <b>{{ .validity }}</b> Access.</br>
-  </div>
+  </p>
 </div>
 
 {{ end }}

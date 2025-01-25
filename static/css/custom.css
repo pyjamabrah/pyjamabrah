@@ -83,6 +83,7 @@ input {
 
 .product-image {
   cursor: pointer;
+  border-bottom: solid black 1px;
 }
 
 .sidebar-product {
@@ -350,9 +351,9 @@ details[open] > summary {
 }
 
 .compare-table {
-  /* min-width: 80%;
-  margin-left: 10%; */
-  /* margin-right: 20% */
+  min-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .compare-row-head {
@@ -360,8 +361,12 @@ details[open] > summary {
   font-size: large;
 }
 
-.compare-row-data {
+.compare-row {
   text-align: center;
+}
+
+.compare-row-data {
+  text-align: left;
 }
 
 th, td {
@@ -372,7 +377,7 @@ th, td {
 }
 
 .compare-tick {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 600;
 }
 
@@ -386,4 +391,15 @@ th, td {
 
 .compare-pjbro {
 
+}
+
+.button-cta {
+  background-color: var(--theme-primary);
+  position: sticky;
+  bottom: 0px;
+  align-items: center;
+  z-index: 10000;
+  margin-top: 20px;
+  padding:20px;
+  border: solid black 1px;
 }
