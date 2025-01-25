@@ -106,6 +106,7 @@ summary {
   background-color: var(--bgcolor);
   text-align: center;
   padding: 10px;
+  border-bottom: solid var(--prebgcolor) 1px;
 }
 
 .details-body {
