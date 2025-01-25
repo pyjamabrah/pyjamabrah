@@ -1,0 +1,29 @@
+{{ with . }}
+
+<h2>Course Reviews</h2>
+<div class="review-summary">
+  <i class="bi bi-star-fill"></i>
+  <span>{{ partial "products/render-stars.html" .rating }} course rating</span> .
+  <span>{{.ratingCount}} ratings</span>
+</div>
+
+<div class="card-collection">
+{{ range .reviews }}
+
+  <div class="info-card">
+    <div class="reviewer-meta">
+      <img class="reviewer-photo" src="{{.photo}}">
+      </img>
+
+      <div class="reviewer-data">
+        <div class="reviewer-name"> {{ .reviewer }} </div>
+        {{ partial "products/render-stars.html" .rating }}
+        <div class="review-date"> {{ .date }} </div>
+      </div>
+    </div>
+    <div class="review-text"> {{ .review }} </div>
+  </div>
+
+{{ end }}
+</div>
+{{ end }}

@@ -7,8 +7,7 @@
 
   <div>
     <span class="produc-bestseller">{{ if .bestSeller }}Bestsellar{{ end }}</span>
-    <!-- Print stars for Rating -->
-    {{ .rating }}
+    {{ partial "products/render-stars.html" .rating }}
     ({{ .ratingCount }} ratings)
     {{ .studentsCount }} students
   </div>

@@ -14,12 +14,12 @@ param:
   image: "/products/c-language/c.png"
   link: "https://pyjamabrah.com/posts/abstractions/c.png"
   bundle:
-    - course: ""
+    - course: "C Language: For 5 Years and up!"
       description: "Foundation course on C programming with a hands on journey from Machine code to Design using C."
       bestSeller: "true"
-      rating: "N/A"
-      ratingCount: "N/A"
-      studentsCount: "N/A"
+      rating: 4.8
+      ratingCount: 3
+      studentsCount: 3
       creators:
         name: "Piyush Itankar"
         contactLink: ""
@@ -94,6 +94,28 @@ param:
       requirements:
         - Some exposure to Digital systems.
         - Basic understanding of number systems , logic gates , bits and bytes.
+      audience:
+        - Students in Academia with C as a subject in the course.
+        - Systems Engineer seeking gain system level insights.
+      reviews:
+        - reviewer: "Pyjama Brah!"
+          photo: "https://avatars.githubusercontent.com/u/193006162?s=200&v=4"
+          featured: ""
+          date: "2/1/2025"
+          rating: 4.9
+          review: "This course is hosted on our platform so as you can predict this is an awesome course. There are no second thoughts about it."
+        - reviewer: "Piyush Itankar"
+          photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
+          featured: ""
+          date: "2/1/2025"
+          rating: 4.9
+          review: "I am the creator of the course so obviously this has to be the best course on this topic on the planet. I should also specify that my review is heavily biased."
+        - reviewer: "Piyush Itankar"
+          photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
+          featured: ""
+          date: "2/1/2025"
+          rating: 4.9
+          review: "I am the creator of the course so obviously this has to be the best course on this topic on the planet. I should also specify that my review is heavily biased."
       instructors:
         - instructor: Piyush Itankar
           link: ""
@@ -105,3 +127,9 @@ param:
         - q: "Is this course good for begineers?"
           a: "Yes!"
 ---
+
+## Details  of the Course
+
+Most students and Engineers learn C language the wrong way. This course corrects that and teaches C language the way it should be learnt.
+1. random point.
+1. another random point.

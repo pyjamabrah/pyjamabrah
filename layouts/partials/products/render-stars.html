@@ -1,0 +1,23 @@
+{{ with . }}
+<span>
+    {{$full_stars := math.Mod . 6 }}
+    {{$half_stars := math.Div . 0.5 }}
+    {{$half_stars := math.Mod $half_stars 2 }}
+    {{$empty_stars := math.Add $full_stars $half_stars }}
+    {{$empty_stars := math.Sub 5 $empty_stars }}
+
+    {{ range $num := (seq $full_stars) }}
+    <span class="bi bi-star-fill"></span>
+    {{ end }}
+
+    {{ range $num := (seq $half_stars) }}
+    <span class="bi bi-star-half"></span>
+    {{ end }}
+
+    {{ range $num := (seq $empty_stars) }}
+    <span class="bi bi-star"></span>
+    {{ end }}
+
+    <b>({{ . }})</b>
+</span>
+{{ end }}

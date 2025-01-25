@@ -1,0 +1,13 @@
+{{ with . }}
+
+<h2>Who this course is for</h2>
+
+<div>
+  {{ range .audience }}
+    <div>
+      <span class="bi bi-check2"></span> <span>{{ . }}</span>
+    </div>
+  {{ end }}
+</div>
+
+{{ end }}

@@ -1,24 +1,31 @@
 {{ define "main" }}
   <main>
     <article>
-      <h1 class="title">{{ .Title }}</h1>
+      <!-- <h1 class="title">{{ .Title }}</h1> -->
       <div class="content post-container">
         <div class="post-content">
-          {{ .Content }}
-
           {{ if .Params.param.bundle }}
             {{ range .Params.param.bundle }}
-                <h2 class="course-name">{{ .course }}</h2>
+                <h1 class="course-name">{{ .course }}</h1>
                 <div class="details-body">
                   {{ partial "products/description.html" . }}
                   {{ partial "products/learning.html" . }}
                   {{ partial "products/content-summary.html" . }}
                   {{ partial "products/sections-list.html" . }}
                   {{ partial "products/requirements.html" . }}
-                  {{ partial "products/faqs.html" . }}
+                  {{ partial "products/audience.html" . }}
                 </div>
             {{ end }}
           {{ end }}
+          {{ .Content }}
+          {{ if .Params.param.bundle }}
+          {{ range .Params.param.bundle }}
+              <div class="details-body">
+                {{ partial "products/reviews.html" . }}
+                {{ partial "products/faqs.html" . }}
+              </div>
+          {{ end }}
+        {{ end }}
         </div>
         <div class="sidebar-product">
           {{ partial "product.html" . }}

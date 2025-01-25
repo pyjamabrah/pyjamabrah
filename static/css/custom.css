@@ -100,9 +100,12 @@ summary {
 }
 
 .course-name {
-  font-size: larger;
-
-  padding: 2px;
+  font-size: xx-large;
+  position: sticky;
+  top: 0px;
+  background-color: var(--bgcolor);
+  text-align: center;
+  padding: 10px;
 }
 
 .details-body {
@@ -126,7 +129,7 @@ summary {
 
 .chapter-names {
   padding-left: 20px;
-  color: blue;
+  color: var(--linkcolor);
 }
 
 .chapter-preview {
@@ -178,14 +181,12 @@ iframe {
   border: none;
 }
 
-
-
 .produc-bestseller {
   border: solid black 1px;
-  padding: 0px 2px 0px 2px;
-  background-color: greenyellow;
+  padding: 0px 5px 0px 5px;
+  background-color: var(--theme-primary);
+  font-weight: 600;
 }
-
 
 .prod-description {
   /* background-color: rgb(255, 255, 182); */
@@ -228,4 +229,56 @@ iframe {
   word-wrap: break-word;
   margin-bottom: 5px;
   display: flex;
+}
+
+.card-collection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  min-width: 45%;
+  max-width: 45%;
+  word-wrap: break-word;
+  border: solid grey 1px;
+  margin: 1%;
+  padding: 1%;
+}
+
+.reviewer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.reviewer-photo {
+  min-width: 75px;
+  max-height: 75px;
+  border-radius: 50%;
+  border: solid grey 1px;
+}
+
+.reviewer-data {
+  margin: 5px;
+  padding: 5px;
+}
+
+.reviewer-name {
+  min-width: 100%;
+  font-weight: 600;
+}
+
+.review-date {
+  width: 100%;
+}
+
+.review-text {
+  padding: 5px;
+}
+
+.review-summary {
+  text-align: center;
+  font-size: large;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
