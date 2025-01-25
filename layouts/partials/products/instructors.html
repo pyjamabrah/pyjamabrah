@@ -1,0 +1,22 @@
+{{ with . }}
+
+<h2>Instructors</h2>
+
+<div class="creators-card-collection">
+{{ range .creators }}
+  <div class="creators-info-card">
+    <div class="creators-meta">
+      <img class="creators-photo" src="{{.photo}}">
+      </img>
+
+      <div class="creators-data">
+        <a class="creators-name" href="{{.contactLink}}" target="_blank">{{ .name }} </a>
+        <div class="creators-designation"> {{ .designation }} </div>
+      </div>
+    </div>
+    <div class="creators-bio"> {{ .bio }} </div>
+  </div>
+
+{{ end }}
+</div>
+{{ end }}

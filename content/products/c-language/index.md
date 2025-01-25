@@ -21,8 +21,11 @@ param:
       ratingCount: 3
       studentsCount: 3
       creators:
-        name: "Piyush Itankar"
-        contactLink: ""
+        - name: "Piyush Itankar"
+          designation: "Senior Embedded Engineer, Google"
+          contactLink: "https://www.linkedin.com/in/streetdogg/"
+          photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
+          bio: "Electrical Engineer by Education, went on to pursuing masters in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as a Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
       lastUpdated: "1/1/2025"
       language: "English"
       lessons: "30"
@@ -116,16 +119,25 @@ param:
           date: "2/1/2025"
           rating: 4.9
           review: "I am the creator of the course so obviously this has to be the best course on this topic on the planet. I should also specify that my review is heavily biased."
-      instructors:
-        - instructor: Piyush Itankar
-          link: ""
-          bio: ""
       faqs:
         - q: "Do I need a special configuration to pursue this course?"
           a: "No. You will need access to Chrome browser. The course and the labs can all be completed online."
           open: "open"
         - q: "Is this course good for begineers?"
           a: "Yes!"
+      compare:
+        - feature: "this is a sample feature. This feature is rather long. too long actually"
+          us: true
+          others: true
+        - feature: "This another feature"
+          us: true
+          others: false
+        - feature: "this is a sample feature. This feature is rather long. too long actually"
+          us: true
+          others: true
+        - feature: "This another feature"
+          us: true
+          others: false
 ---
 
 ## Details  of the Course

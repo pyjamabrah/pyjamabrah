@@ -7,15 +7,15 @@
     {{$empty_stars := math.Sub 5 $empty_stars }}
 
     {{ range $num := (seq $full_stars) }}
-    <span class="bi bi-star-fill"></span>
+    <span class="bi bi-star-fill rating-star"></span>
     {{ end }}
 
     {{ range $num := (seq $half_stars) }}
-    <span class="bi bi-star-half"></span>
+    <span class="bi bi-star-half rating-star"></span>
     {{ end }}
 
     {{ range $num := (seq $empty_stars) }}
-    <span class="bi bi-star"></span>
+    <span class="bi bi-star rating-star"></span>
     {{ end }}
 
     <b>({{ . }})</b>

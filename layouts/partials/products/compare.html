@@ -1,0 +1,33 @@
+{{ with . }}
+
+<h2>You are on a Path to Expertise!</h2>
+
+<table class="compare-table">
+  <tr class="compare-row-head">
+    <th>Feature</th>
+    <th>Pyjama Brah!</th>
+    <th>Others</th>
+  </tr>
+  {{ range .compare }}
+  <tr class="compare-row-data">
+    <td> {{.feature}} </td>
+
+    <td class="compare-pjbro">
+      {{if .us }}
+        <i class="bi bi-check-circle-fill compare-tick tick-green"></i>
+      {{else}}
+        <i class="bi bi-x-circle-fill compare-tick tick-red"></i>
+      {{end}}
+    </td>
+    <td>
+      {{if .others }}
+        <i class="bi bi-check-circle-fill compare-tick tick-green"></i>
+      {{else}}
+        <i class="bi bi-x-circle-fill compare-tick tick-red"></i>
+      {{end}}
+    </td>
+  </tr>
+
+  {{ end }}
+</table>
+{{ end }}

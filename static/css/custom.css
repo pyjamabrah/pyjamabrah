@@ -112,14 +112,19 @@ summary {
   padding: 0px 0px 20px 0px;
 }
 
-.section-list {
-  /* margin-bottom: 10px; */
-  border: solid 1px grey;
-  padding: 10px 10px 10px 10px;
+.dropdown-container {
+  /* border: solid 1px grey; */
 }
 
-.section-name {
+.dropdown-listing {
+  /* margin-bottom: 10px; */
+  border: solid 1px grey;
+}
+
+.dropdown-summary {
+  padding: 10px;
   font-weight: bold;
+  background-color: rgba(226, 226, 226, 0.378);;
 }
 
 .section-description {
@@ -185,7 +190,7 @@ iframe {
   border: solid black 1px;
   padding: 0px 5px 0px 5px;
   background-color: var(--theme-primary);
-  font-weight: 600;
+  border-radius: 3px;
 }
 
 .prod-description {
@@ -258,6 +263,11 @@ iframe {
   border: solid grey 1px;
 }
 
+.rating-star {
+  /* TODO: change this */
+  color: red;
+}
+
 .reviewer-data {
   margin: 5px;
   padding: 5px;
@@ -281,4 +291,101 @@ iframe {
   font-size: large;
   margin-bottom: 10px;
   font-weight: 600;
+}
+
+details[open] > summary {
+  border-bottom: solid grey 1px;
+}
+
+.certificate {
+  min-width: 100%;
+  /* min-height: 400px; */
+  border: solid grey 1px;
+  background-color: var(--theme-primary);
+  text-align: center;
+  /* line-height: 400px; */
+}
+
+.creators-card-collection {
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.creators-info-card {
+  word-wrap: break-word;
+  min-width: 96%;
+  /* border: solid grey 1px; */
+  padding: 1%;
+  margin: 1%;
+}
+
+.creators-meta {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.creators-photo {
+  min-width: 75px;
+  max-height: 75px;
+  border-radius: 50%;
+  border: solid grey 1px;
+}
+
+.creators-data {
+  margin: 10px;
+  padding: 10px;
+}
+
+.creators-name {
+  min-width: 100%;
+  font-weight: 600;
+}
+
+.creators-bio {
+  padding: 5px;
+}
+
+.creators-designation {
+  width: 100%;
+}
+
+.compare-table {
+  /* min-width: 80%;
+  margin-left: 10%; */
+  /* margin-right: 20% */
+}
+
+.compare-row-head {
+  text-align: center;
+  font-size: large;
+}
+
+.compare-row-data {
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  word-wrap: break-word;
+  border: 0px;
+  margin: 0px;
+}
+
+.compare-tick {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.tick-green {
+  color: darkgreen;
+}
+
+.tick-red {
+  color: red;
+}
+
+.compare-pjbro {
+
 }

@@ -13,7 +13,10 @@
   </div>
 
   <div>
-    Created by <a href="{{ .creators.link }}" target="_blank"><b>{{ .creators.name }}</b></a>
+    Created by
+    {{ range .creators }}
+    <a href="{{ .link }}" target="_blank"><b>{{ .name }}</b></a>
+    {{ end }}
   </div>
 
   <div>

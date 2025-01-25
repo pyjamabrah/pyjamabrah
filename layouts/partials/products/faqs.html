@@ -1,13 +1,15 @@
 {{ with . }}
 
 <h2>FAQs</h2>
-
+<div class="dropdown-container">
 {{ range .faqs }}
   <!-- sections list -->
-  <details class="section-list" {{ .open }}>
-    <summary class="section-name">{{ .q }}</summary>
+  <details class="dropdown-listing" {{ .open }}>
+    <summary class="dropdown-summary">{{ .q }}</summary>
     <p class="section-description">{{.a}}</p>
+    <!-- use para tags for space at the end -->
+    <p></p>
   </details>
 {{ end }}
-
+</div>
 {{ end }}

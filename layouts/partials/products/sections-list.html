@@ -1,10 +1,11 @@
 {{ with . }}
 
 <h2>Course Contents</h2>
+<div class="dropdown-container">
 {{ range .sections }}
   <!-- sections list -->
-  <details class="section-list" {{ .open }}>
-    <summary class="section-name">{{ .section }}</summary>
+  <details class="dropdown-listing" {{ .open }}>
+    <summary class="dropdown-summary">{{ .section }}</summary>
     <p class="section-description">{{.description}}</p>
 
     {{ range .chapters }}
@@ -21,7 +22,10 @@
         {{ end }}
       </div>
     {{ end }}
+    <!-- use para tags for space at the end -->
+    <p></p>
   </details>
 {{ end }}
+</div>
 
 {{ end }}
