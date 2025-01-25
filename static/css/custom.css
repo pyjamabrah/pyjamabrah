@@ -212,8 +212,8 @@ iframe {
 }
 
 .prod-what-u-learn-point {
-  min-width: 45%;
-  max-width: 45%;
+  min-width: 100%;
+  max-width: 100%;
   word-wrap: break-word;
   margin-bottom: 5px;
   display: flex;
@@ -230,8 +230,8 @@ iframe {
 }
 
 .prod-content-summary-point {
-  min-width: 45%;
-  max-width: 45%;
+  min-width: 100%;
+  max-width: 100%;
   word-wrap: break-word;
   margin-bottom: 5px;
   display: flex;
@@ -243,8 +243,8 @@ iframe {
 }
 
 .info-card {
-  min-width: 45%;
-  max-width: 45%;
+  min-width: 96%;
+  max-width: 96%;
   word-wrap: break-word;
   border: solid grey 1px;
   margin: 1%;
@@ -299,12 +299,9 @@ details[open] > summary {
 }
 
 .certificate {
-  min-width: 100%;
-  /* min-height: 400px; */
   border: solid grey 1px;
   background-color: var(--theme-primary);
   text-align: center;
-  /* line-height: 400px; */
 }
 
 .creators-card-collection {

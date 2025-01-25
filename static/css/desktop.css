@@ -62,4 +62,19 @@
     position: sticky;
     top: 10px;
   }
+
+  .prod-what-u-learn-point {
+    min-width: 45%;
+    max-width: 45%;
+  }
+
+  .prod-content-summary-point {
+    min-width: 45%;
+    max-width: 45%;
+  }
+
+  .info-card {
+    min-width: 45%;
+    max-width: 45%;
+  }
 }

@@ -21,7 +21,7 @@ param:
       ratingCount: 3
       studentsCount: 3
       creators:
-        - name: "Piyush Itankar"
+        - name: "Piyush Tulsidas Itankar"
           designation: "Senior Embedded Engineer, Google"
           contactLink: "https://www.linkedin.com/in/streetdogg/"
           photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
@@ -123,6 +123,11 @@ param:
         - q: "Do I need a special configuration to pursue this course?"
           a: "No. You will need access to Chrome browser. The course and the labs can all be completed online."
           open: "open"
+        - q: "Is this course good for begineers?"
+          a: "Yes!"
+        - q: "Do I need a special configuration to pursue this course?"
+          a: "No. You will need access to Chrome browser. The course and the labs can all be completed online."
+          open: ""
         - q: "Is this course good for begineers?"
           a: "Yes!"
       compare:
