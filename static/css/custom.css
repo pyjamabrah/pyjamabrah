@@ -396,7 +396,7 @@ th, td {
 .button-cta {
   background-color: var(--theme-primary);
   position: sticky;
-  bottom: 0px;
+  bottom: 1px;
   align-items: center;
   z-index: 10000;
   margin-top: 20px;
