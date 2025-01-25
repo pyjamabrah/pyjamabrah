@@ -77,4 +77,14 @@
     min-width: 45%;
     max-width: 45%;
   }
+
+  .button-cta {
+    display: none;
+  }
+
+  .sidebar-product {
+    display: block;
+    border: 1px solid var(--prebgcolor);
+    height: fit-content;
+  }
 }

@@ -87,8 +87,7 @@ input {
 }
 
 .sidebar-product {
-  border: 1px solid var(--prebgcolor);
-  height: fit-content;
+  display: none;
 }
 
 .product-body {
