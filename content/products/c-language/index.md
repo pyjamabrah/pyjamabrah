@@ -14,7 +14,8 @@ param:
   image: "/products/c-language/c.png"
   link: "https://pyjamabrah.com/posts/abstractions/c.png"
   bundle:
-    - course: "C Language: For 5 Years and up!"
+    - course: "C Language"
+      subtitle: "For 5 Years and up!"
       description: "Foundation course on C programming with a hands on journey from Machine code to Design using C."
       bestSeller: "true"
       rating: 4.8

@@ -157,6 +157,17 @@ summary {
   max-width: 66%;
 }
 
+.course-title {
+  margin: 0px;
+  font-size: larger;
+}
+
+.course-subtitle {
+  margin-top: 5px;
+  color: var(--fontcolor);
+  font-size: 1rem;
+}
+
 .chapter-preview {
   /* padding: 10px; */
   margin: 20px;

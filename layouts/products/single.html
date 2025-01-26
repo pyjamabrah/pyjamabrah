@@ -6,7 +6,10 @@
         <div class="post-content">
           {{ if .Params.param.bundle }}
             {{ range .Params.param.bundle }}
-                <h1 class="course-name">{{ .course }}</h1>
+                <div class="course-name">
+                  <h2 class="course-title">{{ .course }}</h2>
+                  <div class="course-subtitle">{{ .subtitle }}</div>
+                </div>
                 <div class="details-body">
                   {{ partial "products/description.html" . }}
                   {{ partial "products/learning.html" . }}
