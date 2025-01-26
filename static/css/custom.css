@@ -153,8 +153,8 @@ summary {
   padding-left: 20px;
   color: var(--linkcolor);
   display: inline-block;
-  min-width: 66%;
-  max-width: 66%;
+  min-width: 85%;
+  max-width: 85%;
 }
 
 .course-title {
@@ -172,7 +172,6 @@ summary {
   /* padding: 10px; */
   margin: 20px;
   margin-top: 5px;
-  border: solid var(--prebgcolor) 1px;
 }
 
 .blog-card {
@@ -406,7 +405,7 @@ th, td {
 }
 
 .compare-tick {
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 600;
 }
 

@@ -91,4 +91,7 @@
     min-width: 90%;
     margin-right: 10%;
   }
+  .compare-tick {
+    font-size: 2em;
+  }
 }
