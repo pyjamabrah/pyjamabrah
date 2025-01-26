@@ -1,0 +1,42 @@
+{{ with . }}
+<div>
+  {{ $chapterName := .chapter }}
+
+  <div>
+    <div class="chapter-names">
+      <div class="chapter-icon">
+        {{ if eq .type "video"}}
+          <i class="bi bi-play-btn"></i>
+        {{ end }}
+
+        {{ if eq .type "quiz"}}
+          <i class="bi bi-check-circle"></i>
+        {{ end }}
+
+        {{ if eq .type "code"}}
+          <i class="bi bi-code-square"></i>
+        {{ end }}
+      </div>
+
+      {{ $chapterName }}
+      {{ if .preview }}
+        (<a href="https://www.youtube.com/watch?v={{.preview}}" target="_blank">preview</a>)
+      {{ end }}
+    </div>
+
+    <!-- Add video length -->
+    {{ if eq .type "video"}}
+      <div class="chapter-details">
+        {{ .meta }}
+      </div>
+    {{ end }}
+
+  </div>
+  {{ if .preview }}
+    <div class="chapter-preview">
+        <iframe style="aspect-ratio: 16 / 9; width: 100%" frameBorder="0" src="https://www.youtube.com/embed/{{.preview}}?mute=1">
+        </iframe>
+    </div>
+  {{ end }}
+</div>
+{{ end }}

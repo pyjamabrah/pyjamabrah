@@ -5,22 +5,18 @@
 {{ range .sections }}
   <!-- sections list -->
   <details class="dropdown-listing" {{ .open }}>
-    <summary class="dropdown-summary">{{ .section }}</summary>
+    <summary class="dropdown-summary">
+      <div class="section-name">
+        {{ .section }}
+      </div>
+      <div class="section-meta">
+        {{ .sectionDuration }}
+      </div>
+    </summary>
     <p class="section-description">{{.description}}</p>
 
     {{ range .chapters }}
-      <!-- chapter list -->
-      <div>
-        {{ if .preview }}
-          <div class="chapter-names">{{ .chapter }} (preview)</div>
-          <div class="chapter-preview">
-            <iframe style="aspect-ratio: 16 / 9; width: 100%" frameBorder="0" src="https://www.youtube.com/embed/{{.preview}}?mute=1">
-            </iframe>
-          </div>
-        {{ else }}
-          <div class="chapter-names">{{ .chapter }}</div>
-        {{ end }}
-      </div>
+    {{ partial "products/chapter-name-render.html" . }}
     {{ end }}
     <!-- use para tags for space at the end -->
     <p></p>

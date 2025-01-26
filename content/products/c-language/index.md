@@ -28,10 +28,10 @@ param:
           bio: "Electrical Engineer by Education, went on to pursuing masters in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as a Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
       lastUpdated: "1/1/2025"
       language: "English"
-      lessons: "30"
-      length: "3 Hours 25 mins"
-      files: "7"
-      quizzes: "25"
+      lessons: 12
+      length: "1 Hours 4 mins"
+      files: 2
+      quizzes: 0
       certificate: true
       validity: 365 days
       learning:
@@ -61,39 +61,78 @@ param:
         - section: "C Language Tour"
           description: "This section enables the learner to quickly get started with programming in the C language."
           open: "open"
+          sectionDuration: 1 Hours 4 mins
           chapters:
             - chapter: "The Roadmap and Mindset"
+              preview: "ZwqDd-WM4kk"
+              type: "video"
+              meta: 06:54
+              attachments: ""
+            - chapter: "Sandbox Environment and Basic C Program"
               preview: ""
-            - chapter: "Anatomy of a C Program"
-              preview: ""
-            - chapter: "Keep an Eye on Functions, Pointers and Structures."
-              preview: ""
-            - chapter: "Example Program and Compilation"
-              preview: ""
+              type: "video"
+              meta: 30:02
+              attachments: ""
+            - chapter: "Keep an Eye on Functions, Pointers and Structs"
+              preview: "O-CZ8EvX-8Y"
+              type: "video"
+              meta: 08:04
+              attachments: ""
+            - chapter: "Example of the RAW power - Functions, Struct and Pointers"
+              preview: "1-GXQFRaHZc"
+              type: "video"
+              meta: 19:50
+              attachments: 2
         - section: "Mental Models to Brain tattoo"
           open: ""
-          description: "In this section we will explore the models and visualisation you can use when reasoning about the system."
+          description: "In this section we will explore the models and visualization you can use when reasoning about the system."
+          sectionDuration: "TODO"
           chapters:
             - chapter: "The CPU"
               preview: ""
+              type: "video"
+              meta: 19:50
+              attachments: 2
             - chapter: "The Memory"
               preview: ""
+              type: "video"
+              meta: 19:50
+              attachments: 2
             - chapter: "Transactions"
               preview: ""
+              type: "quiz"
+              meta: 19:50
+              attachments: 2
             - chapter: "Interacting with the Environment"
               preview: ""
+              type: "code"
+              meta: 19:50
+              attachments: 2
         - section: "From text to 0s and 1s"
           open: ""
           description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
+          sectionDuration: "TODO"
           chapters:
             - chapter: "Instruction Set Architecture (ISA)"
               preview: ""
+              type: "video"
+              meta: 19:50
+              attachments: 2
             - chapter: "Machine Code"
               preview: ""
+              type: "video"
+              meta: 19:50
+              attachments: 2
             - chapter: "Assembly Code"
               preview: ""
+              type: "video"
+              meta: 19:50
+              attachments: 2
             - chapter: "The toolchain"
               preview: ""
+              type: "video"
+              meta: 19:50
+              attachments: 2
       requirements:
         - Some exposure to Digital systems.
         - Basic understanding of number systems , logic gates , bits and bytes.
@@ -150,3 +189,5 @@ param:
 Most students and Engineers learn C language the wrong way. This course corrects that and teaches C language the way it should be learnt.
 1. random point.
 1. another random point.
+
+![](0.png "Preview of the Roadmap discussion.")
