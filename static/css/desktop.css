@@ -87,4 +87,8 @@
     border: 1px solid var(--prebgcolor);
     height: fit-content;
   }
+  .compare-table {
+    min-width: 90%;
+    margin-right: 10%;
+  }
 }

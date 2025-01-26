@@ -381,9 +381,7 @@ details[open] > summary {
 }
 
 .compare-table {
-  min-width: 90%;
-  /* margin-left: 5%; */
-  margin-right: 10%;
+  /* nothing */
 }
 
 .compare-row-head {
@@ -397,6 +395,7 @@ details[open] > summary {
 
 .compare-row-data {
   text-align: left;
+  min-width: 200px;
 }
 
 th, td {
