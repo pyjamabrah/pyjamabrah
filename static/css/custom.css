@@ -118,16 +118,13 @@ summary {
 }
 
 .dropdown-listing {
-  /* margin-bottom: 10px; */
   border: solid 1px grey;
-  display: flex;
 }
 
 .dropdown-summary {
   padding: 10px;
   font-weight: bold;
   background-color: rgba(226, 226, 226, 0.378);
-  display: inline;
 }
 
 .section-name {
@@ -161,9 +158,10 @@ summary {
 }
 
 .chapter-preview {
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* padding: 10px; */
+  margin: 20px;
+  margin-top: 5px;
+  border: solid var(--prebgcolor) 1px;
 }
 
 .blog-card {
@@ -422,7 +420,7 @@ th, td {
   z-index: 10000;
   margin-top: 20px;
   padding:20px;
-  border-top: solid black 1px;
+  border-top: solid var(--prebgcolor) 1px;
 }
 
 /* Google Recaptcha */
