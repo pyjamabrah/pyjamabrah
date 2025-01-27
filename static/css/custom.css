@@ -426,9 +426,9 @@ th, td {
   position: sticky;
   bottom: 0px;
   align-items: center;
-  z-index: 10000;
-  margin-top: 20px;
-  padding:20px;
+  z-index: 2;
+  margin-top: 5px;
+  padding:5px;
   border-top: solid var(--prebgcolor) 1px;
 }
 
