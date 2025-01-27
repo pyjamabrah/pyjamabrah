@@ -442,3 +442,17 @@ th, td {
 .grecaptcha-badge {
   visibility: hidden !important;
 }
+
+.preview-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.view-preview {
+  margin-left: 40px;
+}
+
+.view-preview[open] > summary{
+  border: none;
+}

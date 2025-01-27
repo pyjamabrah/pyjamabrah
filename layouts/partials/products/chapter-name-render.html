@@ -18,10 +18,7 @@
         {{ end }}
       </div>
 
-      {{ $chapterName }}
-      {{ if .preview }}
-        (<a href="https://www.youtube.com/watch?v={{.preview}}" target="_blank">preview</a>)
-      {{ end }}
+      &nbsp{{ $chapterName }}
     </div>
 
     <!-- Add video length -->
@@ -31,12 +28,15 @@
       </div>
     {{ end }}
 
-  </div>
-  {{ if .preview }}
-    <div class="chapter-preview">
-        <iframe style="aspect-ratio: 16 / 9; width: 80%; margin-left:25px; border: 1px solid black" src="https://www.youtube.com/embed/{{.preview}}?mute=1">
+    {{ if .preview }}
+    <div class="chapter-names">
+      <details class="view-preview">
+        <summary class="view-preview-body">view preview</summary>
+        <iframe style="aspect-ratio: 16 / 9; width: 100%; border: 1px solid black" src="https://www.youtube.com/embed/{{.preview}}?rel=0">
         </iframe>
+      </details>
     </div>
-  {{ end }}
-</div>
+    {{ end }}
+
+  </div>
 {{ end }}

@@ -70,7 +70,7 @@ param:
               meta: 06:54
               attachments: ""
             - chapter: "Sandbox Environment and Basic C Program"
-              preview: ""
+              preview: "O-CZ8EvX-8Y"
               type: "video"
               meta: 30:02
               attachments: ""
