@@ -43,15 +43,15 @@ params:
   readingSpeedMin: 25 # Use to set custom reading speed range
   readingSpeedMax: 175 # Use to set custom reading speed range
   social:
-    - name: X
+    - name: twitter
       url: https://x.com/dstreetdogg
-    - name: YouTube
+    - name: youtube
       url: https://youtube.com/@pyjamabrah
-    - name: Linkedin
+    - name: linkedin
       url: https://www.linkedin.com/in/streetdogg/
-    - name: Mail
+    - name: envelope
       url: mailto:piyush@pyjamabrah.com
-    - name: GitHub
+    - name: github
       url: https://github.com/streetdogg
   legal:
     - name: Privacy Policy

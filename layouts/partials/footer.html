@@ -5,19 +5,11 @@
     Copyright © {{ now.Format "2006"}}
     <a href="{{ .Site.BaseURL }}"><strong>{{ default "Blog Author" .Site.Params.Author }}</strong></a>.
   </span>
-  <span class="builtWith">
-    Built with
-    <a href="http://www.gohugo.io/">Hugo</a>,
-    &
-    <a href="https://gitlab.com/ian-s-mcb/smigle-hugo-theme">smigle</a>.
-  </span>
   </span>
   {{ if .Site.Params.social }}
   <div id="social">
-    Connect on Web:
     {{ range $i, $e := .Site.Params.social }}
-      {{ if $i }} | {{ end }}
-      <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+      <a href="{{ .url }}" target="_blank"> <i class="bi bi-{{ .name }}"></i></a>
     {{ end }}
   </div>
   {{ end }}
@@ -29,4 +21,10 @@
     {{ end }}
   </div>
   {{ end }}
+  <span class="builtWith">
+    Built with
+    <a href="http://www.gohugo.io/">Hugo</a>,
+    &
+    <a href="https://gitlab.com/ian-s-mcb/smigle-hugo-theme">smigle</a>.
+  </span>
 </footer>
