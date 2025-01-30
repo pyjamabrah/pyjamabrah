@@ -14,13 +14,13 @@ html {
 
 @media (prefers-color-scheme: dark) {
   :root {
-     --bgcolor: #000000;
-     --dimcolor: #333;
+     --bgcolor: #1e1e1e;
+     --dimcolor: #828282;
      --fontcolor: #ddd;
-     --linkcolor: #5bf;
-     --visitedcolor: #ae5ee0;
+     --linkcolor: rgb(47, 182, 255);
+     --visitedcolor: #ff74dc;
      --precolor: #fff;
-     --prebgcolor: #383838;
+     --prebgcolor: #002fff;
      --theme-primary: #ff0800;
   }
 }
