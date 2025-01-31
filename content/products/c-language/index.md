@@ -112,7 +112,7 @@ param:
         - section: "From text to 0s and 1s"
           open: ""
           description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
-          sectionDuration: "1 Hour 36 Mins 2 Sec"
+          sectionDuration: "1 Hour 36 Mins"
           chapters:
             - chapter: "08: Instruction Encoding and the rv32i ISA"
               preview: "K1uzo-Xy8iA"
@@ -179,29 +179,30 @@ param:
           rating: 4.9
           review: "I am the creator of the course so obviously this has to be the best course on this topic on the planet. I should also specify that my review is heavily biased."
       compare:
-        - feature: "this is a sample feature. This feature is rather long. too long actually"
-          us: true
-          others: true
-        - feature: "This another feature"
+        - feature: "Teach with insights at the CPU level."
           us: true
           others: false
-        - feature: "this is a sample feature. This feature is rather long. too long actually"
-          us: true
-          others: true
-        - feature: "This another feature"
+        - feature: "Cover Assembly Language and Machine code."
           us: true
           others: false
+        - feature: "Cover the toolchain utilities like compiler, assembler, linker and debug tools like GDB?"
+          us: true
+          others: false
+        - feature: "Cover basic syntax of the language?"
+          us: true
+          others: true
       faqs:
+        - q: "Is this course good for beginners?"
+          a: "Yes! The course is taught as if the learner has no idea about the C programming language."
+          open: "open"
         - q: "Why is the course validity 365 days?"
           a: "We need to maintain the servers that host the courses. At the moment we have enough capital to keep the server afloat for another until. We are striving to make this a lifetime access course. As the funds trickle in, we will revisit the validity and might update it for all the enrolled learners."
-          open: "open"
         - q: "Do I need a special machine configuration to take this course?"
           a: "No! All you will need is an internet connection and the Chrome browser. The hands-on examples and lab work is based on GitHub codespaces platform."
         - q: "Why is a GitHub account needed?"
           a: "The Experiments and Labs are based on the GitHub provided Codespaces virtual machine. Codespaces will enable a common work environment for all the learners and avoid the hassle of special setup."
-          open: ""
-        - q: "Is this course good for begineers?"
-          a: "Yes!"
+        - q: "Why is a GitHub account needed?"
+          a: "The Experiments and Labs are based on the GitHub provided Codespaces virtual machine. Codespaces will enable a common work environment for all the learners and avoid the hassle of special setup."
 ---
 
 ## Why Learn C?
