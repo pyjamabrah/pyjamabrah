@@ -1,10 +1,13 @@
 {{ with . }}
 
+{{ if .certificate}}
 <h2>Certificate</h2>
 <p>
   Get a certificate on successfully completing the course, signed by the instructor.
 </p>
 <div class="certificate">
-  <img src="/products/c-language/c.png"></img>
+  <img src="{{.certificate}}"></img>
 </div>
+
+{{ end }}
 {{ end }}

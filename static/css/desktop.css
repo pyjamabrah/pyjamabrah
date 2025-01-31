@@ -26,7 +26,7 @@
   }
 
   .blog-card {
-    border: solid var(--prebgcolor) 1px;
+    border: solid var(--linecolor) 1px;
     margin: 5px;
     max-width: 30% !important;
     text-decoration: none;
@@ -84,7 +84,7 @@
 
   .sidebar-product {
     display: block;
-    border: 1px solid var(--prebgcolor);
+    border: 1px solid var(--linecolor);
     height: fit-content;
   }
   .compare-table {

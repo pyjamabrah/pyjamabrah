@@ -45,7 +45,7 @@ input {
   padding: 5px;
   margin: 5px;
   font-size: 1em;
-  border: 1px solid var(--prebgcolor);
+  border: 1px solid var(--linecolor);
   font-family: monospace;
 }
 
@@ -59,7 +59,7 @@ input {
 }
 
 .sidebar {
-  border: 1px solid var(--prebgcolor);
+  border: 1px solid var(--linecolor);
   padding: 10px;
   height: fit-content;
   font-size: 0.85em;
@@ -83,7 +83,7 @@ input {
 
 .product-image {
   cursor: pointer;
-  border-bottom: solid black 1px;
+  border-bottom: solid var(--linecolor) 1px;
 }
 
 .sidebar-product {
@@ -106,7 +106,7 @@ summary {
   background-color: var(--bgcolor);
   text-align: center;
   padding: 10px;
-  border-bottom: solid var(--prebgcolor) 1px;
+  border-bottom: solid var(--linecolor) 1px;
 }
 
 .details-body {
@@ -180,7 +180,7 @@ summary {
 }
 
 .blog-card {
-  border: solid var(--prebgcolor) 1px;
+  border: solid var(--linecolor) 1px;
   margin: 5px 0 5px 0;
   max-width: 100% !important;
   text-decoration: none !important;
@@ -217,7 +217,7 @@ iframe {
 }
 
 .produc-bestseller {
-  border: solid black 1px;
+  border: solid var(--linecolor) 1px;
   padding: 0px 5px 0px 5px;
   background-color: var(--theme-primary);
   border-radius: 3px;
@@ -434,7 +434,7 @@ th, td {
   z-index: 2;
   margin-top: 5px;
   padding:5px;
-  border-top: solid var(--prebgcolor) 1px;
+  border-top: solid var(--linecolor) 1px;
 }
 
 /* Google Recaptcha */

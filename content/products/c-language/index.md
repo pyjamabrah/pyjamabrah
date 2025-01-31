@@ -33,7 +33,7 @@ param:
       length: "3 Hours 52 mins"
       files: 2
       quizzes: 0
-      certificate: true
+      certificate: "/products/c-language/certificate.png"
       validity: 365 days
       learning:
         - Models of computation
@@ -203,8 +203,20 @@ param:
           others: false
 ---
 
+## Why Learn C?
+
+Like it or not - **C is the easiest language to learn!** The language has 32 keywords, all can be nicely grouped at a functional level. All you need to know is how these can be used together. That's it!
+
+Most people just learn the language the wrong way.
+
 ## Course Philosophy
 
-The design of this course is very deliberate. We start with visit to 1970s and `no special knowledge of the subject is assumed`.
+`No prior knowledge is assumed`!
+
+The design of this course is very deliberate and geared towards someone just starting off with the C language and interested in learning in by understanding how the language controls the CPU. It very smoothly takes you from a **Noob** to a **Pro**, and this should be evident if you watched all the preview videos.
+
+Most systems at the lower level as programmed using the C language (it can be Rust or C++ some times, but 99% of the time, it will be C).
 
 ![](0.png "Preview of the Roadmap discussion.")
+
+### Why not start with 'K&R C'?
