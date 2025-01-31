@@ -385,7 +385,7 @@ details[open] > summary {
 }
 
 .compare-table {
-  /* nothing */
+  border: solid var(--linecolor) 1px;
 }
 
 .compare-row-head {

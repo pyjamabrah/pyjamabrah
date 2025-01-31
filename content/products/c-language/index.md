@@ -65,86 +65,99 @@ param:
         - Loops - for, while, do while
       sections:
         - section: "C Language Tour"
-          description: "This section enables the learner to quickly get started with programming in the C language."
+          description: "The section focuses on the Roadmap, Mindset and the lense through which this course is to be pursued. We also dive into exploring a basic C program so you can learn to spot the patterns when exploring the code outside of the course. To further empower you, we will also look at the three work horse feature of this language."
           open: "open"
-          sectionDuration: 1 Hours 4 mins
+          sectionDuration: 1 Hour 4 Mins
           chapters:
-            - chapter: "The Roadmap and Mindset"
+            - chapter: "01: The Roadmap and Mindset"
               preview: "ZwqDd-WM4kk"
               type: "video"
               meta: 06:54
               attachments: ""
-            - chapter: "Sandbox Environment and Basic C Program"
-              preview: "O-CZ8EvX-8Y"
+            - chapter: "02: Sandbox Environment and Basic C Program"
+              preview: "3k4FGxUwXMk"
               type: "video"
               meta: 30:02
               attachments: ""
-            - chapter: "Keep an Eye on Functions, Pointers and Structs"
+            - chapter: "03: Keep an Eye on Functions, Pointers and Structs"
               preview: "O-CZ8EvX-8Y"
               type: "video"
               meta: 08:04
               attachments: ""
-            - chapter: "Example of the RAW power - Functions, Struct and Pointers"
+            - chapter: "04: Example of the RAW power - Functions, Struct and Pointers"
               preview: "1-GXQFRaHZc"
               type: "video"
               meta: 19:50
               attachments: 2
         - section: "Mental Models to Brain tattoo"
           open: "open"
-          description: "In this section we will explore the models and visualization you can use when reasoning about the system."
-          sectionDuration: "TODO"
+          description: "In this section we will discuss the mental models that you can use to reason about the programs. In an attempt to doing this, we will explore the models of systems from 1970s. System composition and the CPU, Memory and Interactions with environment. This sets the foundation that will enable you to exactly predict the system behavior as a result of the C program that you write."
+          sectionDuration: "44 Mins 11 Sec"
           chapters:
-            - chapter: "The CPU"
-              preview: ""
+            - chapter: "05: Mental Model of the System"
+              preview: "ZNgtPodbrxY"
               type: "video"
-              meta: 19:50
-              attachments: 2
-            - chapter: "The Memory"
-              preview: ""
+              meta: 16:43
+              attachments: 0
+            - chapter: "06: The mental model of the CPU"
+              preview: "ggWIlUo41io"
               type: "video"
-              meta: 19:50
-              attachments: 2
-            - chapter: "Transactions"
-              preview: ""
-              type: "quiz"
-              meta: 19:50
-              attachments: 2
-            - chapter: "Interacting with the Environment"
-              preview: ""
-              type: "code"
-              meta: 19:50
-              attachments: 2
+              meta: 11:41
+              attachments: 0
+            - chapter: "07: The mental model of the Memory"
+              preview: "Q7nHmAXwFEU"
+              type: "video"
+              meta: 15:47
+              attachments: 0
         - section: "From text to 0s and 1s"
           open: "open"
           description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
-          sectionDuration: "TODO"
+          sectionDuration: "1 Hour 36 Mins 2 Sec"
           chapters:
-            - chapter: "Instruction Set Architecture (ISA)"
-              preview: ""
+            - chapter: "08: Instruction Encoding and the rv32i ISA"
+              preview: "K1uzo-Xy8iA"
               type: "video"
-              meta: 19:50
-              attachments: 2
-            - chapter: "Machine Code"
-              preview: ""
+              meta: 25:52
+              attachments: 0
+            - chapter: "09: A tour of Toolchain, QEMU, GDB"
+              preview: "uyjKrY5jNqk"
               type: "video"
-              meta: 19:50
-              attachments: 2
-            - chapter: "Assembly Code"
-              preview: ""
+              meta: 16:23
+              attachments: 0
+            - chapter: "10: demo - Assembly to binary, QEMU and GDB"
+              preview: "GSgk7FBG3TQ"
               type: "video"
-              meta: 19:50
-              attachments: 2
-            - chapter: "The toolchain"
-              preview: ""
+              meta: 27:04
+              attachments: 0
+            - chapter: "11: Instruction Encoder Decoder, Makefile and GDB Dashboard"
+              preview: "PvIvhltDoII"
               type: "video"
-              meta: 19:50
-              attachments: 2
+              meta: 26:43
+              attachments: 0
+        - section: "Dwelling in the World of Assembly"
+          open: ""
+          description: "Understanding what the system does as a result of the C program becomes very simple once we know how the C statements may be translated to the assembly code. We will thus spend time mastering the structure of the Assembly programs and the instructions available to us."
+          sectionDuration: "26 Mins 59 Sec"
+          chapters:
+            - chapter: "12: Anatomy of Assembly Program, writing code, debugging in GDB"
+              preview: "KNrqGRKsHRA"
+              type: "video"
+              meta: 26:59
+              attachments: 0
       requirements:
-        - Some exposure to Digital systems.
-        - Basic understanding of number systems , logic gates , bits and bytes.
+        - An open and learning mindset.
+        - Interest in the lower level working of the system.
+        - Some exposure to Digital systems is good (but not strictly required).
+        - Basic understanding of number systems, logic gates, bits and bytes is good to have (but not strictly required).
       audience:
         - Students in Academia with C as a subject in the course.
+        - Early Career Professionals using C as development language.
+        - Embedded Systems Engineers.
+        - System Software Engineers.
+        - Electrical/Electronics Engineers working on hardware programming.
         - Systems Engineer seeking gain system level insights.
+        - Those curious to learn the underlying details of Systems and how to program it using C.
+        - Those seeking a job changing and preparing for interviews.
       reviews:
         - reviewer: "Pyjama Brah!"
           photo: "https://avatars.githubusercontent.com/u/193006162?s=200&v=4"
@@ -190,10 +203,8 @@ param:
           others: false
 ---
 
-## Details  of the Course
+## Course Philosophy
 
-Most students and Engineers learn C language the wrong way. This course corrects that and teaches C language the way it should be learnt.
-1. random point.
-1. another random point.
+The design of this course is very deliberate. We start with visit to 1970s and `no special knowledge of the subject is assumed`.
 
 ![](0.png "Preview of the Roadmap discussion.")
