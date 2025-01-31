@@ -15,22 +15,22 @@ param:
   link: "https://pyjamabrah.com/posts/abstractions/c.png"
   bundle:
     - course: "C Language"
-      subtitle: "For 5 Years and up!"
-      description: "Foundation course on C programming with a hands on journey from Machine code to Design using C."
+      subtitle: "Insights YOU should know but DON'T!!"
+      description: "Foundation course on C programming with a hands on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly about the code you right and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally make a case for the C language."
       bestSeller: "true"
-      rating: 4.8
-      ratingCount: 3
-      studentsCount: 3
+      rating: 1
+      ratingCount: 1
+      studentsCount: 1
       creators:
         - name: "Piyush Tulsidas Itankar"
-          designation: "Senior Embedded Engineer, Google"
+          designation: "Senior Embedded Engineer (L5), Google"
           contactLink: "https://www.linkedin.com/in/streetdogg/"
           photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
           bio: "Electrical Engineer by Education, went on to pursuing masters in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as a Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
       lastUpdated: "1/1/2025"
       language: "English"
-      lessons: 12
-      length: "1 Hours 4 mins"
+      lessons: 13
+      length: "3 Hours 52 mins"
       files: 2
       quizzes: 0
       certificate: true
@@ -39,6 +39,11 @@ param:
         - Models of computation
         - Machine code
         - Instruction Set Architecture
+        - Toolchain utilities
+        - compiler (gcc)
+        - assembler (as)
+        - GNU Debugger (gdb)
+        - Automation using Makefile
         - Basics of Assembly Language
         - How text is converted to 0s and 1s
         - C programming from scratch
@@ -85,7 +90,7 @@ param:
               meta: 19:50
               attachments: 2
         - section: "Mental Models to Brain tattoo"
-          open: ""
+          open: "open"
           description: "In this section we will explore the models and visualization you can use when reasoning about the system."
           sectionDuration: "TODO"
           chapters:
@@ -110,7 +115,7 @@ param:
               meta: 19:50
               attachments: 2
         - section: "From text to 0s and 1s"
-          open: ""
+          open: "open"
           description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
           sectionDuration: "TODO"
           chapters:

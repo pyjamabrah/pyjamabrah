@@ -2,11 +2,11 @@
 
 <h2>Who this course is for</h2>
 
-<div>
+<div class="requirements-list">
   {{ range .audience }}
-    <div>
-      <span class="bi bi-check2"></span> <span>{{ . }}</span>
-    </div>
+  <div class="bullet-point">
+    <i class="bi bi-check2 prod-content-summary-tick"></i>{{ . }}
+  </div>
   {{ end }}
 </div>
 

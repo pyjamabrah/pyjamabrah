@@ -10,18 +10,20 @@ html {
   --precolor: #fff;
   --prebgcolor: #000;
   --theme-primary: #FFE15C;
+  --linecolor: grey;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-     --bgcolor: #1e1e1e;
+     --bgcolor: #2a2a2a;
      --dimcolor: #828282;
      --fontcolor: #ddd;
      --linkcolor: rgb(47, 182, 255);
      --visitedcolor: #ff74dc;
      --precolor: #fff;
-     --prebgcolor: #002fff;
-     --theme-primary: #ff0800;
+     --prebgcolor: #ffffff;
+     --theme-primary: #ff0000;
+     --linecolor: grey;
   }
 }
 body {

@@ -18,7 +18,7 @@ figcaption {
 
 button {
   background-color: var(--theme-primary);
-  border: solid 1px var(--prebgcolor);
+  border: none;
   color: var(--fontcolor);
   padding: 12px 32px;
   text-decoration: none;
@@ -114,11 +114,10 @@ summary {
 }
 
 .dropdown-container {
-  /* border: solid 1px grey; */
 }
 
 .dropdown-listing {
-  border: solid 1px grey;
+  border: solid 1px var(--linecolor);
 }
 
 .dropdown-summary {
@@ -231,7 +230,14 @@ iframe {
 .prod-what-u-learn {
   display: flex;
   flex-wrap: wrap;
-  border: solid 1px grey;
+  border: solid 1px var(--linecolor);
+  padding: 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+.requirements-list {
+  display: flex;
+  flex-wrap: wrap;
   padding: 10px;
   margin: 0px 0px 20px 0px;
 }
@@ -259,7 +265,7 @@ iframe {
   padding-right: 10px;
 }
 
-.prod-content-summary-point {
+.bullet-point {
   min-width: 100%;
   max-width: 100%;
   word-wrap: break-word;
@@ -276,7 +282,7 @@ iframe {
   min-width: 96%;
   max-width: 96%;
   word-wrap: break-word;
-  border: solid grey 1px;
+  border: solid var(--linecolor) 1px;
   margin: 1%;
   padding: 1%;
 }
@@ -291,7 +297,7 @@ iframe {
   min-width: 75px;
   max-height: 75px;
   border-radius: 50%;
-  border: solid grey 1px;
+  border: solid var(--linecolor) 1px;
 }
 
 .rating-star {
@@ -325,11 +331,11 @@ iframe {
 }
 
 details[open] > summary {
-  border-bottom: solid grey 1px;
+  border-bottom: solid var(--linecolor) 1px;
 }
 
 .certificate {
-  border: solid grey 1px;
+  border: solid var(--linecolor) 1px;
   background-color: var(--theme-primary);
   text-align: center;
 }
@@ -343,7 +349,6 @@ details[open] > summary {
 .creators-info-card {
   word-wrap: break-word;
   min-width: 96%;
-  /* border: solid grey 1px; */
   padding: 1%;
   margin: 1%;
 }
@@ -358,7 +363,7 @@ details[open] > summary {
   min-width: 75px;
   max-height: 75px;
   border-radius: 50%;
-  border: solid grey 1px;
+  border: solid var(--linecolor) 1px;
 }
 
 .creators-data {
@@ -410,11 +415,11 @@ th, td {
 }
 
 .tick-green {
-  color: darkgreen;
+  color: rgb(58, 255, 58);
 }
 
 .tick-red {
-  color: red;
+  color: rgb(255, 36, 36);
 }
 
 .compare-pjbro {
@@ -436,7 +441,7 @@ th, td {
 .google-recaptcha {
   margin-top: 10px;
   font-size: x-small;
-  color: grey;
+  color: var(--linecolor);
 }
 
 .grecaptcha-badge {
@@ -450,9 +455,5 @@ th, td {
 }
 
 .view-preview {
-  margin-left: 40px;
-}
-
-.view-preview[open] > summary{
-  border: none;
+  padding: 1% 10% 2% 10%;
 }
