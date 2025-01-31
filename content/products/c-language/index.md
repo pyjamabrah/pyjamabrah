@@ -90,7 +90,7 @@ param:
               meta: 19:50
               attachments: 2
         - section: "Mental Models to Brain tattoo"
-          open: "open"
+          open: ""
           description: "In this section we will discuss the mental models that you can use to reason about the programs. In an attempt to doing this, we will explore the models of systems from 1970s. System composition and the CPU, Memory and Interactions with environment. This sets the foundation that will enable you to exactly predict the system behavior as a result of the C program that you write."
           sectionDuration: "44 Mins 11 Sec"
           chapters:
@@ -110,7 +110,7 @@ param:
               meta: 15:47
               attachments: 0
         - section: "From text to 0s and 1s"
-          open: "open"
+          open: ""
           description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
           sectionDuration: "1 Hour 36 Mins 2 Sec"
           chapters:
@@ -145,6 +145,7 @@ param:
               meta: 26:59
               attachments: 0
       requirements:
+        - A GitHub account. This is to follow the labs.
         - An open and learning mindset.
         - Interest in the lower level working of the system.
         - Some exposure to Digital systems is good (but not strictly required).
@@ -177,17 +178,6 @@ param:
           date: "2/1/2025"
           rating: 4.9
           review: "I am the creator of the course so obviously this has to be the best course on this topic on the planet. I should also specify that my review is heavily biased."
-      faqs:
-        - q: "Do I need a special configuration to pursue this course?"
-          a: "No. You will need access to Chrome browser. The course and the labs can all be completed online."
-          open: "open"
-        - q: "Is this course good for begineers?"
-          a: "Yes!"
-        - q: "Do I need a special configuration to pursue this course?"
-          a: "No. You will need access to Chrome browser. The course and the labs can all be completed online."
-          open: ""
-        - q: "Is this course good for begineers?"
-          a: "Yes!"
       compare:
         - feature: "this is a sample feature. This feature is rather long. too long actually"
           us: true
@@ -201,6 +191,17 @@ param:
         - feature: "This another feature"
           us: true
           others: false
+      faqs:
+        - q: "Why is the course validity 365 days?"
+          a: "We need to maintain the servers that host the courses. At the moment we have enough capital to keep the server afloat for another until. We are striving to make this a lifetime access course. As the funds trickle in, we will revisit the validity and might update it for all the enrolled learners."
+          open: "open"
+        - q: "Do I need a special machine configuration to take this course?"
+          a: "No! All you will need is an internet connection and the Chrome browser. The hands-on examples and lab work is based on GitHub codespaces platform."
+        - q: "Why is a GitHub account needed?"
+          a: "The Experiments and Labs are based on the GitHub provided Codespaces virtual machine. Codespaces will enable a common work environment for all the learners and avoid the hassle of special setup."
+          open: ""
+        - q: "Is this course good for begineers?"
+          a: "Yes!"
 ---
 
 ## Why Learn C?
