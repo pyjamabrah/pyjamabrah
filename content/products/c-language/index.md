@@ -36,10 +36,10 @@ param:
           contactLink: "https://www.linkedin.com/in/streetdogg/"
           photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
           bio: "Electrical Engineer by Education, went on to pursue a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
-      lastUpdated: "1/1/2025"
+      lastUpdated: "31 Jan' 2025"
       language: "English"
       lessons: 12
-      length: "3 Hours 52 mins"
+      length: "~4 hour 40 mins"
       files: 2
       quizzes: 0
       certificate: "/products/c-language/certificate.png"
@@ -76,20 +76,20 @@ param:
         - section: "C Language Tour"
           description: "The section focuses on the Roadmap, Mindset and the lense through which this course is to be pursued. We also dive into exploring a basic C program so you can learn to spot the patterns when exploring the code outside of the course. To further empower you, we will also look at the three work horse feature of this language."
           open: "open"
-          sectionDuration: 1 Hour 4 Mins
+          sectionDuration: 1 hr 4 min
           chapters:
             - chapter: "01: The Roadmap and Mindset"
-              preview: "ZwqDd-WM4kk"
+              preview: ""
               type: "video"
               meta: 06:54
               attachments: ""
             - chapter: "02: Sandbox Environment and Basic C Program"
-              preview: "3k4FGxUwXMk"
+              preview: ""
               type: "video"
               meta: 30:02
               attachments: ""
             - chapter: "03: Keep an Eye on Functions, Pointers and Structs"
-              preview: "O-CZ8EvX-8Y"
+              preview: ""
               type: "video"
               meta: 08:04
               attachments: ""
@@ -101,7 +101,7 @@ param:
         - section: "Mental Models to Brain tattoo"
           open: ""
           description: "In this section we will discuss the mental models that you can use to reason about the programs. In an attempt to doing this, we will explore the models of systems from 1970s. System composition and the CPU, Memory and Interactions with environment. This sets the foundation that will enable you to exactly predict the system behavior as a result of the C program that you write."
-          sectionDuration: "44 Mins 11 Sec"
+          sectionDuration: "44 min 11 Sec"
           chapters:
             - chapter: "05: Mental Model of the System"
               preview: "ZNgtPodbrxY"
@@ -109,49 +109,59 @@ param:
               meta: 16:43
               attachments: 0
             - chapter: "06: The mental model of the CPU"
-              preview: "ggWIlUo41io"
+              preview: ""
               type: "video"
               meta: 11:41
               attachments: 0
             - chapter: "07: The mental model of the Memory"
-              preview: "Q7nHmAXwFEU"
+              preview: ""
               type: "video"
               meta: 15:47
               attachments: 0
         - section: "From text to 0s and 1s"
           open: ""
           description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
-          sectionDuration: "1 Hour 36 Mins"
+          sectionDuration: "1 hr 36 min"
           chapters:
             - chapter: "08: Instruction Encoding and the rv32i ISA"
-              preview: "K1uzo-Xy8iA"
+              preview: ""
               type: "video"
               meta: 25:52
               attachments: 0
             - chapter: "09: A tour of Toolchain, QEMU, GDB"
-              preview: "uyjKrY5jNqk"
+              preview: ""
               type: "video"
               meta: 16:23
               attachments: 0
             - chapter: "10: demo - Assembly to binary, QEMU and GDB"
-              preview: "GSgk7FBG3TQ"
+              preview: ""
               type: "video"
               meta: 27:04
               attachments: 0
             - chapter: "11: Instruction Encoder Decoder, Makefile and GDB Dashboard"
-              preview: "PvIvhltDoII"
+              preview: ""
               type: "video"
               meta: 26:43
               attachments: 0
         - section: "Dwelling in the World of Assembly"
           open: ""
           description: "Understanding what the system does as a result of the C program becomes very simple once we know how the C statements may be translated to the assembly code. We will thus spend time mastering the structure of the Assembly programs and the instructions available to us."
-          sectionDuration: "26 Mins 59 Sec"
+          sectionDuration: "1 hr 13 min"
           chapters:
             - chapter: "12: Anatomy of Assembly Program, writing code, debugging in GDB"
               preview: "KNrqGRKsHRA"
               type: "video"
               meta: 26:59
+              attachments: 0
+            - chapter: "13: Decomposing C to Assembly and the relation"
+              preview: ""
+              type: "video"
+              meta: 28:15
+              attachments: 0
+            - chapter: "14: Getting CPU from assembly to jump to C program"
+              preview: ""
+              type: "video"
+              meta: 18:01
               attachments: 0
       requirements:
         - A GitHub account. This is to follow the labs.
