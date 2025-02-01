@@ -3,7 +3,7 @@
     "short_name": "PJBrah",
     "icons": [
         {
-            "src": "/images/logo.svg",
+            "src": "/images/favicon.svg",
             "sizes": "1080x1080",
             "type": "image/svg"
         }
