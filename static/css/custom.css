@@ -1,5 +1,6 @@
 #brand .icon {
   width: 125px !important;
+  max-height: 150px;
 }
 
 #root {
@@ -18,7 +19,7 @@ figcaption {
 
 button {
   background-color: var(--theme-primary);
-  border: none;
+  border: solid 1px var(--btn-border);
   color: var(--fontcolor);
   padding: 12px 32px;
   text-decoration: none;
@@ -463,4 +464,14 @@ th, td {
 
 .view-preview {
   padding: 1% 10% 2% 10%;
+}
+
+.bottom-banner {
+  align-items: center;
+  /* display: flex; */
+  justify-content: center;
+}
+
+.copyright {
+  display: inline-block;
 }

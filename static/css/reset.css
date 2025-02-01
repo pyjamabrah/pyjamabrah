@@ -19,13 +19,13 @@ html {
      --bgcolor: #2a2a2a;
      --dimcolor: #828282;
      --fontcolor: #ddd;
-     --linkcolor: rgb(47, 182, 255);
-     --visitedcolor: #ff74dc;
+     --linkcolor: rgb(255, 56, 159);
+     --visitedcolor: #ff5050;
      --precolor: #fff;
-     --prebgcolor: #1c18ff;
+     --prebgcolor: #666666;
      --theme-primary: #ff0000;
      --linecolor: grey;
-     --btn-border:  none;
+     --btn-border: black;
   }
 }
 body {

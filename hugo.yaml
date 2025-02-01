@@ -2,7 +2,7 @@ baseURL: 'https://pyjamabrah.com/'
 languageCode: 'en-us'
 theme: smigle
 title: Pyjama Brah!
-description: "Peeling Abstractions - From AI down to Transistor!"
+description: "Secret Insights - From AI down to Transistor!"
 menu:
   main: # Change menu as needed
     - identifier: home
@@ -64,4 +64,4 @@ params:
       url: /shipping
     - name: Contact Us
       url: /contact
-  subtitle: "Peeling Abstractions - From AI down to Transistor!"
+  subtitle: "Secret Insights - From AI down to Transistor!"
