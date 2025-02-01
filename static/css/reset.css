@@ -11,6 +11,7 @@ html {
   --prebgcolor: #000;
   --theme-primary: #FFE15C;
   --linecolor: grey;
+  --btn-border:  black;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +25,7 @@ html {
      --prebgcolor: #1c18ff;
      --theme-primary: #ff0000;
      --linecolor: grey;
+     --btn-border:  none;
   }
 }
 body {

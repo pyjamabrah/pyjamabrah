@@ -272,6 +272,14 @@ iframe {
   display: flex;
 }
 
+.keyfeature-point {
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 5px;
+  display:flex;
+  word-wrap: break-word;
+}
+
 .card-collection {
   display: flex;
   flex-wrap: wrap;

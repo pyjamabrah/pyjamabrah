@@ -9,6 +9,14 @@
 
 <div class="product-body">
   <p>{{ .param.description }}</p>
+
+  {{ range .param.keyFeatures }}
+  <div class="keyfeature-point">
+    <i class="bi bi-check2 prod-content-summary-tick"></i>
+    <div> {{ . }} </div>
+  </div>
+  {{ end }}
+
   <div class="align-in-center">
     <a class="btn" href="{{ .param.link }}" target="_blank">
       <button><span class="bi bi-cart4"></span> Buy Now!</button>

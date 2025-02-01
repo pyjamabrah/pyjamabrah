@@ -9,14 +9,23 @@ categories: courses
 layout: products
 
 param:
-  product: "The C Language"
-  description: "A comprehensive course on C language that is focused on insights and use in industrial setting. You will start with mental models and end with the mastery of the C concepts in C."
+  product: "C Language"
+  description: "Focused on taking you from knowing nothing about the language to designing and reasoning about the course like professionals do!"
   image: "/products/c-language/c.png"
   link: "https://pyjamabrah.com/posts/abstractions/c.png"
+  keyFeatures:
+    - No background and familiarity assumed.
+    - 12 recorded Lessons.
+    - 13 Hours of Recorded Lectures.
+    - 25 Problem sets.
+    - 50 Quizzes to reinforce learning.
+    - Certificate on completing 95% course work.
+    - 24 downloadable resources.
+    - Taught by industry experts.
   bundle:
     - course: "C Language"
       subtitle: "Insights YOU should know but DON'T!!"
-      description: "Foundation course on C programming with a hands on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly about the code you right and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally make a case for the C language."
+      description: "A foundational course on C programming with a hands-on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally making a case for the C language."
       bestSeller: "true"
       rating: 1
       ratingCount: 1
@@ -26,10 +35,10 @@ param:
           designation: "Senior Embedded Engineer (L5), Google"
           contactLink: "https://www.linkedin.com/in/streetdogg/"
           photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
-          bio: "Electrical Engineer by Education, went on to pursuing masters in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as a Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
+          bio: "Electrical Engineer by Education, went on to pursue a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
       lastUpdated: "1/1/2025"
       language: "English"
-      lessons: 13
+      lessons: 12
       length: "3 Hours 52 mins"
       files: 2
       quizzes: 0
@@ -203,6 +212,10 @@ param:
           a: "The Experiments and Labs are based on the GitHub provided Codespaces virtual machine. Codespaces will enable a common work environment for all the learners and avoid the hassle of special setup."
         - q: "Why is a GitHub account needed?"
           a: "The Experiments and Labs are based on the GitHub provided Codespaces virtual machine. Codespaces will enable a common work environment for all the learners and avoid the hassle of special setup."
+        - q: "Can I change my email-id post purchase?"
+          a: "As much as we'd like to support that, your account will be linked to your email-id post purchase."
+        - q: "What name will be printed on the Certificate?"
+          a: "The name you use on the platform will be printed as is on the Certificate when it is generated."
 ---
 
 ## Why Learn C?
