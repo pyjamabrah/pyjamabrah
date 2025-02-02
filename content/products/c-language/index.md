@@ -37,7 +37,7 @@ param:
           contactLink: "https://www.linkedin.com/in/streetdogg/"
           photo: "https://pbs.twimg.com/profile_images/1884988463247978496/Y6HAdtXt_400x400.jpg"
           bio: "Electrical Engineer by Education, went on to pursue a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
-      lastUpdated: "31 Jan' 2025"
+      lastUpdated: "1 Feb' 2025"
       language: "English"
       lessons: 12
       length: "~4 hour 40 mins"
@@ -74,8 +74,20 @@ param:
         - Mixing Assembly and C and the need for it
         - Booting RISC-V CPU from scratch
         - Introduction to Linker Scripting
+        - Placement of variables, code in memory
         - Based on QEMU
         - Cross compiling and what it means
+        - Build deep intuition about how computers work under the hood
+        - Bottom-up approach
+        - Write efficient, system-level code by truly understanding how the machine executes your programs.
+        - memory management - Stack vs. Heap
+        - Dynamic memory allocation (malloc, calloc, realloc, free)
+        - Inline assembly for performance tuning
+        - Compiler optimizations (-O1, -O2, -O3, -Os, -Ofast)
+        - Standard C library
+        - Writing your own small C library like wrapper
+        - Working with Linux system calls
+        - Developing a simple C shell
       sections:
         - section: "C Language Tour"
           description: "The section focuses on the Roadmap, Mindset and the lense through which this course is to be pursued. We also dive into exploring a basic C program so you can learn to spot the patterns when exploring the code outside of the course. To further empower you, we will also look at the three work horse feature of this language."
@@ -279,6 +291,21 @@ param:
           review: "This is what I actually needed in life today.. thanks a tons.."
 
       compare:
+        - feature: "Cover basic syntax of the language?"
+          us: true
+          others: true
+        - feature: "A Bottom-Up Approach with the tinge of answering the `Whys`"
+          us: true
+          others: false
+        - feature: "Mixing C with Assembly"
+          us: true
+          others: false
+        - feature: "Real and applicable Case study and programming projects"
+          us: true
+          others: false
+        - feature: "Project-Based Learning - Develop and learn with a simple yet effective project like C shell, memory allocator, etc."
+          us: true
+          others: false
         - feature: "Teach with insights at the CPU level."
           us: true
           others: false
@@ -288,9 +315,6 @@ param:
         - feature: "Cover the toolchain utilities like compiler, assembler, linker and debug tools like GDB?"
           us: true
           others: false
-        - feature: "Cover basic syntax of the language?"
-          us: true
-          others: true
       faqs:
         - q: "Is this course good for beginners?"
           a: "Yes! The course is taught as if the learner has no idea about the C programming language."
@@ -301,12 +325,14 @@ param:
           a: "No! All you will need is an internet connection and the Chrome browser. The hands-on examples and lab work is based on GitHub codespaces platform."
         - q: "Why is a GitHub account needed?"
           a: "The Experiments and Labs are based on the GitHub provided Codespaces virtual machine. Codespaces will enable a common work environment for all the learners and avoid the hassle of special setup."
-        - q: "Why is a GitHub account needed?"
-          a: "The Experiments and Labs are based on the GitHub provided Codespaces virtual machine. Codespaces will enable a common work environment for all the learners and avoid the hassle of special setup."
         - q: "Can I change my email-id post purchase?"
           a: "As much as we'd like to support that, your account will be linked to your email-id post purchase."
         - q: "What name will be printed on the Certificate?"
           a: "The name you use on the platform will be printed as is on the Certificate when it is generated."
+        - q: "Can I follow the steps on my own PC?"
+          a: "Yes for the most part. Better yet would be if you have a linux machine."
+        - q: "How will the open-source contribution work?"
+          a: "We will host few github repos under pyjamabrah with the skeleton code and details asks (in comments) about the subsequent tasks. You can add the code (with your details in the comment if you'd want), create PR (pull-request) and submit. We will review and merge your PR into main."
 ---
 
 ## The Backstory of this Course
