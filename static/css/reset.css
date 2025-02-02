@@ -12,6 +12,7 @@ html {
   --theme-primary: #FFE15C;
   --linecolor: grey;
   --btn-border:  black;
+  --tick-green: green;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +27,7 @@ html {
      --theme-primary: #ff0000;
      --linecolor: grey;
      --btn-border: black;
+     --tick-green: rgb(107, 255, 58);
   }
 }
 body {

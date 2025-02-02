@@ -423,7 +423,7 @@ th, td {
 }
 
 .tick-green {
-  color: rgb(58, 255, 58);
+  color: var(--tick-green);
 }
 
 .tick-red {

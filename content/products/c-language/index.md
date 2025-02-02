@@ -15,6 +15,7 @@ param:
   link: "https://learn.pyjamabrah.com/learn/theclanguage"
   keyFeatures:
     - No background and familiarity assumed.
+    - From Scratch, no IDE used!
     - 14 recorded Lessons.
     - ~ 4.5 Hours of Recorded Lectures.
     - 2 Downloadable resource
@@ -30,10 +31,10 @@ param:
       ratingCount: 1
       studentsCount:
       creators:
-        - name: "Piyush Tulsidas Itankar"
+        - name: "Piyush Itankar"
           designation: "Senior Embedded Engineer (L5), Google"
           contactLink: "https://www.linkedin.com/in/streetdogg/"
-          photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
+          photo: "https://pbs.twimg.com/profile_images/1884988463247978496/Y6HAdtXt_400x400.jpg"
           bio: "Electrical Engineer by Education, went on to pursue a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
       lastUpdated: "31 Jan' 2025"
       language: "English"
@@ -269,7 +270,6 @@ param:
           rating:
           review: "This is what I actually needed in life today.. thanks a tons.."
 
-
       compare:
         - feature: "Teach with insights at the CPU level."
           us: true
@@ -301,20 +301,34 @@ param:
           a: "The name you use on the platform will be printed as is on the Certificate when it is generated."
 ---
 
-## Why Learn C?
+## The Backstory of this Course
 
-Like it or not - **C is the easiest language to learn!** The language has 32 keywords, all can be nicely grouped at a functional level. All you need to know is how these can be used together. That's it!
+Following sections go into the details of why this course was created and why it follows the flow it does. Spoiler alert - **Most engineers learn and use C the wrong way and this course attempts teach C the right way**.
 
-Most people just learn the language the wrong way.
+I personally use this language on a daily basis and have been for the past decade. Over time, I have learnt there are more C developers than meets the eye. The general public and students don't necessarily get to see it from where they are. I have worked on complex SoCs (System on Chip), tools and lower level software over the decade and had the opportunity to see the raw power of this language first hand!
 
-## Course Philosophy
+### Why I created this course?
 
-`No prior knowledge is assumed`!
+I have had the wonderful opportunity to host **several interns**, lead **recent college graduates**, mentor **early career professionals** and **interview close to 100 working professionals** from the industry for different lower level positions in my team.
 
-The design of this course is very deliberate and geared towards someone just starting off with the C language and interested in learning in by understanding how the language controls the CPU. It very smoothly takes you from a **Noob** to a **Pro**, and this should be evident if you watched all the preview videos.
+Over time, it dawned on me that although many used C on daily basis not everyone knew how to reason about their code at the System Level. For example, when I ask
 
-Most systems at the lower level as programmed using the C language (it can be Rust or C++ some times, but 99% of the time, it will be C).
+```
+What does the `volatile` keyword in C do?
+```
 
-![](0.png "Preview of the Roadmap discussion.")
+A common answer is
+```
+It tells the compiler not to optimize out a variable.
+```
 
-### Why not start with 'K&R C'?
+While the answer is correct, very rarely people can explain what the implications are! A good answer to the question is -
+
+```
+The variable is not cached in the CPU registers!
+```
+
+An answer at the CPU level hits very differently and confirms that the engineer has a very deep level of systems level understanding.
+
+This course is very carefully designed to teach and reinforce such system level understanding!
+
