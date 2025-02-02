@@ -28,8 +28,8 @@ param:
       subtitle: "Insights YOU should know but DON'T!!"
       description: "A foundational course on C programming with a hands-on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally making a case for the C language."
       bestSeller: "yes"
-      rating: 5
-      ratingCount: 3
+      rating: 4.8
+      ratingCount: 5
       studentsCount:
       creators:
         - name: "Piyush Itankar"
@@ -231,7 +231,7 @@ param:
           photo: "https://yt3.ggpht.com/ytc/AIdro_kgeb3tvIBGrdY-IdjHykSG-MSKpwcehWUAO3_O6TXPgadO46BAk4RkoG8qNgXDJBfHxg=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "31/Jan/2025"
-          rating:
+          rating: 4
           review: "I like your teaching method 🫡"
 
         - reviewer: "@soumyadipkar9451"
@@ -273,8 +273,8 @@ param:
           photo: "https://yt3.ggpht.com/Tus9ambPweMlf-GRcBnNjFG0exRlCo-w7btFq4bhhS1XdInSEpx_QKZgOHExfDqRmPcg-SqIhw=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "30/Jan/2025"
-          rating:
-          review: "Super amazing stuff 2.0❤‍🔥❤‍🔥"
+          rating: 5
+          review: "Really loved your new content, can't ask for more crazy stuff."
 
         - reviewer: "@shabeehabbas4737"
           photo: "https://yt3.ggpht.com/ytc/AIdro_kghj6IsyrE1N06BjvWWGHkFWkZx6Hv7zvTIEH4L9xL3Z2pxlwisykzJylXJN4sVl1laQ=s48-c-k-c0x00ffffff-no-rj"
