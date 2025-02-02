@@ -15,13 +15,12 @@ param:
   link: "https://learn.pyjamabrah.com/learn/theclanguage"
   keyFeatures:
     - No background and familiarity assumed.
-    - 12 recorded Lessons.
-    - 13 Hours of Recorded Lectures.
-    - 25 Problem sets.
-    - 50 Quizzes to reinforce learning.
+    - 14 recorded Lessons.
+    - ~ 4.5 Hours of Recorded Lectures.
+    - 2 Downloadable resource
     - Certificate on completing 95% course work.
-    - 24 downloadable resources.
     - Taught by industry experts.
+    - New content continuously added.
   bundle:
     - course: "The C Language"
       subtitle: "Insights YOU should know but DON'T!!"

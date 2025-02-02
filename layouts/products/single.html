@@ -6,6 +6,7 @@
         <div class="post-content">
           {{ if .Params.param.bundle }}
             {{ range .Params.param.bundle }}
+                <hr/>
                 <div class="course-name">
                   <h2 class="course-title">{{ .course }}</h2>
                   <div class="course-subtitle">{{ .subtitle }}</div>
@@ -18,6 +19,8 @@
                   {{ partial "products/requirements.html" . }}
                   {{ partial "products/audience.html" . }}
                   {{ partial "products/compare.html" . }}
+                  {{ partial "products/reviews.html" . }}
+                  {{ partial "products/certificate.html" . }}
                 </div>
             {{ end }}
           {{ end }}
@@ -29,9 +32,7 @@
           {{ if .Params.param.bundle }}
           {{ range .Params.param.bundle }}
               <div class="details-body">
-                {{ partial "products/certificate.html" . }}
                 {{ partial "products/instructors.html" . }}
-                {{ partial "products/reviews.html" . }}
                 {{ partial "products/faqs.html" . }}
               </div>
           {{ end }}
@@ -44,5 +45,10 @@
     </article>
     {{ partial "products/cta.html" . }}
   </main>
+  <script>
+    /* Hide the Navbar on Product Page */
+    const collection = document.getElementsByClassName("navbar");
+    collection[0].style.display = "none";
+  </script>
 {{ end }}
 
