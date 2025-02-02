@@ -9,10 +9,10 @@ categories: courses
 layout: products
 
 param:
-  product: "C Language"
-  description: "Focused on taking you from knowing nothing about the language to designing and reasoning about the course like professionals do!"
-  image: "/products/c-language/c.png"
-  link: "https://pyjamabrah.com/posts/abstractions/c.png"
+  product: ""
+  description: "Learn the C programming language from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
+  image: "/products/c-language/c-course.png"
+  link: "https://learn.pyjamabrah.com/learn/theclanguage"
   keyFeatures:
     - No background and familiarity assumed.
     - 12 recorded Lessons.
@@ -23,7 +23,7 @@ param:
     - 24 downloadable resources.
     - Taught by industry experts.
   bundle:
-    - course: "C Language"
+    - course: "The C Language"
       subtitle: "Insights YOU should know but DON'T!!"
       description: "A foundational course on C programming with a hands-on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally making a case for the C language."
       bestSeller: "true"
