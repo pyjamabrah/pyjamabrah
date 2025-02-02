@@ -28,7 +28,7 @@ param:
       description: "A foundational course on C programming with a hands-on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally making a case for the C language."
       bestSeller: "yes"
       rating: 5
-      ratingCount: 1
+      ratingCount: 3
       studentsCount:
       creators:
         - name: "Piyush Itankar"
@@ -58,8 +58,6 @@ param:
         - C programming from scratch
         - Data types, variables, declarations.
         - Bit-Wise operators
-        - Bit manipulation techniques using bit-wise operators and examples
-        - Bit extraction and working with memory mapped peripheral registers
         - Other operators of C (arithmetic, logical, relation, assignment )
         - The concept and idea of Functions in C
         - Pointers and casting
@@ -72,6 +70,11 @@ param:
         - const data, const pointer, cont volatile explanation with examples
         - Importance of const
         - Loops - for, while, do while
+        - Mixing Assembly and C and the need for it
+        - Booting RISC-V CPU from scratch
+        - Introduction to Linker Scripting
+        - Based on QEMU
+        - Cross compiling and what it means
       sections:
         - section: "C Language Tour"
           description: "The section focuses on the Roadmap, Mindset and the lense through which this course is to be pursued. We also dive into exploring a basic C program so you can learn to spot the patterns when exploring the code outside of the course. To further empower you, we will also look at the three work horse feature of this language."
@@ -163,6 +166,10 @@ param:
               type: "video"
               meta: 18:01
               attachments: 0
+        - section: "Work in Progress"
+          open: "open"
+          description: "This course is being actively developed at the moment. More sections/Lectures and exercises are regularly added. Sections prior to this are complete and available for learner to pursue..."
+          sectionDuration: ""
       requirements:
         - A GitHub account. This is to follow the labs.
         - An open and learning mindset.
@@ -218,7 +225,7 @@ param:
           photo: "https://yt3.ggpht.com/ytc/AIdro_nfY73MK2vFdOh4b68xvVqUPDnjeQxRGiRhVMKYZiaikQ=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "31/Jan/2025"
-          rating:
+          rating: 5
           review: "Enjoyed the session a lot sir! GDB Dashboard is truly amazing! 🔥"
 
         - reviewer: "@vimalathithand917"
@@ -267,7 +274,7 @@ param:
           photo: "https://yt3.ggpht.com/ytc/AIdro_kMlhmNrwHbb-na93Sx772XJk4WiX5iiD_6LQIu4jxoEbM=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "31/Jan/2025"
-          rating:
+          rating: 5
           review: "This is what I actually needed in life today.. thanks a tons.."
 
       compare:
