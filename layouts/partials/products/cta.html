@@ -1,7 +1,12 @@
-{{ with . }}
+{{ with .Params }}
   <div class="button-cta align-in-center">
-    <a class="btn" href="https://engineers.inpyjama.com/learn/c-ninja-book" target="_blank">
-      <button>Enroll Now!! <i class="bi bi-arrow-right"></i></button>
+    <a class="btn" href="{{ .param.link }}" target="_blank">
+      <button class="cta-button">Enroll Now!! <i class="bi bi-arrow-right"></i></button>
     </a>
+    {{ if .param.note }}
+    <p class="cta-note">
+      {{ .param.note }}
+    </p>
+    {{ end }}
   </div>
 {{ end }}

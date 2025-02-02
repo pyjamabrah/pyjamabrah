@@ -13,6 +13,7 @@ param:
   description: "Learn the C programming language from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
   image: "/products/c-language/c-course.png"
   link: "https://learn.pyjamabrah.com/learn/theclanguage"
+  note: "The course is work in progress. Content is added!"
   keyFeatures:
     - No background and familiarity assumed.
     - From Scratch, no IDE used!

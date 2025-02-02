@@ -445,6 +445,17 @@ th, td {
   border-top: solid var(--linecolor) 1px;
 }
 
+.cta-button {
+  width: 98%;
+}
+
+.cta-note {
+  margin: 0px;
+  color: grey;
+  font-size: smaller;
+  text-align: center;
+}
+
 /* Google Recaptcha */
 .google-recaptcha {
   margin-top: 10px;

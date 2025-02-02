@@ -19,9 +19,15 @@
 
   <div class="align-in-center">
     <a class="btn" href="{{ .param.link }}" target="_blank">
-      <button>Enroll Now!  <i class="bi bi-arrow-right"></i></button>
+      <button class="cta-button">Enroll Now!  <i class="bi bi-arrow-right"></i></button>
     </a>
   </div>
+
+  {{ if .param.note }}
+  <p class="cta-note">
+    {{ .param.note }}
+  </p>
+  {{ end }}
 </div>
 {{ end }}
 {{ end }}
