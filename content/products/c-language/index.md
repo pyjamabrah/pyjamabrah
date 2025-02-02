@@ -26,10 +26,10 @@ param:
     - course: "The C Language"
       subtitle: "Insights YOU should know but DON'T!!"
       description: "A foundational course on C programming with a hands-on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally making a case for the C language."
-      bestSeller: "true"
-      rating: 1
+      bestSeller: "yes"
+      rating: 5
       ratingCount: 1
-      studentsCount: 1
+      studentsCount:
       creators:
         - name: "Piyush Tulsidas Itankar"
           designation: "Senior Embedded Engineer (L5), Google"
@@ -178,25 +178,99 @@ param:
         - Systems Engineer seeking gain system level insights.
         - Those curious to learn the underlying details of Systems and how to program it using C.
         - Those seeking a job changing and preparing for interviews.
+      reviewSectionTitle: "Early praise from YouTube Subscribers"
+      reviewSectionDescription: "Because the course is brand new, we released some lectures on YouTube to get early feedback, and it has been a banger! You will not regret taking this course..."
       reviews:
-        - reviewer: "Pyjama Brah!"
-          photo: "https://avatars.githubusercontent.com/u/193006162?s=200&v=4"
+        - reviewer: "@techpartel9858"
+          photo: "https://yt3.ggpht.com/rC37PHOuyl8VqqsWdEyVNKdRKgDoPutmfn-MWlL4iAYgwdlPqrjHjCDbrXtKWuv4qgybu_gY=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
-          date: "2/1/2025"
-          rating: 4.9
-          review: "This course is hosted on our platform so as you can predict this is an awesome course. There are no second thoughts about it."
-        - reviewer: "Piyush Itankar"
-          photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
+          date: "2/Feb/2025"
+          rating:
+          review: "The flow of this course is Amazing. It covers a whole system overview of how your C code runs and how it's dumped in your hardware. Everything is excellent. Thank you, @piyush."
+        - reviewer: "@EEShyama"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_lEZ-lojSo_TMLmbjtJocEMwGBz5u_W63aMWrcQJOs=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
-          date: "2/1/2025"
-          rating: 4.9
-          review: "I am the creator of the course so obviously this has to be the best course on this topic on the planet. I should also specify that my review is heavily biased."
-        - reviewer: "Piyush Itankar"
-          photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
+          date: "2/Feb/2025"
+          rating:
+          review: "Loving these lectures!! Please keep them coming."
+        - reviewer: "@Simi-bc8sb"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_kyiEEZEs-Crzq8SJwJJ9aDaKqD04Ki4w4B0XhTr9o=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
-          date: "2/1/2025"
-          rating: 4.9
-          review: "I am the creator of the course so obviously this has to be the best course on this topic on the planet. I should also specify that my review is heavily biased."
+          date: "1/Feb/2025"
+          rating:
+          review: "Great content. I really appreciate. Thank you"
+
+        - reviewer: "@ElizabethGreene"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_lzSPNkz-qAuBGX37IqlrjwqU1aWC867oJ0TWJyIcw=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "31/Jan/2025"
+          rating: 5
+          review: "Was there any reason why you preferred the RISCV32i chip over an x86 chip in QEMU?  I appreciate the lesson in cross compiling too, but was curious why. Thanks for making these. 10/10"
+
+        - reviewer: "@RavindraBhandari-nf8vs"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_kgeb3tvIBGrdY-IdjHykSG-MSKpwcehWUAO3_O6TXPgadO46BAk4RkoG8qNgXDJBfHxg=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "31/Jan/2025"
+          rating:
+          review: "I like your teaching method 🫡"
+
+        - reviewer: "@soumyadipkar9451"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_nfY73MK2vFdOh4b68xvVqUPDnjeQxRGiRhVMKYZiaikQ=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "31/Jan/2025"
+          rating:
+          review: "Enjoyed the session a lot sir! GDB Dashboard is truly amazing! 🔥"
+
+        - reviewer: "@vimalathithand917"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_kgporA3By7tcfvxHINPDGILoCdkyi4KM7s64Zpcn_ikw=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "31/Jan/2025"
+          rating:
+          review: "Just what I was looking for ! I'm sure that this series is going to be a blast ! Please don't stop the series in the middle and thanks a lot !"
+
+        - reviewer: "@aadishm4793"
+          photo: "https://yt3.ggpht.com/SjiVNC30ZvLCyHEerGIbcy6Ye1GCERCPlhQ9A70aJiHm5_o5lphLZPKJotqp6DYXmW68uqONvw=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "30/Jan/2025"
+          rating:
+          review: "Great content!!"
+
+        - reviewer: "@Ujjaval___"
+          photo: "https://yt3.ggpht.com/qrBr5avCgdgeFJDSvuSRes99r73vZ1Px1eKpl8PqB1tw5MYZJmuw5XOsdmtDqytXPE_u8cVm2g=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "30/Jan/2025"
+          rating:
+          review: "AMAZING VIDEOS"
+
+        - reviewer: "@aadishm4793"
+          photo: "https://yt3.ggpht.com/SjiVNC30ZvLCyHEerGIbcy6Ye1GCERCPlhQ9A70aJiHm5_o5lphLZPKJotqp6DYXmW68uqONvw=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "30/Jan/2025"
+          rating:
+          review: "Awesome as all the videos 👍👍🔥"
+
+        - reviewer: "@Padmalayarawal"
+          photo: "https://yt3.ggpht.com/Tus9ambPweMlf-GRcBnNjFG0exRlCo-w7btFq4bhhS1XdInSEpx_QKZgOHExfDqRmPcg-SqIhw=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "30/Jan/2025"
+          rating:
+          review: "Super amazing stuff 2.0❤‍🔥❤‍🔥"
+
+        - reviewer: "@shabeehabbas4737"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_kghj6IsyrE1N06BjvWWGHkFWkZx6Hv7zvTIEH4L9xL3Z2pxlwisykzJylXJN4sVl1laQ=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "29/Jan/2025"
+          rating:
+          review: "Hello bro just saw the this video and I cant wait to start the course, the roadmap is unconventional which is why I think its the most awesome one, please dont stop uploading such great content ❤❤❤"
+
+        - reviewer: "@ankitrajbhar6045"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_kMlhmNrwHbb-na93Sx772XJk4WiX5iiD_6LQIu4jxoEbM=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "31/Jan/2025"
+          rating:
+          review: "This is what I actually needed in life today.. thanks a tons.."
+
+
       compare:
         - feature: "Teach with insights at the CPU level."
           us: true

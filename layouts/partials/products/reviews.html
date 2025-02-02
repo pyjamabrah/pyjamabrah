@@ -1,14 +1,28 @@
 {{ with . }}
 
-<h2>Course Reviews</h2>
+{{ if .reviewSectionTitle}}
+  <h2> {{.reviewSectionTitle}} </h2>
+{{ else }}
+  <h2>Course Reviews</h2>
+{{ end }}
+
 <div class="review-summary">
-  <span>{{ partial "products/render-stars.html" .rating }} course rating</span> .
-  <span>{{.ratingCount}} ratings</span>
+  {{ if .rating }}
+    <span>{{ partial "products/render-stars.html" .rating }} course rating</span>.
+  {{ end }}
+  {{ if .ratingCount }}
+    <span>{{.ratingCount}} ratings</span>
+  {{ end }}
 </div>
+
+{{ if .reviewSectionDescription}}
+  <p>
+    {{.reviewSectionDescription | markdownify}}
+  </p>
+{{ end }}
 
 <div class="card-collection">
 {{ range .reviews }}
-
   <div class="info-card">
     <div class="reviewer-meta">
       <img class="reviewer-photo" src="{{.photo}}">
@@ -16,7 +30,9 @@
 
       <div class="reviewer-data">
         <div class="reviewer-name"> {{ .reviewer }} </div>
-        {{ partial "products/render-stars.html" .rating }}
+        {{ if .rating }}
+          {{ partial "products/render-stars.html" .rating }}
+        {{ end }}
         <div class="review-date"> {{ .date }} </div>
       </div>
     </div>

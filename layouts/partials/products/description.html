@@ -4,12 +4,21 @@
   <p>
     {{ .description }}
   </p>
-
   <p>
-    <span class="produc-bestseller">{{ if .bestSeller }}Bestsellar{{ end }}</span>
+    {{ if .bestSeller }}
+      <span class="produc-bestseller">Bestsellar</span>
+    {{ end }}
+
+    {{ if .rating }}
     {{ partial "products/render-stars.html" .rating }}
-    ({{ .ratingCount }} ratings)
-    {{ .studentsCount }} students
+      {{ if .ratingCount }}
+        ({{ .ratingCount }} ratings)
+      {{ end }}
+    {{ end }}
+
+    {{ if .studentsCount }}
+      {{ .studentsCount }} students
+    {{ end }}
   </p>
 
   <p>
