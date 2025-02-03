@@ -26,7 +26,7 @@ param:
     - New content continuously added.
   bundle:
     - course: "The C Language"
-      subtitle: "From Scratch. Simple Explanation. Deep Insights!"
+      subtitle: "Learn it from Scratch. Simple Explanation. Deep Insights!"
       description: "A foundational course on C programming with a hands-on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally making a case for the C language."
       bestSeller: "yes"
       rating: 4.8
