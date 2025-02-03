@@ -3,7 +3,8 @@ title: "The C Language"
 date: "2025-01-08T17:48:22+05:30"
 tags:
   - bundle
-
+description: "Learn it from Scratch. Simple Explanation. Deep Insights!"
+thumbnail: "/products/c-language/c-course.png"
 categories: courses
 
 layout: products
