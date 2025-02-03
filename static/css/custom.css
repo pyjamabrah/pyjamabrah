@@ -482,3 +482,9 @@ th, td {
 .copyright {
   display: inline-block;
 }
+
+.menu-special {
+  border: solid black 1px;
+  padding: 4px;
+  background-color: var(--theme-primary);
+}

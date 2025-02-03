@@ -9,30 +9,27 @@ menu:
       name: Home
       url: /
       weight: 1
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: Courses
+      name: Courses
+      url: /products/c-language
       weight: 2
     - identifier: posts
       name: Posts
       url: /posts/
       weight: 3
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 4
-    - identifier: Courses
-      name: Courses
-      url: /products/c-language
-      weight: 5
     - identifier: rss
       name: RSS
       url: /index.xml
-      weight: 6
+      weight: 4
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5
     - identifier: Course Login
-      name: Login
+      pre: true
+      name: Course Login
       url: https://learn.pyjamabrah.com/learn/account/signin
-      weight: 7
+      weight: 6
 params:
   math: true
   abbrDateFmt: "Jan 2"

@@ -16,7 +16,11 @@
     {{ with .Site.Menus.main }}
       {{ range $index, $value := . }}
         {{ if $index }} | {{ end }}
-        <a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>
+        <a {{ if .Pre }} class="menu-special"{{ end }}
+           href="{{ .URL | relURL }}"
+           {{ if .Pre }} target="_blank" {{end}}>
+           <b>{{ .Name }}</b>
+        </a>
       {{ end }}
     {{ end }}
     <hr />
