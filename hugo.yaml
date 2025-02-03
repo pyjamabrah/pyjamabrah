@@ -30,7 +30,7 @@ params:
   math: true
   abbrDateFmt: "Jan 2"
   author: "Piyush Itankar"
-  brandIconFile: "/images/favicon.svg"
+  brandIconFile: "/images/brah.svg"
   thumbnail: "/opengraph.png"
   dateFmt: "2 Jan, 2006"
   customStylesheets: # Use to override theme styles, like logo size
