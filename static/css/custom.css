@@ -485,6 +485,6 @@ th, td {
 
 .menu-special {
   border: solid black 1px;
-  padding: 4px;
-  background-color: var(--theme-primary);
+  padding: 4px 8px 4px 8px;
+  background-color: var(--precolor);
 }
