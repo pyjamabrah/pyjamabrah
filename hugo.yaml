@@ -17,10 +17,6 @@ menu:
       name: Posts
       url: /posts/
       weight: 3
-    - identifier: rss
-      name: RSS
-      url: /index.xml
-      weight: 4
     - identifier: about
       name: About
       url: /about/
