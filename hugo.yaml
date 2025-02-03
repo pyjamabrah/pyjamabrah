@@ -21,14 +21,18 @@ menu:
       name: Categories
       url: /categories/
       weight: 4
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: Courses
+      name: Courses
+      url: /products/c-language
       weight: 5
     - identifier: rss
       name: RSS
       url: /index.xml
       weight: 6
+    - identifier: Course Login
+      name: Login
+      url: https://learn.pyjamabrah.com/learn/account/signin
+      weight: 7
 params:
   math: true
   abbrDateFmt: "Jan 2"
