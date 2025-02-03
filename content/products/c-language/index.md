@@ -12,8 +12,8 @@ param:
   product: ""
   description: "Learn the C programming language from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
   image: "/products/c-language/c-course.png"
-  link: "https://learn.pyjamabrah.com/learn/theclanguage"
-  note: "The course is work in progress. Content is added!"
+  link: "pl_Pr8kvIvnjrP29w"
+  note: "Claim the Discounted Prices while the course is being developed!"
   keyFeatures:
     - No background and familiarity assumed.
     - From Scratch, no IDE used!
@@ -25,12 +25,12 @@ param:
     - New content continuously added.
   bundle:
     - course: "The C Language"
-      subtitle: "Insights YOU should know but DON'T!!"
+      subtitle: "From Scratch. Simple Explanation. Deep Insights!"
       description: "A foundational course on C programming with a hands-on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally making a case for the C language."
       bestSeller: "yes"
       rating: 4.8
       ratingCount: 5
-      studentsCount:
+      studentsCount: 6
       creators:
         - name: "Piyush Itankar"
           designation: "Senior Embedded Engineer (L5), Google"

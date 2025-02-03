@@ -1,12 +1,15 @@
 {{ with .Params }}
   <div class="button-cta align-in-center">
-    <a class="btn" href="{{ .param.link }}" target="_blank">
-      <button class="cta-button">Enroll Now!! <i class="bi bi-arrow-right"></i></button>
-    </a>
+        <form>
+          <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="{{.param.link}}" async> </script>
+        </form>
     {{ if .param.note }}
     <p class="cta-note">
       {{ .param.note }}
     </p>
     {{ end }}
   </div>
+
+
 {{ end }}
+

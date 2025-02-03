@@ -18,9 +18,11 @@
   {{ end }}
 
   <div class="align-in-center">
-    <a class="btn" href="{{ .param.link }}" target="_blank">
-      <button class="cta-button">Enroll Now!  <i class="bi bi-arrow-right"></i></button>
-    </a>
+    {{/*  Handle this more politely  */}}
+    <p></p>
+    <form>
+      <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="{{.param.link}}" async> </script>
+    </form>
   </div>
 
   {{ if .param.note }}
