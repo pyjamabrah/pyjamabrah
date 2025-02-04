@@ -16,14 +16,7 @@
     <div> {{ . }} </div>
   </div>
   {{ end }}
-
   {{ partial "products/paybutton.html" .param.link}}
-
-  {{ if .param.note }}
-  <p class="cta-note">
-    {{ .param.note }}
-  </p>
-  {{ end }}
 </div>
 {{ end }}
 {{ end }}

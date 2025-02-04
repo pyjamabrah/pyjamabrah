@@ -493,4 +493,15 @@ th, td {
   border: black solid 1px;
   background: #FFE15C;
   margin: 5px 0px 5px 0px;
+  width: 90%;
+}
+
+form > span > a {
+  position: static !important;
+  font-style:normal !important;
+  font-family: monospace !important;
+}
+
+form > span > a > svg {
+  display: none !important;
 }

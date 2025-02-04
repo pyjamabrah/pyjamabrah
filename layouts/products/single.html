@@ -41,9 +41,9 @@
         <div class="sidebar-product">
           {{ partial "product.html" . }}
         </div>
+        {{ partial "products/paybutton.html" .Params.param.link}}
       </div>
     </article>
-    {{ partial "products/cta.html" . }}
   </main>
   <script>
     /* Hide the Navbar on Product Page */
