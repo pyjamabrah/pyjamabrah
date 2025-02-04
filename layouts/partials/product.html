@@ -17,13 +17,7 @@
   </div>
   {{ end }}
 
-  <div class="align-in-center">
-    {{/*  Handle this more politely  */}}
-    <p></p>
-    <form>
-      <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="{{.param.link}}" async> </script>
-    </form>
-  </div>
+  {{ partial "products/paybutton.html" .param.link}}
 
   {{ if .param.note }}
   <p class="cta-note">

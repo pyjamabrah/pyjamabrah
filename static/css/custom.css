@@ -488,3 +488,9 @@ th, td {
   padding: 4px 8px 4px 8px;
   background-color: var(--precolor);
 }
+
+.razorpay-payment-button {
+  border: black solid 1px;
+  background: #FFE15C;
+  margin: 5px 0px 5px 0px;
+}
