@@ -108,6 +108,7 @@ summary {
   text-align: center;
   padding: 10px;
   border-bottom: solid var(--linecolor) 1px;
+  z-index: 1000;
 }
 
 .details-body {
