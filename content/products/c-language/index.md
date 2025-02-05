@@ -31,7 +31,7 @@ param:
       bestSeller: "yes"
       rating: 4.8
       ratingCount: 5
-      studentsCount: 6
+      studentsCount: 21
       creators:
         - name: "Piyush Itankar"
           designation: "Senior Embedded Engineer (L5), Google"
@@ -41,7 +41,7 @@ param:
       lastUpdated: "5 Feb' 2025"
       language: "English"
       lessons: 12
-      length: "~4 hour 40 mins"
+      length: "~4 hour 51 mins"
       files: 2
       quizzes: 0
       certificate: "/products/c-language/certificate.png"
@@ -179,6 +179,31 @@ param:
               preview: ""
               type: "video"
               meta: 18:01
+              attachments: 0
+        - section: "C Keywords"
+          open: ""
+          description: "In this section you will spend time internalizing each of the 32 keywords from the C Language and understand the assembly and system level implications."
+          sectionDuration: "31 min"
+          chapters:
+            - chapter: "15: Introducing the C Keywords"
+              preview: ""
+              type: "video"
+              meta: 12:40
+              attachments: 0
+            - chapter: "16: Data types, Variables and Integers"
+              preview: ""
+              type: "video"
+              meta: 12:47
+              attachments: 0
+            - chapter: "17: Data types - float and double"
+              preview: ""
+              type: "video"
+              meta: 05:58
+              attachments: 0
+            - chapter: "Being recorded..."
+              preview: ""
+              type: "video"
+              meta:
               attachments: 0
         - section: "Work in Progress"
           open: "open"
