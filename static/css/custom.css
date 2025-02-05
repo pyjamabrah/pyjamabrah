@@ -506,3 +506,8 @@ form > span > a {
 form > span > a > svg {
   display: none !important;
 }
+
+.video-player {
+  border: solid black 1px;
+  padding: 5px;
+}

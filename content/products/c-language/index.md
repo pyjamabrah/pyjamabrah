@@ -16,13 +16,13 @@ param:
   link: "pl_Pr8kvIvnjrP29w"
   note: "Claim the Discounted Prices while the course is being developed!"
   keyFeatures:
-    - No background and familiarity assumed.
+    - "**No background** and **no familiarity** assumed."
     - From Scratch, no IDE used!
-    - 14 recorded Lessons.
-    - ~ 4.5 Hours of Recorded Lectures.
-    - 2 Downloadable resource
-    - Certificate on completing 95% course work.
-    - Taught by industry experts.
+    - "**17** recorded Lessons."
+    - "**~ 5 hrs 10 mins** of Recorded Lectures."
+    - "**2** Downloadable resource"
+    - Earn a certificate.
+    - Taught by industry expert.
     - New content continuously added.
   bundle:
     - course: "The C Language"
