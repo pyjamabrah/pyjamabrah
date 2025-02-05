@@ -38,7 +38,7 @@ param:
           contactLink: "https://www.linkedin.com/in/streetdogg/"
           photo: "https://pbs.twimg.com/profile_images/1884988463247978496/Y6HAdtXt_400x400.jpg"
           bio: "Electrical Engineer by Education, went on to pursue a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
-      lastUpdated: "1 Feb' 2025"
+      lastUpdated: "5 Feb' 2025"
       language: "English"
       lessons: 12
       length: "~4 hour 40 mins"
