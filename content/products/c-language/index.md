@@ -40,8 +40,8 @@ param:
           bio: "Electrical Engineer by Education, went on to pursue a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
       lastUpdated: "5 Feb' 2025"
       language: "English"
-      lessons: 12
-      length: "~4 hour 51 mins"
+      lessons: 17
+      length: "~5 hour 9 mins"
       files: 2
       quizzes: 0
       certificate: "/products/c-language/certificate.png"
@@ -342,6 +342,9 @@ param:
           us: true
           others: false
       faqs:
+        - q: "What is the difference between this course (paid) and the videos on YouTube?"
+          a: "Only few initial videos are put on YouTube. The Full course has many more videos and is a paid offering. Learners will also have access to the notes, source code files and other resources."
+          open: "open"
         - q: "Is this course good for beginners?"
           a: "Yes! The course is taught as if the learner has no idea about the C programming language."
           open: "open"
@@ -359,6 +362,8 @@ param:
           a: "Yes for the most part. Better yet would be if you have a linux machine."
         - q: "How will the open-source contribution work?"
           a: "We will host few github repos under pyjamabrah with the skeleton code and details asks (in comments) about the subsequent tasks. You can add the code (with your details in the comment if you'd want), create PR (pull-request) and submit. We will review and merge your PR into main."
+        - q: "Will this course be added to `Firmware Engineer's Arsenal`?"
+          a: "No! This is a separate offering and unrelated to my previous work at inpyjama.com. pyjamabrah is exclusively run by me and independent of continuous collaboration with my team."
 ---
 
 ## The Backstory of this Course
