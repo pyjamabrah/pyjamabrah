@@ -12,7 +12,7 @@ layout: products
 param:
   product: ""
   description: "Learn the C programming language from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
-  image: "/products/c-language/c-course.png"
+  image: "/products/c-language/course.gif"
   link: "pl_Pr8kvIvnjrP29w"
   note: "Claim the Discounted Prices while the course is being developed!"
   keyFeatures:
@@ -372,6 +372,8 @@ Following sections go into the details of why this course was created and why it
 
 I personally use this language on a daily basis and have been for the past decade. Over time, I have learnt there are more C developers than meets the eye. The general public and students don't necessarily get to see it from where they are. I have worked on complex SoCs (System on Chip), tools and lower level software over the decade and had the opportunity to see the raw power of this language first hand!
 
+![](/products/c-language/course.gif "Screenshots from the lectures")
+
 ### Why I created this course?
 
 I have had the wonderful opportunity to host **several interns**, lead **recent college graduates**, mentor **early career professionals** and **interview close to 100 working professionals** from the industry for different lower level positions in my team.
@@ -396,4 +398,3 @@ The variable is not cached in the CPU registers!
 An answer at the CPU level hits very differently and confirms that the engineer has a very deep level of systems level understanding.
 
 This course is very carefully designed to teach and reinforce such system level understanding!
-
