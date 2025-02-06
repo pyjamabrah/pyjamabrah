@@ -33,21 +33,15 @@
       <!-- End of Open Graph -->
 
       <!-- Start of Twitter -->
-      {{ if .Site.Params.twitter_card_whitelisted }}
-          {{ if .Params.twitter_summary }}
-      <meta property="twitter:card" content="{{ .Params.twitter_summary }}">
-          {{ else if .Description }}
-      <meta property="twitter:card" content="{{ .Description }}">
-          {{ else }}
-      <meta property="twitter:card" content="{{ .Title }}">
-          {{ end }}
-      {{ end }}
-      <meta property="twitter:description" content="{{ .Description }}">
-      <meta property="twitter:title" content="{{ .Title }}">
-      {{ if .Params.thumbnail }}
-      <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
-      {{ end }}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@pyjamabrah" />
+      <meta name="twitter:title" content="{{ .Title }}" />
+      <meta name="twitter:description" content="{{ .Description }}" />
+      <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" />
       <!-- End of Twitter -->
+
+
+
 
   {{ if (eq .Title .Site.Title) }}
     {{ with $title := .Title }}

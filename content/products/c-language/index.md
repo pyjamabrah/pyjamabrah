@@ -18,8 +18,8 @@ param:
   keyFeatures:
     - "**No background** and **no familiarity** assumed."
     - From Scratch, no IDE used!
-    - "**17** recorded Lessons."
-    - "**~ 5 hrs 10 mins** of Recorded Lectures."
+    - "**19** recorded Lessons."
+    - "**~ 6 hrs 16 mins** of Recording."
     - "**2** Downloadable resource"
     - Earn a certificate.
     - Taught by industry expert.
@@ -31,17 +31,17 @@ param:
       bestSeller: "yes"
       rating: 4.8
       ratingCount: 5
-      studentsCount: 21
+      studentsCount: 37
       creators:
         - name: "Piyush Itankar"
-          designation: "Senior Embedded Engineer (L5), Google"
+          designation: "Embedded Engineer (L5), Google"
           contactLink: "https://www.linkedin.com/in/streetdogg/"
           photo: "https://pbs.twimg.com/profile_images/1884988463247978496/Y6HAdtXt_400x400.jpg"
           bio: "Electrical Engineer by Education, went on to pursue a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
       lastUpdated: "5 Feb' 2025"
       language: "English"
-      lessons: 17
-      length: "~5 hour 9 mins"
+      lessons: 19
+      length: "~ 6 hr 16 mins"
       files: 2
       quizzes: 0
       certificate: "/products/c-language/certificate.png"
@@ -183,7 +183,7 @@ param:
         - section: "C Keywords"
           open: ""
           description: "In this section you will spend time internalizing each of the 32 keywords from the C Language and understand the assembly and system level implications."
-          sectionDuration: "31 min"
+          sectionDuration: "1 hr 20 min"
           chapters:
             - chapter: "15: Introducing the C Keywords"
               preview: ""
@@ -200,6 +200,17 @@ param:
               type: "video"
               meta: 05:58
               attachments: 0
+            - chapter: "18: Exploring sizes of data types and location in memory "
+              preview: ""
+              type: "video"
+              meta: 37:11
+              attachments: 0
+            - chapter: "19: how integers are stored - 2s complement"
+              preview: ""
+              type: "video"
+              meta: 19:36
+              attachments: 0
+
             - chapter: "Being recorded..."
               preview: ""
               type: "video"
