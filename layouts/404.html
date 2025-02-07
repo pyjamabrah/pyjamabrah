@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <section class="section blog-single py-5">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <h1>404 Not Found</h1>
+        <p>The page you requested cannot be found.</p>
+        <p>
+          <a href="{{ .Site.Home.RelPermalink }}">
+            Return to the home page
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+{{ end }}
+
+<script>
+  const redirects = {
+    "https://pyjamabrah.com/c":"https://pyjamabrah.com/products/c-language/",
+    "https://pyjamabrah.com/learn":"https://learn.pyjamabrah.com/learn/account/signin",
+  };
+
+  function printCurrentPageUrl() {
+    const currentUrl = window.location.href;
+    console.log("currentUrl: " + currentUrl);
+
+    if (redirects[currentUrl] != null) {
+      console.log("Redirecting to: " + redirects[currentUrl]);
+      window.open(redirects[currentUrl], "_self");
+    } else {
+      window.open("https://pyjamabrah.com", "_self");
+    }
+  }
+
+  // Call the function when the page loads
+  window.onload = printCurrentPageUrl;
+</script>
