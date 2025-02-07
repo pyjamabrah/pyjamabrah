@@ -475,9 +475,11 @@ th, td {
 }
 
 .bottom-banner {
-  align-items: center;
+  /* align-items: center; */
   /* display: flex; */
-  justify-content: center;
+  /* justify-content: center; */
+  text-align: center;
+  font-size: small;
 }
 
 .copyright {

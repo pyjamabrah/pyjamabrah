@@ -1,27 +1,26 @@
 <footer>
   <hr />
   <div class="bottom-banner">
+    {{ if .Site.Params.social }}
+    <div id="social">
+      {{ range $i, $e := .Site.Params.social }}
+        <a href="{{ .url }}" target="_blank"> <i class="bi bi-{{ .name }}"></i></a>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ if .Site.Params.legal }}
+    <div id="social">
+      {{ range $i, $e := .Site.Params.legal }}
+        {{ if $i }} | {{ end }}
+        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
     <div class="copyright">
       Copyright © {{ now.Format "2006"}}
       <a href="{{ .Site.BaseURL }}"><strong>{{ default "Blog Author" .Site.Params.Author }}</strong></a>.
     </div>
 
-    {{ if .Site.Params.social }}
-  <div id="social">
-    {{ range $i, $e := .Site.Params.social }}
-      <a href="{{ .url }}" target="_blank"> <i class="bi bi-{{ .name }}"></i></a>
-    {{ end }}
-  </div>
-  {{ end }}
-
-  {{ if .Site.Params.legal }}
-  <div id="social">
-    {{ range $i, $e := .Site.Params.legal }}
-      {{ if $i }} | {{ end }}
-      <a href="{{ .url }}" target="_blank">{{ .name }}</a>
-    {{ end }}
-  </div>
-  {{ end }}
   <span class="builtWith">
     Built with
     <a href="http://www.gohugo.io/">Hugo</a>,
