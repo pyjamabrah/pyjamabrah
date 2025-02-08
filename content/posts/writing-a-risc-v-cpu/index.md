@@ -1,7 +1,6 @@
 +++
 date  = "2025-01-04T11:55:09+05:30"
 title = 'Writing a RISC-V CPU!'
-
 tags = [
     "cpu", "risc-v"
 ]
@@ -11,7 +10,7 @@ categories = [
 ]
 
 series = ["risc-v"]
-images = ["cover.jpeg"]
+thumbnail = "/posts/writing-a-risc-v-cpu/cover.jpeg"
 +++
 
 ![](/posts/writing-a-risc-v-cpu/cover.jpeg "Harris & Harris")

@@ -11,7 +11,7 @@ categories = [
 ]
 
 series = ["basics"]
-images = ["c.png"]
+thumbnail = "/posts/abstractions/c.png"
 
 +++
 

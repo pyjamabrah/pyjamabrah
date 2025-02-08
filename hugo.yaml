@@ -2,7 +2,6 @@ baseURL: 'https://pyjamabrah.com/'
 languageCode: 'en-us'
 theme: smigle
 title: Pyjama Brah!
-description: "Secret Insights - From AI down to Transistor!"
 menu:
   main: # Change menu as needed
     - identifier: home
@@ -27,11 +26,13 @@ menu:
       url: https://learn.pyjamabrah.com/learn/account/signin
       weight: 6
 params:
+  subtitle: "Secret Insights - From AI down to Transistor!"
+  description: "Looking for and exposing the insights - from AI down to the Transistor!"
+  thumbnail: "/opengraph.png"
   math: true
   abbrDateFmt: "Jan 2"
   author: "Piyush Itankar"
   brandIconFile: "/images/brah.svg"
-  thumbnail: "/opengraph.png"
   dateFmt: "2 Jan, 2006"
   customStylesheets: # Use to override theme styles, like logo size
    - "css/custom.css"
@@ -61,4 +62,3 @@ params:
       url: /shipping
     - name: Contact Us
       url: /contact
-  subtitle: "Secret Insights - From AI down to Transistor!"
