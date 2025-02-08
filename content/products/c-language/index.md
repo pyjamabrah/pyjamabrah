@@ -387,15 +387,15 @@ param:
           a: "No! This is a separate offering and unrelated to my previous work at inpyjama.com. pyjamabrah is exclusively run by me and independent of continuous collaboration with my team."
 ---
 
-## The Backstory of this Course
+# The Design and Deliberation
 
-Following sections go into the details of why this course was created and why it follows the flow it does. Spoiler alert - **Most engineers learn and use C the wrong way and this course attempts teach C the right way**.
+There are many courses on the internet. I assure nothing comes close to this! C Language has been my daily driver at work for the past decade, and unlike the kernel developers, I used this language to program CPUs from scratch. This means, I have used the C language in its most RAW form - without any standard libraries. By the end of this course you will have first hand experience of that RAW power and will be able to use this language like a seasoned professional.
 
-I personally use this language on a daily basis and have been for the past decade. Over time, I have learnt there are more C developers than meets the eye. The general public and students don't necessarily get to see it from where they are. I have worked on complex SoCs (System on Chip), tools and lower level software over the decade and had the opportunity to see the raw power of this language first hand!
-
-![](/products/c-language/course.gif "Screenshots from the lectures")
+Over time, I have learnt that there are more C developers than meets the eye. The general public and students don't necessarily get to see it from where they are.
 
 ### Why I created this course?
+
+I have had an interesting observations on repeat over the years - **Most engineers learn and use C the wrong way and this course attempts teach C the right way**. This course is a way to correct that. There is a way to look at the world using C, this course is an attempt to teach that skill.
 
 I have had the wonderful opportunity to host **several interns**, lead **recent college graduates**, mentor **early career professionals** and **interview close to 100 working professionals** from the industry for different lower level positions in my team.
 
@@ -419,3 +419,41 @@ The variable is not cached in the CPU registers!
 An answer at the CPU level hits very differently and confirms that the engineer has a very deep level of systems level understanding.
 
 This course is very carefully designed to teach and reinforce such system level understanding!
+
+# Learning Portal
+
+The course is structured into Sections which have Chapters, Quizzes, Coding Challenges and Articles within them. Chapters also have a nice description to orient the learner as to what to expect, the Quizzes help reinforce the learnings from the Lectures.
+
+![](portal.png "A Clean interface and neatly sectioned topics")
+
+For the Lectures, you have the option to adjust the playback speed from `x0.25` to `x2` depending on what works best for you. The Code I write and explain is also shared as attachments.
+
+# Lectures
+
+I like the old school way of `chalk-and-board` when it comes to explaining the fundamental concepts. Doodles and Scribbling help drive the point home.
+
+![](/products/c-language/course.gif "Screenshots from the lectures")
+
+The lectures are more of us both sitting together and me explaining you on the paper how things work! I scribble on the screen, digital whiteboard and on the Code on the screen - This (trust me), I believe helps keep your focus on exactly the concept I want you to internalize.
+
+The other thing that I use to ensure you don't struggle with the vocabulary of the language is - **Repeat critical things on repeat throughout the Course!**
+
+### Coding Challenges and Reviews
+
+After every important concept there is a coding test, where you fix a given code. Not only this ensures that you have internalized the concepts but also trains you to judge someone else's code (in this case mine). Code reviews at work and when contributing to Open-Source code is an important thing.
+
+![](codingproblems.png "The course is scattered with hands-on coding challenges which reinforce the concepts.")
+
+The code environment on the platform is set to enforce a delay between every run to ensure you get into the habit of thinking before acting. Once you have fixed the code, the platform will run checks on it and rate you based on the outcome.
+
+# Quizzes and Reports
+
+Quizzes are deliberately based on the content from the lectures. They will test you and force you to very carefully follow each word in the Lectures. These are a way to reinforce the vocabulary, concept and language used and delivered in the Lectures.
+
+![](report.png "A sample quiz report")
+
+As above, post every quiz a detailed report is generated with a personalized feedback on how well you have done and what you should do or focus on next to master this language.
+
+# Interview Preparation and Readiness
+
+A side effect of the way the course is structured and delivered is - You will be interview ready at the end of the course. You will have the vocabulary, visualization and a huge pool of facts that will naturally enable you to have a productive technical talk with an interviewer.

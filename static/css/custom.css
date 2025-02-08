@@ -239,8 +239,8 @@ iframe {
 .requirements-list {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
-  margin: 0px 0px 20px 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .prod-what-u-learn-tick {
@@ -510,6 +510,10 @@ form > span > a > svg {
 }
 
 .video-player {
-  border: solid black 1px;
+  border: solid var(--linecolor) 1px;
   padding: 5px;
+}
+
+figure > img {
+  border: solid var(--linecolor) 1px;
 }
