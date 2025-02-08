@@ -514,6 +514,17 @@ form > span > a > svg {
   padding: 5px;
 }
 
+figure {
+  margin: 0px 1px 0px 1px;
+}
 figure > img {
-  border: solid var(--linecolor) 1px;
+  outline: solid var(--linecolor) 1px;
+}
+
+blockquote {
+  border-left:rgb(175, 175, 175) solid 5px;
+  margin: 0px;
+  padding: 2px 0px 2px 5px;
+  font-style: italic;
+  background-image: linear-gradient(to right, rgba(200, 200, 200, 0.283) , rgba(255, 255, 255, 0));
 }

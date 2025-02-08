@@ -121,7 +121,7 @@ param:
               meta: 08:04
               attachments: ""
             - chapter: "04: Example of the RAW power - Functions, Struct and Pointers"
-              preview: "1-GXQFRaHZc"
+              preview: ""
               type: "video"
               meta: 19:50
               attachments: 2
@@ -131,7 +131,7 @@ param:
           sectionDuration: "44 min 11 Sec"
           chapters:
             - chapter: "05: Mental Model of the System"
-              preview: "ZNgtPodbrxY"
+              preview: ""
               type: "video"
               meta: 16:43
               attachments: 0
@@ -176,7 +176,7 @@ param:
           sectionDuration: "1 hr 13 min"
           chapters:
             - chapter: "12: Anatomy of Assembly Program, writing code, debugging in GDB"
-              preview: "KNrqGRKsHRA"
+              preview: ""
               type: "video"
               meta: 26:59
               attachments: 0
@@ -401,20 +401,18 @@ I have had the wonderful opportunity to host **several interns**, lead **recent 
 
 Over time, it dawned on me that although many used C on daily basis not everyone knew how to reason about their code at the System Level. For example, when I ask
 
-```
-What does the `volatile` keyword in C do?
-```
+
+> What does the `volatile` keyword in C do?
+
 
 A common answer is
-```
-It tells the compiler not to optimize out a variable.
-```
+
+> It tells the compiler not to optimize out a variable.
+
 
 While the answer is correct, very rarely people can explain what the implications are! A good answer to the question is -
 
-```
-The variable is not cached in the CPU registers!
-```
+> The variable is not cached in the CPU registers!
 
 An answer at the CPU level hits very differently and confirms that the engineer has a very deep level of systems level understanding.
 

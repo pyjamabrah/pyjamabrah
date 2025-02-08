@@ -19,13 +19,12 @@
                   {{ partial "products/audience.html" . }}
                   {{ partial "products/compare.html" . }}
                   {{ partial "products/sections-list.html" . }}
+                  {{ partial "products/preview.html" . }}
                 </div>
             {{ end }}
           {{ end }}
           {{ if .Content}}
-            <hr>
             {{ .Content }}
-            <hr>
           {{ end }}
           {{ if .Params.param.bundle }}
           {{ range .Params.param.bundle }}
