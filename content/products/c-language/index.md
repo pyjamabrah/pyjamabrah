@@ -126,7 +126,7 @@ param:
               meta: 19:50
               attachments: 2
         - section: "Mental Models to Brain tattoo"
-          open: ""
+          open: "open"
           description: "In this section we will discuss the mental models that you can use to reason about the programs. In an attempt to doing this, we will explore the models of systems from 1970s. System composition and the CPU, Memory and Interactions with environment. This sets the foundation that will enable you to exactly predict the system behavior as a result of the C program that you write."
           sectionDuration: "44 min 11 Sec"
           chapters:
@@ -146,7 +146,7 @@ param:
               meta: 15:47
               attachments: 0
         - section: "From text to 0s and 1s"
-          open: ""
+          open: "open"
           description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
           sectionDuration: "1 hr 36 min"
           chapters:
@@ -171,7 +171,7 @@ param:
               meta: 26:43
               attachments: 0
         - section: "Dwelling in the World of Assembly"
-          open: ""
+          open: "open"
           description: "Understanding what the system does as a result of the C program becomes very simple once we know how the C statements may be translated to the assembly code. We will thus spend time mastering the structure of the Assembly programs and the instructions available to us."
           sectionDuration: "1 hr 13 min"
           chapters:
@@ -191,7 +191,7 @@ param:
               meta: 18:01
               attachments: 0
         - section: "C Keywords"
-          open: ""
+          open: "open"
           description: "In this section you will spend time internalizing each of the 32 keywords from the C Language and understand the assembly and system level implications."
           sectionDuration: "1 hr 20 min"
           chapters:
@@ -436,7 +436,23 @@ The lectures are more of us both sitting together and me explaining you on the p
 
 The other thing that I use to ensure you don't struggle with the vocabulary of the language is - **Repeat critical things on repeat throughout the Course!**
 
-### Coding Challenges and Reviews
+# Hands on real world Skills
+
+The course is based on `GitHub codespaces`, which means you will not need any special machine, just access to the internet and chrome browser. We set up the working environment on a Linux powered Cloud Virtual machine available to all GitHub users.
+
+![](c-asm.png "We learn system level interaction by decomposing C to ASM.")
+
+We will install all the toolchain and utilities required in `codespaces`, you personal machine stays untouched. Of course, if you want to setup everything on your machine there are steps for that too!
+
+# The RISC-V ISA and Debugging
+
+I have based the Course on the RISC-V Instruction set Architecture. This architecture has few instructions and helps us focus on learning and not be lost in the detailed nuances of the instructions. Further, there is a huge community out there, support and documentation is available easily.
+
+![](gdb.png "We run the code")
+
+We learn by converting the C code to Assembly and reasoning about what the system will do as a result. To be able to look into the system, we will use `gdb`.
+
+# Coding Challenges and Reviews
 
 After every important concept there is a coding test, where you fix a given code. Not only this ensures that you have internalized the concepts but also trains you to judge someone else's code (in this case mine). Code reviews at work and when contributing to Open-Source code is an important thing.
 
@@ -450,7 +466,7 @@ Quizzes are deliberately based on the content from the lectures. They will test 
 
 ![](report.png "A sample quiz report")
 
-As above, post every quiz a detailed report is generated with a personalized feedback on how well you have done and what you should do or focus on next to master this language.
+As above, after every quiz, a detailed report is generated with a personalized feedback on how well you have done and what you should do or focus on next to master this language.
 
 # Interview Preparation and Readiness
 
