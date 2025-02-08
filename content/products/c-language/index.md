@@ -43,7 +43,7 @@ param:
       lessons: 19
       length: "~ 6 hr 16 mins"
       files: 2
-      quizzes: 0
+      quizzes: 1
       certificate: "/products/c-language/certificate.png"
       validity: 365 days
       learning:
@@ -104,6 +104,16 @@ param:
               preview: ""
               type: "video"
               meta: 30:02
+              attachments: ""
+            - chapter: "Sandbox environment and basic C program."
+              preview: ""
+              type: "quiz"
+              meta: "9"
+              attachments: ""
+            - chapter: "Hands on: Fix the Code."
+              preview: ""
+              type: "code"
+              meta: ""
               attachments: ""
             - chapter: "03: Keep an Eye on Functions, Pointers and Structs"
               preview: ""
