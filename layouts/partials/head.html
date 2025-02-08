@@ -32,16 +32,34 @@
       {{ end }}
       <!-- End of Open Graph -->
 
+      <meta name="theme-color" content="rgba(255, 255, 255, 0.98)">
+      <meta property="og:site_name" content="{{ .Site.Title }}">
+      <meta property="og:url" content="{{ .Permalink }}">
+      <meta property="og:title" content="{{ .Title }}">
+      <meta property="og:description" content="{{ .Description }}">
+      <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+      <meta property="og:image:width" content="426">
+      <meta property="og:image:height" content="240">
+      <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+      <meta property="og:image:width" content="854">
+      <meta property="og:image:height" content="480">
+      <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+      <meta property="og:image:width" content="1280">
+      <meta property="og:image:height" content="720">
+      <meta property="og:type" content="website">
+
       <!-- Start of Twitter -->
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@pyjamabrah" />
-      <meta name="twitter:title" content="{{ .Title }}" />
-      <meta name="twitter:description" content="{{ .Description }}" />
-      <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" />
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@pyjamabrah">
+      <meta name="twitter:url" content="{{ .Permalink }}">
+      <meta name="twitter:title" content="{{ .Title }}">
+      <meta name="twitter:description" content="{{ .Description }}">
+      <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+      <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+      <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+      <meta name="title" content="The C Language">
+      <meta name="description" content="{{ .Description }}">
       <!-- End of Twitter -->
-
-
-
 
   {{ if (eq .Title .Site.Title) }}
     {{ with $title := .Title }}
