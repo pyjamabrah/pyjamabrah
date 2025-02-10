@@ -4,7 +4,7 @@
 }
 
 #root {
-  max-width: 1024px !important;
+  max-width: 1366px !important;
 }
 
 #newsletter {
@@ -291,7 +291,7 @@ iframe {
   min-width: 96%;
   max-width: 96%;
   word-wrap: break-word;
-  border: solid var(--linecolor) 1px;
+  /* border: solid var(--linecolor) 1px; */
   margin: 1%;
   padding: 1%;
 }
