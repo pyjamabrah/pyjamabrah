@@ -1,14 +1,14 @@
 {{ with . }}
 {{ with .Params }}
 
-<a class="btn" href="{{ .param.link }}" target="_blank">
+<a class="btn" href="{{ .param.paybutton }}" target="_blank">
   <img class="product-image" src="{{ .param.image }}"/>
 </a>
 
 <h3 class="book-title">{{ .param.product }}</h3>
 
 <div class="product-body">
-  <p>{{ .param.description }}</p>
+  <p>{{ .param.description | markdownify }}</p>
 
   {{ range .param.keyFeatures }}
   <div class="keyfeature-point">
@@ -16,7 +16,7 @@
     <div> {{ . | markdownify }} </div>
   </div>
   {{ end }}
-  {{ partial "products/paybutton.html" .param.link}}
+  {{ partial "products/paybutton.html" .param.paybutton}}
 </div>
 {{ end }}
 {{ end }}

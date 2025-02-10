@@ -1,4 +1,6 @@
 ---
+layout: products
+
 title: "The C Language"
 date: "2025-01-08T17:48:22+05:30"
 tags:
@@ -7,22 +9,24 @@ description: "Learn it from Scratch. Simple Explanation. Deep Insights!"
 thumbnail: "/products/c-language/c-course.png"
 categories: courses
 
-layout: products
-
 param:
   product: ""
-  description: "Learn the C programming language from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
+  description: "Learn **the C programming language** from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
   image: "/products/c-language/course.gif"
-  link: "pl_Pr8kvIvnjrP29w"
+  paybutton: "pl_Pr8kvIvnjrP29w"
   note: "Claim the Discounted Prices while the course is being developed!"
   keyFeatures:
-    - "**No background** and **no familiarity** assumed."
-    - From Scratch, no IDE used!
-    - "**19** recorded Lessons."
-    - "**~ 6 hrs 16 mins** of Recording."
-    - "**2** Downloadable resource"
-    - Earn a certificate.
-    - Taught by industry expert.
+    - "**From scratch**."
+    - "**No IDE** used!"
+    - "**No prior experience** assumed."
+    - "**21** Lessons."
+    - "**~ 6 hrs 40 mins** of Recording."
+    - "Downloadable resources."
+    - "Learn by **Code review** and fixing code."
+    - "**Hands on**, learn by **experimenting**."
+    - "Several **Quizzes** to reinforce learnings."
+    - Earn a **certificate**.
+    - Taught by **industry expert**.
     - New content continuously added.
   bundle:
     - course: "The C Language"
@@ -31,17 +35,17 @@ param:
       bestSeller: "yes"
       rating: 4.8
       ratingCount: 5
-      studentsCount: 37
+      studentsCount: 64
       creators:
         - name: "Piyush Itankar"
           designation: "Embedded Engineer (L5), Google"
-          contactLink: "https://www.linkedin.com/in/streetdogg/"
-          photo: "https://pbs.twimg.com/profile_images/1884988463247978496/Y6HAdtXt_400x400.jpg"
-          bio: "Electrical Engineer by Education, went on to pursue a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System software."
-      lastUpdated: "5 Feb' 2025"
+          contactLink: "https://x.com/pyjamabrah"
+          photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
+          bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
+      lastUpdated: "10 Feb' 2025"
       language: "English"
-      lessons: 19
-      length: "~ 6 hr 16 mins"
+      lessons: 21
+      length: "~ 6 hr 40 mins"
       files: 2
       quizzes: 1
       certificate: "/products/c-language/certificate.png"
@@ -193,7 +197,7 @@ param:
         - section: "C Keywords"
           open: "open"
           description: "In this section you will spend time internalizing each of the 32 keywords from the C Language and understand the assembly and system level implications."
-          sectionDuration: "1 hr 20 min"
+          sectionDuration: "1 hr 40 min"
           chapters:
             - chapter: "15: Introducing the C Keywords"
               preview: ""
@@ -220,7 +224,16 @@ param:
               type: "video"
               meta: 19:36
               attachments: 0
-
+            - chapter: "20: floating point number encoding and few examples"
+              preview: ""
+              type: "video"
+              meta: 13:51
+              attachments: 0
+            - chapter: "21: more floating point - float and double"
+              preview: ""
+              type: "video"
+              meta: 17:23
+              attachments: 0
             - chapter: "Being recorded..."
               preview: ""
               type: "video"
