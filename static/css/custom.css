@@ -147,12 +147,15 @@ summary {
 
 .chapter-icon {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .chapter-names {
   padding-left: 20px;
   color: var(--linkcolor);
-  display: inline-block;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+  display: flex;
   min-width: 85%;
   max-width: 85%;
 }
