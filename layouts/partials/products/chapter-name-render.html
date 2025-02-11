@@ -3,7 +3,7 @@
   {{ $chapterName := .chapter }}
 
   <div>
-    <div class="chapter-names">
+    <div class="chapter-names prod-what-u-learn-point">
       <div class="chapter-icon">
         {{ if eq .type "video"}}
           <i class="bi bi-play-btn"></i>
@@ -16,24 +16,24 @@
         {{ if eq .type "code"}}
           <i class="bi bi-code-square"></i>
         {{ end }}
+        &nbsp
       </div>
-
-      &nbsp{{ $chapterName }}
+      <div>{{ $chapterName }}</div>
     </div>
 
     <!-- Add video length -->
-    {{ if eq .type "video"}}
+    {{/*  {{ if eq .type "video"}}
       <div class="chapter-details">
         {{ .meta }}
       </div>
-    {{ end }}
+    {{ end }}  */}}
 
-    {{ if .preview }}
+    {{/*  {{ if .preview }}
       <div class="view-preview">
         <iframe style="aspect-ratio: 16 / 9; width: 100%; border: 1px solid black" src="https://www.youtube.com/embed/{{.preview}}?rel=0">
         </iframe>
       </div>
-    {{ end }}
+    {{ end }}  */}}
 
   </div>
 {{ end }}

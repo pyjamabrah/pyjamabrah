@@ -99,12 +99,12 @@ param:
           open: "open"
           sectionDuration: 1 hr 4 min
           chapters:
-            - chapter: "01: The Roadmap and Mindset"
+            - chapter: "The Roadmap and Mindset"
               preview: ""
               type: "video"
               meta: 06:54
               attachments: ""
-            - chapter: "02: Sandbox Environment and Basic C Program"
+            - chapter: "Sandbox Environment and Basic C Program"
               preview: ""
               type: "video"
               meta: 30:02
@@ -119,12 +119,12 @@ param:
               type: "code"
               meta: ""
               attachments: ""
-            - chapter: "03: Keep an Eye on Functions, Pointers and Structs"
+            - chapter: "Keep an Eye on Functions, Pointers and Structs"
               preview: ""
               type: "video"
               meta: 08:04
               attachments: ""
-            - chapter: "04: Example of the RAW power - Functions, Struct and Pointers"
+            - chapter: "Example of the RAW power - Functions, Struct and Pointers"
               preview: ""
               type: "video"
               meta: 19:50
@@ -134,17 +134,17 @@ param:
           description: "In this section we will discuss the mental models that you can use to reason about the programs. In an attempt to doing this, we will explore the models of systems from 1970s. System composition and the CPU, Memory and Interactions with environment. This sets the foundation that will enable you to exactly predict the system behavior as a result of the C program that you write."
           sectionDuration: "44 min 11 Sec"
           chapters:
-            - chapter: "05: Mental Model of the System"
+            - chapter: "Mental Model of the System"
               preview: ""
               type: "video"
               meta: 16:43
               attachments: 0
-            - chapter: "06: The mental model of the CPU"
+            - chapter: "The mental model of the CPU"
               preview: ""
               type: "video"
               meta: 11:41
               attachments: 0
-            - chapter: "07: The mental model of the Memory"
+            - chapter: "The mental model of the Memory"
               preview: ""
               type: "video"
               meta: 15:47
@@ -154,22 +154,22 @@ param:
           description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
           sectionDuration: "1 hr 36 min"
           chapters:
-            - chapter: "08: Instruction Encoding and the rv32i ISA"
+            - chapter: "Instruction Encoding and the rv32i ISA"
               preview: ""
               type: "video"
               meta: 25:52
               attachments: 0
-            - chapter: "09: A tour of Toolchain, QEMU, GDB"
+            - chapter: "A tour of Toolchain, QEMU, GDB"
               preview: ""
               type: "video"
               meta: 16:23
               attachments: 0
-            - chapter: "10: demo - Assembly to binary, QEMU and GDB"
+            - chapter: "demo - Assembly to binary, QEMU and GDB"
               preview: ""
               type: "video"
               meta: 27:04
               attachments: 0
-            - chapter: "11: Instruction Encoder Decoder, Makefile and GDB Dashboard"
+            - chapter: "Instruction Encoder Decoder, Makefile and GDB Dashboard"
               preview: ""
               type: "video"
               meta: 26:43
@@ -179,17 +179,17 @@ param:
           description: "Understanding what the system does as a result of the C program becomes very simple once we know how the C statements may be translated to the assembly code. We will thus spend time mastering the structure of the Assembly programs and the instructions available to us."
           sectionDuration: "1 hr 13 min"
           chapters:
-            - chapter: "12: Anatomy of Assembly Program, writing code, debugging in GDB"
+            - chapter: "Anatomy of Assembly Program, writing code, debugging in GDB"
               preview: ""
               type: "video"
               meta: 26:59
               attachments: 0
-            - chapter: "13: Decomposing C to Assembly and the relation"
+            - chapter: "Decomposing C to Assembly and the relation"
               preview: ""
               type: "video"
               meta: 28:15
               attachments: 0
-            - chapter: "14: Getting CPU from assembly to jump to C program"
+            - chapter: "Getting CPU from assembly to jump to C program"
               preview: ""
               type: "video"
               meta: 18:01
@@ -199,37 +199,37 @@ param:
           description: "In this section you will spend time internalizing each of the 32 keywords from the C Language and understand the assembly and system level implications."
           sectionDuration: "1 hr 40 min"
           chapters:
-            - chapter: "15: Introducing the C Keywords"
+            - chapter: "Introducing the C Keywords"
               preview: ""
               type: "video"
               meta: 12:40
               attachments: 0
-            - chapter: "16: Data types, Variables and Integers"
+            - chapter: "Data types, Variables and Integers"
               preview: ""
               type: "video"
               meta: 12:47
               attachments: 0
-            - chapter: "17: Data types - float and double"
+            - chapter: "Data types - float and double"
               preview: ""
               type: "video"
               meta: 05:58
               attachments: 0
-            - chapter: "18: Exploring sizes of data types and location in memory "
+            - chapter: "Exploring sizes of data types and location in memory "
               preview: ""
               type: "video"
               meta: 37:11
               attachments: 0
-            - chapter: "19: how integers are stored - 2s complement"
+            - chapter: "how integers are stored - 2s complement"
               preview: ""
               type: "video"
               meta: 19:36
               attachments: 0
-            - chapter: "20: floating point number encoding and few examples"
+            - chapter: "floating point number encoding and few examples"
               preview: ""
               type: "video"
               meta: 13:51
               attachments: 0
-            - chapter: "21: more floating point - float and double"
+            - chapter: "more floating point - float and double"
               preview: ""
               type: "video"
               meta: 17:23
