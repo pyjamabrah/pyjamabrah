@@ -31,7 +31,7 @@ param:
   bundle:
     - course: "The C Language"
       subtitle: "Learn it from Scratch. Simple Explanation. Deep Insights!"
-      description: "A foundational course on C programming with a hands-on journey from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result. The course takes a deliberate approach - starting with the models of systems, exploring instruction set architecture, assembly code, toolchain utilities, and finally making a case for the C language."
+      description: "A foundational course on C programming with a hands-on experiments to take you from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result."
       bestSeller: "yes"
       rating: 4.8
       ratingCount: 5
@@ -42,7 +42,7 @@ param:
           contactLink: "https://x.com/pyjamabrah"
           photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
-      lastUpdated: "10 Feb' 2025"
+      lastUpdated: "11 Feb' 2025"
       language: "English"
       lessons: 21
       length: "~ 6 hr 40 mins"
@@ -51,48 +51,32 @@ param:
       certificate: "/products/c-language/certificate.png"
       validity: 365 days
       learning:
-        - Models of computation
-        - Machine code
-        - Instruction Set Architecture
-        - Toolchain utilities
-        - compiler (gcc)
-        - assembler (as)
-        - GNU Debugger (gdb)
-        - Automation using Makefile
-        - Basics of Assembly Language
-        - How text is converted to 0s and 1s
-        - C programming from scratch
-        - Data types, variables, declarations.
-        - Bit-Wise operators
-        - Other operators of C (arithmetic, logical, relation, assignment )
-        - The concept and idea of Functions in C
-        - Pointers and casting
-        - Types of pointers and how to use them
-        - Structures and unions
-        - Structure and bit fields
-        - Structures and pointers
+        - Mental models to use when coding in C.
+        - What is machine code.
+        - Instruction Set Architecture and Assembly coding.
+        - GNU toolchain utilities/programs (gcc, as, ld wtc).
+        - GNU Debugger (GDB).
+        - Automation using Makefiles.
+        - How text is converted to 0s and 1s.
+        - Syntax and Structure of C Programs.
+        - Data types, variables, declaration/definition.
+        - Arrays, Strings and Pointers.
+        - Structs and Union.
+        - arithmetic, logical, relational operators in C.
+        - Functions and Modules/Libraries in C.
+        - Pointers and how to use them in Design.
+        - Types of pointers.
+        - Bit fields and Bit manipulation.
         - Const and volatile type qualifiers
-        - Significance of volatile
-        - const data, const pointer, cont volatile explanation with examples
-        - Importance of const
-        - Loops - for, while, do while
-        - Mixing Assembly and C and the need for it
-        - Booting RISC-V CPU from scratch
-        - Introduction to Linker Scripting
-        - Placement of variables, code in memory
-        - Based on QEMU
-        - Cross compiling and what it means
-        - Build deep intuition about how computers work under the hood
-        - Bottom-up approach
-        - Write efficient, system-level code by truly understanding how the machine executes your programs.
-        - memory management - Stack vs. Heap
-        - Dynamic memory allocation (malloc, calloc, realloc, free)
-        - Inline assembly for performance tuning
-        - Compiler optimizations (-O1, -O2, -O3, -Os, -Ofast)
-        - Standard C library
-        - Writing your own small C library like wrapper
-        - Working with Linux system calls
-        - Developing a simple C shell
+        - Controlling placement of code and data in memory.
+        - Loops - for, while, do while.
+        - Branching - if, if-else, switch, goto.
+        - Mixing Assembly and C and the need for it.
+        - Booting RISC-V CPU from scratch.
+        - Cross compiling and what it means.
+        - memory management - Stack vs. Heap.
+        - Dynamic memory allocation (malloc, calloc, realloc, free).
+        - Compiler optimizations (-O1, -O2, -O3, -Os, -Ofast).
       sections:
         - section: "C Language Tour"
           description: "The section focuses on the Roadmap, Mindset and the lense through which this course is to be pursued. We also dive into exploring a basic C program so you can learn to spot the patterns when exploring the code outside of the course. To further empower you, we will also look at the three work horse feature of this language."
@@ -244,8 +228,7 @@ param:
           description: "This course is being actively developed at the moment. More sections/Lectures and exercises are regularly added. Sections prior to this are complete and available for learner to pursue..."
           sectionDuration: ""
       requirements:
-        - A GitHub account. This is to follow the labs.
-        - An open and learning mindset.
+        - GitHub account to do the hands-on coding in Codespaces.
         - Interest in the lower level working of the system.
         - Some exposure to Digital systems is good (but not strictly required).
         - Basic understanding of number systems, logic gates, bits and bytes is good to have (but not strictly required).
@@ -257,7 +240,7 @@ param:
         - Electrical/Electronics Engineers working on hardware programming.
         - Systems Engineer seeking gain system level insights.
         - Those curious to learn the underlying details of Systems and how to program it using C.
-        - Those seeking a job changing and preparing for interviews.
+        - Those seeking a job change and preparing for interviews.
       reviewSectionTitle: "Early praise from YouTube Subscribers"
       reviewSectionDescription: "Because the course is brand new, we released some lectures on YouTube to get early feedback, and it has been a banger! You will not regret taking this course..."
       reviews:
@@ -351,10 +334,22 @@ param:
           review: "This is what I actually needed in life today.. thanks a tons.."
 
       compare:
-        - feature: "Cover basic syntax of the language?"
+        - feature: "Basic C Syntax."
           us: true
           others: true
-        - feature: "A Bottom-Up Approach with the tinge of answering the `Whys`"
+        - feature: "Data types, strings, pointers, operators and other basics."
+          us: true
+          others: true
+        - feature: "Code development without IDE, like how the professionals do it."
+          us: true
+          others: false
+        - feature: "Decomposition of C code into Assembly and conversion to machine code."
+          us: true
+          others: false
+        - feature: "Mental models to aid thinking and reasoning."
+          us: true
+          others: false
+        - feature: "A Bottom-Up Approach with the tinge of answering the `Whys`."
           us: true
           others: false
         - feature: "Mixing C with Assembly"

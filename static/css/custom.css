@@ -112,7 +112,7 @@ summary {
 }
 
 .details-body {
-  padding: 0px 0px 20px 0px;
+  padding: 0px;
 }
 
 .dropdown-container {
@@ -396,8 +396,9 @@ details[open] > summary {
   width: 100%;
 }
 
-.compare-table {
+table {
   border: solid var(--linecolor) 1px;
+  max-width: 650px;
 }
 
 .compare-row-head {

@@ -87,10 +87,12 @@
     border: 1px solid var(--linecolor);
     height: fit-content;
   }
+
   .compare-table {
-    min-width: 90%;
-    /* margin-right: 10%; */
+    display: flex;
+    justify-content: center;
   }
+
   .compare-tick {
     font-size: 2em;
   }

@@ -51,6 +51,7 @@ a:active {
   color: var(--visitedcolor);
 }
 h1,h2,h3 {
+  margin-top: 30px;
   line-height: 1.2;
 }
 p > code {
