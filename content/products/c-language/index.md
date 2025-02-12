@@ -14,7 +14,7 @@ define: &enrolled 71
 param:
   product: ""
   description: "Learn **the C programming language** from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
-  image: "/products/c-language/course.gif"
+  image: "/products/c-language/c-course.png"
   paybutton: "pl_Pr8kvIvnjrP29w"
   note: "Claim the Discounted Prices while the course is being developed!"
   keyFeatures:

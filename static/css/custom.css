@@ -518,6 +518,17 @@ form > span > a > svg {
   padding: 5px;
 }
 
+.post-card-content {
+   figure {
+    margin: 0px;
+    padding: 0px 5px;
+  }
+
+  img {
+    outline: none;
+  }
+}
+
 figure {
   margin: 0px 1px 0px 1px;
 }
