@@ -9,6 +9,8 @@ description: "Learn it from Scratch. Simple Explanation. Deep Insights!"
 thumbnail: "/products/c-language/c-course.png"
 categories: courses
 
+define: &enrolled 71
+
 param:
   product: ""
   description: "Learn **the C programming language** from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
@@ -35,7 +37,7 @@ param:
       bestSeller: "yes"
       rating: 4.8
       ratingCount: 5
-      studentsCount: 64
+      studentsCount: *enrolled
       creators:
         - name: "Piyush Itankar"
           designation: "Embedded Engineer (L5), Google"
@@ -46,8 +48,8 @@ param:
       language: "English"
       lessons: 21
       length: "~ 6 hr 40 mins"
-      files: 2
-      quizzes: 1
+      files: 3
+      quizzes: 11
       certificate: "/products/c-language/certificate.png"
       validity: 365 days
       learning:
