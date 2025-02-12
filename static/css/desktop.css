@@ -17,14 +17,6 @@
     top: 10px;
   }
 
-  .sidebar-product {
-    border-width: 1px;
-    grid-column: 2;
-    height: fit-content;
-    position: sticky;
-    top: 10px;
-  }
-
   .blog-card {
     border: solid var(--linecolor) 0px;
     border-radius: 10px;
@@ -57,14 +49,6 @@
     }
   }
 
-  .sidebar-product {
-    border-width: 1px;
-    grid-column: 2;
-    height: fit-content;
-    position: sticky;
-    top: 10px;
-  }
-
   .prod-what-u-learn-point {
     min-width: 50%;
     max-width: 50%;
@@ -85,9 +69,19 @@
   }
 
   .sidebar-product {
+    position: sticky;
+    border-radius: 10px;
+    top: 10px;
     display: block;
-    border: 1px solid var(--linecolor);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .4);
     height: fit-content;
+    grid-column: 2;
+
+    a {
+      img {
+        border-radius: 10px 10px 0px 0px;
+      }
+    }
   }
 
   .compare-table {

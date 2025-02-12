@@ -498,10 +498,18 @@ th, td {
 }
 
 .razorpay-payment-button {
-  border: black solid 1px;
+  /* border: var(--btn-border) solid 1px; */
   background: #FFE15C;
-  margin: 5px 0px 5px 0px;
-  width: 90%;
+  margin: 5px 0px 0px 0px;
+  width: 95%;
+  transition-duration: 0.5s;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .4);
+  border-radius: 5px;
+}
+
+.razorpay-payment-button:hover {
+  box-shadow: 0px 0px 10px 0px var(--prebgcolor);
+  text-decoration: none;
 }
 
 form > span > a {

@@ -9,7 +9,7 @@ description: "Learn it from Scratch. Simple Explanation. Deep Insights!"
 thumbnail: "/products/c-language/c-course.png"
 categories: courses
 
-define: &enrolled 71
+define: &enrolled 75
 
 param:
   product: ""
@@ -35,8 +35,8 @@ param:
       subtitle: "Learn it from Scratch. Simple Explanation. Deep Insights!"
       description: "A foundational course on C programming with a hands-on experiments to take you from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result."
       bestSeller: "yes"
-      rating: 4.8
-      ratingCount: 5
+      rating: 4.83
+      ratingCount: 6
       studentsCount: *enrolled
       creators:
         - name: "Piyush Itankar"
@@ -262,6 +262,24 @@ param:
       reviewSectionTitle: "Early praise from YouTube Subscribers"
       reviewSectionDescription: "Because the course is brand new, we released some lectures on YouTube to get early feedback, and it has been a banger! You will not regret taking this course..."
       reviews:
+        - reviewer: "@n.5s4584"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_kwaiEov46AN__mYTLshOyDgJfnS9npGBzAYALfOGI=s88-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "11/Feb/2025"
+          rating: ""
+          review: "I just wanted to take a moment to appreciate the amazing content you create! Your videos are not only engaging but also incredibly valuable. I’ve learned so much from your channel, and I always look forward to your uploads. Thank you for sharing your knowledge and insights—keep up the great work! Wishing you all the success you deserve."
+        - reviewer: "@its_me_to-i4e"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_mj1PTnXtbKrudNYF6unc92tNmWG36cHOfo1udycpGb3U-7ha_eNbAtmaLVWjAoHsi59z0=s88-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "11/Feb/2025"
+          rating: ""
+          review: "Your content is amazing! Last time, I bought the advanced C pointer course, and it was so helpful for embedded systems. Please consider making the course fees more affordable so that students like me can easily access them. Keep up the great work"
+        - reviewer: "@sharifyy"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_mYvoZpJFyDpETsr-Nn2NhLTCwnNju7VLGDF1Bv0px-5A=s88-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "10/Feb/2025"
+          rating: 5
+          review: "your content is amazing, I give it 5 stars"
         - reviewer: "@techpartel9858"
           photo: "https://yt3.ggpht.com/rC37PHOuyl8VqqsWdEyVNKdRKgDoPutmfn-MWlL4iAYgwdlPqrjHjCDbrXtKWuv4qgybu_gY=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
