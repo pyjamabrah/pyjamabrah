@@ -26,17 +26,19 @@
   }
 
   .blog-card {
-    border: solid var(--linecolor) 1px;
-    margin: 5px;
+    border: solid var(--linecolor) 0px;
+    border-radius: 10px;
+    margin: 15px;
     max-width: 30% !important;
     text-decoration: none;
     cursor: pointer;
     color: var(--fontcolor) !important;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
   }
 
   .blog-card:hover {
-    box-shadow: 0px 0px 2px 0px var(--prebgcolor);
+    box-shadow: 0px 0px 20px 0px var(--prebgcolor);
     text-decoration: none;
   }
 

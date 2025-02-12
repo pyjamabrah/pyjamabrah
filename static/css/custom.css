@@ -185,6 +185,7 @@ summary {
 
 .blog-card {
   border: solid var(--linecolor) 1px;
+  border-radius: 10px;
   margin: 5px 0 5px 0;
   max-width: 100% !important;
   text-decoration: none !important;
