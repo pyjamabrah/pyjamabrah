@@ -43,8 +43,8 @@ int main() {
      * 'int' and '=' are operators,
      * 'age' is an identifier, 25
      * is an integer constant
-     * int age = 25;
      */
+    int age = 25;
 
     /*
      * 'float' is a keyword, 'pi'
