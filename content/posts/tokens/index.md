@@ -39,19 +39,37 @@ To understand this better, consider the following code snippet -
 #include <stdio.h>
 
 int main() {
-    // 'int' and '=' are operators, 'age' is an identifier, 25 is an integer constant
-    int age = 25;
+    /*
+     * 'int' and '=' are operators,
+     * 'age' is an identifier, 25
+     * is an integer constant
+     * int age = 25;
+     */
 
-    // 'float' is a keyword, 'pi' is an identifier, 3.14 is a float constant
+    /*
+     * 'float' is a keyword, 'pi'
+     * is an identifier, 3.14 is
+     * a float constant
+     */
     float pi = 3.14;
 
-    // 'char' is a keyword, 'ch' is an identifier, 'A' is a character constant
+    /*
+     * 'char' is a keyword, 'ch'
+     * is an identifier, 'A' is
+     * a character constant
+     */
     char ch = 'A';
 
-    // 'printf' is a function call using the operator ','
+    /*
+     * 'printf' is a function
+     * call using the operator ','
+     */
     printf("Hello, World!\n");
 
-    // 'return' is a keyword and 0 is an integer constant
+    /*
+     * 'return' is a keyword
+     * and 0 is an integer constant
+     */
     return 0;
 }
 ```
