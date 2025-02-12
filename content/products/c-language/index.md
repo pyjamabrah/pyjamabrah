@@ -22,7 +22,7 @@ param:
     - "**No IDE** used!"
     - "**No prior experience** assumed."
     - "**21** Lessons."
-    - "**~ 6 hrs 40 mins** of Recording."
+    - "**~ 7 hrs 15 mins** of Recording."
     - "Downloadable resources."
     - "Learn by **Code review** and fixing code."
     - "**Hands on**, learn by **experimenting**."
@@ -47,7 +47,7 @@ param:
       lastUpdated: "11 Feb' 2025"
       language: "English"
       lessons: 21
-      length: "~ 6 hr 40 mins"
+      length: "~ 7 hr 15 mins"
       files: 3
       quizzes: 11
       certificate: "/products/c-language/certificate.png"
@@ -183,7 +183,7 @@ param:
         - section: "C Keywords"
           open: "open"
           description: "In this section you will spend time internalizing each of the 32 keywords from the C Language and understand the assembly and system level implications."
-          sectionDuration: "1 hr 40 min"
+          sectionDuration: "2 hr 10 min"
           chapters:
             - chapter: "Introducing the C Keywords"
               preview: ""
@@ -219,6 +219,22 @@ param:
               preview: ""
               type: "video"
               meta: 17:23
+              attachments: 0
+
+            - chapter: "signed and unsigned"
+              preview: ""
+              type: "video"
+              meta: 9:56
+              attachments: 0
+            - chapter: "const and volatile"
+              preview: ""
+              type: "video"
+              meta: 11:16
+              attachments: 0
+            - chapter: "demo - const and volatile"
+              preview: ""
+              type: "video"
+              meta: 15:31
               attachments: 0
             - chapter: "Being recorded..."
               preview: ""
