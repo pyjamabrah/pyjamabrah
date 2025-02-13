@@ -9,7 +9,8 @@ description: "Learn it from Scratch. Simple Explanation. Deep Insights!"
 thumbnail: "/products/c-language/c-course.png"
 categories: courses
 
-define: &enrolled 75
+define: &enrolled 83
+define: &lastupdated "13 Feb' 2025"
 
 param:
   product: ""
@@ -44,7 +45,7 @@ param:
           contactLink: "https://x.com/pyjamabrah"
           photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
-      lastUpdated: "11 Feb' 2025"
+      lastUpdated: *lastupdated
       language: "English"
       lessons: 21
       length: "~ 7 hr 15 mins"
