@@ -13,6 +13,7 @@ categories = [
 series = ["basics"]
 thumbnail = "/posts/tokens/tokens.png"
 
+product = "c"
 +++
 
 ![](/posts/tokens/tokens.png "Tokens")

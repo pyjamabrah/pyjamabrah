@@ -9,9 +9,11 @@
           {{ .Content }}
           {{ partial "comments.html" }}
         </div>
-        <div class="sidebar">
-          {{ partial "book.html" }}
-        </div>
+        {{ if .Params.product }}
+          {{ partial "sidebar.html" (index .Site.Data.courses .Params.product ) }}
+        {{ else }}
+          {{ partial "sidebar.html" (index .Site.Data.courses "book" ) }}
+        {{end}}
       </div>
     </article>
   </main>

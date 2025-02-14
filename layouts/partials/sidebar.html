@@ -1,0 +1,35 @@
+{{ with .}}
+<div class="product-sidebar">
+  <a class="product-img-container" href="https://learn.pyjamabrah.com/learn/thebook" target="_blank">
+    <img class="product-img" src="{{.poster}}"/>
+  </a>
+
+  <div class="product-title">
+      {{ .title | markdownify }}
+  </div>
+
+  <div class="product-subtitle">
+    {{.subtitle | markdownify}}
+  </div>
+
+  <div class="product-details">
+    <p>
+      {{ .description | markdownify }}
+    </p>
+    {{ range .features }}
+    <div class="product-feature-point">
+      <i class="bi bi-check2-all product-feature-point-text"></i>
+      <div> {{ . | markdownify }} </div>
+    </div>
+    {{ end }}
+  </div>
+
+
+
+  <div class="product-cta-button">
+    <a class="btn" href="{{.enroll}}" target="_blank">
+      <button>{{ .ctaText | markdownify}}</button>
+    </a>
+  </div>
+</div>
+{{ end }}

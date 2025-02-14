@@ -13,6 +13,7 @@ categories = [
 series = ["basics"]
 thumbnail = "/posts/storage-classes/storageclass.png"
 
+product = "c"
 +++
 
 ![](/posts/storage-classes/storageclass.png "Storage Classes in C Language")
