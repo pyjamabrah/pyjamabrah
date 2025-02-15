@@ -66,14 +66,6 @@ input {
   font-size: 0.85em;
 }
 
-.book-title {
-  text-align: center;
-}
-
-.cover-image {
-  box-shadow: 0px 0px 5px 1px var(--prebgcolor);
-}
-
 .cover-image:hover {
   box-shadow: 0px 0px 10px 1px var(--prebgcolor);
 }
