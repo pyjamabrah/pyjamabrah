@@ -2,7 +2,7 @@
 date: "2025-01-04T11:55:09+05:30"
 title: 'Writing a RISC-V CPU!'
 thumbnail: "/posts/writing-a-risc-v-cpu/cover.jpeg"
-author: "piyush"
+author: "streetdogg"
 
 tags:
   - "cpu"

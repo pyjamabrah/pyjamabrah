@@ -1,13 +1,7 @@
 <div class="post-meta">
   <strong>
     {{ if .Params.author }}
-      {{ with (index .Site.Data.authors .Params.author) }}
-        <div>
-          By: <a href="{{ .link}}" target="_blank">
-            {{ .name }}
-          </a>
-        </div>
-      {{ end }}
+      <div id="{{.Params.author}}"></div>
     {{ end }}
     <span>Posted on</span>
     <time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time>

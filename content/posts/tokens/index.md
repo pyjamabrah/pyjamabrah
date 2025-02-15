@@ -2,7 +2,7 @@
 date: "2025-02-12T17:48:22+05:30"
 title: 'Tokens in C Language'
 thumbnail: "/posts/tokens/tokens.png"
-author: "piyush"
+author: "streetdogg"
 
 product: "c"
 

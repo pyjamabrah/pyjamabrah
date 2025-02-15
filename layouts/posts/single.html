@@ -17,4 +17,12 @@
       </div>
     </article>
   </main>
+  <script>
+    // TODO: Fetch author details from GitHub and populate it on the fly
+    document.addEventListener('DOMContentLoaded', function() {
+      const authorDetails = document.getElementById("{{.Params.author}}");
+      author = document.createTextNode("By: {{.Params.author}}");
+      authorDetails.appendChild(author);
+    }, false);
+  </script>
 {{ end }}

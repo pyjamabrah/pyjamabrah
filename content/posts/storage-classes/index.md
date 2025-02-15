@@ -2,7 +2,7 @@
 date: "2025-02-13T17:48:22+05:30"
 title: 'Storage Classes in the C Language'
 thumbnail: "/posts/storage-classes/storageclass.png"
-author: "piyush"
+author: "streetdogg"
 
 product: "c"
 
