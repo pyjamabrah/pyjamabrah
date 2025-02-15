@@ -1,20 +1,19 @@
-+++
-date  = "2025-02-12T17:48:22+05:30"
-title = 'Tokens in C Language'
+---
+date: "2025-02-12T17:48:22+05:30"
+title: 'Tokens in C Language'
+thumbnail: "/posts/tokens/tokens.png"
+author: "piyush"
 
-tags = [
-    "C Language",
-]
+product: "c"
 
-categories = [
-    "basics",
-]
+tags:
+ - "C Language"
 
-series = ["basics"]
-thumbnail = "/posts/tokens/tokens.png"
+categories:
+  - "basics"
 
-product = "c"
-+++
+series: "basics"
+---
 
 ![](/posts/tokens/tokens.png "Tokens")
 

@@ -1,19 +1,17 @@
-+++
-date  = "2025-01-08T17:48:22+05:30"
-title = 'Abstractions - From Nature to AI'
+---
+date: "2025-01-08T17:48:22+05:30"
+title: 'Abstractions - From Nature to AI'
+thumbnail: "/posts/abstractions/c.png"
 
-tags = [
-    "nature to electronics",
-]
+tags:
+  - "nature to electronics"
 
-categories = [
-    "basics",
-]
+categories:
+  - "basics"
 
-series = ["basics"]
-thumbnail = "/posts/abstractions/c.png"
-
-+++
+series:
+  - "basics"
+---
 
 ![](/posts/abstractions/c.png "Various Abstractions")
 

@@ -1,17 +1,19 @@
-+++
-date  = "2025-01-04T11:55:09+05:30"
-title = 'Writing a RISC-V CPU!'
-tags = [
-    "cpu", "risc-v"
-]
+---
+date: "2025-01-04T11:55:09+05:30"
+title: 'Writing a RISC-V CPU!'
+thumbnail: "/posts/writing-a-risc-v-cpu/cover.jpeg"
+author: "piyush"
 
-categories = [
-    "hardware"
-]
+tags:
+  - "cpu"
+  - "risc-v"
 
-series = ["risc-v"]
-thumbnail = "/posts/writing-a-risc-v-cpu/cover.jpeg"
-+++
+categories:
+  - "hardware"
+
+series:
+  - "risc-v"
+---
 
 ![](/posts/writing-a-risc-v-cpu/cover.jpeg "Harris & Harris")
 

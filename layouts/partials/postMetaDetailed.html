@@ -1,0 +1,37 @@
+<div class="post-meta">
+  <strong>
+    {{ if .Params.author }}
+      {{ with (index .Site.Data.authors .Params.author) }}
+        <div>
+          By: <a href="{{ .link}}" target="_blank">
+            {{ .name }}
+          </a>
+        </div>
+      {{ end }}
+    {{ end }}
+    <span>Posted on</span>
+    <time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time>
+    {{ with .Params.categories }}<span>in</span>{{ end }}
+    {{ range $key, $value := .Params.categories -}}
+      {{- if $key }}, {{ end }}
+      <a href="{{ "/categories/" | relLangURL }}{{ $value | urlize }}">{{ . }}</a>
+    {{- end }}
+  </strong>
+  {{ with .WordCount }}<span> • {{ . }} words</span>{{ end }}
+  {{ with .ReadingTime}}<span> • {{ . }} minute read</span>{{ end }}
+  {{ if and .IsPage (ne .Date .Lastmod) }}
+    <div>
+      Last updated on
+      <time>{{ .Lastmod.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time>
+    </div>
+  {{ end }}
+  {{ with .Params.tags }}
+    <div>
+      <span>Tags:</span>
+      {{ range $key, $value := . }}
+        {{- if $key }}, {{ end }}
+        <a href="{{ "/tags/" | relLangURL }}{{ $value | urlize }}">{{ . }}</a>
+      {{- end }}
+    </div>
+  {{ end }}
+</div>

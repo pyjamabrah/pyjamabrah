@@ -1,20 +1,20 @@
-+++
-date  = "2025-02-13T17:48:22+05:30"
-title = 'Storage Classes in the C Language'
+---
+date: "2025-02-13T17:48:22+05:30"
+title: 'Storage Classes in the C Language'
+thumbnail: "/posts/storage-classes/storageclass.png"
+author: "piyush"
 
-tags = [
-    "C Language",
-]
+product: "c"
 
-categories = [
-    "basics",
-]
+tags:
+  - "C Language"
 
-series = ["basics"]
-thumbnail = "/posts/storage-classes/storageclass.png"
+categories:
+  - "basics"
 
-product = "c"
-+++
+series:
+  - "basics"
+---
 
 ![](/posts/storage-classes/storageclass.png "Storage Classes in C Language")
 
