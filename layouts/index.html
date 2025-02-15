@@ -1,4 +1,7 @@
 {{ define "main" }}
+	<div class="landingpage-hero">
+		<h1>Posts</h1>
+	</div>
 	<main class="post-list">
 		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 		{{ range $paginator.Pages }}
