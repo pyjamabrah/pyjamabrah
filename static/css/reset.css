@@ -13,6 +13,7 @@ html {
   --linecolor: grey;
   --btn-border:  black;
   --tick-green: green;
+  --shadow: rgba(0,0,0, 0.3);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,8 +29,10 @@ html {
      --linecolor: grey;
      --btn-border: black;
      --tick-green: rgb(107, 255, 58);
+     --shadow: rgba(255,255,255, 0.3);
   }
 }
+
 body {
   color: var(--fontcolor);
   background: var(--bgcolor);

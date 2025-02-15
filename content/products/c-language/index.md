@@ -8,29 +8,14 @@ tags:
 description: "Learn it from Scratch. Simple Explanation. Deep Insights!"
 thumbnail: "/products/c-language/c-course.png"
 categories: courses
+product: "c"
 
 define: &enrolled 83
 define: &lastupdated "13 Feb' 2025"
 
 param:
-  product: ""
-  description: "Learn **the C programming language** from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
   image: "/products/c-language/c-course.png"
-  paybutton: "pl_Pr8kvIvnjrP29w"
   note: "Claim the Discounted Prices while the course is being developed!"
-  keyFeatures:
-    - "**From scratch**."
-    - "**No IDE** used!"
-    - "**No prior experience** assumed."
-    - "**21** Lessons."
-    - "**~ 7 hrs 15 mins** of Recording."
-    - "Downloadable resources."
-    - "Learn by **Code review** and fixing code."
-    - "**Hands on**, learn by **experimenting**."
-    - "Several **Quizzes** to reinforce learnings."
-    - Earn a **certificate**.
-    - Taught by **industry expert**.
-    - New content continuously added.
   bundle:
     - course: "The C Language"
       subtitle: "Learn it from Scratch. Simple Explanation. Deep Insights!"

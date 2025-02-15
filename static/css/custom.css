@@ -19,7 +19,9 @@ figcaption {
 
 button {
   background-color: var(--theme-primary);
+  opacity: 0.85;
   border: solid 1px var(--btn-border);
+  border-radius: 5px;
   color: var(--fontcolor);
   padding: 12px 32px;
   text-decoration: none;
@@ -39,7 +41,7 @@ button {
 }
 
 button:hover {
-  box-shadow: 0px 0px 2px 0px var(--prebgcolor);
+  opacity: 1;
 }
 
 input {
@@ -81,11 +83,6 @@ input {
 
 .sidebar-product {
   display: none;
-}
-
-.product-body {
-  padding: 0 10px 10px 10px;
-  font-size: 0.9em;
 }
 
 summary {
@@ -270,14 +267,6 @@ iframe {
   display: flex;
 }
 
-.keyfeature-point {
-  min-width: 100%;
-  max-width: 100%;
-  margin-bottom: 5px;
-  display:flex;
-  word-wrap: break-word;
-}
-
 .card-collection {
   display: flex;
   flex-wrap: wrap;
@@ -438,8 +427,8 @@ th, td {
   bottom: 0px;
   align-items: center;
   z-index: 2;
-  margin-top: 5px;
-  padding:5px;
+  margin-top: 10px;
+  padding:10px;
   border-top: solid var(--linecolor) 1px;
 }
 
@@ -490,18 +479,26 @@ th, td {
 }
 
 .razorpay-payment-button {
-  /* border: var(--btn-border) solid 1px; */
+  border: var(--btn-border) solid 1px;
   background: #FFE15C;
   margin: 5px 0px 0px 0px;
   width: 95%;
   transition-duration: 0.5s;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .4);
   border-radius: 5px;
 }
 
 .razorpay-payment-button:hover {
-  box-shadow: 0px 0px 10px 0px var(--prebgcolor);
+  box-shadow: 0px 0px 20px 0px var(--shadow);
   text-decoration: none;
+}
+
+.PaymentButton-text {
+  font-size: 16px;
+  padding: 6px;
+}
+
+.PaymentButton-securedBy {
+  display: none;
 }
 
 form > span > a {

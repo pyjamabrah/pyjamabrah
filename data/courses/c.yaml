@@ -1,7 +1,7 @@
 title: "The C Language"
 subtitle: "Zero to Hero!"
 poster: "/products/c-language/c-course.png"
-description: "Learn the C programming language from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
+description: "Learn it from Scratch. Simple Explanation. Deep Insights!\n\nLearn the C programming language from systems view. This course will provide you with insights that will enable you to confidently predict what the CPU will do given a line of C code. The course is hands-on and focused on developing intuition."
 features:
   - From scratch.
   - No IDE used!
@@ -15,7 +15,7 @@ features:
   - Earn a certificate.
   - Taught by industry expert.
   - New content continuously added.
-more: "https://itankar.com"
-ctaText: "Start Learning"
+more: "/products/c-language"
+ctaText: "Learn More"
 enroll: "/products/c-language"
-
+paybuttonID: "pl_Pr8kvIvnjrP29w"
