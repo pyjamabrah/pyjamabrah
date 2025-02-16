@@ -2,14 +2,6 @@
 
 <h2>What you Learn</h2>
 
-{{/*  Move this elsewhere!  */}}
-<div class="video-player" style="padding:56.25% 0 0 0;position:relative;">
-  <iframe src="https://player.vimeo.com/video/1053034983?h=5b7a861bb5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute; top:1%; left:1%; width:98%; height:98%;" title="Course Introduction">
-  </iframe>
-</div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-<p></p>
-
 <div class="prod-what-u-learn">
   {{ range .learning }}
   <div class="prod-what-u-learn-point">
@@ -18,4 +10,13 @@
   </div>
   {{ end }}
 </div>
+
+{{/*  Move this elsewhere!  */}}
+<h2>Hear it from the creator</h2>
+<div class="video-player" style="padding:56.25% 0 0 0;position:relative;">
+  <iframe src="https://player.vimeo.com/video/1053034983?h=5b7a861bb5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute; top:1%; left:1%; width:98%; height:98%;" title="Course Introduction">
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<p></p>
 {{ end }}

@@ -13,10 +13,10 @@
                 </div>
                 <div class="details-body">
                   {{ partial "products/description.html" . }}
+                  {{ partial "products/learning.html" . }}
                   {{ partial "products/content-summary.html" . }}
                   {{ partial "products/requirements.html" . }}
                   {{ partial "products/audience.html" . }}
-                  {{ partial "products/learning.html" . }}
                   {{ partial "products/compare.html" . }}
                   {{ partial "products/sections-list.html" . }}
                   {{ partial "products/preview.html" . }}
@@ -44,8 +44,8 @@
   </main>
   <script>
     /* Hide the Navbar on Product Page */
-    const collection = document.getElementsByClassName("navbar");
-    collection[0].style.display = "none";
+    const navbar = document.getElementsByClassName("navbar");
+    navbar[0].style.display = "none";
   </script>
 {{ end }}
 

@@ -19,7 +19,7 @@ param:
   bundle:
     - course: "The C Language"
       subtitle: "Learn it from Scratch. Simple Explanation. Deep Insights!"
-      description: "A foundational course on C programming with a hands-on experiments to take you from Machine code to Design using C. Focused on exposing the system level mechanics that will enable you to reason clearly and be confident about how the system will behave as a result."
+      description: "A foundational course taught in an unconventional way to get you the skills of a professionals. Taught by an industry expert, you will be able to code without an IDE, use all the tools involved in building the source code and reason about your program at the system level."
       bestSeller: "yes"
       rating: 4.83
       ratingCount: 6
