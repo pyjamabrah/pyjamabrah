@@ -1,20 +1,31 @@
+# Essentials
 title: "The C Language"
 subtitle: "Zero to Hero!"
 poster: "/products/c-language/c-course.png"
-description: "Go from being a noob to writing code without IDE like the professionals."
+description: "Go from being a beginner to writing code without IDE like the professionals."
+
+# course stats
+rating: 4.83
+bestseller: true
+
+# Course features
 features:
   - All concepts of C language (Basics, Pointer etc).
   - Program CPU from scratch.
-  - Let the buildtools (GCC, AS, GDB etc).
-  - Hands on, learn by experimenting.
+  - gcc, as, ld, gdb, make and other build tools.
+  - Hands on. Learn by experimenting.
   - Coding challenges, projects and code reviews.
   - Quizzes to reinforce learnings.
   - Earn a certificate.
   - Taught by industry expert.
   - New content continuously added.
+
+# Link and Payment options
 more: "/products/c-language"
 ctaText: "Learn More"
 enroll: "/products/c-language"
 paybuttonID: "pl_Pr8kvIvnjrP29w"
 
+#
 # Details below this line are for the landing Page.
+#

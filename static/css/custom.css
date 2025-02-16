@@ -210,7 +210,7 @@ iframe {
   border: none;
 }
 
-.produc-bestseller {
+.product-bestseller {
   border: solid var(--linecolor) 1px;
   padding: 0px 5px 0px 5px;
   background-color: var(--theme-primary);

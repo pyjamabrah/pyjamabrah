@@ -57,3 +57,7 @@
   display: inline-block;
   padding-right: 10px;
 }
+
+.product-stats {
+  text-align: center;
+}

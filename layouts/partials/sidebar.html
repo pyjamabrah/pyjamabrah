@@ -12,6 +12,15 @@
     {{.subtitle | markdownify}}
   </div>
 
+  <div class="product-stats">
+    {{ if .bestseller }}
+      <span class="product-bestseller">Bestseller</span>
+    {{ end }}
+    {{ if .rating }}
+      {{ partial "products/render-stars.html" .rating }}
+    {{ end }}
+  </div>
+
   <div class="product-details">
     <p>{{ .description | markdownify }}</p>
     {{ range .features }}
