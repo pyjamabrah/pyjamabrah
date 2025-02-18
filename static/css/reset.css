@@ -60,14 +60,15 @@ h1,h2,h3 {
   line-height: 1.2;
 }
 p > code {
-  color: var(--precolor);
-  background: var(--prebgcolor);
-  padding: 2px;
+  color: rgb(255, 25, 190);
+  font-weight: 600;
+  font-size: 14px;
 }
+
 pre {
   color: var(--precolor);
   background: var(--prebgcolor);
-  padding: 24px;
+  padding: 10px;
   overflow-x: auto;
 }
 article {
