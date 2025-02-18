@@ -20,6 +20,8 @@ param:
     - course: "The C Language"
       subtitle: "Learn it from Scratch. Simple Explanation. Deep Insights!"
       description: "A foundational course taught in an unconventional way to get you the skills of a professionals. Taught by an industry expert, you will be able to code without an IDE, use all the tools involved in building the source code and reason about your program at the system level."
+      previewCover: "/products/c-language/c-course.png"
+      previewVideo: "https://github.com/pyjamabrah/preview-videos/raw/refs/heads/main/C%20to%20Assembly.mp4"
       bestSeller: "yes"
       rating: 4.83
       ratingCount: 6

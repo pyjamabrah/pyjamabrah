@@ -512,8 +512,13 @@ form > span > a > svg {
 }
 
 .video-player {
+
+}
+
+video {
   border: solid var(--linecolor) 1px;
-  padding: 5px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .post-card-content {
