@@ -186,6 +186,7 @@ summary {
   margin: 0px !important;
   padding: 10px;
   padding-bottom: 0px;
+  text-align: center;
 }
 
 .post-card-content {
@@ -561,4 +562,13 @@ blockquote {
 code {
   font-size: 16px;
   font-family: monospace;
+}
+
+.post-card-content > figure {
+  display: none;
+}
+
+.post-card-image {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
