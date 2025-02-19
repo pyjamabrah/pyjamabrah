@@ -13,14 +13,12 @@
                 </div>
                 <div class="details-body">
                   {{ partial "products/description.html" . }}
-                  {{ partial "products/preview.html" . }}
-                  {{ partial "products/learning.html" . }}
                   {{ partial "products/content-summary.html" . }}
-                  {{ partial "products/requirements.html" . }}
-                  {{ partial "products/audience.html" . }}
-                  {{ partial "products/compare.html" . }}
-
+                  {{ partial "products/learning.html" . }}
                   {{ partial "products/sections-list.html" . }}
+                  {{ partial "products/preview.html" . }}
+                  {{ partial "products/compare.html" . }}
+                  {{ partial "products/certificate.html" . }}
                 </div>
             {{ end }}
           {{ end }}
@@ -30,9 +28,10 @@
           {{ if .Params.param.bundle }}
           {{ range .Params.param.bundle }}
               <div class="details-body">
-                {{ partial "products/certificate.html" . }}
                 {{ partial "products/instructors.html" . }}
                 {{ partial "products/reviews.html" . }}
+                {{ partial "products/requirements.html" . }}
+                {{ partial "products/audience.html" . }}
                 {{ partial "products/faqs.html" . }}
               </div>
           {{ end }}

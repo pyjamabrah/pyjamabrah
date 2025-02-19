@@ -34,8 +34,8 @@ param:
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 28
-      length: "~ 8 hrs 21 mins"
+      lessons: 36
+      length: "~ 9 hrs 30 mins"
       files: 3
       quizzes: 11
       certificate: "/products/c-language/certificate.png"
@@ -168,7 +168,7 @@ param:
               type: "video"
               meta: 18:01
               attachments: 0
-        - section: "C Keywords"
+        - section: "C Keywords - Data types"
           open: "open"
           description: "In this section you will spend time internalizing each of the 32 keywords from the C Language and understand the assembly and system level implications."
           sectionDuration: "3 hr 30 min"
@@ -242,6 +242,41 @@ param:
               preview: ""
               type: "video"
               meta: 13:22
+              attachments: 0
+        - section: "C Keywords - Branching and Looping"
+          open: "open"
+          description: "In this section take a look at the keywords that relate to branching and looping"
+          sectionDuration: "1 hr 35 mins"
+          chapters:
+            - chapter: "if, else, switch, case, default, do, while, for, continue and break"
+              preview: ""
+              type: "video"
+              meta: 35:20
+              attachments: 0
+            - chapter: "goto and return"
+              preview: ""
+              type: "video"
+              meta: 9:04
+              attachments: 0
+            - chapter: "Demo - if, else if and else effects at assembly level"
+              preview: ""
+              type: "video"
+              meta: 25:04
+              attachments: 0
+            - chapter: "Demo - switch case and effects at assembly level"
+              preview: ""
+              type: "video"
+              meta: 11:27
+              attachments: 0
+            - chapter: "Demo - loops - for, do, while, continue and effects at assembly level"
+              preview: ""
+              type: "video"
+              meta: 22:53
+              attachments: 0
+            - chapter: "Demo - goto and jumps across functions"
+              preview: ""
+              type: "video"
+              meta: 10:20
               attachments: 0
             - chapter: "Being recorded..."
               preview: ""
@@ -526,7 +561,3 @@ Quizzes are deliberately based on the content from the lectures. They will test 
 ![](report.png "A sample quiz report")
 
 As above, after every quiz, a detailed report is generated with a personalized feedback on how well you have done and what you should do or focus on next to master this language.
-
-# Interview Preparation and Readiness
-
-A side effect of the way the course is structured and delivered is - You will be interview ready at the end of the course. You will have the vocabulary, visualization and a huge pool of facts that will naturally enable you to have a productive technical talk with an interviewer.
