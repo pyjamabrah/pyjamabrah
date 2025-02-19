@@ -513,7 +513,7 @@ form > span > a > svg {
 }
 
 .video-player {
-
+  margin: 10px;
 }
 
 video {
