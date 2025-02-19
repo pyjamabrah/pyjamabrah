@@ -11,7 +11,7 @@ categories: courses
 product: "c"
 
 define: &enrolled 102
-define: &lastupdated "16 Feb' 2025"
+define: &lastupdated "19 Feb' 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -34,8 +34,8 @@ param:
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 21
-      length: "~ 7 hr 15 mins"
+      lessons: 28
+      length: "~ 8 hrs 21 mins"
       files: 3
       quizzes: 11
       certificate: "/products/c-language/certificate.png"
@@ -171,7 +171,7 @@ param:
         - section: "C Keywords"
           open: "open"
           description: "In this section you will spend time internalizing each of the 32 keywords from the C Language and understand the assembly and system level implications."
-          sectionDuration: "2 hr 10 min"
+          sectionDuration: "3 hr 30 min"
           chapters:
             - chapter: "Introducing the C Keywords"
               preview: ""
@@ -208,7 +208,6 @@ param:
               type: "video"
               meta: 17:23
               attachments: 0
-
             - chapter: "signed and unsigned"
               preview: ""
               type: "video"
@@ -223,6 +222,26 @@ param:
               preview: ""
               type: "video"
               meta: 15:31
+              attachments: 0
+            - chapter: "void, c standard and gnu C manual"
+              preview: ""
+              type: "video"
+              meta: 7:40
+              attachments: 0
+            - chapter: "typedef and sizeof"
+              preview: ""
+              type: "video"
+              meta: 18:30
+              attachments: 0
+            - chapter: "structs and unions"
+              preview: ""
+              type: "video"
+              meta: 30:26
+              attachments: 0
+            - chapter: "enums as named numbers"
+              preview: ""
+              type: "video"
+              meta: 13:22
               attachments: 0
             - chapter: "Being recorded..."
               preview: ""
