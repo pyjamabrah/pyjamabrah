@@ -2,6 +2,12 @@ baseURL: 'https://pyjamabrah.com/'
 languageCode: 'en-us'
 theme: smigle
 title: Pyjama Brah!
+
+# ignore these files
+ignoreFiles:
+  - "content/posts/README.md"
+  - "content/posts/sample/"
+
 menu:
   main: # Change menu as needed
     - identifier: home
@@ -25,6 +31,7 @@ menu:
       name: Course Login
       url: https://learn.pyjamabrah.com/learn/account/signin
       weight: 6
+
 params:
   subtitle: "Putting the 'Engineering' back in the Engineer!"
   description: "Reasoning from first principles, everything from AI down to the transistor."
