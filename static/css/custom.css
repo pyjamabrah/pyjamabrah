@@ -572,3 +572,7 @@ code {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.audio-player {
+  text-align: center;
+}
