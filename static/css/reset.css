@@ -68,6 +68,7 @@ li > code, p > code {
 
 pre {
   overflow-x: auto;
+  background-color: transparent !important;
 }
 article {
   padding: 5px 0;
