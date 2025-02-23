@@ -26,8 +26,8 @@ menu:
       url: https://learn.pyjamabrah.com/learn/account/signin
       weight: 6
 params:
-  subtitle: "Secret Insights - From AI down to Transistor!"
-  description: "Looking for and exposing the insights - from AI down to the Transistor!"
+  subtitle: "Putting the 'Engineering' back in the Engineer!"
+  description: "Reasoning from first principles, everything from AI down to the transistor."
   thumbnail: "/opengraph.png"
   math: true
   abbrDateFmt: "Jan 2"

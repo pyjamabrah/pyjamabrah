@@ -79,9 +79,15 @@
     <meta name="twitter:description" content="{{ .Site.Params.description }}"/>
   {{ end }}
 
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+  {{ if .Params.thumbnail }}
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+  {{ else }}
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.thumbnail }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.thumbnail }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.thumbnail }}">
+  {{ end }}
   <!-- End of Twitter -->
 
   {{ if (eq .Title .Site.Title) }}
