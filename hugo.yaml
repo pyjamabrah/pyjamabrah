@@ -31,6 +31,13 @@ menu:
       name: Course Login
       url: https://learn.pyjamabrah.com/learn/account/signin
       weight: 6
+markup:
+  highlight:
+    codeFences: true     # Enables fenced code block highlighting (already set)
+    lineNos: true        # Adds line numbers to code blocks
+    lineNumbersInTable: true  # Optional: uses a table layout for line numbers
+    tabWidth: 4
+    anchorLineNos: true
 
 params:
   subtitle: "Putting the 'Engineering' back in the Engineer!"

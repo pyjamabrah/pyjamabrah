@@ -67,9 +67,6 @@ li > code, p > code {
 }
 
 pre {
-  color: var(--precolor);
-  background: var(--prebgcolor);
-  padding: 10px;
   overflow-x: auto;
 }
 article {

@@ -560,8 +560,9 @@ blockquote {
 }
 
 code {
-  font-size: 16px;
+  line-height: 1.15rem;
   font-family: monospace;
+  font-weight: normal;
 }
 
 .post-card-content > figure {
@@ -575,4 +576,8 @@ code {
 
 .audio-player {
   text-align: center;
+}
+
+.highlight {
+
 }
