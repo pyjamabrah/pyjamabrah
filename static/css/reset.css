@@ -60,7 +60,7 @@ h1,h2,h3 {
   line-height: 1.2;
 }
 
-p > code {
+li > code, p > code {
   color: rgb(255, 25, 190);
   font-weight: 600;
   font-size: 14px;
