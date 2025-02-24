@@ -9,6 +9,14 @@
       <span class="product-bestseller">Bestseller</span>
     {{ end }}
 
+    {{ if .beginner }}
+      <span class="product-beginner">Beginner</span>
+    {{ end }}
+
+    {{ if .intermediate }}
+      <span class="product-intermediate">Intermediate</span>
+    {{ end }}
+
     {{ if .rating }}
     {{ partial "products/render-stars.html" .rating }}
       {{ if .ratingCount }}

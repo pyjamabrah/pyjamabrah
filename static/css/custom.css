@@ -211,13 +211,16 @@ iframe {
   border: none;
 }
 
-.product-bestseller {
+.product-bestseller, .product-beginner, .product-intermediate {
   border: solid var(--linecolor) 1px;
   padding: 0px 5px 0px 5px;
   background-color: var(--theme-primary);
   border-radius: 3px;
 }
 
+.product-beginner, .product-intermediate {
+  background-color: greenyellow;
+}
 .prod-description {
   /* background-color: rgb(255, 255, 182); */
 }

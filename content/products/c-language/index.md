@@ -10,8 +10,8 @@ thumbnail: "/products/c-language/c-course.png"
 categories: courses
 product: "c"
 
-define: &enrolled 102
-define: &lastupdated "19 Feb' 2025"
+define: &enrolled 115
+define: &lastupdated "24 Feb' 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -23,6 +23,8 @@ param:
       previewCover: "/products/c-language/c-course.png"
       previewVideo: "https://github.com/pyjamabrah/preview-videos/raw/refs/heads/main/C%20to%20Assembly.mp4"
       bestSeller: "yes"
+      beginner: "yes"
+      intermediate: "yes"
       rating: 4.83
       ratingCount: 6
       studentsCount: *enrolled
@@ -35,9 +37,9 @@ param:
       lastUpdated: *lastupdated
       language: "English"
       lessons: 36
-      length: "~ 9 hrs 30 mins"
-      files: 3
-      quizzes: 11
+      length: "~ 10 hrs 30 mins"
+      files: 6
+      quizzes: 29
       certificate: "/products/c-language/certificate.png"
       validity: 365 days
       learning:
@@ -86,7 +88,7 @@ param:
             - chapter: "Sandbox environment and basic C program."
               preview: ""
               type: "quiz"
-              meta: "9"
+              meta: "11"
               attachments: ""
             - chapter: "Hands on: Fix the Code."
               preview: ""
@@ -98,11 +100,17 @@ param:
               type: "video"
               meta: 08:04
               attachments: ""
+            - chapter: "Keep an Eye on Functions, Pointers and Structs"
+              meta: "7"
+              type: "quiz"
             - chapter: "Example of the RAW power - Functions, Struct and Pointers"
               preview: ""
               type: "video"
               meta: 19:50
-              attachments: 2
+              attachments: 3
+            - chapter: "Example of the RAW power - Functions, Struct and Pointers"
+              meta: "11"
+              type: "quiz"
         - section: "Mental Models to Brain tattoo"
           open: "open"
           description: "In this section we will discuss the mental models that you can use to reason about the programs. In an attempt to doing this, we will explore the models of systems from 1970s. System composition and the CPU, Memory and Interactions with environment. This sets the foundation that will enable you to exactly predict the system behavior as a result of the C program that you write."
