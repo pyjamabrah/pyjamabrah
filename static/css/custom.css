@@ -220,6 +220,7 @@ iframe {
 
 .product-beginner, .product-intermediate {
   background-color: greenyellow;
+  color: black;
 }
 .prod-description {
   /* background-color: rgb(255, 255, 182); */
