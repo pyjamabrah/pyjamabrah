@@ -10,8 +10,8 @@ thumbnail: "/products/c-language/c-course.png"
 categories: courses
 product: "c"
 
-define: &enrolled 115
-define: &lastupdated "24 Feb' 2025"
+define: &enrolled 117
+define: &lastupdated "25 Feb' 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 36
-      length: "~ 10 hrs 30 mins"
+      lessons: 38
+      length: "~ 11 hrs"
       files: 6
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -286,15 +286,26 @@ param:
               type: "video"
               meta: 10:20
               attachments: 0
-            - chapter: "Being recorded..."
+            - chapter: "auto, register, extern and static"
               preview: ""
               type: "video"
-              meta:
+              meta: 11:01
+              attachments: 0
+            - chapter: "Demo - the mess of storage class or storage duration"
+              preview: ""
+              type: "video"
+              meta: 11:26
               attachments: 0
         - section: "Work in Progress"
           open: "open"
           description: "This course is being actively developed at the moment. More sections/Lectures and exercises are regularly added. Sections prior to this are complete and available for learner to pursue..."
           sectionDuration: ""
+          chapters:
+            - chapter: "Being recorded..."
+              preview: ""
+              type: "video"
+              meta:
+              attachments: 0
       requirements:
         - GitHub account to do the hands-on coding in Codespaces.
         - Interest in the lower level working of the system.

@@ -10,10 +10,11 @@ bestseller: true
 
 # Course features
 features:
-  - All concepts of C language (Basics, Pointer etc).
+  - From the scratch.
+  - No prior familiarity assumed.
+  - All C concepts covered with extensive demos.
   - Program CPU from scratch.
   - gcc, as, ld, gdb, make and other build tools.
-  - Hands on. Learn by experimenting.
   - Coding challenges, projects and code reviews.
   - Quizzes to reinforce learnings.
   - Earn a certificate.
@@ -22,7 +23,7 @@ features:
 
 # Link and Payment options
 more: "/products/c-language"
-ctaText: "Learn More"
+ctaText: "Start Learning"
 enroll: "/products/c-language"
 paybuttonID: "pl_Pr8kvIvnjrP29w"
 
