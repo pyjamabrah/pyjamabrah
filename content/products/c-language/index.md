@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 38
-      length: "~ 11 hrs"
+      lessons: 41
+      length: "~ 11 hr 30 mins"
       files: 6
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -254,7 +254,7 @@ param:
         - section: "C Keywords - Branching and Looping"
           open: "open"
           description: "In this section take a look at the keywords that relate to branching and looping"
-          sectionDuration: "1 hr 35 mins"
+          sectionDuration: "2 hr 30 min"
           chapters:
             - chapter: "if, else, switch, case, default, do, while, for, continue and break"
               preview: ""
@@ -291,10 +291,25 @@ param:
               type: "video"
               meta: 11:01
               attachments: 0
-            - chapter: "Demo - the mess of storage class or storage duration"
+            - chapter: "Demo - auto keyword"
               preview: ""
               type: "video"
-              meta: 11:26
+              meta: 6:33
+              attachments: 0
+            - chapter: "Demo - register keyword"
+              preview: ""
+              type: "video"
+              meta: 7:32
+              attachments: 0
+            - chapter: "Demo - extern keyword"
+              preview: ""
+              type: "video"
+              meta: 9:32
+              attachments: 0
+            - chapter: "Demo - static keyword"
+              preview: ""
+              type: "video"
+              meta: 14:52
               attachments: 0
         - section: "Work in Progress"
           open: "open"
