@@ -10,8 +10,8 @@ thumbnail: "/products/c-language/c-course.png"
 categories: courses
 product: "c"
 
-define: &enrolled 121
-define: &lastupdated "25 Feb' 2025"
+define: &enrolled 131
+define: &lastupdated "1 Mar' 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -37,7 +37,7 @@ param:
       lastUpdated: *lastupdated
       language: "English"
       lessons: 41
-      length: "~ 11 hr 30 mins"
+      length: "~ 11 hr 18 mins"
       files: 6
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
