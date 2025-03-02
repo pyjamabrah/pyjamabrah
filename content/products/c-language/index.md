@@ -11,7 +11,7 @@ categories: courses
 product: "c"
 
 define: &enrolled 131
-define: &lastupdated "1 Mar' 2025"
+define: &lastupdated "2 Mar' 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 43
-      length: "~ 12 hr"
+      lessons: 44
+      length: "~ 12 hr 30 mins"
       files: 6
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -314,7 +314,7 @@ param:
         - section: "Variables and Functions"
           open: "open"
           description: "We learn how to write C programs and what role variables and functions play in the context of C programs."
-          sectionDuration: "27:44"
+          sectionDuration: "1 hr"
           chapters:
             - chapter: "Introduction to Variables and Functions"
               preview: ""
@@ -325,6 +325,11 @@ param:
               preview: ""
               type: "video"
               meta: 07:59
+              attachments: 0
+            - chapter: "Demo - variable and function names"
+              preview: ""
+              type: "video"
+              meta: 23:56
               attachments: 0
         - section: "Work in Progress"
           open: "open"
