@@ -36,7 +36,7 @@ param:
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 42
+      lessons: 43
       length: "~ 12 hr"
       files: 6
       quizzes: 29
@@ -320,6 +320,11 @@ param:
               preview: ""
               type: "video"
               meta: 27:44
+              attachments: 0
+            - chapter: "Definition vs Declaration"
+              preview: ""
+              type: "video"
+              meta: 07:59
               attachments: 0
         - section: "Work in Progress"
           open: "open"
