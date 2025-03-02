@@ -12,13 +12,14 @@ bestseller: true
 features:
   - From the scratch.
   - No prior familiarity assumed.
-  - All C concepts covered with extensive demos.
+  - All C concepts covered with extensive hands on experiments.
   - Program CPU from scratch.
   - gcc, as, ld, gdb, make and other build tools.
   - Coding challenges, projects and code reviews.
   - Quizzes to reinforce learnings.
   - Earn a certificate.
   - Taught by industry expert.
+  - Covers C and the tooling infrastructure around it.
   - New content continuously added.
 
 # Link and Payment options
