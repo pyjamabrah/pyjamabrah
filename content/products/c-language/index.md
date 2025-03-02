@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 41
-      length: "~ 11 hr 18 mins"
+      lessons: 42
+      length: "~ 12 hr"
       files: 6
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -310,6 +310,16 @@ param:
               preview: ""
               type: "video"
               meta: 14:52
+              attachments: 0
+        - section: "Variables and Functions"
+          open: "open"
+          description: "We learn how to write C programs and what role variables and functions play in the context of C programs."
+          sectionDuration: "27:44"
+          chapters:
+            - chapter: "Introduction to Variables and Functions"
+              preview: ""
+              type: "video"
+              meta: 27:44
               attachments: 0
         - section: "Work in Progress"
           open: "open"
