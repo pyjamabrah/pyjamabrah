@@ -10,7 +10,7 @@ thumbnail: "/products/c-language/c-course.png"
 categories: courses
 product: "c"
 
-define: &enrolled 131
+define: &enrolled 135
 define: &lastupdated "2 Mar' 2025"
 
 param:
@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 44
-      length: "~ 12 hr 30 mins"
+      lessons: 45
+      length: "~ 13 hr"
       files: 6
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -330,6 +330,11 @@ param:
               preview: ""
               type: "video"
               meta: 23:56
+              attachments: 0
+            - chapter: "Arithmetic operations and pitfalls"
+              preview: ""
+              type: "video"
+              meta: 36:23
               attachments: 0
         - section: "Work in Progress"
           open: "open"
