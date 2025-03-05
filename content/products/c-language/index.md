@@ -5,7 +5,7 @@ title: "The C Language"
 date: "2025-01-08T17:48:22+05:30"
 tags:
   - bundle
-description: "Learn it from Scratch. Simple Explanation. Deep Insights!"
+description: "The language, the tools and the programming techniques."
 thumbnail: "/products/c-language/c-course.png"
 categories: courses
 product: "c"
@@ -18,8 +18,8 @@ param:
   note: "Claim the Discounted Prices while the course is being developed!"
   bundle:
     - course: "The C Language"
-      subtitle: "Learn it from Scratch. Simple Explanation. Deep Insights!"
-      description: "A foundational course taught in an unconventional way to get you the skills of a professionals. Taught by an industry expert, you will be able to code without an IDE, use all the tools involved in building the source code and reason about your program at the system level."
+      subtitle: "`the language, the tools and the programming techniques`"
+      description: "This course focuses on the `applied C language` with a focus on teaching the concepts in C language by proving through hands-on demo. Taught in an unconventional way, the lecture delivery not covers the concepts but strives to enable the learner to use these concepts in the real life.\n\n By the end of the course, `you will be very comfortable with the C language, how to use it and various tools and utilities that a professional C programmer uses on a daily basis`."
       previewCover: "/products/c-language/c-course.png"
       previewVideo: "https://github.com/pyjamabrah/preview-videos/raw/refs/heads/main/C%20to%20Assembly.mp4"
       bestSeller: "yes"

@@ -2,11 +2,11 @@
 
 <div class="prod-description">
   <p>
-    {{ .description }}
+    {{ .description | markdownify }}
   </p>
   <p>
     {{ if .bestSeller }}
-      <span class="product-bestseller">Bestseller</span>
+      <b class="product-bestseller">Bestseller</b>
     {{ end }}
 
     {{ if .beginner }}
@@ -16,7 +16,12 @@
     {{ if .intermediate }}
       <span class="product-intermediate">Intermediate</span>
     {{ end }}
-
+    | Created by
+    {{ range .creators }}
+    <a href="{{ .contactLink }}" target="_blank"><b>{{ .name }}</b></a>
+    {{ end }}
+  </p>
+  <p>
     {{ if .rating }}
     {{ partial "products/render-stars.html" .rating }}
       {{ if .ratingCount }}
@@ -28,14 +33,6 @@
       {{ .studentsCount }} students
     {{ end }}
   </p>
-
-  <p>
-    Created by
-    {{ range .creators }}
-    <a href="{{ .contactLink }}" target="_blank"><b>{{ .name }}</b></a>
-    {{ end }}
-  </p>
-
   <p>
     <span class="bi bi-exclamation-circle-fill"></span> Last updated: {{ .lastUpdated }} |
     <span class="bi bi-globe"></span> {{ .language }} |

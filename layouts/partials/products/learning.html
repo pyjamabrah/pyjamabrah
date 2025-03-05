@@ -1,7 +1,10 @@
 {{ with . }}
 
-<h2>What you Learn</h2>
+{{/*  TODO: Move this elsewhere  */}}
+<h2>A Message from the instructor</h2>
+<iframe src="https://player.vimeo.com/video/1053034983?h=5b7a861bb5" style="width:100%; display:block; aspect-ratio: 16 / 9;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+<h2>What you Learn</h2>
 <div class="prod-what-u-learn">
   {{ range .learning }}
   <div class="prod-what-u-learn-point">
@@ -10,7 +13,4 @@
   </div>
   {{ end }}
 </div>
-{{/*  TODO: Move this elsewhere  */}}
-<h2>A Message from the instructor</h2>
-<iframe src="https://player.vimeo.com/video/1053034983?h=5b7a861bb5" style="width:99%; display:block; aspect-ratio: 16 / 9;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 {{ end }}
