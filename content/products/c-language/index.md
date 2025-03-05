@@ -6,7 +6,7 @@ date: "2025-01-08T17:48:22+05:30"
 tags:
   - bundle
 description: "The language, the tools and the programming techniques."
-thumbnail: "/products/c-language/c-course.png"
+thumbnail: "/products/c-language/cover.png"
 categories: courses
 product: "c"
 
