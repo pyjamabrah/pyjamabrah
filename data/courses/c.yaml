@@ -8,9 +8,6 @@ description: ""
 rating: 4.83
 bestseller: true
 
-# variables
-define: &lectureCount 42
-
 # Course features
 features:
   - ~ 13.5 hr on-demand Video.
