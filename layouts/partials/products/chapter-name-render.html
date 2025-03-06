@@ -16,6 +16,10 @@
         {{ if eq .type "code"}}
           <i class="bi bi-code-square"></i>
         {{ end }}
+
+        {{ if eq .type "pdf"}}
+          <i class="bi bi-filetype-pdf"></i>
+        {{ end }}
       </div>
       <div>{{ $chapterName }}</div>
     </div>

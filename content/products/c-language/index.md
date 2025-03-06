@@ -19,7 +19,7 @@ param:
   bundle:
     - course: "The C Language"
       subtitle: "`the language, the tools and the programming techniques`"
-      description: "This course focuses on the `applied C language` with a focus on teaching the concepts in C language by proving through hands-on demo. Taught in an unconventional way, the lecture delivery not covers the concepts but strives to enable the learner to use these concepts in the real life.\n\n By the end of the course, `you will be very comfortable with the C language, how to use it and various tools and utilities that a professional C programmer uses on a daily basis`."
+      description: "This course dives into the practical applications of the C language, emphasizing hands-on learning to solidify key concepts. Delivered in an engaging and unconventional style, the lessons go beyond theory, equipping you with the skills to apply C programming in real-world scenarios.\n\n By the end of the course, you’ll feel confident in your mastery of the C language, adept at using it alongside the tools and utilities professional C programmers rely on daily."
       previewCover: "/products/c-language/c-course.png"
       previewVideo: "https://github.com/pyjamabrah/preview-videos/raw/refs/heads/main/C%20to%20Assembly.mp4"
       bestSeller: "yes"
@@ -33,7 +33,7 @@ param:
           designation: "Embedded Engineer (L5), Google"
           contactLink: "https://x.com/pyjamabrah"
           photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
-          bio: "Electrical Engineer with a master's degree in Embedded Systems. Has worked at Intel on Navigation Firmware, Bluetooth Driver and RF validation software. Currently working as an Embedded Software Engineer at Google. Has been involved with Firmware development for the Power Management Sub-system on the Tensor SoCs (Pixel Phones) and Pixel Watch System Software."
+          bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
       lastUpdated: *lastupdated
       language: "English"
       lessons: 45
@@ -43,6 +43,17 @@ param:
       certificate: "/products/c-language/certificate.png"
       validity: 365 days
       learning:
+        - In-Depth Video Lessons - Learn core concepts through clear, engaging, and expertly crafted tutorials.
+        - Comprehensive Notes - Quick-reference guides to reinforce your understanding and keep you on track.
+        - Real-World Projects - Build practical applications to solidify your skills and create portfolio-worthy work.
+        - Interactive Quizzes - Test your knowledge and gain confidence with bite-sized challenges.
+        - Personalized Code Reviews - Receive expert feedback to sharpen your coding techniques and eliminate bad habits.
+        - C Cheatsheet - A handy, at-a-glance resource for syntax, functions, and best practices.
+        - Case Studies from Open Source - Dive into real code from popular repositories to see how pros use C in action.
+        - Hands-On Focus - Learn by doing, with projects that mirror professional workflows.
+        - Practical Insights - Explore case studies based on open-source projects to bridge theory and practice.
+        - Expert Support - Benefit from code reviews that elevate your skills to a professional level.
+        - All-in-One Resource - Everything you need—videos, notes, cheatsheets, and more—in one place.
         - Mental models to use when coding in C.
         - What is machine code.
         - Instruction Set Architecture and Assembly coding.
@@ -336,7 +347,17 @@ param:
               type: "video"
               meta: 36:23
               attachments: 0
-        - section: "Work in Progress"
+        - section: "Project 1: Implementing a Calculator"
+          open: "open"
+          description: "Our first project based on the learnings in the previous sections."
+          sectionDuration: ""
+          chapters:
+            - chapter: "Problem Statement and Design Consideration"
+              preview: ""
+              type: "pdf"
+              meta:
+              attachments: 0
+        - section: "To be uploaded..."
           open: "open"
           description: "This course is being actively developed at the moment. More sections/Lectures and exercises are regularly added. Sections prior to this are complete and available for learner to pursue..."
           sectionDuration: ""
