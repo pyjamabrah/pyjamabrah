@@ -58,6 +58,20 @@
   padding-right: 10px;
 }
 
+.course-feature-point {
+  min-width: 90%;
+  max-width: 90%;
+  margin-bottom: 5px;
+  display:flex;
+  word-wrap: break-word;
+}
+
+.course-feature-point-text {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+
 .product-stats {
   text-align: center;
 }

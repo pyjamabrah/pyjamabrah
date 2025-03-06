@@ -1,0 +1,32 @@
+{{ define "main" }}
+      <div class="landingpage-hero">
+        <h1>Courses</h1>
+      </div>
+
+      <div class="course-list">
+        {{ range .Site.Data.courses }}
+        <a class="course-card" href="{{ .more }}" >
+          <img src="{{.poster}}"/>
+          <h4 class="post-title"> {{ .title | markdownify }} </h4>
+          <div class="product-subtitle">{{.subtitle | markdownify}}</div>
+          <div class="product-stats">
+            {{ if .bestseller }}
+              <span class="product-bestseller">Bestseller</span>
+            {{ end }}
+            {{ if .rating }}
+              {{ partial "products/render-stars.html" .rating }}
+            {{ end }}
+          </div>
+          <div class="course-card-content">
+            <p>{{ .description | markdownify }}</p>
+            {{ range .features }}
+              <div class="course-feature-point">
+                <i class="bi bi-check2-all course-feature-point-text"></i><div> {{ . | markdownify }} </div>
+              </div>
+            {{ end }}
+          </div>
+        </a>
+        {{ end }}
+      </div>
+      <div class="clear"></div>
+{{ end }}

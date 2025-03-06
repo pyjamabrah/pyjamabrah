@@ -182,6 +182,15 @@ summary {
   color: var(--fontcolor) !important;
 }
 
+.course-card {
+  border: solid var(--linecolor) 1px;
+  max-width: 100% !important;
+  margin: 15px;
+  text-decoration: none !important;
+  cursor: pointer;
+  color: var(--fontcolor) !important;
+}
+
 .post-title {
   margin: 0px !important;
   padding: 10px;
@@ -198,11 +207,25 @@ summary {
   }
 }
 
+.course-card-content {
+  padding: 0 20px 20px 20px;
+  font-size: 0.9em;
+
+  p {
+    padding: 0 10px 0 10px;
+  }
+}
+
 .clear {
   clear: both;
 }
 
 .post-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-list {
   display: flex;
   flex-wrap: wrap;
 }

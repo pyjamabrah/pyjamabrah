@@ -34,6 +34,22 @@
     text-decoration: none;
   }
 
+  .course-card {
+    border: solid var(--linecolor) 0px;
+    margin: 15px;
+    max-width: 31.13% !important;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--fontcolor) !important;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 5px 0px var(--shadow);
+  }
+
+  .course-card:hover {
+    box-shadow: 0px 0px 20px 0px var(--shadowDard);
+    text-decoration: none;
+  }
+
   .post-title {
     margin: 0px !important;
     padding: 10px;

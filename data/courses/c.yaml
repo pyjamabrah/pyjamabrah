@@ -13,16 +13,16 @@ define: &lectureCount 42
 
 # Course features
 features:
-  - "`47` (more to be added) In-Depth `Video Lessons` - clear, engaging, and expertly crafted tutorials."
-  - "`Comprehensive Notes` to keep you on track."
-  - "`Projects` to develop the coding muscle."
-  - "`Real-World Projects` - To solidify your skills and create portfolio-worthy work."
-  - "`Interactive Quizzes` - Test your knowledge and gain confidence with bite-sized challenges."
-  - "`Code Reviews` - Learn by fixing broken code."
-  - "`Cheat-sheet` - A handy, at-a-glance resource for syntax, functions, and best practices."
-  - "`Case Studies from Open Source` - to see how pros use C in action."
-  - "`Hands-On` - Learn by doing, mirror professional workflows."
-  - "`Practical Insights` - Bridge theory and practice."
+  - ~ 13.5 hr on-demand Video.
+  - 47 Recorded lessons.
+  - 6 downloadable resources.
+  - 29 Quiz questions to reinforce learning.
+  - Certificate on completion of course.
+  - Cheat sheets and/or quick reference guides.
+  - Case studies based on open-source code.
+  - Coding exercises and challenges.
+  - Code reviewing based learning.
+  - New content regularly added!
 
 # Link and Payment options
 more: "/products/c-language"

@@ -16,7 +16,7 @@ menu:
       weight: 1
     - identifier: Courses
       name: Courses
-      url: /products/c-language
+      url: /courses/
       weight: 2
     - identifier: posts
       name: Posts
