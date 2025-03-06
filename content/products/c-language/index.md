@@ -43,17 +43,6 @@ param:
       certificate: "/products/c-language/certificate.png"
       validity: 365 days
       learning:
-        - In-Depth Video Lessons - Learn core concepts through clear, engaging, and expertly crafted tutorials.
-        - Comprehensive Notes - Quick-reference guides to reinforce your understanding and keep you on track.
-        - Real-World Projects - Build practical applications to solidify your skills and create portfolio-worthy work.
-        - Interactive Quizzes - Test your knowledge and gain confidence with bite-sized challenges.
-        - Personalized Code Reviews - Receive expert feedback to sharpen your coding techniques and eliminate bad habits.
-        - C Cheatsheet - A handy, at-a-glance resource for syntax, functions, and best practices.
-        - Case Studies from Open Source - Dive into real code from popular repositories to see how pros use C in action.
-        - Hands-On Focus - Learn by doing, with projects that mirror professional workflows.
-        - Practical Insights - Explore case studies based on open-source projects to bridge theory and practice.
-        - Expert Support - Benefit from code reviews that elevate your skills to a professional level.
-        - All-in-One Resource - Everything you need—videos, notes, cheatsheets, and more—in one place.
         - Mental models to use when coding in C.
         - What is machine code.
         - Instruction Set Architecture and Assembly coding.
