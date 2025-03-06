@@ -13,8 +13,9 @@ define: &lectureCount 42
 
 # Course features
 features:
-  - "`45` (more to be added) In-Depth `Video Lessons` - clear, engaging, and expertly crafted tutorials."
+  - "`47` (more to be added) In-Depth `Video Lessons` - clear, engaging, and expertly crafted tutorials."
   - "`Comprehensive Notes` to keep you on track."
+  - "`Projects` to develop the coding muscle."
   - "`Real-World Projects` - To solidify your skills and create portfolio-worthy work."
   - "`Interactive Quizzes` - Test your knowledge and gain confidence with bite-sized challenges."
   - "`Code Reviews` - Learn by fixing broken code."

@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 45
-      length: "~ 13 hr"
+      lessons: 47
+      length: "~ 13.5 hr"
       files: 6
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -339,13 +339,18 @@ param:
         - section: "Project 1: Implementing a Calculator"
           open: "open"
           description: "Our first project based on the learnings in the previous sections."
-          sectionDuration: ""
+          sectionDuration: "22 mins"
           chapters:
             - chapter: "Problem Statement and Design Consideration"
               preview: ""
               type: "pdf"
               meta:
               attachments: 0
+            - chapter: "Setup, variables and user input/output"
+              preview: ""
+              type: "video"
+              meta: 22:10
+              attachments: 1
         - section: "To be uploaded..."
           open: "open"
           description: "This course is being actively developed at the moment. More sections/Lectures and exercises are regularly added. Sections prior to this are complete and available for learner to pursue..."
