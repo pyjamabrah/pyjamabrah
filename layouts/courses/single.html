@@ -1,47 +1,47 @@
 {{ define "main" }}
-      <div class="landingpage-hero">
-        <h1>Courses</h1>
-        <p>I have taken my love and passion for Low level Engineering and packed it into structured courses.</p>
-      </div>
+  <div class="landingpage-hero">
+    <h1>Courses</h1>
+    <p>I have taken my love and passion for Low level Engineering and packed it into structured courses. More than <b>517</b> enrolment since launch!</p>
+  </div>
 
-      <div class="course-list">
-        {{ range .Site.Data.courses }}
-        <a class="course-card" href="{{ .more }}" >
-          <img src="{{.poster}}"/>
-          <h4 class="post-title"> {{ .title | markdownify }} </h4>
-          <div class="product-subtitle">{{.subtitle | markdownify}}</div>
+  <div class="course-list">
+    {{ range .Site.Data.courses }}
+    <a class="course-card" href="{{ .enroll }}" >
+      <img src="{{.poster}}"/>
+      <h4 class="post-title"> {{ .title | markdownify }} </h4>
+      <div class="product-subtitle">{{.subtitle | markdownify}}</div>
 
-          {{ if .badges}}
-          <div class="product-stats">
-            {{ range .badges }}
-              {{ if .beginner }}
-                <span class="product-beginner">Beginner</span>
-              {{ end }}
-              {{ if .intermediate }}
-              <span class="product-intermediate">Intermediate</span>
-              {{ end }}
-              {{ if .free }}
-              <span class="product-free">FREE!</span>
-              {{ end }}
-            {{ end }}
-          </div>
+      {{ if .badges}}
+      <div class="product-stats">
+        {{ range .badges }}
+          {{ if .beginner }}
+            <span class="product-beginner">Beginner</span>
           {{ end }}
-
-          <div class="product-stats">
-            {{ if .bestseller }}
-              <span class="product-bestseller">Bestseller</span>
-            {{ end }}
-            {{ if .rating }}
-              {{ partial "products/render-stars.html" .rating }}
-            {{ end }}
-          </div>
-
-          <div class="course-card-content">
-            <p>{{ .description | markdownify }}</p>
-            {{ partial "courses/feature-list.html" .content }}
-          </div>
-        </a>
+          {{ if .intermediate }}
+          <span class="product-intermediate">Intermediate</span>
+          {{ end }}
+          {{ if .free }}
+          <span class="product-free">FREE!</span>
+          {{ end }}
         {{ end }}
       </div>
-      <div class="clear"></div>
+      {{ end }}
+
+      <div class="product-stats">
+        {{ if .bestseller }}
+          <span class="product-bestseller">Bestseller</span>
+        {{ end }}
+        {{ if .rating }}
+          {{ partial "products/render-stars.html" .rating }}
+        {{ end }}
+      </div>
+
+      <div class="course-card-content">
+        <p>{{ .description | markdownify }}</p>
+        {{ partial "courses/feature-list.html" .content }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  <div class="clear"></div>
 {{ end }}
