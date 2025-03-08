@@ -6,7 +6,7 @@
 
   <div class="course-list">
     {{ range .Site.Data.courses }}
-    <a class="course-card" href="{{ .enroll }}" >
+    <div class="course-card" href="{{ .enroll }}" >
       <img src="{{.poster}}"/>
       <h4 class="post-title"> {{ .title | markdownify }} </h4>
       <div class="product-subtitle">{{.subtitle | markdownify}}</div>
@@ -39,9 +39,20 @@
       <div class="course-card-content">
         <p>{{ .description | markdownify }}</p>
         {{ partial "courses/feature-list.html" .content }}
+        {{ if .more }}
+        <p><a href="{{.more}}">Read more...</a></p>
+      {{ end }}
       </div>
-    </a>
+      {{if .paybuttonID}}
+      {{ partial "products/paybutton.html" .paybuttonID }}
+      {{else}}
+      <div class="product-cta-button">
+        <a class="btn" href="{{.enroll}}" target="_blank">
+          <button><span class="bi bi-cup-hot"></span> {{ .ctaText | markdownify}}</button>
+        </a>
+      </div>
+      {{end}}
+    </div>
     {{ end }}
   </div>
-  <div class="clear"></div>
 {{ end }}
