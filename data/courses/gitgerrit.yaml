@@ -8,6 +8,22 @@ description: "Git and Gerrit are very commonly used in the industry for version 
 rating:
 bestseller:
 
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: true
+
+content:
+  - videos:
+  - duration:
+  - downloads:
+  - quizzes:
+  - codeReviews:
+  - projects:
+  - access: "365"
+  - enrolled: "**150**"
+  - certificate:
+
 # Course features
 features:
 

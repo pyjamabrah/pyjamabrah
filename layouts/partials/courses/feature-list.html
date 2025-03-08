@@ -1,0 +1,66 @@
+{{ with .}}
+  {{range .}}
+    {{ if .videos }}
+      <div class="course-feature-point">
+        <i class="bi bi-crosshair course-feature-point-text"></i>
+        <div>{{ .videos | markdownify }} in-depth, segmented lectures.</div>
+      </div>
+    {{ end }}
+
+    {{ if .duration }}
+      <div class="course-feature-point">
+        <i class="bi bi-camera-video course-feature-point-text"></i>
+        <div>{{.duration | markdownify }} of recordings.</div>
+      </div>
+    {{ end }}
+
+    {{ if .projects }}
+      <div class="course-feature-point">
+        <i class="bi bi-hammer course-feature-point-text"></i>
+        <div>{{.projects | markdownify }} real world projects to develop the pro skills!</div>
+      </div>
+    {{ end }}
+
+    {{ if .downloads }}
+      <div class="course-feature-point">
+        <i class="bi bi-cloud-arrow-down course-feature-point-text"></i>
+        <div>{{.downloads | markdownify }} downloadable resources (notes, code).</div>
+      </div>
+    {{ end }}
+
+    {{ if .quizzes }}
+      <div class="course-feature-point">
+        <i class="bi bi-check-square course-feature-point-text"></i>
+        <div>{{.quizzes | markdownify }} quizzes to reinforce understanding.</div>
+     </div>
+    {{ end }}
+
+    {{ if .codeReviews }}
+      <div class="course-feature-point">
+        <i class="bi bi-bug course-feature-point-text"></i>
+        <div>Code reviews and coding challenges.</div>
+      </div>
+    {{ end }}
+
+    {{ if .access }}
+      <div class="course-feature-point">
+        <i class="bi bi-clock course-feature-point-text"></i>
+        <div> {{ .access | markdownify }} day access.</div>
+      </div>
+    {{ end }}
+
+    {{ if .certificate }}
+      <div class="course-feature-point">
+        <i class="bi bi-trophy course-feature-point-text"></i>
+        <div>Certificate on completing 95% of course work.</div>
+      </div>
+    {{ end }}
+
+    {{ if .enrolled }}
+      <div class="course-feature-point">
+        <i class="bi bi-people course-feature-point-text"></i>
+        <div>{{.enrolled | markdownify }}+ enrolled.</div>
+      </div>
+    {{ end }}
+  {{end}}
+{{ end }}

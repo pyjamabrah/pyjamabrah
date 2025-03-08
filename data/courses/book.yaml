@@ -5,3 +5,18 @@ description: "I am writing a book to teach C by understanding the CPU/Memory pro
 ctaText: "Start Reading!"
 enroll: "https://learn.pyjamabrah.com/learn/thebook"
 
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: true
+
+content:
+  - videos:
+  - duration:
+  - downloads:
+  - quizzes:
+  - codeReviews:
+  - projects:
+  - access: "31"
+  - enrolled:
+  - certificate:

@@ -1,6 +1,7 @@
 {{ define "main" }}
       <div class="landingpage-hero">
         <h1>Courses</h1>
+        <p>I have taken my love and passion for Low level Engineering and packed it into structured courses.</p>
       </div>
 
       <div class="course-list">
@@ -9,6 +10,23 @@
           <img src="{{.poster}}"/>
           <h4 class="post-title"> {{ .title | markdownify }} </h4>
           <div class="product-subtitle">{{.subtitle | markdownify}}</div>
+
+          {{ if .badges}}
+          <div class="product-stats">
+            {{ range .badges }}
+              {{ if .beginner }}
+                <span class="product-beginner">Beginner</span>
+              {{ end }}
+              {{ if .intermediate }}
+              <span class="product-intermediate">Intermediate</span>
+              {{ end }}
+              {{ if .free }}
+              <span class="product-free">FREE!</span>
+              {{ end }}
+            {{ end }}
+          </div>
+          {{ end }}
+
           <div class="product-stats">
             {{ if .bestseller }}
               <span class="product-bestseller">Bestseller</span>
@@ -17,13 +35,10 @@
               {{ partial "products/render-stars.html" .rating }}
             {{ end }}
           </div>
+
           <div class="course-card-content">
             <p>{{ .description | markdownify }}</p>
-            {{ range .features }}
-              <div class="course-feature-point">
-                <i class="bi bi-check2-all course-feature-point-text"></i><div> {{ . | markdownify }} </div>
-              </div>
-            {{ end }}
+            {{ partial "courses/feature-list.html" .content }}
           </div>
         </a>
         {{ end }}

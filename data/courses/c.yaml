@@ -8,6 +8,22 @@ description: ""
 rating: 4.83
 bestseller: true
 
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: false
+
+content:
+  - videos: "**47**"
+  - duration: "**13.5 hours**"
+  - downloads: "**6**"
+  - quizzes: "**29**"
+  - codeReviews: yes
+  - projects: "**1**"
+  - access: "365"
+  - enrolled: "**150**"
+  - certificate: yes
+
 # Course features
 features:
   - ~ 13.5 hr on-demand Video.

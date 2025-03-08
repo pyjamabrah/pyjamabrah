@@ -234,14 +234,14 @@ iframe {
   border: none;
 }
 
-.product-bestseller, .product-beginner, .product-intermediate {
+.product-bestseller, .product-beginner, .product-intermediate, .product-free  {
   border: solid var(--linecolor) 1px;
   padding: 0px 5px 0px 5px;
   background-color: var(--theme-primary);
   border-radius: 3px;
 }
 
-.product-beginner, .product-intermediate {
+.product-beginner, .product-intermediate, .product-free {
   background-color: greenyellow;
   color: black;
 }
