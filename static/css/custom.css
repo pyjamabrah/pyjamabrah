@@ -30,6 +30,7 @@ button {
   font-size: 1.125em;
   font-family: monospace;
   font-weight: 600;
+  width: 95%;
 }
 
 .align-in-center {
