@@ -1,0 +1,35 @@
+# Essentials
+title: "ARM Cortex-M 101"
+subtitle: "Introduction to ARM M CPUs and how to learn them"
+poster: "/products/m101/cover.png"
+description: "Dive into the world of ARM M-class CPUs with this comprehensive 9-video series, designed to equip aspiring embedded software engineers with a solid understanding of these ubiquitous microcontrollers. "
+
+# course stats
+rating:
+bestseller: true
+
+badges:
+  - beginner: true
+  - intermediate: false
+  - free: true
+
+content:
+  - videos: "**9**"
+  - duration: "**1 hour**"
+  - downloads: "**9**"
+  - quizzes:
+  - codeReviews:
+  - projects:
+  - access: "31"
+  - enrolled:
+  - certificate:
+
+
+# Link and Payment options
+more: "https://learn.pyjamabrah.com/learn/m101"
+ctaText: "Start Learning (FREE)"
+enroll: "https://learn.pyjamabrah.com/learn/m101"
+
+#
+# Details below this line are for the landing Page.
+#

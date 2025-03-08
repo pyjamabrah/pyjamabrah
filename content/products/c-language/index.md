@@ -10,8 +10,8 @@ thumbnail: "/products/c-language/cover.png"
 categories: courses
 product: "c"
 
-define: &enrolled 150
-define: &lastupdated "6 Mar' 2025"
+define: &enrolled 152
+define: &lastupdated "8 Mar' 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 47
-      length: "~ 13.5 hr"
+      lessons: 48
+      length: "~ 14 hr"
       files: 6
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -350,6 +350,11 @@ param:
               preview: ""
               type: "video"
               meta: 22:10
+              attachments: 1
+            - chapter: "Using conditions, switch and loops"
+              preview: ""
+              type: "video"
+              meta: 35:07
               attachments: 1
         - section: "To be uploaded..."
           open: "open"
