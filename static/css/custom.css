@@ -189,6 +189,7 @@ summary {
   text-decoration: none !important;
   cursor: pointer;
   color: var(--fontcolor) !important;
+  height: fit-content;
 }
 
 .post-title {

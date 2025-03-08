@@ -7,7 +7,11 @@
   <div class="course-list">
     {{ range .Site.Data.courses }}
     <div class="course-card" href="{{ .enroll }}" >
-      <img src="{{.poster}}"/>
+      {{ if .preview }}
+        <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/{{.preview}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      {{ else }}
+        <img src="{{.poster}}"/>
+      {{ end }}
       <h4 class="post-title"> {{ .title | markdownify }} </h4>
       <div class="product-subtitle">{{.subtitle | markdownify}}</div>
 

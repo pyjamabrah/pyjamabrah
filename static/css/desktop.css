@@ -37,7 +37,7 @@
   .course-card {
     border: solid var(--linecolor) 0px;
     margin: 15px;
-    max-width: 31.13% !important;
+    max-width: 30% !important;
     text-decoration: none;
     cursor: pointer;
     color: var(--fontcolor) !important;
