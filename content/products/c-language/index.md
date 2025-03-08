@@ -36,9 +36,9 @@ param:
           bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 48
-      length: "~ 14 hr"
-      files: 6
+      lessons: 49
+      length: "~ 15 hr"
+      files: 11
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
       validity: 365 days
@@ -355,6 +355,16 @@ param:
               preview: ""
               type: "video"
               meta: 35:07
+              attachments: 1
+            - chapter: "debugging scanf issue and cleaning up the code"
+              preview: ""
+              type: "video"
+              meta: 20:00
+              attachments: 1
+            - chapter: "guarding against bad inputs and concluding the project"
+              preview: ""
+              type: "video"
+              meta: 15:44
               attachments: 1
         - section: "To be uploaded..."
           open: "open"

@@ -14,28 +14,15 @@ badges:
   - free: false
 
 content:
-  - videos: "**48**"
-  - duration: "**14 hours**"
-  - downloads: "**6**"
+  - videos: "**49**"
+  - duration: "**15 hours**"
+  - downloads: "**11**"
   - quizzes: "**29**"
   - codeReviews: yes
   - projects: "**1**"
   - access: "365"
   - enrolled: "**152**"
   - certificate: yes
-
-# Course features
-features:
-  - ~ 13.5 hr on-demand Video.
-  - 47 Recorded lessons.
-  - 6 downloadable resources.
-  - 29 Quiz questions to reinforce learning.
-  - Certificate on completion of course.
-  - Cheat sheets and/or quick reference guides.
-  - Case studies based on open-source code.
-  - Coding exercises and challenges.
-  - Code reviewing based learning.
-  - New content regularly added!
 
 # Link and Payment options
 more: "/products/c-language"
