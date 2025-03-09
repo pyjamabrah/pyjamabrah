@@ -44,7 +44,7 @@
         <p>{{ .description | markdownify }}</p>
         {{ partial "courses/feature-list.html" .content }}
         {{ if .more }}
-        <p><a href="{{.more}}">Read more...</a></p>
+        <b><a href="{{.more}}">more details...</a></b>
       {{ end }}
       </div>
       {{if .paybuttonID}}
