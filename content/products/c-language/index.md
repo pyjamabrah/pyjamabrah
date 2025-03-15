@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 49
-      length: "~ 15 hr"
+      lessons: 53
+      length: "~ 17 hr"
       files: 11
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -366,6 +366,36 @@ param:
               type: "video"
               meta: 15:44
               attachments: 1
+        - section: "Strings, Arrays and Pointers"
+          open: "open"
+          description: "We will dive into how data is stored in the memory and referenced when it comes to strings. How we can save multiple instances of data with same data types and what pointers mean."
+          sectionDuration: "1 hr 30 mins mins"
+          chapters:
+            - chapter: "Strings and concept of array and pointers"
+              preview: ""
+              type: "video"
+              meta: 35
+              attachments: 0
+            - chapter: "Defining and Assigning Arrays"
+              preview: ""
+              type: "video"
+              meta: 16
+              attachments: 0
+            - chapter: "Arrays and out of bound access"
+              preview: ""
+              type: "video"
+              meta: 46
+              attachments: 0
+            - chapter: "Strings and Character arrays"
+              preview: ""
+              type: "video"
+              meta: 20
+              attachments: 0
+            - chapter: "WIP. being recorded..."
+              preview: ""
+              type: "video"
+              meta:
+              attachments: 0
         - section: "To be uploaded..."
           open: "open"
           description: "This course is being actively developed at the moment. More sections/Lectures and exercises are regularly added. Sections prior to this are complete and available for learner to pursue..."
