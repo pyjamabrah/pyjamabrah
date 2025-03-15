@@ -572,81 +572,12 @@ param:
 
 # The Design and Deliberation
 
-There are many courses on the internet. I assure nothing comes close to this! C Language has been my daily driver at work for the past decade, and unlike the kernel developers, I used this language to program CPUs from scratch. This means, I have used the C language in its most RAW form - without any standard libraries. By the end of this course you will have first hand experience of that RAW power and will be able to use this language like a seasoned professional.
+The internet is flooded with coding courses—yet none rival this. For over a decade, C has been my daily driver at work. Unlike kernel developers leaning on abstractions, I’ve wielded C in its purest, most raw form—programming CPUs from scratch, without the crutch of standard libraries. This course hands you that same unfiltered power. By the end, you won’t just know C—you’ll command it like a seasoned pro, bending it to your will in ways most developers never dream of.
 
-Over time, I have learnt that there are more C developers than meets the eye. The general public and students don't necessarily get to see it from where they are.
+Here’s the truth: **C’s mastery runs deeper than most realize**. The general public and students rarely glimpse its full scope from the sidelines. I’ve lived it, and now I’m pulling back the curtain for you.
 
-### Why I created this course?
+### Why I Created This Course
 
-I have had an interesting observations on repeat over the years - **Most engineers learn and use C the wrong way and this course attempts teach C the right way**. This course is a way to correct that. There is a way to look at the world using C, this course is an attempt to teach that skill.
+Over years of working with C, I’ve noticed a troubling pattern: most engineers learn and use C the wrong way. This course exists to fix that. It’s not just about coding—it’s about teaching you to see the world through C’s lens, to wield it with precision and purpose. My goal is to show you the right way to master this language.
 
-I have had the wonderful opportunity to host **several interns**, lead **recent college graduates**, mentor **early career professionals** and **interview close to 100 working professionals** from the industry for different lower level positions in my team.
-
-Over time, it dawned on me that although many used C on daily basis not everyone knew how to reason about their code at the System Level. For example, when I ask
-
-
-> What does the `volatile` keyword in C do?
-
-
-A common answer is
-
-> It tells the compiler not to optimize out a variable.
-
-
-While the answer is correct, very rarely people can explain what the implications are! A good answer to the question is -
-
-> The variable is not cached in the CPU registers!
-
-An answer at the CPU level hits very differently and confirms that the engineer has a very deep level of systems level understanding.
-
-This course is very carefully designed to teach and reinforce such system level understanding!
-
-# Learning Portal
-
-The course is structured into Sections which have Chapters, Quizzes, Coding Challenges and Articles within them. Chapters also have a nice description to orient the learner as to what to expect, the Quizzes help reinforce the learnings from the Lectures.
-
-![](portal.png "A Clean interface and neatly sectioned topics")
-
-For the Lectures, you have the option to adjust the playback speed from `x0.25` to `x2` depending on what works best for you. The Code I write and explain is also shared as attachments.
-
-# Lectures
-
-I like the old school way of `chalk-and-board` when it comes to explaining the fundamental concepts. Doodles and Scribbling help drive the point home.
-
-![](/products/c-language/course.gif "Screenshots from the lectures")
-
-The lectures are more of us both sitting together and me explaining you on the paper how things work! I scribble on the screen, digital whiteboard and on the Code on the screen - This (trust me), I believe helps keep your focus on exactly the concept I want you to internalize.
-
-The other thing that I use to ensure you don't struggle with the vocabulary of the language is - **Repeat critical things on repeat throughout the Course!**
-
-# Hands on real world Skills
-
-The course is based on `GitHub codespaces`, which means you will not need any special machine, just access to the internet and chrome browser. We set up the working environment on a Linux powered Cloud Virtual machine available to all GitHub users.
-
-![](c-asm.png "We learn system level interaction by decomposing C to ASM.")
-
-We will install all the toolchain and utilities required in `codespaces`, you personal machine stays untouched. Of course, if you want to setup everything on your machine there are steps for that too!
-
-# The RISC-V ISA and Debugging
-
-I have based the Course on the RISC-V Instruction set Architecture. This architecture has few instructions and helps us focus on learning and not be lost in the detailed nuances of the instructions. Further, there is a huge community out there, support and documentation is available easily.
-
-![](gdb.png "We run the code")
-
-We learn by converting the C code to Assembly and reasoning about what the system will do as a result. To be able to look into the system, we will use `gdb`.
-
-# Coding Challenges and Reviews
-
-After every important concept there is a coding test, where you fix a given code. Not only this ensures that you have internalized the concepts but also trains you to judge someone else's code (in this case mine). Code reviews at work and when contributing to Open-Source code is an important thing.
-
-![](codingproblems.png "The course is scattered with hands-on coding challenges which reinforce the concepts.")
-
-The code environment on the platform is set to enforce a delay between every run to ensure you get into the habit of thinking before acting. Once you have fixed the code, the platform will run checks on it and rate you based on the outcome.
-
-# Quizzes and Reports
-
-Quizzes are deliberately based on the content from the lectures. They will test you and force you to very carefully follow each word in the Lectures. These are a way to reinforce the vocabulary, concept and language used and delivered in the Lectures.
-
-![](report.png "A sample quiz report")
-
-As above, after every quiz, a detailed report is generated with a personalized feedback on how well you have done and what you should do or focus on next to master this language.
+I’ve been fortunate to mentor dozens of interns, guide recent college graduates, coach early-career professionals, and interview nearly 100 industry practitioners for system-level roles on my team. One truth stood out: while many use C daily, few truly understand how to reason about their code at the systems level. That gap inspired this course—a chance to bridge it with real-world insight and hands-on expertise.
