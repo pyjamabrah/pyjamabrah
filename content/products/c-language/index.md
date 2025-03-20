@@ -10,8 +10,8 @@ thumbnail: "/products/c-language/cover.png"
 categories: courses
 product: "c"
 
-define: &enrolled 259
-define: &lastupdated "9 Mar' 2025"
+define: &enrolled 271
+define: &lastupdated "20 Mar' 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -37,7 +37,7 @@ param:
       lastUpdated: *lastupdated
       language: "English"
       lessons: 53
-      length: "~ 17 hr"
+      length: "~ 17.5 hr"
       files: 11
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -369,7 +369,7 @@ param:
         - section: "Strings, Arrays and Pointers"
           open: "open"
           description: "We will dive into how data is stored in the memory and referenced when it comes to strings. How we can save multiple instances of data with same data types and what pointers mean."
-          sectionDuration: "1 hr 30 mins mins"
+          sectionDuration: "2 hrs"
           chapters:
             - chapter: "Strings and concept of array and pointers"
               preview: ""
@@ -387,6 +387,11 @@ param:
               meta: 46
               attachments: 0
             - chapter: "Strings and Character arrays"
+              preview: ""
+              type: "video"
+              meta: 20
+              attachments: 0
+            - chapter: "Introduction to the concept of pointers"
               preview: ""
               type: "video"
               meta: 20
