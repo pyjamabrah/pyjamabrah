@@ -10,8 +10,8 @@ thumbnail: "/products/c-language/cover.png"
 categories: courses
 product: "c"
 
-define: &enrolled 271
-define: &lastupdated "20 Mar' 2025"
+define: &enrolled 287
+define: &lastupdated "22 Mar' 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 53
-      length: "~ 17.5 hr"
+      lessons: 57
+      length: "~ 19 hr"
       files: 11
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -369,7 +369,7 @@ param:
         - section: "Strings, Arrays and Pointers"
           open: "open"
           description: "We will dive into how data is stored in the memory and referenced when it comes to strings. How we can save multiple instances of data with same data types and what pointers mean."
-          sectionDuration: "2 hrs"
+          sectionDuration: "3 hrs 30 mins"
           chapters:
             - chapter: "Strings and concept of array and pointers"
               preview: ""
@@ -396,10 +396,25 @@ param:
               type: "video"
               meta: 20
               attachments: 0
-            - chapter: "WIP. being recorded..."
+            - chapter: "Syntax related to Pointers"
               preview: ""
               type: "video"
-              meta:
+              meta: 18:30
+              attachments: 0
+            - chapter: "Demo - introduction to working with data pointers"
+              preview: ""
+              type: "video"
+              meta: 45
+              attachments: 0
+            - chapter: "Detour - Endianness"
+              preview: ""
+              type: "video"
+              meta: 9
+              attachments: 0
+            - chapter: "Demo - Difference between array and pointers"
+              preview: ""
+              type: "video"
+              meta: 13
               attachments: 0
         - section: "To be uploaded..."
           open: "open"
