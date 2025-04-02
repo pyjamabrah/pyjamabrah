@@ -10,8 +10,8 @@ thumbnail: "/products/c-language/cover.png"
 categories: courses
 product: "c"
 
-define: &enrolled 385
-define: &lastupdated "1 April 2025"
+define: &enrolled 415
+define: &lastupdated "2 April 2025"
 
 param:
   image: "/products/c-language/c-course.png"
