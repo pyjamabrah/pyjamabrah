@@ -76,5 +76,7 @@ params:
       url: /refund
     - name: Shipping and Delivery
       url: /shipping
+    - name: Pricing Policy
+      url: /pricing
     - name: Contact Us
       url: /contact
