@@ -38,7 +38,11 @@
         {{ end }}
         </div>
         {{ partial "sidebar.html" (index .Site.Data.courses .Params.product) }}
+        {{if  (index .Site.Data.courses .Params.product).paybuttonID }}
         {{ partial "products/paybutton.html" (index .Site.Data.courses .Params.product).paybuttonID }}
+        {{ else }}
+        {{ partial "products/enroll.html" (index .Site.Data.courses .Params.product).enroll }}
+        {{ end }}
       </div>
     </article>
   </main>

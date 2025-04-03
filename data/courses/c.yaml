@@ -28,8 +28,8 @@ content:
 # Link and Payment options
 more: "/products/c-language"
 ctaText: "Start Learning"
-enroll: "/products/c-language"
-paybuttonID: "pl_Pr8kvIvnjrP29w"
+enroll: "https://learn.pyjamabrah.com/learn/theclanguage"
+paybuttonID: ""
 
 #
 # Details below this line are for the landing Page.
