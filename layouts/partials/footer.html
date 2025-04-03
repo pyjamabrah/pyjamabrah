@@ -16,6 +16,9 @@
       {{ end }}
     </div>
     {{ end }}
+    <div>
+        Location: {{ default "Bangalore - 560016" .Site.Params.address }}
+    </div>
     <div class="copyright">
       Copyright © {{ now.Format "2006"}}
       <a href="{{ .Site.BaseURL }}"><strong>{{ default "Blog Author" .Site.Params.Author }}</strong></a>.
