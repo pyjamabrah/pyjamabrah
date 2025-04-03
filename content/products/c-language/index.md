@@ -10,7 +10,7 @@ thumbnail: "/products/c-language/cover.png"
 categories: courses
 product: "c"
 
-define: &enrolled 415
+define: &enrolled 423
 define: &lastupdated "2 April 2025"
 
 param:
@@ -36,12 +36,13 @@ param:
           bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 57
+      lessons: 58
       length: "~ 19 hr"
-      files: 11
+      files: 12
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
       validity: 365 days
+      projects: 2
       learning:
         - Mental models to use when coding in C.
         - What is machine code.
@@ -416,12 +417,22 @@ param:
               type: "video"
               meta: 13
               attachments: 0
-        - section: "To be uploaded..."
+        - section: "Project 2: Digital Audio Synthesis"
           open: "open"
-          description: "This course is being actively developed at the moment. More sections/Lectures and exercises are regularly added. Sections prior to this are complete and available for learner to pursue..."
-          sectionDuration: ""
+          description: "Write the C code to generate the audio samples that the hardware can output to the speaker generating a pure tone."
+          sectionDuration: "10 mins"
           chapters:
-            - chapter: "Being recorded..."
+            - chapter: "Problem Statement and Design"
+              preview: ""
+              type: "pdf"
+              meta:
+              attachments: 1
+            - chapter: "Digital audio and project walkthrough"
+              preview: ""
+              type: "video"
+              meta: 10:54
+              attachments: 0
+            - chapter: "Recording in progress ..."
               preview: ""
               type: "video"
               meta:
