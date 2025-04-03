@@ -11,7 +11,7 @@ categories: courses
 product: "c"
 
 define: &enrolled 423
-define: &lastupdated "2 April 2025"
+define: &lastupdated "3 April 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -36,8 +36,8 @@ param:
           bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 58
-      length: "~ 19 hr"
+      lessons: 61
+      length: "~ 20 hr"
       files: 12
       quizzes: 29
       certificate: "/products/c-language/certificate.png"
@@ -420,7 +420,7 @@ param:
         - section: "Project 2: Digital Audio Synthesis"
           open: "open"
           description: "Write the C code to generate the audio samples that the hardware can output to the speaker generating a pure tone."
-          sectionDuration: "10 mins"
+          sectionDuration: "1 hr"
           chapters:
             - chapter: "Problem Statement and Design"
               preview: ""
@@ -432,11 +432,24 @@ param:
               type: "video"
               meta: 10:54
               attachments: 0
-            - chapter: "Recording in progress ..."
+            - chapter: "Math concepts and sampling"
               preview: ""
               type: "video"
-              meta:
+              meta: 27:21
               attachments: 0
+            - chapter: "Generating samples and file operations"
+              preview: ""
+              type: "video"
+              meta: 12:19
+              attachments: 0
+            - chapter: "Demo - Playing the Digital Audio"
+              preview: ""
+              type: "video"
+              meta: 06:43
+              attachments: 0
+        - section: "Recording in progress!"
+          open: "open"
+          description: "This and other sections are being recorded at the moment and will be added soon."
       requirements:
         - GitHub account to do the hands-on coding in Codespaces.
         - Interest in the lower level working of the system.
