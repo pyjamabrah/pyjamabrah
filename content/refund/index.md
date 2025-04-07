@@ -34,7 +34,7 @@ Courses bought at a discounted rate (e.g., during a sale or with a coupon) are f
 
 ## 5. Process and Approval
 
-All refund requests will be reviewed within 5-7 business days. If approved, the refund will be processed. We reserve the right to deny any request that does not meet the criteria outlined above.
+All refund requests will be reviewed within 5-7 business days. `The refund should reflect back in your account within 5-7 working days`. If approved, the refund will be processed. We reserve the right to deny any request that does not meet the criteria outlined above.
 
 # Reach Us
 
