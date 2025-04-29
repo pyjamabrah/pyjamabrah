@@ -447,6 +447,31 @@ param:
               type: "video"
               meta: 06:43
               attachments: 0
+        - section: "Revisiting Data Types - Derived and User Defined"
+          open: "open"
+          description: "Exploring ways in which user can define new data types"
+          sectionDuration: "1 hr"
+          chapters:
+            - chapter: "Revisiting types of data types"
+              preview: ""
+              type: "video"
+              meta:
+              attachments:
+            - chapter: "Structures - Sneak peak"
+              preview: ""
+              type: "video"
+              meta:
+              attachments:
+            - chapter: "Anatomy of Struct and examples"
+              preview: ""
+              type: "video"
+              meta:
+              attachments:
+            - chapter: "Structs - Demo"
+              preview: ""
+              type: "video"
+              meta:
+              attachments:
         - section: "Recording in progress!"
           open: "open"
           description: "This and other sections are being recorded at the moment and will be added soon."
