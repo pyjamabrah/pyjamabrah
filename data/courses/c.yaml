@@ -15,20 +15,19 @@ badges:
   - free: false
 
 content:
-  - videos: "**61**"
-  - duration: "**20 hours**"
+  - videos: "**73**"
+  - duration: "**>20 hours**"
   - downloads: "**12**"
-  - quizzes: "**29**"
   - codeReviews: yes
   - projects: "**2**"
   - access: "365"
-  - enrolled: "**307**"
+  - enrolled: "**481**"
   - certificate: yes
 
 # Link and Payment options
 more: "/products/c-language"
 ctaText: "Start Learning"
-enroll: "https://learn.pyjamabrah.com/learn/theclanguage"
+enroll: "https://courses.pyjamabrah.com/l/db8c35d98f"
 paybuttonID: ""
 
 #

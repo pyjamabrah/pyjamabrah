@@ -10,8 +10,8 @@ thumbnail: "/products/c-language/cover.png"
 categories: courses
 product: "c"
 
-define: &enrolled 423
-define: &lastupdated "3 April 2025"
+define: &enrolled 481
+define: &lastupdated "29 April 2025"
 
 param:
   image: "/products/c-language/c-course.png"
@@ -36,10 +36,10 @@ param:
           bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 61
-      length: "~ 20 hr"
+      lessons: 73
+      length: "~ >20 hr"
       files: 12
-      quizzes: 29
+      quizzes:
       certificate: "/products/c-language/certificate.png"
       validity: 365 days
       projects: 2

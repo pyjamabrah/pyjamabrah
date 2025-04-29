@@ -16,10 +16,12 @@
       <b>{{ .files }}&nbsp</b> downloadable resources.
     </div>
 
+    {{ if .quizzes }}
     <div class="bullet-point">
       <i class="bi bi-bookmark-check prod-content-summary-tick"></i>
       <b>{{ .quizzes }}&nbsp</b> Quiz questions to reinforce learning.
     </div>
+    {{ end }}
 
     {{ if .certificate }}
       <div class="bullet-point">
@@ -41,11 +43,6 @@
     <div class="bullet-point">
       <i class="bi bi-code-square prod-content-summary-tick"></i>
       Coding exercises and challenges.
-    </div>
-
-    <div class="bullet-point">
-      <i class="bi bi-bug prod-content-summary-tick"></i>
-      Code reviewing based learning.
     </div>
 
     {{ if .projects }}
