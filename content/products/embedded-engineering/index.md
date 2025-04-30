@@ -110,7 +110,7 @@ param:
       sections:
         - section: "Low Level with Pyjama Brah! (Public Draft)"
           description: "I am writing a book to teach C by understanding the CPU/Memory programmers model, exploring the ISA for RISC-V, the assembly, writing baremetal firmware/driver, and ends with printing “Hello, World!” on the UART.\n\nThe book covers lot more than just C. Things like Assembly, Makefile, GDB based Debugging, Linker Scripts, C, Driver Writing etc… The public draft is available for FREE for online reading."
-          open: "close"
+          open: "open"
           sectionDuration:
           chapters:
             - chapter: "Low Level with Pyjama Brah!"
@@ -120,7 +120,7 @@ param:
               attachments: ""
         - section: "Roadmap and Career Options"
           description: "This short course focuses on orienting the college graduates and those new to the industry on what the usual roles, responsibilities are and what opportunities they can expect."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Understanding Embedded Systems"
             type: "video"
@@ -144,7 +144,7 @@ param:
             type: "video"
         - section: "The C Language"
           description: "This course dives into the practical applications of the C language, emphasizing hands-on learning to solidify key concepts. Delivered in an engaging and unconventional style, the lessons go beyond theory, equipping you with the skills to apply C programming in real-world scenarios. By the end of the course, you’ll feel confident in your mastery of the C language, adept at using it alongside the tools and utilities professional C programmers rely on daily."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Roadmap and Mindset"
             type: "video"
@@ -282,7 +282,7 @@ param:
             type: "video"
         - section: "C Pointers"
           description: "C pointers are crucial in Firmware and System Software (based on the C language) design. Linux, Unix, FreeRTOs, Zephyr, ThreadX etc kernels use C pointers heavily. This Course dives into the mental models and inner workings of pointers!"
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "What to Imagine?"
             type: "video"
@@ -352,7 +352,7 @@ param:
             type: "video"
         - section: "ARM Cortex-M 101 - Introduction"
           description: "An introductory course on the ARM Cortex-M CPUs. How to go about learning them."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "ARM CPU Architectures"
             type: "video"
@@ -374,7 +374,7 @@ param:
             type: "video"
         - section: "ARM Cortex-M 102 - Scheduler Design using Assembly"
           description: "Learn the assembly programming for ARM Cortex-M CPUs by writing a scheduler from scratch, without using any IDE, SDK or boiler plate code. Course is under development. Content will be added when it's ready."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "End Goal"
             type: "video"
@@ -426,7 +426,7 @@ param:
             type: "video"
         - section: "GNU Make and Automation"
           description: "Make is a build automation tool that automatically updates files in your project based on their dependencies. It's primarily used for compiling source code, but can also be used to run other commands or perform tasks."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Setup and Quick Introduction"
             type: "video"
@@ -458,7 +458,7 @@ param:
             type: "video"
         - section: "GNU Linker Script"
           description: "This hands-on course dives into the details of writing linker scripts (based on GNU LD). Linker scripts are a must-have skill for firmware and systems engineers who have to deal with scenarios where the placement of various sections (code, data, etc) in the memory needs granular control. Engineers who work on Bootrom, Firmwares, Bootloaders, or otherwise are involved in lower-level systems code."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Environment Setup"
             type: "video"
@@ -520,7 +520,7 @@ param:
             type: "video"
         - section: "FreeRTOS - Teardown and Porting"
           description: "Learn FreeRTOS kernel by tearing it down to it's bare minimum and doing a port for a new target from scratch. This includes booting the CPU from scratch and placing the code in memory manually."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "What and Why FreeRTOS"
             type: "video"
@@ -544,7 +544,7 @@ param:
             type: "video"
         - section: "Git and Gerrit - the collaboration kit"
           description: "Git and Gerrit are pivotal tools in the software development industry, each serving distinct yet complementary roles that enhance collaboration, code quality, and workflow efficiency."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Introduction and Team Setup"
             type: "video"
@@ -568,7 +568,7 @@ param:
             type: "video"
         - section: "The ART of Interviewing"
           description: "Organised collection of topics, projects and questions from the web that a Embedded Engineer should know and be able to reasons about."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Introduction and Format of the Course"
             type: "video"
@@ -602,7 +602,7 @@ param:
             type: "video"
         - section: "ARM Cortex-A 101 - Introduction to the 64bit ARM CPUs"
           description: "Introduction to ARM-A Class CPUs implementing the AARCH64 architecture."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Who is ARM as the Company?"
             type: "video"
@@ -646,7 +646,7 @@ param:
             type: "video"
         - section: "Linux Device Drivers 101 - Writing and understanding a dummy driver"
           description: "A hands on Introduction to Linux Device Driver development. Recommended for those getting started with driver development."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "A sandbox to run our experiments"
             type: "video"
@@ -692,7 +692,7 @@ param:
             type: "video"
         - section: "Tech Syncs - Workshops on ad-hoc topics"
           description: "todo"
-          open: "close"
+          open: "open"
           chapters:
 
       requirements:
