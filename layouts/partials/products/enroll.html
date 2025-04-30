@@ -1,7 +1,9 @@
 {{ with . }}
 <div class="button-cta align-in-center">
-  <a class="btn" href="{{ . }}" target="_blank">
-    <button><span class="bi bi-cup-hot"></span> Start Learning</button>
-  </a>
+  {{ range . }}
+    <a class="btn" href="{{ .link }}" target="_blank">
+      <button><span class="bi bi-cup-hot"></span> {{.plan}}</button>
+    </a>
+  {{ end }}
 </div>
 {{ end }}

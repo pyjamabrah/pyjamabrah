@@ -29,7 +29,11 @@ content:
 # Link and Payment options
 more: "/products/embedded-engineering"
 ctaText: "Access The Courses!"
-enroll: "https://courses.pyjamabrah.com/l/284143f9dc"
+enroll:
+  - plan: "Monthly"
+    link: "https://courses.pyjamabrah.com/l/284143f9dc"
+  - plan: "Yearly"
+    link: "https://courses.pyjamabrah.com/l/be38c0c379"
 paybuttonID: ""
 
 #

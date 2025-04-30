@@ -3,7 +3,9 @@ subtitle: "Program CPUs from scratch"
 poster: "/images/cover.jpg"
 description: "I am writing a book to teach C by understanding the CPU/Memory programmers model, exploring the ISA for RISC-V, the assembly, writing baremetal firmware/driver, and ends with printing “Hello, World!” on the UART.\n\n The book covers lot more than just C. Things like Assembly, Makefile, GDB based Debugging, Linker Scripts, C, Driver Writing etc… The public draft is available for FREE for online reading."
 ctaText: "Start Reading!"
-enroll: "https://learn.pyjamabrah.com/learn/thebook"
+enroll:
+  - plan: "Read now"
+    link: "https://learn.pyjamabrah.com/learn/thebook"
 
 badges:
   - beginner: true

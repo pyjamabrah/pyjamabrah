@@ -6,12 +6,12 @@ date: "2025-04-30T10:10:10+05:30"
 tags:
   - bundle
 description: "A structured path to learnings and mastering the essentials of Firmware and Systems Software Engineering"
-thumbnail: "/products/c-language/cover.png"
+thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 61
-define: &lastupdated "30 April 2025"
+define: &enrolled 64
+define: &lastupdated "1 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
@@ -28,7 +28,7 @@ param:
       beginner: "yes"
       intermediate: "yes"
       rating: 4.9
-      ratingCount: 30
+      ratingCount: 6
       studentsCount: *enrolled
       creators:
         - name: "Piyush Itankar"
@@ -43,40 +43,70 @@ param:
           bio: "Computer Science Engineer with a Masters in Embedded Systems Design. Worked on Firmware for Intel's Bluetooth solutions, followed by Silicon Validation Software for the Tensor SoCs, and presently working on the Pixel Watch Software. He is system software expert with a decade of experience."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 73
-      length: "~ >20 hr"
-      files: 12
+      lessons: 100+
+      length: "~ >50 hr"
+      files: 10+
       quizzes:
-      certificate: "/products/c-language/certificate.png"
-      validity: 30 days
-      projects: 2
+      certificate: "/products/embedded-engineering/certificate.png"
+      validity: Monthly and Yearly
+      projects: 5+
       learning:
-        - Mental models to use when coding in C.
-        - What is machine code.
-        - Instruction Set Architecture and Assembly coding.
-        - GNU toolchain utilities/programs (gcc, as, ld wtc).
-        - GNU Debugger (GDB).
-        - Automation using Makefiles.
-        - How text is converted to 0s and 1s.
-        - Syntax and Structure of C Programs.
-        - Data types, variables, declaration/definition.
-        - Arrays, Strings and Pointers.
-        - Structs and Union.
-        - arithmetic, logical, relational operators in C.
-        - Functions and Modules/Libraries in C.
-        - Pointers and how to use them in Design.
-        - Types of pointers.
-        - Bit fields and Bit manipulation.
-        - Const and volatile type qualifiers
-        - Controlling placement of code and data in memory.
-        - Loops - for, while, do while.
-        - Branching - if, if-else, switch, goto.
-        - Mixing Assembly and C and the need for it.
-        - Booting RISC-V CPU from scratch.
-        - Cross compiling and what it means.
-        - memory management - Stack vs. Heap.
-        - Dynamic memory allocation (malloc, calloc, realloc, free).
-        - Compiler optimizations (-O1, -O2, -O3, -Os, -Ofast).
+        - Understand Firmware Engineering and Systems Software Engineering.
+        - Master the C Programming Language and how it converts to Assembly and machine code.
+        - The memory map and programmer's model for ARM-M, ARM-A and RISC-V CPUs.
+        - Write and debug C programs in a sandbox environment, focusing on practical applications.
+        - Understand C language constructs including functions, pointers, structs, unions, and enums.
+        - Analyze data types (integers, floats, doubles, signed/unsigned, const, volatile).
+        - Memory representation of data types (e.g., 2’s complement, floating-point encoding).
+        - Implement control structures (if, else, switch, loops, goto) and observe their effects at the assembly level.
+        - Work with arrays, strings, and pointers, including pointer arithmetic and memory manipulation.
+        - Use C standard tools and utilities like typedef, sizeof, and the GNU C manual.
+        - Develop mental models for pointers and their role in firmware and system software (e.g., Linux, FreeRTOS, Zephyr).
+        - Declare, define, and manipulate pointers, including pointer-to-pointer, array of pointers, and function pointers.
+        - Understand pointer arithmetic, void pointers, NULL pointers, and their use in real-world kernels.
+        - Manage dynamic memory with malloc(), free(), and handle issues like memory leaks, dangling pointers, and double-free errors.
+        - Learn Low-Level Programming with Assembly and RISC-V
+        - Explore the RISC-V Instruction Set Architecture (ISA) and instruction encoding (rv32i).
+        - Write and debug assembly programs, decompose C code to assembly, and transition from assembly to C.
+        - Use tools like QEMU, GDB, and Makefiles for low-level programming and debugging.
+        - Develop baremetal firmware and drivers, including printing “Hello, World!” on UART.
+        - Understand ARM Cortex-M and Cortex-A CPUs
+        - Learn the architecture and microarchitecture of ARM Cortex-M and Cortex-A (AARCH64) CPUs.
+        - Explore the programmer’s model, register sets, privilege modes, and boot processes for Cortex-M and Cortex-A CPUs.
+        - Write assembly programs for Cortex-M, including a scheduler from scratch with context switching and SysTick timer.
+        - Understand exception handling, vector tables, and system registers (e.g., SCTLR, CPSR/PSTATE) using QEMU.
+        - Develop Skills in GNU Tools (Make, Linker Scripts, Git)
+        - Create and debug Makefiles for build automation, including dependencies, pattern rules, and shell commands.
+        - Write GNU linker scripts to control memory placement of code and data sections (e.g., .text, .data, .bss, .rodata).
+        - Use Git for version control and Gerrit for code review, simulating real-world collaborative workflows.
+        - Understand linker script concepts like VMA, LMA, location counters, and custom section placement.
+        - Explore FreeRTOS and Kernel Porting
+        - Tear down the FreeRTOS kernel to understand its core components and port it to a new target.
+        - Boot an ARM Cortex-M CPU from scratch and integrate FreeRTOS with manual code placement.
+        - Implement task scheduling, context switching, and exception handling in FreeRTOS.
+        - Write Linux Device Drivers
+        - Develop a basic loadable kernel module and understand kernel-user space interactions.
+        - Use tools like insmod, rmmod, lsmod, and modinfo for kernel module management.
+        - Implement /proc file system entries and handle read operations for user-kernel data transfer.
+        - Explore system calls, file operations, and device driver development in a sandbox environment.
+        - Gain Career and Industry Insights
+        - Understand roles, responsibilities, and career opportunities in embedded systems and firmware engineering.
+        - Explore job listings and required skill sets for embedded systems roles.
+        - Learn about high-level operating systems (HLOS), application-grade CPUs, and virtual memory.
+        - Prepare for embedded engineering interviews by mastering key C concepts, memory layouts, bit manipulation, and general embedded systems principles.
+        - Apply Practical and Hands-On Skills
+        - Generate digital audio using C, applying math concepts like sampling and file operations.
+        - Debug C programs using GDB, addressing issues like scanf errors and bad inputs.
+        - Simulate real-world development scenarios with tools like QEMU, Codespace, and Multipass.
+        - Analyze code behavior in freestanding and hosted environments, focusing on memory sections (.text, stack, heap).
+        - Develop a Strong Mental Model
+        - Build mental models of CPU, memory, and system interactions for low-level programming.
+        - Understand state machines, OS primitives, and scheduling concepts in embedded systems.
+        - Explore endianness, memory models, and data alignment in C and assembly programming.
+        - Prepare for Interviews and Real-World Projects
+        - Tackle embedded engineering interview questions related to C, memory layouts, interrupts, and bit manipulation.
+        - Complete hands-on projects, such as writing a scheduler, generating digital audio, or developing a dummy Linux driver.
+        - Reason about system design trade-offs and debugging strategies in embedded systems.
       sections:
         - section: "Low Level with Pyjama Brah! (Public Draft)"
           description: "I am writing a book to teach C by understanding the CPU/Memory programmers model, exploring the ISA for RISC-V, the assembly, writing baremetal firmware/driver, and ends with printing “Hello, World!” on the UART.\n\nThe book covers lot more than just C. Things like Assembly, Makefile, GDB based Debugging, Linker Scripts, C, Driver Writing etc… The public draft is available for FREE for online reading."

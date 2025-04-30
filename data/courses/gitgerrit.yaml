@@ -31,7 +31,9 @@ features:
 # Link and Payment options
 more: "https://learn.pyjamabrah.com/learn/git-and-gerrit"
 ctaText: "Start Learning for Free"
-enroll: "https://learn.pyjamabrah.com/learn/git-and-gerrit"
+enroll:
+  - plan: "Join in"
+    link: "https://learn.pyjamabrah.com/learn/git-and-gerrit"
 paybuttonID:
 
 #

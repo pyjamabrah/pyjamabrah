@@ -27,7 +27,9 @@ content:
 # Link and Payment options
 more: "/products/c-language"
 ctaText: "Start Learning"
-enroll: "https://courses.pyjamabrah.com/l/db8c35d98f"
+enroll:
+  - plan: "Sign in"
+    link: "https://courses.pyjamabrah.com/l/db8c35d98f"
 paybuttonID: ""
 
 #
