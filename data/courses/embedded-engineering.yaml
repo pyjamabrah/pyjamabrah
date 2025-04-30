@@ -1,0 +1,37 @@
+# Essentials
+title: "Firmware and Systems Software Engineering"
+subtitle: "A `structured path` to **mastering the essentials**!"
+poster: "/products/embedded-engineering/cover.png"
+description: ""
+preview: ""
+
+# course stats
+rating:
+bestseller: true
+
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: false
+
+content:
+  - feature: "Collection of `12+` Courses"
+  - feature: "End to End Firmware and Systems Software Engineering Paths"
+  - feature: "More than `50 hours` of video recordings"
+  - feature: "`C Language` and `Pointers`"
+  - feature: "`ARM-M`, `RISC-V` and `ARM-A` Architecture and `Assembly Programming`."
+  - feature: "`make` based build automation and `linker scripts`"
+  - feature: "Operating systems primitives and scheduler using `FreeRTOS`"
+  - feature: "`Linux Device Driver` Development from Scratch"
+  - feature: "Access to online **Workshops** and Interactions with the instructors."
+  - feature: "Certificates on completing `95%` of the course work."
+
+# Link and Payment options
+more: "/products/embedded-engineering"
+ctaText: "Access The Courses!"
+enroll: "https://courses.pyjamabrah.com/l/284143f9dc"
+paybuttonID: ""
+
+#
+# Details below this line are for the landing Page.
+#

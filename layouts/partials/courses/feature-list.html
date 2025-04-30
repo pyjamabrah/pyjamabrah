@@ -62,5 +62,12 @@
         <div>{{.enrolled | markdownify }}+ enrolled.</div>
       </div>
     {{ end }}
+
+    {{ if .feature }}
+      <div class="course-feature-point">
+        <i class="bi bi-check2 course-feature-point-text"></i>
+        <div>{{.feature | markdownify }}</div>
+      </div>
+    {{ end }}
   {{end}}
 {{ end }}
