@@ -30,7 +30,7 @@ param:
       rating: 4.9
       ratingCount: 6
       studentsCount: *enrolled
-      message:
+      message: "1080481281?h=39e203cc29"
       creators:
         - name: "Piyush Itankar"
           designation: "Embedded Engineer (L5), Google"
