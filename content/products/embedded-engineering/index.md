@@ -19,7 +19,9 @@ param:
   bundle:
     - course: "Firmware and Systems Software Engineering"
       subtitle: "A `structured path` to **mastering the essentials**!"
-      description: "Embedded Systems Software Engineering includes writing firmware for microcontrollers and system software for application grade CPUs involving bootloaders, device trees and higher level operating systems. \n\n
+      description: "`IF YOU INVESTED IN US IN THE PAST, PLEASE EMAIL US AT SUPPORT@PYJAMABRAH.COM AND WE WILL WORK ON AN OFFER FOR YOU. SEND THE DETAILS OF THE INVESTMENTS.`\n\n
+
+      Embedded Systems Software Engineering includes writing firmware for microcontrollers and system software for application grade CPUs involving bootloaders, device trees and higher level operating systems. \n\n
 
       While there are several resources available online. Each offers a narrow view of one entity of the several. We have created and organised courses, that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."
       previewCover: "/products/embedded-engineering/cover.png"
