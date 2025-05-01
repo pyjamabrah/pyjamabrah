@@ -19,7 +19,7 @@ content:
   - feature: "**ARM-M**, **ARM-A 64-Bit**, **RISC-V 32/64-Bit** Architecture Explained."
   - feature: "**Booting CPUs from scratch** (ARM-M, ARM-A and RISC-V)."
   - feature: "**Assembly Programming** from scratch for ARM-M, ARM-A and RISC-V"
-  - feature: "Thorough explaination and practical usage of **toolchain utilities (gcc, as, ld, gdb etc)**."
+  - feature: "Thorough explanation and practical usage of **toolchain utilities (gcc, as, ld, gdb etc)**."
   - feature: "**Linux Device Drivers** from scratch."
   - feature: "**Hands-on Experiments** to prove the point."
   - feature: "More than **50 Hours** of recorded lectures."
