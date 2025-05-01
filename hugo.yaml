@@ -16,7 +16,7 @@ menu:
       weight: 1
     - identifier: Courses
       name: Courses
-      url: /courses/
+      url: /products/embedded-engineering
       weight: 2
     - identifier: posts
       name: Posts
@@ -29,7 +29,7 @@ menu:
     - identifier: Course Login
       pre: true
       name: Course Login
-      url: https://learn.pyjamabrah.com/learn/account/signin
+      url: https://courses.pyjamabrah.com
       weight: 6
 markup:
   highlight:

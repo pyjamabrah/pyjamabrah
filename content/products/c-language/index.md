@@ -8,7 +8,7 @@ tags:
 description: "The language, the tools and the programming techniques."
 thumbnail: "/products/c-language/cover.png"
 categories: courses
-product: "c"
+product: "embedded-engineering"
 
 define: &enrolled 481
 define: &lastupdated "29 April 2025"
