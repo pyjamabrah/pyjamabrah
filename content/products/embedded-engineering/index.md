@@ -879,7 +879,7 @@ To help reinforce all the learnings and ensure the learner has a deep sense of p
 
 Embedded Engineering has not had a linear path. We are attempting to being order to the chaos. The courses are deliberately designed and ordered in the way they are. You can take each course individually or just follow the learning paths shown in the image below. The ones of the left are for firmware engineers (or aspiring candidates) and the ones on right are for those interested in systems software engineering.
 
-![](paths.svg "Learning Paths")
+![](tracks.svg "Learning Paths")
 
 ## Firmware Engineering
 
