@@ -47,7 +47,7 @@ params:
   abbrDateFmt: "Jan 2"
   author: "Piyush Itankar"
   address: "F002, Keerthi Harmony, Ramamurthy Nagar, Bangalore 560016"
-  brandIconFile: "/images/brah.svg"
+  brandIconFile: "/images/brah.png"
   dateFmt: "2 Jan, 2006"
   customStylesheets: # Use to override theme styles, like logo size
    - "css/custom.css"

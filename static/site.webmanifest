@@ -3,9 +3,9 @@
     "short_name": "PJBrah",
     "icons": [
         {
-            "src": "/images/favicon.svg",
+            "src": "/images/favicon.png",
             "sizes": "1080x1080",
-            "type": "image/svg"
+            "type": "image/png"
         }
     ],
     "theme_color": "#FFE15C",
