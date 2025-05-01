@@ -17,7 +17,6 @@
                   {{ partial "products/learning.html" . }}
                   {{ partial "products/preview.html" . }}
                   {{ partial "products/sections-list.html" . }}
-                  {{ partial "products/compare.html" . }}
                   {{ partial "products/certificate.html" . }}
                 </div>
             {{ end }}
@@ -28,6 +27,7 @@
           {{ if .Params.param.bundle }}
           {{ range .Params.param.bundle }}
               <div class="details-body">
+                {{ partial "products/compare.html" . }}
                 {{ partial "products/instructors.html" . }}
                 {{ partial "products/reviews.html" . }}
                 {{ partial "products/requirements.html" . }}
