@@ -30,6 +30,7 @@ param:
       rating: 4.9
       ratingCount: 6
       studentsCount: *enrolled
+      message:
       creators:
         - name: "Piyush Itankar"
           designation: "Embedded Engineer (L5), Google"
@@ -691,38 +692,32 @@ param:
         - reviewer: "@n.5s4584"
           photo: "https://yt3.ggpht.com/ytc/AIdro_kwaiEov46AN__mYTLshOyDgJfnS9npGBzAYALfOGI=s88-c-k-c0x00ffffff-no-rj"
           featured: ""
-          date: "11/Feb/2025"
-          rating: ""
+          rating: 5
           review: "I just wanted to take a moment to appreciate the amazing content you create! Your videos are not only engaging but also incredibly valuable. I’ve learned so much from your channel, and I always look forward to your uploads. Thank you for sharing your knowledge and insights—keep up the great work! Wishing you all the success you deserve."
         - reviewer: "@its_me_to-i4e"
           photo: "https://yt3.ggpht.com/ytc/AIdro_mj1PTnXtbKrudNYF6unc92tNmWG36cHOfo1udycpGb3U-7ha_eNbAtmaLVWjAoHsi59z0=s88-c-k-c0x00ffffff-no-rj"
           featured: ""
-          date: "11/Feb/2025"
-          rating: ""
+          rating: 5
           review: "Your content is amazing! Last time, I bought the advanced C pointer course, and it was so helpful for embedded systems. Please consider making the course fees more affordable so that students like me can easily access them. Keep up the great work"
         - reviewer: "@sharifyy"
           photo: "https://yt3.ggpht.com/ytc/AIdro_mYvoZpJFyDpETsr-Nn2NhLTCwnNju7VLGDF1Bv0px-5A=s88-c-k-c0x00ffffff-no-rj"
           featured: ""
-          date: "10/Feb/2025"
           rating: 5
           review: "your content is amazing, I give it 5 stars"
         - reviewer: "@techpartel9858"
           photo: "https://yt3.ggpht.com/rC37PHOuyl8VqqsWdEyVNKdRKgDoPutmfn-MWlL4iAYgwdlPqrjHjCDbrXtKWuv4qgybu_gY=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
-          date: "2/Feb/2025"
-          rating:
+          rating: 5
           review: "The flow of this course is Amazing. It covers a whole system overview of how your C code runs and how it's dumped in your hardware. Everything is excellent. Thank you, @piyush."
         - reviewer: "@EEShyama"
           photo: "https://yt3.ggpht.com/ytc/AIdro_lEZ-lojSo_TMLmbjtJocEMwGBz5u_W63aMWrcQJOs=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
-          date: "2/Feb/2025"
           rating:
           review: "Loving these lectures!! Please keep them coming."
         - reviewer: "@Simi-bc8sb"
           photo: "https://yt3.ggpht.com/ytc/AIdro_kyiEEZEs-Crzq8SJwJJ9aDaKqD04Ki4w4B0XhTr9o=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
-          date: "1/Feb/2025"
-          rating:
+          rating: 4.9
           review: "Great content. I really appreciate. Thank you"
 
         - reviewer: "@ElizabethGreene"
@@ -796,54 +791,66 @@ param:
           review: "This is what I actually needed in life today.. thanks a tons.."
 
       compare:
-        - feature: "Basic C Syntax."
-          us: true
-          others: true
-        - feature: "Data types, strings, pointers, operators and other basics."
-          us: true
-          others: true
-        - feature: "Code development without IDE, like how the professionals do it."
+        - feature: "C language and pointers with focus on machine behavior"
           us: true
           others: false
-        - feature: "Decomposition of C code into Assembly and conversion to machine code."
+        - feature: "Detailed analysis of data types and significance."
           us: true
           others: false
-        - feature: "Mental models to aid thinking and reasoning."
+        - feature: "Assembly and C Coding without IDE"
+          us: true
+          others: false
+        - feature: "Detailed explanation and view of Programmer's model of CPU."
+          us: true
+          others: false
+        - feature: "Mental models of various components in the System to reason based off."
           us: true
           others: false
         - feature: "A Bottom-Up Approach with the tinge of answering the `Whys`."
           us: true
           others: false
-        - feature: "Mixing C with Assembly"
+        - feature: "Thorough explanation of toolchain utilities (gcc, as, ld, ar, gdb etc)"
           us: true
           others: false
-        - feature: "Real and applicable Case study and programming projects"
+        - feature: "Connecting the concepts with practical use cases and use in industry."
           us: true
           others: false
-        - feature: "Project-Based Learning - Develop and learn with a simple yet effective project like C shell, memory allocator, etc."
+        - feature: "Hands-on experiments to prove every concept."
           us: true
           others: false
-        - feature: "Teach with insights at the CPU level."
+        - feature: "Focused on practical professional insights"
           us: true
           others: false
-        - feature: "Cover Assembly Language and Machine code."
+        - feature: "Teach multiple CPU architectures (ARM-M, ARM-A, RISC-V)."
           us: true
           others: false
         - feature: "Cover the toolchain utilities like compiler, assembler, linker and debug tools like GDB?"
           us: true
           others: false
+        - feature: "Learn at your own pace."
+          us: true
+          others: false
+        - feature: "Superficial and confusing explanation"
+          us: false
+          others: true
+        - feature: "Burn a hole in the pocket with Fee"
+          us: false
+          others: true
+        - feature: "On campus presence required."
+          us: false
+          others: true
       faqs:
-        - q: "What is the difference between this course (paid) and the videos on YouTube?"
-          a: "Only few initial videos are put on YouTube. The Full course has many more videos and is a paid offering. Learners will also have access to the notes, source code files and other resources."
+        - q: "What is the difference between these courses (paid) and the content on YouTube?"
+          a: "Some lectures from different courses have been put on YouTube as Preview. The are not structured and jump to a topic. The Courses in the Subscription are well structured and focused on developing a skill."
           open: "open"
-        - q: "Is this course good for beginners?"
-          a: "Yes! The course is taught as if the learner has no idea about the C programming language."
+        - q: "Is this recommended for beginners?"
+          a: "Yes! The courses are taught as if the learner has no idea about the subject. Each course starts of by ensuring that the basics needed to understand the followup lectures is understood."
           open: "open"
-        - q: "Why is the course validity 365 days?"
-          a: "We need to maintain the servers that host the courses. At the moment we have enough capital to keep the server afloat for another until. We are striving to make this a lifetime access course. As the funds trickle in, we will revisit the validity and might update it for all the enrolled learners."
+        - q: "Why a subscription model?"
+          a: "We are billed for the hosting and bandwidth by the platform provider. While we would very much like to offer lifetime validity, given the recurring bills, we have to ensure we continue to earn enough to be able to fund the effort and bring more value to our learners. The monthly plan is for those who cannot afford the yearly subscription but can benefit from burst learning. To get the most out of our content, we recommend subscribing to the yearly plan."
           open: "open"
         - q: "Do I need a special machine configuration to take this course?"
-          a: "No! All you will need is an internet connection and the Chrome browser. The hands-on examples and lab work is based on GitHub codespaces platform."
+          a: "No! All you will need is an internet connection and the Chrome browser. The hands-on examples and lab work is based on GitHub codespaces platform. We use GitHub Codespace to ensure that you don't struggle with the setup and focus on the learnings. You are always free to setup the environment locally. Although, we won't support that, but you are free to do so. The courses, as much possible use a Emulator target of a real board, so if you wanted to run the code on real board. You can do so."
           open: "open"
         - q: "Why is a GitHub account needed?"
           a: "The Experiments and Labs are based on the GitHub provided Codespaces virtual machine. Codespaces will enable a common work environment for all the learners and avoid the hassle of special setup."
@@ -857,11 +864,8 @@ param:
         - q: "Can I follow the steps on my own PC?"
           a: "Yes for the most part. Better yet would be if you have a linux machine."
           open: "open"
-        - q: "How will the open-source contribution work?"
-          a: "We will host few github repos under pyjamabrah with the skeleton code and details asks (in comments) about the subsequent tasks. You can add the code (with your details in the comment if you'd want), create PR (pull-request) and submit. We will review and merge your PR into main."
-          open: "open"
-        - q: "Will this course be added to `Firmware Engineer's Arsenal`?"
-          a: "No! This is a separate offering and unrelated to my previous work at inpyjama.com. pyjamabrah is exclusively run by me and independent of continuous collaboration with my team."
+        - q: "I previously purchased a course from inpyjama/pyjamabrah, any discount for me?"
+          a: "Yes. We can offer a discount on the yearly subscription. Please reach us at support@pyjamabrah.com and be sure to include the details of your past investment. We will work on a custom discount for you."
           open: "open"
 ---
 

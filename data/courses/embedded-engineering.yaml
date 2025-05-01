@@ -15,16 +15,17 @@ badges:
   - free: false
 
 content:
-  - feature: "Collection of `12+` Courses"
-  - feature: "End to End Firmware and Systems Software Engineering Paths"
-  - feature: "More than `50 hours` of video recordings"
-  - feature: "`C Language` and `Pointers`"
-  - feature: "`ARM-M`, `RISC-V` and `ARM-A` Architecture and `Assembly Programming`."
-  - feature: "`make` based build automation and `linker scripts`"
-  - feature: "Operating systems primitives and scheduler using `FreeRTOS`"
-  - feature: "`Linux Device Driver` Development from Scratch"
-  - feature: "Access to online **Workshops** and Interactions with the instructors."
-  - feature: "Certificates on completing `95%` of the course work."
+  - feature: "**C Language and Pointer** covered in detail."
+  - feature: "**ARM-M**, **ARM-A 64-Bit**, **RISC-V 32/64-Bit** Architecture Explained."
+  - feature: "**Booting CPUs from scratch** (ARM-M, ARM-A and RISC-V)."
+  - feature: "**Assembly Programming** from scratch for ARM-M, ARM-A and RISC-V"
+  - feature: "Thorough explaination and practical usage of **toolchain utilities (gcc, as, ld, gdb etc)**."
+  - feature: "**Linux Device Drivers** from scratch."
+  - feature: "**Hands-on Experiments** to prove the point."
+  - feature: "More than **50 Hours** of recorded lectures."
+  - feature: "**12+** courses and counting."
+  - feature: "Live interactions through **Tech Syncs**."
+  - feature: "**Certificate** on completing 95% of the course work."
 
 # Link and Payment options
 more: "/products/embedded-engineering"

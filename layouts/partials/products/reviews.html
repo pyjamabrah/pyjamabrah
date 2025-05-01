@@ -25,15 +25,17 @@
 {{ range .reviews }}
   <div class="info-card">
     <div class="reviewer-meta">
-      <img class="reviewer-photo" src="{{.photo}}">
-      </img>
-
+      {{if .photo}}
+      <img class="reviewer-photo" src="{{.photo}}"></img>
+      {{end}}
       <div class="reviewer-data">
         <div class="reviewer-name"> {{ .reviewer }} </div>
         {{ if .rating }}
           {{ partial "products/render-stars.html" .rating }}
         {{ end }}
+        {{if .date}}
         <div class="review-date"> {{ .date }} </div>
+        {{end}}
       </div>
     </div>
     <div class="review-text"> {{ .review }} </div>
