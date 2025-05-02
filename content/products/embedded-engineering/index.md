@@ -11,7 +11,7 @@ categories: courses
 product: "embedded-engineering"
 
 define: &enrolled 85
-define: &lastupdated "1 May 2025"
+define: &lastupdated "2 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
@@ -30,7 +30,7 @@ param:
       beginner: "yes"
       intermediate: "yes"
       rating: 4.9
-      ratingCount: 6
+      ratingCount: 24
       studentsCount: *enrolled
       message: "1080481281?h=39e203cc29"
       creators:
@@ -330,7 +330,7 @@ param:
             type: "video"
         - section: "ARM Cortex-M 101 - Introduction"
           description: "An introductory course on the ARM Cortex-M CPUs. How to go about learning them."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "ARM CPU Architectures"
             type: "video"
@@ -352,7 +352,7 @@ param:
             type: "video"
         - section: "ARM Cortex-M 102 - Scheduler Design using Assembly"
           description: "Learn the assembly programming for ARM Cortex-M CPUs by writing a scheduler from scratch, without using any IDE, SDK or boiler plate code. Course is under development. Content will be added when it's ready."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "End Goal"
             type: "video"
@@ -404,7 +404,7 @@ param:
             type: "video"
         - section: "GNU Make and Automation"
           description: "Make is a build automation tool that automatically updates files in your project based on their dependencies. It's primarily used for compiling source code, but can also be used to run other commands or perform tasks."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Setup and Quick Introduction"
             type: "video"
@@ -436,7 +436,7 @@ param:
             type: "video"
         - section: "GNU Linker Script"
           description: "This hands-on course dives into the details of writing linker scripts (based on GNU LD). Linker scripts are a must-have skill for firmware and systems engineers who have to deal with scenarios where the placement of various sections (code, data, etc) in the memory needs granular control. Engineers who work on Bootrom, Firmwares, Bootloaders, or otherwise are involved in lower-level systems code."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Environment Setup"
             type: "video"
@@ -498,7 +498,7 @@ param:
             type: "video"
         - section: "FreeRTOS - Teardown and Porting"
           description: "Learn FreeRTOS kernel by tearing it down to it's bare minimum and doing a port for a new target from scratch. This includes booting the CPU from scratch and placing the code in memory manually."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "What and Why FreeRTOS"
             type: "video"
@@ -522,7 +522,7 @@ param:
             type: "video"
         - section: "Git and Gerrit - the collaboration kit"
           description: "Git and Gerrit are pivotal tools in the software development industry, each serving distinct yet complementary roles that enhance collaboration, code quality, and workflow efficiency."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction and Team Setup"
             type: "video"
@@ -546,7 +546,7 @@ param:
             type: "video"
         - section: "The ART of Interviewing"
           description: "Organised collection of topics, projects and questions from the web that a Embedded Engineer should know and be able to reasons about."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction and Format of the Course"
             type: "video"
@@ -580,7 +580,7 @@ param:
             type: "video"
         - section: "ARM Cortex-A 101 - Introduction to the 64bit ARM CPUs"
           description: "Introduction to ARM-A Class CPUs implementing the AARCH64 architecture."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Who is ARM as the Company?"
             type: "video"
@@ -624,7 +624,7 @@ param:
             type: "video"
         - section: "Linux Device Drivers 101 - Writing and understanding a dummy driver"
           description: "A hands on Introduction to Linux Device Driver development. Recommended for those getting started with driver development."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "A sandbox to run our experiments"
             type: "video"
@@ -670,10 +670,30 @@ param:
             type: "video"
         - section: "Tech Syncs - Workshops on ad-hoc topics"
           description: "Live Tech Syncs with learners every once in a while where we discuss ad-hoc topics relating to Firmare and System Software Engneering."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Deep Dive - ARM Cortex-M CPUs (part - 1) | 30 April 2025"
             type: "video"
+        - section: "(planned) ARM aarch64 - Bare-metal Programming"
+          description: "This course is being recorded at the moment and will be added soon."
+          open: "close"
+          chapters:
+        - section: "(planned) Linux Device Drivers 102 - Writing Driver for the GPIO block from scratch"
+          description: "This course is being recorded at the moment and will be added soon."
+          open: "close"
+          chapters:
+        - section: "(planned) SoC and Components - An Introduction"
+          description: "This course is being recorded at the moment and will be added soon."
+          open: "close"
+          chapters:
+        - section: "(planned) Data-structures and Algorithms for Embedded Engineers"
+          description: "This course is being recorded at the moment and will be added soon."
+          open: "close"
+          chapters:
+        - section: "(planned) Python and Automation"
+          description: "This course is being recorded at the moment and will be added soon."
+          open: "close"
+          chapters:
       requirements:
         - GitHub account to do the hands-on coding in Codespaces.
         - Interest in the lower level working of the system.
@@ -691,6 +711,36 @@ param:
       reviewSectionTitle: "Praise from our learners"
       reviewSectionDescription: "Here's what those who are learning from the courses have to say about the content and delivery."
       reviews:
+        - reviewer: "Shweta S"
+          rating: 5
+          review: "A well structured course for beginners to expirenced professionals, one who is keen in learning what the C program does to the underlying system, this course is for them. I personally enjoyed the debugging using the gdb dashboard. I am looking forward to dive deeper as the course unfolds, I highly recommend this course for all the embedded engineers."
+        - reviewer: "Rohit Alate"
+          rating: 5
+          review: "Hello Team, if possible , please create the playlist in some sequence in which we should go through , so it will be really helpful.thanks in advance, and content wise you guys are amazing..... and i would say thanks to team to creating such platform for us..."
+        - reviewer: "PADMALAYA RAWAL"
+          rating: 5
+          review: "This bundle is crazily interactive. Be aware that it will make you addicted to learning more about embedded systems beyond just looking for jobs. Thanks to the team, who are adding more courses to the bundle, it's never going to be outdated! Loving it❤️‍🔥"
+        - reviewer: "Inturi Sri Sasi Kiran"
+          rating: 5
+          review: "I am taking a moment to give shout out the the authors of this course, sorry actually it's not just a course it is standard text book for an Embedded Engineer or who wants learn Embedded Engineering. I will strongly recommend this course to the college students especially those who are looking for a career in the Embedded sector."
+        - reviewer: "Gnanesh Sureshchandra"
+          rating: 5
+          review: "This course gives you exactly what you need to know about pointers! And more importantly how to think about pointers this is really important, and every embedded engineer must know. Once again thanks a lot for this content creators. Expecting more courses from you in future. (for: C Pointers)"
+        - reviewer: "Arjun"
+          rating: 5
+          review: "Awesome, within an hour, if an engineer learns the boot up process of arm - cortex-m, that is unbelievable, instructor is really apt at the matter. Thanks (for: ARM Cortex-M 101)"
+        - reviewer: "Selva Gandhi P"
+          rating: 5
+          review: "I want to say that this course has truly been eye-opening for building my career. Thank you so much, brother, for all the support and guidance. 🙏🏻"
+        - reviewer: "Imene Benamor"
+          rating: 5
+          review: "I'm currently taking this course, and it's been great so far! The content is clear, practical, and easy to follow. I'm already learning a lot and looking forward to diving deeper. Would definitely recommend it to anyone looking to build or strengthen their skills in embedded systems."
+        - reviewer: "Earnest Kihara"
+          rating: 5
+          review: "I wish I had came across this course when I was getting started into embedded C, thankyou Piyush for coming up with this course ,its worth it . I recommend it to all beginner and intermiadiate students and anyone else who feels there is some dots they can't connect in C"
+        - reviewer: "Pavankalyan G"
+          rating: 5
+          review: "Really enjoyed reading this book! It provides great insights and is well-written."
         - reviewer: "@n.5s4584"
           photo: "https://yt3.ggpht.com/ytc/AIdro_kwaiEov46AN__mYTLshOyDgJfnS9npGBzAYALfOGI=s88-c-k-c0x00ffffff-no-rj"
           featured: ""
@@ -711,87 +761,91 @@ param:
           featured: ""
           rating: 5
           review: "The flow of this course is Amazing. It covers a whole system overview of how your C code runs and how it's dumped in your hardware. Everything is excellent. Thank you, @piyush."
-        - reviewer: "@EEShyama"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_lEZ-lojSo_TMLmbjtJocEMwGBz5u_W63aMWrcQJOs=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          rating:
-          review: "Loving these lectures!! Please keep them coming."
         - reviewer: "@Simi-bc8sb"
           photo: "https://yt3.ggpht.com/ytc/AIdro_kyiEEZEs-Crzq8SJwJJ9aDaKqD04Ki4w4B0XhTr9o=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           rating: 4.9
           review: "Great content. I really appreciate. Thank you"
-
         - reviewer: "@ElizabethGreene"
           photo: "https://yt3.ggpht.com/ytc/AIdro_lzSPNkz-qAuBGX37IqlrjwqU1aWC867oJ0TWJyIcw=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "31/Jan/2025"
           rating: 5
           review: "Was there any reason why you preferred the RISCV32i chip over an x86 chip in QEMU?  I appreciate the lesson in cross compiling too, but was curious why. Thanks for making these. 10/10"
-
-        - reviewer: "@RavindraBhandari-nf8vs"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_kgeb3tvIBGrdY-IdjHykSG-MSKpwcehWUAO3_O6TXPgadO46BAk4RkoG8qNgXDJBfHxg=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "31/Jan/2025"
-          rating: 4
-          review: "I like your teaching method 🫡"
-
         - reviewer: "@soumyadipkar9451"
           photo: "https://yt3.ggpht.com/ytc/AIdro_nfY73MK2vFdOh4b68xvVqUPDnjeQxRGiRhVMKYZiaikQ=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "31/Jan/2025"
           rating: 5
           review: "Enjoyed the session a lot sir! GDB Dashboard is truly amazing! 🔥"
-
         - reviewer: "@vimalathithand917"
           photo: "https://yt3.ggpht.com/ytc/AIdro_kgporA3By7tcfvxHINPDGILoCdkyi4KM7s64Zpcn_ikw=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "31/Jan/2025"
           rating:
           review: "Just what I was looking for ! I'm sure that this series is going to be a blast ! Please don't stop the series in the middle and thanks a lot !"
-
         - reviewer: "@aadishm4793"
           photo: "https://yt3.ggpht.com/SjiVNC30ZvLCyHEerGIbcy6Ye1GCERCPlhQ9A70aJiHm5_o5lphLZPKJotqp6DYXmW68uqONvw=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "30/Jan/2025"
           rating:
           review: "Great content!!"
-
         - reviewer: "@Ujjaval___"
           photo: "https://yt3.ggpht.com/qrBr5avCgdgeFJDSvuSRes99r73vZ1Px1eKpl8PqB1tw5MYZJmuw5XOsdmtDqytXPE_u8cVm2g=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "30/Jan/2025"
           rating:
           review: "AMAZING VIDEOS"
-
         - reviewer: "@aadishm4793"
           photo: "https://yt3.ggpht.com/SjiVNC30ZvLCyHEerGIbcy6Ye1GCERCPlhQ9A70aJiHm5_o5lphLZPKJotqp6DYXmW68uqONvw=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "30/Jan/2025"
           rating:
           review: "Awesome as all the videos 👍👍🔥"
-
         - reviewer: "@Padmalayarawal"
           photo: "https://yt3.ggpht.com/Tus9ambPweMlf-GRcBnNjFG0exRlCo-w7btFq4bhhS1XdInSEpx_QKZgOHExfDqRmPcg-SqIhw=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "30/Jan/2025"
           rating: 5
           review: "Really loved your new content, can't ask for more crazy stuff."
-
         - reviewer: "@shabeehabbas4737"
           photo: "https://yt3.ggpht.com/ytc/AIdro_kghj6IsyrE1N06BjvWWGHkFWkZx6Hv7zvTIEH4L9xL3Z2pxlwisykzJylXJN4sVl1laQ=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "29/Jan/2025"
           rating:
           review: "Hello bro just saw the this video and I cant wait to start the course, the roadmap is unconventional which is why I think its the most awesome one, please dont stop uploading such great content ❤❤❤"
-
         - reviewer: "@ankitrajbhar6045"
           photo: "https://yt3.ggpht.com/ytc/AIdro_kMlhmNrwHbb-na93Sx772XJk4WiX5iiD_6LQIu4jxoEbM=s48-c-k-c0x00ffffff-no-rj"
           featured: ""
           date: "31/Jan/2025"
           rating: 5
           review: "This is what I actually needed in life today.. thanks a tons.."
-
+        - reviewer: "Bhanu Sri Dasari"
+          rating: 5
+          review: "Great content"
+        - reviewer: "Ashith Polepalli"
+          rating: 5
+          review: "Excellent content to learn firmware"
+        - reviewer: "Rahul Kumar"
+          rating: 5
+          review: "no second thought.. go for it"
+        - reviewer: "Vikas Naga"
+          rating: 5
+          review: "The best course in Embedded System so far."
+        - reviewer: "Mariyam Shahid"
+          rating: 5
+          review: "the best content on c!"
+        - reviewer: "@EEShyama"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_lEZ-lojSo_TMLmbjtJocEMwGBz5u_W63aMWrcQJOs=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          rating:
+          review: "Loving these lectures!! Please keep them coming."
+        - reviewer: "@RavindraBhandari-nf8vs"
+          photo: "https://yt3.ggpht.com/ytc/AIdro_kgeb3tvIBGrdY-IdjHykSG-MSKpwcehWUAO3_O6TXPgadO46BAk4RkoG8qNgXDJBfHxg=s48-c-k-c0x00ffffff-no-rj"
+          featured: ""
+          date: "31/Jan/2025"
+          rating: 4
+          review: "I like your teaching method 🫡"
       compare:
         - feature: "C language and pointers with focus on machine behavior"
           us: true
@@ -870,6 +924,8 @@ param:
           a: "Yes. We can offer a discount on the yearly subscription. Please reach us at support@pyjamabrah.com and be sure to include the details of your past investment. We will work on a custom discount for you."
           open: "open"
 ---
+
+**Important:** Planned courses are not yet ready for learners and will be added as the current recording concludes.
 
 # The Philosophy behind the courses?
 
