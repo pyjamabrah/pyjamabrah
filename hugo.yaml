@@ -14,19 +14,15 @@ menu:
       name: Home
       url: /
       weight: 1
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 2
     - identifier: Firmware/Systems Engineering
       name: Firmware/Systems Engineering
       url: /products/embedded-engineering
       pre: true
-      weight: 2
-    - identifier: posts
-      name: Posts
-      url: /posts/
       weight: 3
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 5
     - identifier: Course Login
       pre: true
       name: Course Login
@@ -82,3 +78,5 @@ params:
       url: /pricing
     - name: Contact Us
       url: /contact
+    - name: About Us
+      url: /about/
