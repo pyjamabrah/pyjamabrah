@@ -6,7 +6,7 @@
         <div class="post-content">
           {{ if .Params.param.bundle }}
             {{ range .Params.param.bundle }}
-                <hr/>
+                {{/*  <hr/>  */}}
                 <div class="course-name">
                   <h2 class="course-title">{{ .course }}</h2>
                   <div class="course-subtitle">{{ .subtitle | markdownify }}</div>
@@ -48,9 +48,44 @@
     </article>
   </main>
   <script>
-    /* Hide the Navbar on Product Page */
-    const navbar = document.getElementsByClassName("navbar");
-    navbar[0].style.display = "none";
+    const countryPrices = {
+      'US': { quarterly: 35.99, yearly: 119.9, quarterlyOriginal: 174.9, yearlyOriginal: 699, currency: 'USD', symbol: '$' },
+      'GB': { quarterly: 29.99, yearly: 102.9, quarterlyOriginal: 149, yearlyOriginal: 599, currency: 'GBP', symbol: '£' },
+      'IN': { quarterly: 2999, yearly: 9999, quarterlyOriginal: 8999, yearlyOriginal: 35999, currency: 'INR', symbol: '₹' },
+      'default': { quarterly: 35.99, yearly: 119.9, quarterlyOriginal: 174.9, yearlyOriginal: 699, currency: 'USD', symbol: '$' }
+    };
+
+    async function getCountryCode() {
+      try {
+        // Fetch country code from ipapi.co
+        const response = await fetch('https://ipapi.co/json/');
+        const data = await response.json();
+        return data.country_code || 'default'; // Returns ISO 3166-1 alpha-2 code (e.g., 'US')
+      } catch (error) {
+        console.error('Error fetching country code:', error);
+        return 'default'; // Fallback to default if API fails
+      }
+    }
+
+    async function updateButtonPrices() {
+      const country = await getCountryCode();
+      console.log(country)
+      const prices = countryPrices[country] || countryPrices['default'];
+
+      const quarterlyBtn = document.querySelector('.btn-quarterly');
+      const yearlyBtn = document.querySelector('.btn-yearly');
+
+      if (quarterlyBtn) {
+        quarterlyBtn.innerHTML = `<s>${prices.symbol}${prices.quarterlyOriginal}</s> ${prices.symbol}${prices.quarterly}/Quarter`;
+      }
+
+      if (yearlyBtn) {
+        yearlyBtn.innerHTML = `<s>${prices.symbol}${prices.yearlyOriginal}</s> ${prices.symbol}${prices.yearly}/Year`;
+      }
+    }
+
+    // Run when DOM is loaded
+    document.addEventListener('DOMContentLoaded', updateButtonPrices);
   </script>
 {{ end }}
 

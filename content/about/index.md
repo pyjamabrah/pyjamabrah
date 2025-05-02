@@ -14,7 +14,7 @@ I am passionate about studying electricity and use that as a way to understand t
 I am deeply interested in exploring the `grey matter between the abstraction layers` and this blog documents the technical exploration `from the transistor to AI`.
 
 **Other Links:**
-- Founder [inpyjama.com](https://inpyjama.com)
+- Founder [inpyjama.com (deprecated)](https://inpyjama.com) | [pyjamabrah.com](https://pyjamabrah.com)
 - Non-Technical Blog: [streetdogg.in](https://streetdogg.in)
 
 Thank you for dropping by,
