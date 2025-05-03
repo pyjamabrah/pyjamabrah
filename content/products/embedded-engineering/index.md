@@ -661,6 +661,15 @@ param:
             type: "video"
           - chapter: "Next"
             type: "video"
+        - section: "System Components - MMU/SMMU"
+          description: "A Course dedicated to understand the concepts of Virtual memory and the hardware components that enable it - the Memory Management Unit (MMU) and the System Memory Management Unit (SMMU)."
+          open: "open"
+          chapters:
+          - chapter: "Problems with multiple processes and physical addresses"
+            type: "video"
+          - chapter: "Exploring reasons for Memory Management"
+            type: "video"
+          - chapter: "More lectures being recorded..."
         - section: "Linux Device Drivers 101 - Writing and understanding a dummy driver"
           id: "ldd-101"
           description: "A hands on Introduction to Linux Device Driver development. Recommended for those getting started with driver development."
@@ -720,10 +729,6 @@ param:
           open: "open"
           chapters:
         - section: "(planned) Linux Device Drivers 102 - Writing Driver for the GPIO block from scratch"
-          description: "This course is being recorded at the moment and will be added soon."
-          open: "open"
-          chapters:
-        - section: "(planned) SoC and Components - An Introduction"
           description: "This course is being recorded at the moment and will be added soon."
           open: "open"
           chapters:
