@@ -342,7 +342,7 @@ param:
               type: "video"
         - section: "ARM Cortex-M 101 - Introduction"
           description: "An introductory course on the ARM Cortex-M CPUs. How to go about learning them."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "ARM CPU Architectures"
             type: "video"
@@ -417,7 +417,7 @@ param:
             type: "video"
         - section: "GNU Make and Automation"
           description: "Make is a build automation tool that automatically updates files in your project based on their dependencies. It's primarily used for compiling source code, but can also be used to run other commands or perform tasks."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Setup and Quick Introduction"
             type: "video"
@@ -449,7 +449,7 @@ param:
             type: "video"
         - section: "GNU Linker Script"
           description: "This hands-on course dives into the details of writing linker scripts (based on GNU LD). Linker scripts are a must-have skill for firmware and systems engineers who have to deal with scenarios where the placement of various sections (code, data, etc) in the memory needs granular control. Engineers who work on Bootrom, Firmwares, Bootloaders, or otherwise are involved in lower-level systems code."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Environment Setup"
             type: "video"
@@ -511,7 +511,7 @@ param:
             type: "video"
         - section: "FreeRTOS - Teardown and Porting"
           description: "Learn FreeRTOS kernel by tearing it down to it's bare minimum and doing a port for a new target from scratch. This includes booting the CPU from scratch and placing the code in memory manually."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "What and Why FreeRTOS"
             type: "video"
@@ -531,11 +531,22 @@ param:
             type: "video"
           - chapter: "Starting to Integrate the FreeRTOS-Kernel"
             type: "video"
+          - chapter: "Finding and fixing the portmacro.h errors"
+            preview: "U_DDLbHN8dI"
+            type: "video"
+          - chapter: "Finding and adding the FreeRTOSConfig.h"
+            type: "video"
+          - chapter: "Enabling heap for dynamic memory allocation"
+            type: "video"
+          - chapter: "Setting the Scheduling Rate"
+            type: "video"
+          - chapter: "Getting the Kernel to compile successfully"
+            type: "video"
           - chapter: "more lectures being recorded..."
             type: "video"
         - section: "Git and Gerrit - the collaboration kit"
           description: "Git and Gerrit are pivotal tools in the software development industry, each serving distinct yet complementary roles that enhance collaboration, code quality, and workflow efficiency."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Introduction and Team Setup"
             type: "video"
@@ -559,7 +570,7 @@ param:
             type: "video"
         - section: "The ART of Interviewing"
           description: "Organised collection of topics, projects and questions from the web that a Embedded Engineer should know and be able to reasons about."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Introduction and Format of the Course"
             type: "video"
@@ -594,7 +605,7 @@ param:
             type: "video"
         - section: "ARM Cortex-A 101 - Introduction to the 64bit ARM CPUs"
           description: "Introduction to ARM-A Class CPUs implementing the AARCH64 architecture."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Who is ARM as the Company?"
             type: "video"
@@ -638,7 +649,7 @@ param:
             type: "video"
         - section: "Linux Device Drivers 101 - Writing and understanding a dummy driver"
           description: "A hands on Introduction to Linux Device Driver development. Recommended for those getting started with driver development."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "A sandbox to run our experiments"
             type: "video"
@@ -684,29 +695,29 @@ param:
             type: "video"
         - section: "Tech Syncs - Workshops on ad-hoc topics"
           description: "Live Tech Syncs with learners every once in a while where we discuss ad-hoc topics relating to Firmare and System Software Engneering."
-          open: "close"
+          open: "open"
           chapters:
           - chapter: "Deep Dive - ARM Cortex-M CPUs (part - 1) | 30 April 2025"
             type: "video"
         - section: "(planned) ARM aarch64 - Bare-metal Programming"
           description: "This course is being recorded at the moment and will be added soon."
-          open: "close"
+          open: "open"
           chapters:
         - section: "(planned) Linux Device Drivers 102 - Writing Driver for the GPIO block from scratch"
           description: "This course is being recorded at the moment and will be added soon."
-          open: "close"
+          open: "open"
           chapters:
         - section: "(planned) SoC and Components - An Introduction"
           description: "This course is being recorded at the moment and will be added soon."
-          open: "close"
+          open: "open"
           chapters:
         - section: "(planned) Data-structures and Algorithms for Embedded Engineers"
           description: "This course is being recorded at the moment and will be added soon."
-          open: "close"
+          open: "open"
           chapters:
         - section: "(planned) Python and Automation"
           description: "This course is being recorded at the moment and will be added soon."
-          open: "close"
+          open: "open"
           chapters:
       requirements:
         - GitHub account to do the hands-on coding in Codespaces.
