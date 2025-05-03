@@ -91,7 +91,6 @@ summary {
 
 .course-name {
   font-size: xx-large;
-  position: sticky;
   top: 0px;
   background-color: var(--bgcolor);
   text-align: center;
