@@ -1,6 +1,7 @@
 {{ with . }}
 
 <h2>What you Learn</h2>
+
 <div class="prod-what-u-learn">
   {{ range .learning }}
   <div class="prod-what-u-learn-point">
@@ -9,4 +10,11 @@
   </div>
   {{ end }}
 </div>
+
+{{ if .tracks }}
+<h2>Various Learning Paths</h2>
+<div class="tracks">
+  <img src="{{.tracks}}"></img>
+</div>
+{{ end }}
 {{ end }}

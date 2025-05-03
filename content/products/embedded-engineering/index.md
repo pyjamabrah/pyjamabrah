@@ -50,6 +50,7 @@ param:
       length: "~ >50 hr"
       files: 10+
       quizzes:
+      tracks: "/products/embedded-engineering/tracks.svg"
       certificate: "/products/embedded-engineering/certificate.png"
       validity: Quarterly and Yearly
       projects: 5+

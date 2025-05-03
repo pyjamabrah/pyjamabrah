@@ -363,6 +363,11 @@ details[open] > summary {
   text-align: center;
 }
 
+.tracks {
+  border: solid var(--linecolor) 1px;
+  text-align: center;
+}
+
 .creators-card-collection {
   min-width: 100%;
   display: flex;
