@@ -18,8 +18,8 @@ menu:
       name: Posts
       url: /posts/
       weight: 2
-    - identifier: Firmware/Systems Engineering
-      name: Firmware/Systems Engineering
+    - identifier: Explore Courses
+      name: Explore Courses
       url: /products/embedded-engineering
       pre: true
       weight: 3
