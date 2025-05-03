@@ -662,6 +662,7 @@ param:
           - chapter: "Next"
             type: "video"
         - section: "System Components - MMU/SMMU"
+          id: "system-components"
           description: "A Course dedicated to understand the concepts of Virtual memory and the hardware components that enable it - the Memory Management Unit (MMU) and the System Memory Management Unit (SMMU)."
           open: "open"
           chapters:
