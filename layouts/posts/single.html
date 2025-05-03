@@ -12,7 +12,7 @@
         {{ if .Params.product }}
           {{ partial "sidebar.html" (index .Site.Data.courses .Params.product ) }}
         {{ else }}
-          {{ partial "sidebar.html" (index .Site.Data.courses "book" ) }}
+          {{ partial "sidebar.html" (index .Site.Data.courses "embedded-engineering" ) }}
         {{end}}
       </div>
     </article>
