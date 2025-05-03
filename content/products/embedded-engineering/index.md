@@ -10,8 +10,8 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 109
-define: &lastupdated "2 May 2025"
+define: &enrolled 125
+define: &lastupdated "3 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
@@ -724,6 +724,8 @@ param:
           open: "open"
           chapters:
           - chapter: "Deep Dive - ARM Cortex-M CPUs (part - 1) | 30 April 2025"
+            type: "video"
+          - chapter: "Deep Dive - ARM Cortex-M CPUs (part - 2) | 03 May 2025"
             type: "video"
         - section: "(planned) ARM aarch64 - Bare-metal Programming"
           description: "This course is being recorded at the moment and will be added soon."
