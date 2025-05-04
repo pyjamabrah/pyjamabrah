@@ -1,24 +1,24 @@
 ---
 layout: products
 
-title: "Firmware and Systems Software Engineering"
+title: "Library Access"
 date: "2025-04-30T10:10:10+05:30"
 tags:
   - bundle
-description: "A structured path to learnings and mastering the essentials of Firmware and Systems Software Engineering"
+description: "Access all courses we create. A structured path to mastering the essentials of Firmware and Systems Software Engineering."
 thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 125
-define: &lastupdated "3 May 2025"
+define: &enrolled 12
+define: &lastupdated "4 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
   note: "Claim the Discounted Prices while the course is being developed!"
   bundle:
-    - course: "Firmware and Systems Software Engineering"
-      subtitle: "A `structured path` to **mastering the essentials**!"
+    - course: "Library Access"
+      subtitle: "`Access all courses we create`.\n\nA structured path to mastering the essentials of Firmware and Systems Software Engineering."
       description: "`IF YOU INVESTED IN US IN THE PAST, PLEASE EMAIL US AT SUPPORT@PYJAMABRAH.COM AND WE WILL WORK ON AN OFFER FOR YOU. SEND THE DETAILS OF THE INVESTMENTS.`\n\n
 
       Embedded Systems Software Engineering includes writing firmware for microcontrollers and system software for application grade CPUs involving bootloaders, device trees and higher level operating systems. \n\n
