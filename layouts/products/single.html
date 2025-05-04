@@ -49,10 +49,10 @@
   </main>
   <script>
     const countryPrices = {
-      'US': { quarterly: 35.99, yearly: 119.9, quarterlyOriginal: 174.9, yearlyOriginal: 699, currency: 'USD', symbol: '$' },
-      'GB': { quarterly: 29.99, yearly: 102.9, quarterlyOriginal: 149, yearlyOriginal: 599, currency: 'GBP', symbol: '£' },
-      'IN': { quarterly: 2999, yearly: 9999, quarterlyOriginal: 8999, yearlyOriginal: 35999, currency: 'INR', symbol: '₹' },
-      'default': { quarterly: 35.99, yearly: 119.9, quarterlyOriginal: 174.9, yearlyOriginal: 699, currency: 'USD', symbol: '$' }
+      'US': { halfyearly: 72, yearly: 119.9, halfyearlyOriginal: 349, yearlyOriginal: 699, currency: 'USD', symbol: '$' },
+      'GB': { halfyearly: 62.99, yearly: 102.9, halfyearlyOriginal: 299, yearlyOriginal: 599, currency: 'GBP', symbol: '£' },
+      'IN': { halfyearly: 5999, yearly: 9999, halfyearlyOriginal: 17999, yearlyOriginal: 35999, currency: 'INR', symbol: '₹' },
+      'default': { halfyearly: 72, yearly: 119.9, halfyearlyOriginal: 349, yearlyOriginal: 699, currency: 'USD', symbol: '$' }
     };
 
     async function getCountryCode() {
@@ -72,11 +72,11 @@
       console.log(country)
       const prices = countryPrices[country] || countryPrices['default'];
 
-      const quarterlyBtn = document.querySelector('.btn-quarterly');
+      const halfyearlyBtn = document.querySelector('.btn-halfyearly');
       const yearlyBtn = document.querySelector('.btn-yearly');
 
-      if (quarterlyBtn) {
-        quarterlyBtn.innerHTML = `<s>${prices.symbol}${prices.quarterlyOriginal}</s> ${prices.symbol}${prices.quarterly}/Quarter`;
+      if (halfyearlyBtn) {
+        halfyearlyBtn.innerHTML = `<s>${prices.symbol}${prices.halfyearlyOriginal}</s> ${prices.symbol}${prices.halfyearly}/Half-Year`;
       }
 
       if (yearlyBtn) {

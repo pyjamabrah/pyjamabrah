@@ -31,8 +31,8 @@ content:
 more: "/products/embedded-engineering"
 ctaText: "Access The Courses!"
 enroll:
-  - plan: "quarterly"
-    link: "https://courses.pyjamabrah.com/l/03355f8f5c"
+  - plan: "halfyearly"
+    link: "https://courses.pyjamabrah.com/l/28b9d34c94"
   - plan: "yearly"
     link: "https://courses.pyjamabrah.com/l/be38c0c379"
 paybuttonID: ""
