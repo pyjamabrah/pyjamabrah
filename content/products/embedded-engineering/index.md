@@ -10,8 +10,8 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 12
-define: &lastupdated "4 May 2025"
+define: &enrolled 145
+define: &lastupdated "5 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
@@ -552,6 +552,10 @@ param:
           - chapter: "Setting the Scheduling Rate"
             type: "video"
           - chapter: "Getting the Kernel to compile successfully"
+            type: "video"
+          - chapter: "Running the compiled binary"
+            type: "video"
+          - chapter: "Investigating why task is not getting created"
             type: "video"
           - chapter: "more lectures being recorded..."
             type: "video"
