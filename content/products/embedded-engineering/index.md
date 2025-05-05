@@ -735,6 +735,8 @@ param:
             type: "video"
           - chapter: "Deep Dive - ARM Cortex-M CPUs (part - 2) | 03 May 2025"
             type: "video"
+          - chapter: "RISC-V - Introduction | TBD"
+            type: "video"
         - section: "(planned) ARM aarch64 - Bare-metal Programming"
           description: "This course is being recorded at the moment and will be added soon."
           open: "open"
