@@ -10,8 +10,8 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 145
-define: &lastupdated "5 May 2025"
+define: &enrolled 170
+define: &lastupdated "7 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
@@ -735,7 +735,7 @@ param:
             type: "video"
           - chapter: "Deep Dive - ARM Cortex-M CPUs (part - 2) | 03 May 2025"
             type: "video"
-          - chapter: "RISC-V - Introduction | TBD"
+          - chapter: "RISC-V - Introduction | 08 May 2025"
             type: "video"
         - section: "(planned) ARM aarch64 - Bare-metal Programming"
           description: "This course is being recorded at the moment and will be added soon."
@@ -985,6 +985,9 @@ param:
 ---
 
 **Important:** Planned courses are not yet ready for learners and will be added as the current recording concludes.
+
+# Email from one of the learners ♥️
+![](email.png "One of the subscribers wrote to us, this...")
 
 # The Philosophy behind the courses?
 
