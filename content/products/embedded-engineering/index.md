@@ -10,7 +10,7 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 170
+define: &enrolled 181
 define: &lastupdated "7 May 2025"
 
 param:
@@ -726,6 +726,20 @@ param:
             type: "video"
           - chapter: "Quick Revision, What we did not cover and where to next.."
             type: "video"
+        - section: "Linux Device Drivers (102) - Controlling the Hardware"
+          id: "ldd-102"
+          description: "Course on writing and understanding how the Linux Device Drivers controls real hardware. In this course, we write a kernel driver for the GPIO port of Raspberry Pi - 4."
+          open: "open"
+          chapters:
+          - chapter: "Introduction and Expectations"
+            type: "video"
+            preview: "FvNPYyQjfMw"
+          - chapter: "Hardware and Demo"
+            type: "video"
+          - chapter: "The generic Boot flow for SoCs"
+            type: "video"
+          - chapter: "more videos being recorded"
+            type: ""
         - section: "Tech Syncs - Workshops on ad-hoc topics"
           id: "tech-syncs"
           description: "Live Tech Syncs with learners every once in a while where we discuss ad-hoc topics relating to Firmare and System Software Engneering."
@@ -738,10 +752,6 @@ param:
           - chapter: "RISC-V - Introduction | 08 May 2025"
             type: "video"
         - section: "(planned) ARM aarch64 - Bare-metal Programming"
-          description: "This course is being recorded at the moment and will be added soon."
-          open: "open"
-          chapters:
-        - section: "(planned) Linux Device Drivers 102 - Writing Driver for the GPIO block from scratch"
           description: "This course is being recorded at the moment and will be added soon."
           open: "open"
           chapters:
