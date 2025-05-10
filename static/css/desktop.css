@@ -18,15 +18,14 @@
   }
 
   .blog-card {
-    border: solid var(--linecolor) 0px;
-    border-radius: 10px;
+    border: solid var(--linecolor) 1px;
     margin: 15px;
     max-width: 30% !important;
     text-decoration: none;
     cursor: pointer;
     color: var(--fontcolor) !important;
     transition-duration: 0.5s;
-    box-shadow: 0px 0px 10px 0px var(--shadow);
+    /* box-shadow: 0px 0px 10px 0px var(--shadow); */
   }
 
   .blog-card:hover {
@@ -78,6 +77,7 @@
   .info-card {
     min-width: 45%;
     max-width: 45%;
+    border: solid var(--linecolor) 1px;
   }
 
   .creators-info-card {
@@ -85,6 +85,7 @@
     max-width: 45%;
     padding: 1%;
     margin: 1%;
+    border: solid var(--linecolor) 1px;
   }
 
   .button-cta {

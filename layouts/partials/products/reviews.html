@@ -27,6 +27,8 @@
     <div class="reviewer-meta">
       {{if .photo}}
       <img class="reviewer-photo" src="{{.photo}}"></img>
+      {{else}}
+      <img class="reviewer-photo" src="/images/old/favicon.png"></img>
       {{end}}
       <div class="reviewer-data">
         <div class="reviewer-name"> {{ .reviewer }} </div>

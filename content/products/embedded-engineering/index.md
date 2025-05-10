@@ -10,8 +10,8 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 181
-define: &lastupdated "7 May 2025"
+define: &enrolled 230
+define: &lastupdated "10 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
@@ -19,9 +19,7 @@ param:
   bundle:
     - course: "Library Access"
       subtitle: "`Access all courses we create`.\n\nA structured path to mastering the essentials of Firmware and Systems Software Engineering."
-      description: "`IF YOU INVESTED IN US IN THE PAST, PLEASE EMAIL US AT SUPPORT@PYJAMABRAH.COM AND WE WILL WORK ON AN OFFER FOR YOU. SEND THE DETAILS OF THE INVESTMENTS.`\n\n
-
-      Embedded Systems Software Engineering includes writing firmware for microcontrollers and system software for application grade CPUs involving bootloaders, device trees and higher level operating systems. \n\n
+      description: "Embedded Systems Software Engineering includes writing firmware for micro-controllers and system software for application grade CPUs involving boot-loaders, device trees and higher level operating systems. \n\n
 
       While there are several resources available online. Each offers a narrow view of one entity of the several. We have created and organised courses, that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."
       previewCover: "/products/embedded-engineering/cover.png"
@@ -30,7 +28,7 @@ param:
       beginner: "yes"
       intermediate: "yes"
       rating: 4.9
-      ratingCount: 24
+      ratingCount: 25
       studentsCount: *enrolled
       message: "1080481281?h=39e203cc29"
       creators:
@@ -46,8 +44,8 @@ param:
           bio: "Computer Science Engineer with a Masters in Embedded Systems Design. Worked on Firmware for Intel's Bluetooth solutions, followed by Silicon Validation Software for the Tensor SoCs, and presently working on the Pixel Watch Software. He is system software expert with a decade of experience."
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 100+
-      length: "~ >50 hr"
+      lessons: 200+
+      length: "75+ hrs"
       files: 10+
       quizzes:
       tracks: "/products/embedded-engineering/tracks.svg"
@@ -780,6 +778,10 @@ param:
       reviewSectionTitle: "Praise from our learners"
       reviewSectionDescription: "Here's what those who are learning from the courses have to say about the content and delivery."
       reviews:
+        - reviewer: "Rushikesh Patil"
+          rating: 5
+          featured: true
+          review: "One of the most essential and affordable course bundles for aspiring firmware engineers! I particularly appreciated the detailed explanations in the C pointers and ARM Cortex-M & assembly programming courses."
         - reviewer: "Shweta S"
           rating: 5
           review: "A well structured course for beginners to expirenced professionals, one who is keen in learning what the C program does to the underlying system, this course is for them. I personally enjoyed the debugging using the gdb dashboard. I am looking forward to dive deeper as the course unfolds, I highly recommend this course for all the embedded engineers."
