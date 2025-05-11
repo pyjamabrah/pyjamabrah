@@ -2,6 +2,7 @@ baseURL: 'https://pyjamabrah.com/'
 languageCode: 'en-us'
 theme: smigle
 title: Pyjama Brah!
+paginate: 20
 
 # ignore these files
 ignoreFiles:
