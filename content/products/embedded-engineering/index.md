@@ -23,7 +23,7 @@ param:
 
       While there are several resources available online. Each offers a narrow view of one entity of the several. We have created and organised courses, that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."
       previewCover: "/products/embedded-engineering/cover.png"
-      previewVideo: "https://github.com/pyjamabrah/preview-videos/raw/refs/heads/main/C%20to%20Assembly.mp4"
+      previewVideo: "/products/embedded-engineering/portal.mov"
       bestSeller: "yes"
       beginner: "yes"
       intermediate: "yes"

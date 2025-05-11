@@ -1,6 +1,12 @@
 {{ with . }}
 
 <div class="prod-description">
+  {{if .previewVideo}}
+  <video style="max-width:100%" autoplay loop>
+    <source src="{{.previewVideo}}" type="video/mp4">
+     Your browser does not support the video tag.
+  </video>
+  {{end}}
   <p>
     {{ .description | markdownify }}
   </p>
