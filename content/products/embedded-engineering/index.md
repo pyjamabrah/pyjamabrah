@@ -10,8 +10,8 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 230
-define: &lastupdated "10 May 2025"
+define: &enrolled 269
+define: &lastupdated "13 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
@@ -559,6 +559,10 @@ param:
             type: "video"
           - chapter: "Correcting the boot-up code and memory init"
             type: "video"
+          - chapter: "Installing the Exception Handlers"
+            type: "video"
+          - chapter: "Hunting the cause for the Hard Fault"
+            type: "video"
           - chapter: "more lectures being recorded..."
             type: "video"
         - section: "Git and Gerrit - the collaboration kit"
@@ -740,7 +744,7 @@ param:
             type: ""
         - section: "Tech Syncs - Workshops on ad-hoc topics"
           id: "tech-syncs"
-          description: "Live Tech Syncs with learners every once in a while where we discuss ad-hoc topics relating to Firmare and System Software Engneering."
+          description: "Live Tech Syncs with learners every once in a while where we discuss ad-hoc topics relating to Firmware and System Software Engineering."
           open: "open"
           chapters:
           - chapter: "Deep Dive - ARM Cortex-M CPUs (part - 1) | 30 April 2025"
@@ -748,6 +752,16 @@ param:
           - chapter: "Deep Dive - ARM Cortex-M CPUs (part - 2) | 03 May 2025"
             type: "video"
           - chapter: "RISC-V - Introduction | 08 May 2025"
+            type: "video"
+        - section: "Source Code Walkthrough"
+          id: "walkthrough"
+          description: "Learn how to tame huge code bases written in C. Techniques, tricks and general patterns that help understanding the structure and abstractions used in a repository."
+          open: "open"
+          chapters:
+          - chapter: "Little Kernel | Setup and getting started"
+            type: "video"
+            preview: "6goO1CZ7p78"
+          - chapter: "Little Kernel | Reverse engineering directory structure"
             type: "video"
         - section: "(planned) ARM aarch64 - Bare-metal Programming"
           description: "This course is being recorded at the moment and will be added soon."
