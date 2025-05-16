@@ -742,6 +742,13 @@ param:
             type: "video"
           - chapter: "more videos being recorded"
             type: ""
+        - section: "Embedded Systems Podcast!"
+          id: "podcast"
+          description: "Casual chats with Industry Experts focused on their career paths, technology trends, skills and opportunities."
+          open: "open"
+          chapters:
+          - chapter: "Manav | SoC Design flow, MIPS, RISC-V and Automotive"
+            type: "video"
         - section: "Tech Syncs - Workshops on ad-hoc topics"
           id: "tech-syncs"
           description: "Live Tech Syncs with learners every once in a while where we discuss ad-hoc topics relating to Firmware and System Software Engineering."
