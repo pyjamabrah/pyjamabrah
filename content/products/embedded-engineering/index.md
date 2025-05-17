@@ -1,7 +1,7 @@
 ---
 layout: products
 
-title: "Library Access"
+title: "Library"
 date: "2025-04-30T10:10:10+05:30"
 tags:
   - bundle
@@ -10,14 +10,14 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 278
-define: &lastupdated "14 May 2025"
+define: &enrolled 302
+define: &lastupdated "17 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
   note: "Claim the Discounted Prices while the course is being developed!"
   bundle:
-    - course: "Library Access"
+    - course: "Library"
       subtitle: "`Access all courses we create`.\n\nA structured path to mastering the essentials of Firmware and Systems Software Engineering."
       description: "Embedded Systems Software Engineering includes writing firmware for micro-controllers and system software for application grade CPUs involving boot-loaders, device trees and higher level operating systems. \n\n
 
@@ -344,6 +344,13 @@ param:
               type: "video"
             - chapter: "Bit Masking, Setting and Clearing Bits"
               type: "video"
+        - section: "Data Structures (in C)"
+          id: "dsa"
+          description: "A short course on understanding, implementing and using data structures in C."
+          open: "open"
+          chapters:
+            - chapter: "Lectures are being recorded and be released over the weekend."
+              type: ""
         - section: "ARM Cortex-M 101 - Introduction"
           id: "m-101"
           description: "An introductory course on the ARM Cortex-M CPUs. How to go about learning them."
@@ -761,6 +768,8 @@ param:
           - chapter: "RISC-V - Introduction | 08 May 2025"
             type: "video"
           - chapter: "ARM Cortex-M CPUs : Memory Model (part - 2) | 14 May 2025"
+            type: "video"
+          - chapter: "Understanding PCIE | 28 May 2025 (planned)"
             type: "video"
         - section: "Source Code Walkthrough"
           id: "walkthrough"
