@@ -129,6 +129,12 @@ summary {
   margin: 20px;
 }
 
+.section-title {
+  font-weight: bold;
+  color: var(--fontcolor);
+  margin-top: 10px;
+}
+
 .chapter-details {
   display: inline-block;
 }
@@ -490,7 +496,7 @@ th, td {
 }
 
 .view-preview {
-  padding: 1% 10% 2% 10%;
+  padding: 1% 2% 2% 2%;
 }
 
 .bottom-banner {

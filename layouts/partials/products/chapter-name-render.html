@@ -4,24 +4,30 @@
 
   <div>
     <div class="chapter-names">
-      <div class="chapter-icon">
         {{ if eq .type "video"}}
+          <div class="chapter-icon">
           <i class="bi bi-play-btn"></i>
+          </div>
         {{ end }}
 
         {{ if eq .type "quiz"}}
+          <div class="chapter-icon">
           <i class="bi bi-check-circle"></i>
+          </div>
         {{ end }}
 
         {{ if eq .type "code"}}
+          <div class="chapter-icon">
           <i class="bi bi-code-square"></i>
+          </div>
         {{ end }}
 
         {{ if eq .type "pdf"}}
+          <div class="chapter-icon">
           <i class="bi bi-filetype-pdf"></i>
+          </div>
         {{ end }}
-      </div>
-      <div>{{ $chapterName }}</div>
+      <div {{ if eq .type "title" }} class="section-title"{{end}}>{{ $chapterName }}</div>
     </div>
 
     <!-- Add video length -->
