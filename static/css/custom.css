@@ -131,7 +131,7 @@ summary {
 
 .section-title {
   font-weight: bold;
-  color: var(--fontcolor);
+  color: var(--section-title);
   margin-top: 10px;
 }
 
