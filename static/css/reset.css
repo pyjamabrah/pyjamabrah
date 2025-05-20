@@ -32,7 +32,7 @@ html {
      --btn-border: black;
      --tick-green: rgb(107, 255, 58);
      --shadow: rgb(0, 0, 0);
-     --shadowDard: rgb(0, 0, 0);
+     --shadowDard: rgba(122, 122, 122, 0.065);
      --section-title: #ff0000;
   }
 }

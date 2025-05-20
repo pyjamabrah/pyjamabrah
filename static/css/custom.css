@@ -512,9 +512,32 @@ th, td {
 }
 
 .menu-special {
-  border: solid black 1px;
-  padding: 4px 8px 4px 8px;
+  border: solid var(--shadowDard) 1px;
+  padding: 2px 8px 2px 8px;
   background-color: var(--theme-primary);
+  border-radius: 0px;
+  color: var(--fontcolor);
+  text-decoration: none;
+}
+
+.menu-special:visited {
+  color: var(--fontcolor);
+  text-decoration: none;
+}
+
+.menu-special:active {
+  color: var(--fontcolor);
+  text-decoration: none;
+}
+
+.menu-special:link {
+  color: var(--fontcolor);
+  text-decoration: none;
+}
+
+.menu-special:hover {
+    box-shadow: 0px 0px 3px 0px var(--shadowDard);
+    text-decoration: none;
 }
 
 .razorpay-payment-button {

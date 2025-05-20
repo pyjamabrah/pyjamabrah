@@ -1,6 +1,9 @@
 ---
 layout: products
 
+aliases:
+- /library
+
 title: "Library"
 date: "2025-04-30T10:10:10+05:30"
 tags:
@@ -10,8 +13,8 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 314
-define: &lastupdated "18 May 2025"
+define: &enrolled 342
+define: &lastupdated "20 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
