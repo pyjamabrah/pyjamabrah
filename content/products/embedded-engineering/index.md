@@ -2,7 +2,7 @@
 layout: products
 
 aliases:
-- /library
+- /library/
 
 title: "Library"
 date: "2025-04-30T10:10:10+05:30"
@@ -880,6 +880,8 @@ param:
           - chapter: "ARM Cortex-M CPUs : Memory Model (part - 2) | 14 May 2025"
             type: "video"
           - chapter: "Understanding PCIE | 28 May 2025 (planned)"
+            type: "video"
+          - chapter: "What Every Programmer Should Know About Memory | (tbd)"
             type: "video"
         - section: "Source Code Walkthrough"
           id: "walkthrough"
