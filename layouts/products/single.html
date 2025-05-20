@@ -76,11 +76,11 @@
       const yearlyBtn = document.querySelector('.btn-yearly');
 
       if (halfyearlyBtn) {
-        halfyearlyBtn.innerHTML = `<s>${prices.symbol}${prices.halfyearlyOriginal}</s> ${prices.symbol}${prices.halfyearly}/Half-Year`;
+        halfyearlyBtn.innerHTML = `<s>${prices.symbol}${prices.halfyearlyOriginal}</s> ${prices.symbol}${prices.halfyearly}/6m`;
       }
 
       if (yearlyBtn) {
-        yearlyBtn.innerHTML = `<s>${prices.symbol}${prices.yearlyOriginal}</s> ${prices.symbol}${prices.yearly}/Year`;
+        yearlyBtn.innerHTML = `<s>${prices.symbol}${prices.yearlyOriginal}</s> ${prices.symbol}${prices.yearly}/yr`;
       }
     }
 

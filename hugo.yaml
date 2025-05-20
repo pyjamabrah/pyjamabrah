@@ -19,14 +19,14 @@ menu:
       name: Posts
       url: /posts/
       weight: 2
-    - identifier: Explore Courses
-      name: Explore Courses
+    - identifier: Library
+      name: Library
       url: /products/embedded-engineering
       pre: true
       weight: 3
-    - identifier: Course Login
+    - identifier: Login
       pre: true
-      name: Course Login
+      name: Login
       url: https://courses.pyjamabrah.com
       weight: 6
 markup:
