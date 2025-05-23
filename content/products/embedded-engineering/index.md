@@ -13,8 +13,8 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 357
-define: &lastupdated "20 May 2025"
+define: &enrolled 399
+define: &lastupdated "23 May 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
@@ -24,7 +24,7 @@ param:
       subtitle: "`Access all courses we create`.\n\nA structured path to mastering the essentials of Firmware and Systems Software Engineering."
       description: "Embedded Systems Software Engineering includes writing firmware for micro-controllers and system software for application grade CPUs involving boot-loaders, device trees and higher level operating systems. \n\n
 
-      While there are several resources available online. Each offers a narrow view of one entity of the several. We have created and organised courses, that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."
+      While there are several resources available online. Each offers a narrow view of one entity of the several. We have created and organized courses, that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."
       previewCover: "/products/embedded-engineering/cover.png"
       # previewVideo: "/products/embedded-engineering/portal.mov"
       bestSeller: "yes"
@@ -912,6 +912,8 @@ param:
           - chapter: "RISC-V - Introduction | 08 May 2025"
             type: "video"
           - chapter: "ARM Cortex-M CPUs : Memory Model (part - 2) | 14 May 2025"
+            type: "video"
+          - chapter: "Raspberry Pi PICO 2 SoC Deep Dive (Part 1) | 25 May 2025 (planned)"
             type: "video"
           - chapter: "Understanding PCIE | 28 May 2025 (planned)"
             type: "video"
