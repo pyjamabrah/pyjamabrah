@@ -422,6 +422,7 @@ param:
             - chapter: "Abstract Data Types and Operations"
               type: "video"
             - chapter: "Space and Time complexity"
+              preview: "h5WZaOrVaAQ"
               type: "video"
             - chapter: "Linked Lists"
               type: "title"
