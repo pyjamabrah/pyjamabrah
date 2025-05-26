@@ -13,7 +13,7 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 410
+define: &enrolled 425
 define: &lastupdated "26 May 2025"
 
 param:
@@ -966,6 +966,10 @@ param:
           - chapter: "Objects, Operations and Loose types"
             type: "video"
           - chapter: "Scripting and feeding files to interpreter"
+            type: "video"
+          - chapter: "Language Essentials"
+            type: "title"
+          - chapter: "The Keywords"
             type: "video"
           - chapter: "more lectures will be uploaded in due time..."
         - section: "Embedded Systems Podcast!"
