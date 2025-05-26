@@ -53,7 +53,7 @@ param:
       quizzes:
       tracks: "/products/embedded-engineering/tracks.svg"
       certificate: "/products/embedded-engineering/certificate.png"
-      validity: Quarterly and Yearly
+      validity: Half-Yearly and Yearly
       projects: 5+
       learning:
         - Master C programming, converting to Assembly and machine code.
@@ -944,6 +944,27 @@ param:
             type: "video"
           - chapter: "more videos being recorded"
             type: ""
+        - section: "Python Programming"
+          description: "A quick course on getting up and running with the Python programming language for Embedded Engineers. The course focuses on enabling C programmers with the important insights and mental models to be used when working with Python."
+          open: "close"
+          chapters:
+          - chapter: "Introduction and Setup"
+            type: "title"
+          - chapter: "Welcome Message"
+            type: "video"
+          - chapter: "Codespaces Setup and Basics"
+            type: "video"
+          - chapter: "Setting Dark theme"
+            type: "video"
+          - chapter: "The Mindset when working with Python"
+            type: "title"
+          - chapter: "Everything is an Object"
+            type: "video"
+          - chapter: "Objects, Operations and Loose types"
+            type: "video"
+          - chapter: "Scripting and feeding files to interpreter"
+            type: "video"
+          - chapter: "more lectures will be uploaded in due time..."
         - section: "Embedded Systems Podcast!"
           id: "podcast"
           description: "Casual chats with Industry Experts focused on their career paths, technology trends, skills and opportunities."
@@ -990,14 +1011,6 @@ param:
           - chapter: "more videos being recorded..."
             type: ""
         - section: "(planned) ARM aarch64 - Bare-metal Programming"
-          description: "This course is being recorded at the moment and will be added soon."
-          open: "close"
-          chapters:
-        - section: "(planned) Data-structures and Algorithms for Embedded Engineers"
-          description: "This course is being recorded at the moment and will be added soon."
-          open: "close"
-          chapters:
-        - section: "(planned) Python and Automation"
           description: "This course is being recorded at the moment and will be added soon."
           open: "close"
           chapters:
@@ -1214,7 +1227,7 @@ param:
           a: "Yes! The courses are taught as if the learner has no idea about the subject. Each course starts of by ensuring that the basics needed to understand the followup lectures is understood."
           open: "open"
         - q: "Why a subscription model?"
-          a: "We are billed for the hosting and bandwidth by the platform provider. While we would very much like to offer lifetime validity, given the recurring bills, we have to ensure we continue to earn enough to be able to fund the effort and bring more value to our learners. The quarterly plan is for those who cannot afford the yearly subscription but can benefit from burst learning. To get the most out of our content, we recommend subscribing to the yearly plan."
+          a: "We are billed for the hosting and bandwidth by the platform provider. While we would very much like to offer lifetime validity, given the recurring bills, we have to ensure we continue to earn enough to be able to fund the effort and bring more value to our learners. The Half-Yearly plan is for those who cannot afford the yearly subscription but can benefit from burst learning. To get the most out of our content, we recommend subscribing to the yearly plan."
           open: "open"
         - q: "Do I need a special machine configuration to take this course?"
           a: "No! All you will need is an internet connection and the Chrome browser. The hands-on examples and lab work is based on GitHub codespaces platform. We use GitHub Codespace to ensure that you don't struggle with the setup and focus on the learnings. You are always free to setup the environment locally. Although, we won't support that, but you are free to do so. The courses, as much possible use a Emulator target of a real board, so if you wanted to run the code on real board. You can do so."
@@ -1245,7 +1258,7 @@ param:
 
 We have been creating content for the Embedded Software Engineering community for over a year now. If you have been following us, you would know that we have launched courses in the past, with `Firmware Engineering Arsenal` (later renamed to `Firmware Engineering`) being the most popular one. The Courses on `C lnaguage` and `C Pointer` have been an all time hit and got us to where we are.
 
-We noticed that we (a small) team were having a hard time supporting different courses individually. And learners were feeling left out when we included one course in one bundle but not another. To make life easy for all, we have decided to offer all the courses to everyone under **quarterly** and **yearly** subscription plans. This we believe will free us from the complications that come with attended to everyone on different chat windows.
+We noticed that we (a small) team were having a hard time supporting different courses individually. And learners were feeling left out when we included one course in one bundle but not another. To make life easy for all, we have decided to offer all the courses to everyone under **Half-Yearly** and **yearly** subscription plans. This we believe will free us from the complications that come with attended to everyone on different chat windows.
 
 To help reinforce all the learnings and ensure the learner has a deep sense of practical usage of the lessons, we have introduced **Tech Sync (Workshops)** where we present live on topics and take questions.
 
