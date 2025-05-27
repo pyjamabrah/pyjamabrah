@@ -18,7 +18,7 @@
         {{ if $index }} | {{ end }}
         <a {{ if .Pre }} class="menu-special"{{ end }}
            href="{{ .URL | relURL }}"
-           {{ if .Pre }} target="_blank" {{end}}><b>{{ .Name }}</b></a>
+           {{ if .Pre }} {{end}}><b>{{ .Name }}</b></a>
       {{ end }}
     {{ end }}
     <hr />
