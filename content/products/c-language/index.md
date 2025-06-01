@@ -489,7 +489,6 @@ param:
         - Electrical/Electronics Engineers working on hardware programming.
         - Systems Engineer seeking gain system level insights.
         - Those curious to learn the underlying details of Systems and how to program it using C.
-        - Those seeking a job change and preparing for interviews.
       reviewSectionTitle: "Early praise from YouTube Subscribers"
       reviewSectionDescription: "Because the course is brand new, we released some lectures on YouTube to get early feedback, and it has been a banger! You will not regret taking this course..."
       reviews:
@@ -680,4 +679,4 @@ Here’s the truth: **C’s mastery runs deeper than most realize**. The general
 
 Over years of working with C, I’ve noticed a troubling pattern: most engineers learn and use C the wrong way. This course exists to fix that. It’s not just about coding—it’s about teaching you to see the world through C’s lens, to wield it with precision and purpose. My goal is to show you the right way to master this language.
 
-I’ve been fortunate to mentor dozens of interns, guide recent college graduates, coach early-career professionals, and interview nearly 100 industry practitioners for system-level roles on my team. One truth stood out: while many use C daily, few truly understand how to reason about their code at the systems level. That gap inspired this course—a chance to bridge it with real-world insight and hands-on expertise.
+I’ve been fortunate to mentor dozens of interns, guide recent college graduates, coach early-career professionals, and interviewed nearly 100 industry practitioners for system-level roles on my team. One truth stood out: while many use C daily, few truly understand how to reason about their code at the systems level. That gap inspired this course—a chance to bridge it with real-world insight and hands-on expertise.
