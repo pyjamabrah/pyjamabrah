@@ -20,7 +20,7 @@ param:
   image: "/products/embedded-engineering/cover.png"
   note: "Claim the Discounted Prices while the course is being developed!"
   bundle:
-    - course: "Library"
+    - course: "The Library"
       subtitle: "`Access all courses we create`.\n\nA structured path to mastering the essentials of Firmware and Systems Software Engineering."
       description: "Embedded Systems Software Engineering includes writing firmware for micro-controllers and system software for application grade CPUs involving boot-loaders, device trees and higher level operating systems. \n\n
 

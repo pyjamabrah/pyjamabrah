@@ -39,13 +39,13 @@ markup:
     anchorLineNos: true
 
 params:
-  subtitle: "Putting the 'Engineering' back in the Engineer!"
+  subtitle: "Concepts and Skills you missed in University!"
   description: "Reasoning from first principles, everything from AI down to the transistor."
   thumbnail: "/opengraph.png"
   math: true
   abbrDateFmt: "Jan 2"
-  author: "Piyush Itankar"
-  address: "F002, Keerthi Harmony, Ramamurthy Nagar, Bangalore 560016"
+  author: "Team Pyjama Brah!"
+  address: "Keerthi Harmony, Ramamurthy Nagar, Bangalore 560016"
   brandIconFile: "/images/brah.png"
   dateFmt: "2 Jan, 2006"
   customStylesheets: # Use to override theme styles, like logo size
@@ -58,15 +58,15 @@ params:
   readingSpeedMax: 175 # Use to set custom reading speed range
   social:
     - name: twitter
-      url: https://x.com/dstreetdogg
+      url: https://x.com/i/communities/1869594826557309052
     - name: youtube
       url: https://youtube.com/@pyjamabrah
     - name: linkedin
       url: https://www.linkedin.com/in/streetdogg/
     - name: envelope
-      url: mailto:piyush@pyjamabrah.com
+      url: mailto:support@pyjamabrah.com
     - name: github
-      url: https://github.com/streetdogg
+      url: https://github.com/pyjamabrah
   legal:
     - name: Privacy Policy
       url: /privacy
