@@ -15,8 +15,8 @@ badges:
   - free: false
 
 content:
-  - feature: "**18+** courses and counting."
-  - feature: "**100+ Hrs** of recorded lectures."
+  - feature: "**20+** courses and counting."
+  - feature: "**150+ Hrs** of recorded lectures."
   - feature: "**~200** lectures."
   - feature: "**C Language** mastery."
   - feature: "**Data Structures** in C."
@@ -24,6 +24,7 @@ content:
   - feature: "**Assembly** programming."
   - feature: "**RTOS** and **OS primitives** mastery."
   - feature: "**Linux Device Drivers** mastery."
+  - feature: "**Python** and **automation** tools."
   - feature: "**SOCs and System Components** mastery."
   - feature: "How to have productive **Technical Discussions**."
   - feature: "**Hands-on Experiments** to prove the point."
