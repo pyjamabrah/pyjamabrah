@@ -4,7 +4,7 @@ layout: products
 aliases:
 - /library/
 
-title: "Library"
+title: "The Library"
 date: "2025-04-30T10:10:10+05:30"
 tags:
   - bundle
@@ -13,8 +13,8 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 425
-define: &lastupdated "26 May 2025"
+define: &enrolled 550
+define: &lastupdated "1 June 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
@@ -51,7 +51,7 @@ param:
       length: "100+ hrs"
       files: 10+
       quizzes:
-      tracks: "/products/embedded-engineering/tracks.svg"
+      tracks: "/products/embedded-engineering/tracks.png"
       certificate: "/products/embedded-engineering/certificate.png"
       validity: Half-Yearly and Yearly
       projects: 5+
@@ -85,7 +85,7 @@ param:
         - Generate digital audio in C using sampling, file operations.
         - Simulate real-world coding with QEMU, Codespace, Multipass.
         - Build mental models of CPU, memory, state machines, scheduling.
-        - Tackle interview questions on C, memory, interrupts, bit manipulation.
+        - Tackle technical discussions on C, memory, interrupts, bit manipulation.
         - Complete projects - schedulers, digital audio, Linux drivers.
       sections:
         - section: "Low Level with Pyjama Brah! (Public Draft)"
@@ -765,8 +765,8 @@ param:
             type: "video"
           - chapter: "more lectures are being recorded..."
             type: "video"
-        - section: "The ART of Interviewing"
-          id: "interviewing"
+        - section: "The ART of Technical Discussions"
+          id: "discussions"
           description: "Organised collection of topics, projects and questions from the web that a Embedded Engineer should know and be able to reasons about."
           open: "open"
           chapters:
@@ -1029,12 +1029,10 @@ param:
       audience:
         - Students in Academia with C as a subject in the course.
         - Early Career Professionals using C as development language.
-        - Embedded Systems Engineers.
-        - System Software Engineers.
+        - Firmware and System Software Engineers looking to revisit concepts.
         - Electrical/Electronics Engineers working on hardware programming.
         - Systems Engineer seeking gain system level insights.
         - Those curious to learn the underlying details of Systems and how to program it using C.
-        - Those seeking a job change and preparing for interviews.
       reviewSectionTitle: "Praise from our learners"
       reviewSectionDescription: "Here's what those who are learning from the courses have to say about the content and delivery."
       reviews:
@@ -1275,7 +1273,7 @@ To help reinforce all the learnings and ensure the learner has a deep sense of p
 
 Embedded Engineering has not had a linear path. We are attempting to being order to the chaos. The courses are deliberately designed and ordered in the way they are. You can take each course individually or just follow the learning paths shown in the image below. The ones of the left are for firmware engineers (or aspiring candidates) and the ones on right are for those interested in systems software engineering.
 
-![](tracks.svg "Learning Paths")
+![](tracks.png "Learning Paths")
 
 ## Firmware Engineering
 
@@ -1305,7 +1303,7 @@ We focus on the ARM-A class CPUs just because they are very popular and used in 
 
 Honing technical skills is not enough. For these reasons we have included courses on general skills that a Firmware/Systems Software Engineer should have. When working in teams, collaboration is a big one and most semiconductor companies use tools like Git and Gerrit for source code management. Master these will enable you to be a reliable teammate!
 
-`The ART of Interviewing` is a collection of special topics and interview experiences that will arm you with the knowledge and mindset to have a productive technical discussion with an interviewer (not to mention, become a better interviewer too)!
+`The ART of Technical Discussions` is a collection of special topics and experiences that will arm you with the knowledge and mindset to have a productive technical discussions with s seniors!
 
 # More!
 
