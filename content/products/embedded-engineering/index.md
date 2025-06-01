@@ -38,7 +38,7 @@ param:
         - name: "Piyush Itankar"
           designation: "Embedded Engineer (L5), Google"
           contactLink: "https://www.linkedin.com/in/streetdogg/"
-          photo: "https://media.licdn.com/dms/image/v2/D5603AQEf8sg1lv5agw/profile-displayphoto-shrink_200_200/B56ZZReHOAGUAY-/0/1745123574048?e=1751500800&v=beta&t=dPQgn4rStZc-7Gmhgwqj4XEefFJMIRnuIolcPlsK6NY"
+          photo: "https://media.licdn.com/dms/image/v2/D5603AQEwbTCUXluXuw/profile-displayphoto-shrink_400_400/B56Zca9kMmHwAo-/0/1748504036723?e=1754524800&v=beta&t=Ig0z5F4WkjQl12FJFfCWRQnc0zmmMXOEkqUtyrqYhjs"
           bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
         - name: "Mahmad Bharmal"
           designation: "Embedded Engineer (L4), Google"
