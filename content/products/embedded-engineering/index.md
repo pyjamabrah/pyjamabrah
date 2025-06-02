@@ -1021,6 +1021,15 @@ param:
           description: "This course is being recorded at the moment and will be added soon."
           open: "open"
           chapters:
+        - section: "(coming soon) FPGA based Hardware Design"
+          id: "fpga-101"
+          description: "This course focuses on Digital Circuit Design using FPGAs (Field Programmable Gate Arrays). Recommended for Software Engineers to help them understand how the underlying electronic machines work."
+          open: "open"
+          chapters:
+            - chapter: "Demo - FPGA and deploying simple circuits on it"
+              preview: "2uamx8MpoOo"
+              type: "video"
+            - chapter: "More lectures to be uploaded soon"
       requirements:
         - GitHub account to do the hands-on coding in Codespaces.
         - Interest in the lower level working of the system.
