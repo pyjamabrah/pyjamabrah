@@ -21,7 +21,7 @@ param:
   note: "Claim the Discounted Prices while the course is being developed!"
   bundle:
     - course: "The Library"
-      subtitle: "`Access all courses we create`.\n\nA structured path to mastering the essentials of Firmware and Systems Software Engineering."
+      subtitle: "The `UNFAIR` advantage!\n\nAccess all courses we create. A structured path to mastering the essentials of Firmware and Systems Software Engineering."
       description: "Embedded Systems Software Engineering includes writing firmware for micro-controllers and system software for application grade CPUs involving boot-loaders, device trees and higher level operating systems. \n\n
 
       While there are several resources available online. Each offers a narrow view of one entity of the several. We have created and organized courses, that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."

@@ -1,6 +1,6 @@
 # Essentials
-title: "Library Access"
-subtitle: "Access **all** courses we create."
+title: "The Library Access"
+subtitle: "get the `UNFAIR` advantage!"
 poster: "/products/embedded-engineering/cover.png"
 description: "A structured path to mastering the essentials of Firmware and Systems Software Engineering."
 preview: "oCOOdtwDZSA"
@@ -16,8 +16,8 @@ badges:
 
 content:
   - feature: "**20+** courses and counting."
-  - feature: "**150+ Hrs** of recorded lectures."
-  - feature: "**~200** lectures."
+  - feature: "**200+ Hrs** of recorded lectures."
+  - feature: "**~200+** lectures."
   - feature: "**C Language** mastery."
   - feature: "**Data Structures** in C."
   - feature: "**ARM-M**/**ARM-A**/**RISC-V** architecture."
