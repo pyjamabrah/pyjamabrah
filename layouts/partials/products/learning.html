@@ -1,7 +1,28 @@
 {{ with . }}
 
-<h2>What you Learn</h2>
+{{ if .courselist }}
+<h2>courses included</h2>
+<p>
+  This offering is a collection of courses, each of which is deliberately designed to give you insights and hands on experience on critical topics. We will continue to add <b>more courses and content</b>.
+</p>
+<div class="prod-what-u-learn">
+  {{ range .courselist }}
+  <div class="prod-what-u-learn-point">
+    <div class="bi bi-egg-fried prod-what-u-learn-tick"></div>
+    <div>{{ . }}</div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
 
+{{ if .tracks }}
+<p>There are various starting points towards an end. These are discussed in detail in a later section...</p>
+<div class="tracks">
+  <img src="{{.tracks}}"></img>
+</div>
+{{ end }}
+
+<h2>what you learn</h2>
 <div class="prod-what-u-learn">
   {{ range .learning }}
   <div class="prod-what-u-learn-point">
@@ -11,10 +32,4 @@
   {{ end }}
 </div>
 
-{{ if .tracks }}
-<h2>Various Learning Paths</h2>
-<div class="tracks">
-  <img src="{{.tracks}}"></img>
-</div>
-{{ end }}
 {{ end }}

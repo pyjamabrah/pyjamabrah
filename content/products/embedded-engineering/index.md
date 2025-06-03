@@ -13,7 +13,7 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 554
+define: &enrolled 593
 define: &lastupdated "1 June 2025"
 
 param:
@@ -55,6 +55,27 @@ param:
       certificate: "/products/embedded-engineering/certificate.png"
       validity: Half-Yearly and Yearly
       projects: 5+
+      courselist:
+        - Roadmap and Career Options
+        - Low Level with Pyjama Brah! (Public Draft)
+        - The C Language
+        - C Pointers
+        - C - Mastering Bit Manipulation
+        - Data Structures
+        - ARM Cortex M - 101
+        - ARM Cortex M - 102 (Scheduler Design)
+        - GNU Make and Automation
+        - GNU Linker Scripts
+        - FreeRTOS - Teardown and Porting
+        - Git And Gerrit
+        - The ART of INTERVIEWING
+        - AARCH64 - Introduction to ARM A 64 Bit CPU
+        - System Components - MMU/SMMU
+        - Linux Device Drivers - Introduction
+        - Linux Device Drivers - Controlling Hardware
+        - FPGA Based Hardware Design - 101
+        - Python Programming
+        - Tech-Sync | Saved Recordings
       learning:
         - Master C programming, converting to Assembly and machine code.
         - Grasp ARM-M, ARM-A, and RISC-V memory maps and programmer's models.

@@ -113,7 +113,7 @@ summary {
 .dropdown-summary {
   padding: 10px;
   font-weight: bold;
-  background-color: rgba(226, 226, 226, 0.378);
+  background-color: var(--theme-primary);
 }
 
 .section-name {
