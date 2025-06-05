@@ -467,7 +467,6 @@ th, td {
   align-items: center;
   z-index: 2;
   margin-top: 10px;
-  padding:10px;
   border-top: solid var(--linecolor) 1px;
 }
 
@@ -646,4 +645,11 @@ code {
 
 .btn-newsletter {
  max-width: 200px;
+}
+
+.discount {
+  padding: 5px 20px 5px 20px;
+  color: var(--fontcolor);
+  text-align: center;
+  background-color: var(--bgcolor);
 }

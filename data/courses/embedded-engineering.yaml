@@ -42,6 +42,11 @@ enroll:
     link: "https://courses.pyjamabrah.com/l/0024401f50"
 paybuttonID: ""
 
+discount:
+  code: "RPI2350"
+  percentage: "15"
+  time: "22"
+
 #
 # Details below this line are for the landing Page.
 #

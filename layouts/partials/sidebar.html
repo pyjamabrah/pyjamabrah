@@ -34,6 +34,43 @@
     {{ end }}
   </div>
 
+  {{ if .discount}}
+  <div class="discount">
+    use code <b>{{ .discount.code }}</b> for <b>{{ .discount.percentage }}% off</b> on Yearly plan. Expires in <b id="countdownSidebar"></b>!!
+  </div>
+  <script>
+    // Get today's date
+    const n = new Date();
+
+    // Set the time to 10:00 PM IST
+    n.setHours({{.discount.time}}, 41, 30, 3); // 22:00:00.000 (10 PM IST)
+    var countDownDate = new Date(n).getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      t = hours + "h " + minutes + "m " + seconds + "s "
+      try {
+        document.getElementById("countdownSidebar").innerHTML =  t;
+        document.getElementById("countdownBottom").innerHTML =  t;
+      } catch(err) {
+      }
+    }, 1000);
+  </script>
+  {{ end }}
+
   {{if .paybuttonID}}
   {{ partial "products/paybutton.html" .paybuttonID }}
   {{else}}
@@ -46,4 +83,8 @@
   </div>
   {{end}}
 </div>
+
+{{if .discount}}
+
+{{end}}
 {{ end }}

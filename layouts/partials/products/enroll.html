@@ -1,7 +1,12 @@
 {{ with . }}
 
 <div class="button-cta align-in-center">
-  {{ range . }}
+  {{if .discount}}
+  <div class="discount">
+    use code <b>{{.discount.code}}</b> for <b>{{.discount.percentage}}% off</b> on Yearly plan. Expires in <b id="countdownBottom"></b>!!
+  </div>
+  {{end}}
+  {{ range .enroll }}
   <a class="btn" href="{{ .link }}" target="_blank">
     <button class="btn-{{.plan}}">
       <span class="bi bi-cup-hot"></span>
