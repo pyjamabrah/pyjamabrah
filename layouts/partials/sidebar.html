@@ -42,8 +42,7 @@
     // Get today's date
     const n = new Date();
 
-    // Set the time to 10:00 PM IST
-    n.setHours({{.discount.time}}, 41, 30, 3); // 22:00:00.000 (10 PM IST)
+    n.setHours({{.discount.time}}, 00, 00, 00);
     var countDownDate = new Date(n).getTime();
 
     // Update the count down every 1 second
