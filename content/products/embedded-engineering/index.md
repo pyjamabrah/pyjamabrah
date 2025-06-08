@@ -1060,9 +1060,22 @@ param:
           description: "This course focuses on Digital Circuit Design using FPGAs (Field Programmable Gate Arrays). Recommended for Software Engineers to help them understand how the underlying electronic machines work."
           open: "open"
           chapters:
+            - chapter: "Quick Demo"
+              type: "title"
             - chapter: "Demo - FPGA and deploying simple circuits on it"
               preview: "2uamx8MpoOo"
               type: "video"
+            - chapter: "Essentials"
+              type: "title"
+            - chapter: "Understanding the Transistor"
+              type: "video"
+            - chapter: "Using transistors as a base for logic gates"
+              type: "video"
+            - chapter: "What is an FPGA"
+              type: "video"
+            - chapter: "Exploring the iCEBreaker Development board"
+              type: "video"
+              preview: "yFr6wy-F8eQ"
             - chapter: "More lectures to be uploaded soon"
       requirements:
         - GitHub account to do the hands-on coding in Codespaces.
