@@ -3,4 +3,4 @@
 	url = https://gitlab.com/ian-s-mcb/smigle-hugo-theme.git
 [submodule "content/posts"]
 	path = content/posts
-	url = https://github.com/pyjamabrah/pyjamabrah-community-contributions.git
+	url = git@github.com:pyjamabrah/pyjamabrah-community-contributions.git
