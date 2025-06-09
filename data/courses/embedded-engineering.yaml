@@ -1,5 +1,5 @@
 # Essentials
-title: "The Library Access"
+title: "Master Embedded Development"
 subtitle: "get the `UNFAIR` advantage!"
 poster: "/products/embedded-engineering/cover.png"
 description: "A structured path to mastering the essentials of Firmware and Systems Software Engineering."
@@ -16,19 +16,15 @@ badges:
 
 content:
   - feature: "**20+** courses and counting."
-  - feature: "**200+ Hrs** of recorded lectures."
-  - feature: "**~200+** lectures."
-  - feature: "**C Language** mastery."
-  - feature: "**Data Structures** in C."
-  - feature: "**ARM-M**/**ARM-A**/**RISC-V** architecture."
-  - feature: "**Assembly** programming."
+  - feature: "**200+ Hrs**, and ~200+ of recorded lectures."
+  - feature: "**C Language** & **Data Structures**."
+  - feature: "**ARM-M**/**ARM-A**/**RISC-V** architecture and **Assembly** programming."
   - feature: "**RTOS** and **OS primitives** mastery."
   - feature: "**Linux Device Drivers** mastery."
   - feature: "**Python** and **automation** tools."
   - feature: "**SOCs and System Components** mastery."
   - feature: "How to have productive **Technical Discussions**."
-  - feature: "**Hands-on Experiments** to prove the point."
-  - feature: "**Practical Insights.**"
+  - feature: "**Hands-on Examples** delivering **Practical Insights.**"
   - feature: "**Tech Syncs** for live interactions."
   - feature: "**Certificate** on completing the course."
 
