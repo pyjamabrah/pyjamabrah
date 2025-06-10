@@ -1,8 +1,12 @@
 ---
 layout: products
 
+url: /library
+
 aliases:
 - /library/
+- /lib/
+- /products/embedded-engineering/
 
 title: "The Library"
 date: "2025-04-30T10:10:10+05:30"
@@ -13,8 +17,8 @@ thumbnail: "/products/embedded-engineering/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 674
-define: &lastupdated "8 June 2025"
+define: &enrolled 701
+define: &lastupdated "10 June 2025"
 
 param:
   image: "/products/embedded-engineering/cover.png"
