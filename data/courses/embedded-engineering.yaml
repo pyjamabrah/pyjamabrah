@@ -32,15 +32,15 @@ content:
 more: "/products/embedded-engineering"
 ctaText: "Access The Courses!"
 enroll:
-  # - plan: "halfyearly"
-  #   link: "https://courses.pyjamabrah.com/web/checkout/68200beb5b2f2a167acd4854?purchaseNow=true&couponcode=WELCOME30"
-  - plan: "Join the Library @30% discount!"
+  - plan: "halfyearly"
+    link: "https://courses.pyjamabrah.com/web/checkout/68200beb5b2f2a167acd4854?purchaseNow=true&couponcode=WELCOME30"
+  - plan: "yearly"
     link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7?purchaseNow=true&couponcode=WELCOME30"
 paybuttonID: ""
 
 discount:
-  # code: "WELCOME30"
-  # percentage: "30"
+  code: "WELCOME30"
+  percentage: "30"
   time: "24"
 
 #
