@@ -22,7 +22,7 @@ menu:
       weight: 2
     - identifier: Library
       name: Library
-      url: /products/embedded-engineering
+      url: /products/library
       pre: true
       weight: 3
     - identifier: Login
@@ -39,7 +39,7 @@ markup:
     anchorLineNos: true
 
 params:
-  subtitle: "Concepts and Skills you missed in University!"
+  subtitle: "Back to Basics. Casually!!"
   description: "Reasoning from first principles, everything from AI down to the transistor."
   thumbnail: "/opengraph.png"
   math: true
