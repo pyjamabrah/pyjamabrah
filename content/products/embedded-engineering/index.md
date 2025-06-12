@@ -1045,7 +1045,7 @@ param:
             type: "video"
           - chapter: "AutoSAR - Introduction | 07 June 2025"
             type: "video"
-          - chapter: "Understanding PCIe (Part II) | scheduled 10th June"
+          - chapter: "Understanding PCIe (Part II) | 10 June 2025"
             type: "video"
           - chapter: "What Every Programmer Should Know About Memory | (tbd)"
             type: "video"
