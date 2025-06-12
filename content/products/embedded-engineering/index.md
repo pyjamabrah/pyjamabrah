@@ -17,8 +17,8 @@ thumbnail: "/library/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 701
-define: &lastupdated "10 June 2025"
+define: &enrolled 731
+define: &lastupdated "12 June 2025"
 
 param:
   image: "/library/cover.png"
