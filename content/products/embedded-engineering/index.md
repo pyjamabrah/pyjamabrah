@@ -13,7 +13,7 @@ date: "2025-04-30T10:10:10+05:30"
 tags:
   - bundle
 description: "Access all courses we create. A structured path to mastering the essentials of Firmware and Systems Software Engineering."
-thumbnail: "/products/embedded-engineering/cover.png"
+thumbnail: "/library/cover.png"
 categories: courses
 product: "embedded-engineering"
 
@@ -21,7 +21,7 @@ define: &enrolled 701
 define: &lastupdated "10 June 2025"
 
 param:
-  image: "/products/embedded-engineering/cover.png"
+  image: "/library/cover.png"
   note: "Claim the Discounted Prices while the course is being developed!"
   bundle:
     - course: "Master Embedded Systems Development!"
@@ -29,8 +29,8 @@ param:
       description: "Embedded Systems Software Engineering includes writing firmware for micro-controllers and system software for application grade CPUs involving boot-loaders, device trees and higher level operating systems. \n\n
 
       While there are several resources available online. Each offers a narrow view of one entity of the several. We have created and organized courses, that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."
-      previewCover: "/products/embedded-engineering/cover.png"
-      # previewVideo: "/products/embedded-engineering/portal.mov"
+      previewCover: "/library/cover.png"
+      # previewVideo: "/library/portal.mov"
       bestSeller: "yes"
       beginner: "yes"
       intermediate: "yes"
@@ -56,8 +56,8 @@ param:
       length: "100+ hrs"
       files: 10+
       quizzes:
-      tracks: "/products/embedded-engineering/tracks.svg"
-      certificate: "/products/embedded-engineering/certificate.png"
+      tracks: "/library/tracks.svg"
+      certificate: "/library/certificate.png"
       validity: Half-Yearly and Yearly
       projects: 5+
       courselist:
