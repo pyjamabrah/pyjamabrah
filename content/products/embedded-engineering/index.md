@@ -24,11 +24,11 @@ param:
   image: "/library/cover.png"
   note: "Claim the Discounted Prices while the course is being developed!"
   bundle:
-    - course: "Master Embedded Systems Development!"
-      subtitle: "`The Library Access`\n\nCollection of courses and a structured path to mastering the essentials of Firmware and Systems Software Engineering."
+    - course: "Embedded Systems Mastery!"
+      subtitle: "`THE LIBRARY ACCESS`\n\nStructured courses to guide you from `Zero to Hero` in Embedded Systems Programming."
       description: "Embedded Systems Software Engineering includes writing firmware for micro-controllers and system software for application grade CPUs involving boot-loaders, device trees and higher level operating systems. \n\n
 
-      While there are several resources available online. Each offers a narrow view of one entity of the several. We have created and organized courses, that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."
+      While there are several resources available online. Each offers a narrow view. We have created and organized courses that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."
       previewCover: "/library/cover.png"
       # previewVideo: "/library/portal.mov"
       bestSeller: "yes"
@@ -53,7 +53,7 @@ param:
       lastUpdated: *lastupdated
       language: "English"
       lessons: 200+
-      length: "100+ hrs"
+      length: "200+ hrs"
       files: 10+
       quizzes:
       tracks: "/library/tracks.svg"

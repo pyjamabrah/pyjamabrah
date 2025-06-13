@@ -63,9 +63,9 @@ h1,h2,h3 {
 }
 
 li > code, p > code, div > code {
-  color: rgb(255, 25, 190);
+  color: rgb(255, 20, 102);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 pre {
