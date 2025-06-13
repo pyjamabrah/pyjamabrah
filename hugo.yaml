@@ -22,7 +22,7 @@ menu:
       weight: 2
     - identifier: Library
       name: Library
-      url: /products/library
+      url: /library
       pre: true
       weight: 3
     - identifier: Login
