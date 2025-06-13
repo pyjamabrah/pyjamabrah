@@ -19,8 +19,8 @@
 
   .blog-card {
     border: solid var(--linecolor) 1px;
-    margin: 15px;
-    max-width: 30% !important;
+    margin: 0.5%;
+    max-width: 23% !important;
     text-decoration: none;
     cursor: pointer;
     color: var(--fontcolor) !important;
@@ -29,7 +29,7 @@
   }
 
   .blog-card:hover {
-    box-shadow: 0px 0px 20px 0px var(--shadowDard);
+    box-shadow: 0px 0px 10px 0px var(--shadowDard);
     text-decoration: none;
   }
 
