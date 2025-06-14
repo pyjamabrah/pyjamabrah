@@ -1118,6 +1118,14 @@ param:
             - chapter: "Exploring the iCEBreaker Development board"
               type: "video"
               preview: "yFr6wy-F8eQ"
+            - chapter: "What does programming FPGA mean?"
+              type: "title"
+            - chapter: "icestudio and simple circuit"
+              type: "video"
+            - chapter: "Mental model for the internals of the FPGA"
+              type: "video"
+            - chapter: "Build flow and tools"
+              type: "video"
             - chapter: "More lectures to be uploaded soon"
       requirements:
         - GitHub account to do the hands-on coding in Codespaces.
