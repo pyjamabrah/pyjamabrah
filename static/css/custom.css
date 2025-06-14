@@ -621,9 +621,10 @@ blockquote {
 }
 
 code {
-  line-height: 1.15rem;
+  line-height: 1.5rem;
   font-family: monospace;
   font-weight: normal;
+  font-size: 1rem;
 }
 
 .post-card-content > figure {
