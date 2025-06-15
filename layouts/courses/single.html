@@ -50,11 +50,15 @@
       {{if .paybuttonID}}
       {{ partial "products/paybutton.html" .paybuttonID }}
       {{else}}
+
       <div class="product-cta-button">
-        <a class="btn" href="{{.enroll}}" target="_blank">
-          <button><span class="bi bi-cup-hot"></span> {{ .ctaText | markdownify}}</button>
+        {{ range .enroll }}
+        <a class="btn" href="{{.link}}" target="_blank">
+          <button>{{ .plan | markdownify}}</button>
         </a>
+        {{ end }}
       </div>
+      <br/>
       {{end}}
     </div>
     {{ end }}

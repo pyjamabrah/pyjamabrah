@@ -1,0 +1,33 @@
+# Essentials
+title: "Embedded Systems Roadmap"
+subtitle: "How you can prepare yourself."
+poster: "/images/courses/roadmap.png"
+description: "What is embedded systems and what are the career options available to you based on background in Electrical, Electronics or Computer Science Engineering."
+preview: ""
+
+# course stats
+rating: 5
+bestseller: true
+
+badges:
+  - beginner: true
+  - intermediate: false
+  - free: false
+
+content:
+  - videos: "**9**"
+  - duration: "**2 hrs 30 mins**"
+  - enrolled: "**760**"
+  - certificate: yes
+
+# Link and Payment options
+more:
+ctaText:
+enroll:
+  - plan: "explore more"
+    link: "/library/#roadmap"
+paybuttonID: ""
+
+#
+# Details below this line are for the landing Page.
+#

@@ -1,0 +1,33 @@
+# Essentials
+title: "C Pointers"
+subtitle: "Significance and use in design."
+poster: "/images/courses/pointers.png"
+description: "This Course dives into the mental models and inner workings of pointers."
+preview: ""
+
+# course stats
+rating: 4.9
+bestseller: true
+
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: false
+
+content:
+  - videos: "**33**"
+  - duration: "**5 hrs 16 mins**"
+  - enrolled: "**760**"
+  - certificate: yes
+
+# Link and Payment options
+more: "/products/c-language"
+ctaText: "Start Learning"
+enroll:
+  - plan: "Learn More"
+    link: "/library/#pointers"
+paybuttonID: ""
+
+#
+# Details below this line are for the landing Page.
+#

@@ -1,12 +1,12 @@
 # Essentials
 title: "Master Embedded Development"
 subtitle: "get the `UNFAIR` advantage!"
-poster: "/products/embedded-engineering/cover.png"
-description: "A structured path to mastering the essentials of Firmware and Systems Software Engineering."
-preview: "oCOOdtwDZSA"
+poster: "/library/cover.png"
+description: "Collection of all courses Pyjamabrah team made (and will make) that will guide you from a beginner to expert level Embedded Systems Programming. Covers topics from Firmware and Systems Engineering."
+preview: ""
 
 # course stats
-rating:
+rating: 4.9
 bestseller: true
 
 badges:
@@ -15,22 +15,14 @@ badges:
   - free: false
 
 content:
-  - feature: "**20+** courses and counting."
-  - feature: "**200+ Hrs**, and ~200+ of recorded lectures."
-  - feature: "**C Language** & **Data Structures**."
-  - feature: "**ARM-M**/**ARM-A**/**RISC-V** architecture and **Assembly** programming."
-  - feature: "**RTOS** and **OS primitives** mastery."
-  - feature: "**Linux Device Drivers** mastery."
-  - feature: "**Python** and **automation** tools."
-  - feature: "**SOCs and System Components** mastery."
-  - feature: "How to have productive **Technical Discussions**."
-  - feature: "**Hands-on Examples** delivering **Practical Insights.**"
-  - feature: "**Tech Syncs** for live interactions."
-  - feature: "**Certificate** on completing the course."
+  - videos: "**200+**"
+  - duration: "**200+ hours**"
+  - certificate: true
+  - enrolled: "**730**"
 
 # Link and Payment options
-more: "/products/embedded-engineering"
-ctaText: "Access The Courses!"
+more: "/library"
+ctaText: "Join the Library!"
 enroll:
   - plan: "halfyearly"
     link: "https://courses.pyjamabrah.com/web/checkout/68200beb5b2f2a167acd4854?purchaseNow=true&couponcode=WELCOME30"

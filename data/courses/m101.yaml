@@ -26,11 +26,11 @@ content:
 
 
 # Link and Payment options
-more: "https://learn.pyjamabrah.com/learn/m101"
-ctaText: "Start Learning (FREE)"
+more:
+ctaText:
 enroll:
-  - plan: "join in"
-    link: "https://learn.pyjamabrah.com/learn/m101"
+  - plan: "explore more"
+    link: "/library/#m-101"
 
 #
 # Details below this line are for the landing Page.

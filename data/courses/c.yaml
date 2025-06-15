@@ -1,9 +1,9 @@
 # Essentials
 title: "The C Language"
-subtitle: "Everything you need to master the language, the tools and programming techniques."
+subtitle: "The way to control the hardware."
 poster: "/products/c-language/cover.png"
-description: ""
-preview: "ZWQOxcTYrYE"
+description: "Learn C in ways that the professional use."
+preview: ""
 
 # course stats
 rating: 4.83
@@ -20,7 +20,6 @@ content:
   - downloads: "**12**"
   - codeReviews: yes
   - projects: "**2**"
-  - access: "365"
   - enrolled: "**481**"
   - certificate: yes
 
@@ -28,8 +27,8 @@ content:
 more: "/products/c-language"
 ctaText: "Start Learning"
 enroll:
-  - plan: "Sign in"
-    link: "https://courses.pyjamabrah.com/l/db8c35d98f"
+  - plan: "explore more"
+    link: "/library/#c"
 paybuttonID: ""
 
 #
