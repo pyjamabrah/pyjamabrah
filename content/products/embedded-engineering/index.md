@@ -17,8 +17,8 @@ thumbnail: "/library/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 731
-define: &lastupdated "12 June 2025"
+define: &enrolled 760
+define: &lastupdated "15 June 2025"
 
 param:
   image: "/library/cover.png"
@@ -902,6 +902,27 @@ param:
             type: "video"
           - chapter: "Next"
             type: "video"
+        - section: "aarch64 Bare-metal Programming (ARM-A 102)"
+          id: "a-102"
+          description: "A short course on programming the ARM-A Class CPU (aarch64 based Cortex-A72) from scratch using the Raspberry Pi 4B as the platform."
+          open: "open"
+          chapters:
+          - chapter: "Introduction and Essentials"
+            type: "title"
+          - chapter: "Course Introduction"
+            type: "video"
+            preview: "fshT_XGmIXE"
+          - chapter: "Repository and documentation"
+            type: "video"
+          - chapter: "Tour of Hardware Components"
+            type: "video"
+          - chapter: "Operating system as development environment"
+            type: "video"
+          - chapter: "System on Chip (SoC) and Boot Flow"
+            type: "title"
+          - chapter: "What is System on Chip (SoC)"
+            type: "video"
+          - chapter: "More lectures are being recorded and will be added soon."
         - section: "System Components - MMU/SMMU"
           id: "system-components"
           description: "A Course dedicated to understand the concepts of Virtual memory and the hardware components that enable it - the Memory Management Unit (MMU) and the System Memory Management Unit (SMMU)."
@@ -1093,10 +1114,6 @@ param:
             type: "pdf"
           - chapter: "more videos being recorded..."
             type: ""
-        - section: "(planned) ARM aarch64 - Bare-metal Programming"
-          description: "This course is being recorded at the moment and will be added soon."
-          open: "open"
-          chapters:
         - section: "FPGA based Hardware Design (101)"
           id: "fpga-101"
           description: "This course focuses on Digital Circuit Design using FPGAs (Field Programmable Gate Arrays). Recommended for Software Engineers to help them understand how the underlying electronic machines work."
