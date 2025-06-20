@@ -25,15 +25,15 @@ more: "/library"
 ctaText: "Join the Library!"
 enroll:
   - plan: "halfyearly"
-    link: "https://courses.pyjamabrah.com/web/checkout/68200beb5b2f2a167acd4854?purchaseNow=true&couponcode=WELCOME30"
+    link: "https://courses.pyjamabrah.com/web/checkout/68200beb5b2f2a167acd4854"
   - plan: "yearly"
-    link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7?purchaseNow=true&couponcode=WELCOME30"
+    link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7"
 paybuttonID: ""
 
-discount:
-  code: "WELCOME30"
-  percentage: "30"
-  time: "24"
+# discount:
+#   code: ""
+#   percentage: ""
+#   time: ""
 
 #
 # Details below this line are for the landing Page.

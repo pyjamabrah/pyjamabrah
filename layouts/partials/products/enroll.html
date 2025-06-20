@@ -3,7 +3,7 @@
 <div class="button-cta align-in-center">
   {{if .discount}}
   <div class="discount">
-    {{if .discount.code}}use code <b>{{.discount.code}}</b> for <b>{{.discount.percentage}}% off</b> on Yearly plan. {{end}} Offer expires in <b id="countdownBottom"></b>!!
+    {{if .discount.code}}use code <b>{{.discount.code}}</b> for <b>{{.discount.percentage}}% off</b> on Yearly plan. Offer expires in <b id="countdownBottom"></b>!!{{end}}
   </div>
   {{end}}
   {{ range .enroll }}
