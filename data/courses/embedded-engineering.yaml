@@ -24,9 +24,9 @@ content:
 more: "/library"
 ctaText: "Join the Library!"
 enroll:
-  - plan: "halfyearly"
-    link: "https://courses.pyjamabrah.com/web/checkout/68200beb5b2f2a167acd4854"
-  - plan: "yearly"
+  - plan: "Quarterly"
+    link: "https://courses.pyjamabrah.com/web/checkout/68555e850492d7e6da04245f"
+  - plan: "Yearly"
     link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7"
 paybuttonID: ""
 

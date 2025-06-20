@@ -1,8 +1,8 @@
 # Essentials
-title: "Embedded Systems Roadmap"
-subtitle: "How you can prepare yourself."
+title: "Embedded Systems - Opportunities/Roadmap"
+subtitle: "An introduction to the fields of Embedded Systems, roles and roadmap."
 poster: "/images/courses/roadmap.png"
-description: "What is embedded systems and what are the career options available to you based on background in Electrical, Electronics or Computer Science Engineering."
+description: "Explore the world of Embedded systems, the opportunities and the roadmap to preparing yourself. Includes - "
 preview: ""
 
 # course stats
@@ -12,20 +12,20 @@ bestseller: true
 badges:
   - beginner: true
   - intermediate: false
-  - free: false
+  - free: true
 
 content:
-  - videos: "**9**"
-  - duration: "**2 hrs 30 mins**"
-  - enrolled: "**760**"
-  - certificate: yes
+  - feature: What is Embedded systems.
+  - feature: What are the skills one should have and in what order.
+  - feature: The Industry landscape, roles and opportunities.
+  - feature: The Roadmap you can use to prepare.
 
 # Link and Payment options
-more:
+more: "https://pyjamabrah.com/library/#roadmap"
 ctaText:
 enroll:
-  - plan: "explore more"
-    link: "/library/#roadmap"
+  - plan: "watch now (free)!"
+    link: "https://courses.pyjamabrah.com/web/checkout/685520054276ba4ff6b33117"
 paybuttonID: ""
 
 #

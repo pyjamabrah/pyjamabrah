@@ -15,7 +15,7 @@ tags:
 description: "Access all courses we create. A structured path to mastering the essentials of Firmware and Systems Software Engineering."
 thumbnail: "/library/cover.png"
 categories: courses
-product: "embedded-engineering"
+product: "1-roadmap"
 
 define: &enrolled 826
 define: &lastupdated "20 June 2025"
