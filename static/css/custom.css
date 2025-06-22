@@ -114,6 +114,8 @@ summary {
   padding: 10px;
   font-weight: bold;
   background-color: var(--theme-primary);
+  position: sticky;
+  top: 0px;
 }
 
 .section-name {
