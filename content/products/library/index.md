@@ -55,32 +55,35 @@ param:
       lessons: 200+
       length: "200+ hrs"
       files: 10+
+      courseCount: 23
       quizzes:
       tracks: "/library/tracks.svg"
       certificate: "/library/certificate.png"
       validity: Quarterly and Yearly
-      projects: 5+
+      projects: Several
       courselist:
         - Roadmap and Career Options
         - Low Level with Pyjama Brah! (Public Draft)
         - The C Language
         - C Pointers
         - C - Mastering Bit Manipulation
-        - Data Structures
-        - ARM Cortex M - 101
+        - Data Structures (in C)
+        - ARM Cortex M - 101 (Introduction)
         - ARM Cortex M - 102 (Scheduler Design)
         - GNU Make and Automation
         - GNU Linker Scripts
         - FreeRTOS - Teardown and Porting
         - Git And Gerrit
-        - The ART of INTERVIEWING
-        - AARCH64 - Introduction to ARM A 64 Bit CPU
+        - The ART of Technical Discussions
+        - AARCH64 - Introduction to ARM-A 64 Bit CPU (ARM-A 101)
+        - aarch64 Baremetal Programming (ARM-A 102)
         - System Components - MMU/SMMU
-        - Linux Device Drivers - Introduction
-        - Linux Device Drivers - Controlling Hardware
-        - FPGA Based Hardware Design - 101
+        - Linux Device Drivers - Introduction (101)
+        - Linux Device Drivers - Controlling Hardware (102)
+        - FPGA Based Hardware Design (101)
         - Python Programming
-        - Tech-Sync | Saved Recordings
+        - Tech-Sync | Saved Recordings (Workshops)
+        - Podcasts
       learning:
         - Master C programming, converting to Assembly and machine code.
         - Grasp ARM-M, ARM-A, and RISC-V memory maps and programmer's models.

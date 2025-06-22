@@ -2,18 +2,32 @@
 <h2>includes</h2>
 <div class="prod-content-summary">
     <div class="bullet-point">
+      <i class="bi bi-folder-fill prod-content-summary-tick"></i>
+      Collection of&nbsp<b>{{ .courseCount }}&nbsp</b> Courses.
+    </div>
+    <div class="bullet-point">
       <i class="bi bi-play-btn prod-content-summary-tick"></i>
-      <b>{{ .length }}&nbsp</b> on-demand Video.
+      <b>{{ .length }}&nbsp</b> of recorded video lectures.
     </div>
 
     <div class="bullet-point">
       <i class="bi bi-check2-square prod-content-summary-tick"></i>
-      <b>{{ .lessons }}&nbsp</b> Recorded lessons.
+      <b>{{ .lessons }}&nbsp</b> lessons.
+    </div>
+
+    <div class="bullet-point">
+      <i class="bi bi-pci-card prod-content-summary-tick"></i>
+      <b>Emulator & Hardware</b>&nbspbased experiments.
     </div>
 
     <div class="bullet-point">
       <i class="bi bi-cloud-arrow-down prod-content-summary-tick"></i>
       <b>{{ .files }}&nbsp</b> downloadable resources.
+    </div>
+
+    <div class="bullet-point">
+      <i class="bi bi-person-video3 prod-content-summary-tick"></i>
+      <b>Workshops&nbsp</b> by industry experts.
     </div>
 
     {{ if .quizzes }}
@@ -57,4 +71,5 @@
       <b>New content regularly added!</b>
     </div>
 </div>
+</br>
 {{ end }}
