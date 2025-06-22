@@ -24,18 +24,18 @@ param:
   image: "/library/cover.png"
   note: "Claim the Discounted Prices while the course is being developed!"
   bundle:
-    - course: "Embedded Systems Mastery!"
-      subtitle: "`THE LIBRARY ACCESS`\n\nStructured courses to guide you from `Zero to Hero` in Embedded Systems Programming."
-      description: "Embedded Systems Software Engineering includes writing firmware for micro-controllers and system software for application grade CPUs involving boot-loaders, device trees and higher level operating systems. \n\n
+    - course: "The LIBRARY!"
+      subtitle: "Reason from `first principles`, design solutions and control the world!"
+      description: "Library is a collection of courses that will guide you on the `fundamentals` and `insights` you need to design and implement Embedded Systems based solutions! \n\n
 
-      While there are several resources available online. Each offers a narrow view. We have created and organized courses that will take you from `Zero to Hero` in Firmware and Systems Software Engineering."
+      Embedded Systems Software Engineering includes writing `firmware` for micro-controllers and `system software` for application grade CPUs involving boot-loaders, device trees and higher level operating systems.\n\n"
       previewCover: "/library/cover.png"
       # previewVideo: "/library/portal.mov"
       bestSeller: "yes"
       beginner: "yes"
       intermediate: "yes"
       rating: 4.9
-      ratingCount: 25
+      ratingCount:
       studentsCount: *enrolled
       # message: "1080481281?h=39e203cc29"
       message: "1091541001?h=cf0f21acb8"
