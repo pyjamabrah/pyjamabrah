@@ -1,6 +1,6 @@
 # Essentials
-title: "Master Embedded Development"
-subtitle: "get the `UNFAIR` advantage!"
+title: "The LIBRARY!"
+subtitle: "Master Embedded Software Engineering."
 poster: "/library/cover.png"
 description: "Collection of all courses Pyjamabrah team made (and will make) that will guide you from a beginner to expert level Embedded Systems Programming. Covers topics from Firmware and Systems Engineering."
 preview: ""
@@ -15,10 +15,11 @@ badges:
   - free: false
 
 content:
+  - feature: Collection of 23 Courses
   - videos: "**200+**"
   - duration: "**200+ hours**"
   - certificate: true
-  - enrolled: "**826**"
+  - enrolled: "**846**"
 
 # Link and Payment options
 more: "/library"

@@ -17,8 +17,8 @@ thumbnail: "/library/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 826
-define: &lastupdated "20 June 2025"
+define: &enrolled 846
+define: &lastupdated "22 June 2025"
 
 param:
   image: "/library/cover.png"
@@ -85,7 +85,7 @@ param:
         - Tech-Sync | Saved Recordings (Workshops)
         - Podcasts
       learning:
-        - Master C programming, converting to Assembly and machine code.
+        - C programming, converting to Assembly and machine code.
         - Grasp ARM-M, ARM-A, and RISC-V memory maps and programmer's models.
         - Write and debug C programs for practical use.
         - Command C constructs - functions, pointers, structs, unions, enums.
@@ -118,7 +118,7 @@ param:
         - Complete projects - schedulers, digital audio, Linux drivers.
       sections:
         - section: "Low Level with Pyjama Brah! (Public Draft)"
-          description: "I am writing a book to teach C by understanding the CPU/Memory programmers model, exploring the ISA for RISC-V, the assembly, writing baremetal firmware/driver, and ends with printing “Hello, World!” on the UART.\n\nThe book covers lot more than just C. Things like Assembly, Makefile, GDB based Debugging, Linker Scripts, C, Driver Writing etc… The public draft is available for FREE for online reading."
+          description: "We are writing a book to teach C by understanding the CPU/Memory programmers model, exploring the ISA for RISC-V, the assembly, writing baremetal firmware/driver, and ends with printing “Hello, World!” on the UART.\n\nThe book covers lot more than just C. Things like Assembly, Makefile, GDB based Debugging, Linker Scripts, C, Driver Writing etc… The public draft is available for FREE for online reading."
           open: "open"
           id: "book"
           sectionDuration:

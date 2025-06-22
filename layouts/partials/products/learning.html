@@ -18,13 +18,23 @@
 {{ end }}
 
 {{ if .tracks }}
-<p>There are various starting points towards an end. These are discussed in detail in a later section...</p>
+<h1 id="flow">recommended learning flow</h1>
+<p>With respect to the flow-chart below, the courses have a deliberate structure, design and order of pursuit. Our recommended paths are as follows -</p>
+<ul>
+  <li><code>Ad-Hoc:</code> Course under this group don't have a dependency and <b>can be pursued in any order.</b> These are supposed to be light in terms of cognitive load and we recommend watching these while munching popcorn.</li>
+  <li><code>Essentials:</code> This collection contains courses that are the foundation of Embedded Software Development. These focus on orienting and then mastering software concepts using the C Language.</li>
+  <li><code>Firmware:</code> Courses in this collection are recommended if you work with <b>microcontrollers</b>. Focused on the ARM Cortex-M class of CPUs these courses focus on mastering the assembly, C and RTOS based programming of the controllers.</li>
+  <li><code>System Software:</code> This track is recommended for those working with Application class CPU such as the ARM-A or RV64 based architecture. Courses focus on System Level components, Higher level OS (like Linux) and Base System Architecture level programming.</li>
+  <li><code>Hardware:</code> The courses in this collection focus on introducing embedded software engineers to how hardware is designed. These are designed to be light on cognitive load and supposed to arm software engineers with the insights and imagination around how hardware operates. This should enable them to reason better and write clean software.</li>
+  <li><code>Advance:</code>This collection will enable you to take control of the finer details like code/data placement in the memory, writing a build system from scratch etc. These are recommended for seniors who have to make memory, power and execution time related decisions.</li>
+</ul>
+<p>You are free to follow a different flow if you know what you are looking for and doing...</p>
 <div class="tracks">
   <img src="{{.tracks}}"></img>
 </div>
 {{ end }}
 
-<h2>what you learn</h2>
+<h2>what you will master through the journey</h2>
 <div class="prod-what-u-learn">
   {{ range .learning }}
   <div class="prod-what-u-learn-point">
