@@ -31,10 +31,10 @@ enroll:
     link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7"
 paybuttonID: ""
 
-# discount:
-#   code: ""
-#   percentage: ""
-#   time: ""
+discount:
+  code: "LIB25"
+  percentage: "25%"
+  time: "24"
 
 #
 # Details below this line are for the landing Page.
