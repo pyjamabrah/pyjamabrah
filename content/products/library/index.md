@@ -12,13 +12,13 @@ title: "The Library"
 date: "2025-04-30T10:10:10+05:30"
 tags:
   - bundle
-description: "Access all courses we create. A structured path to mastering the essentials of Firmware and Systems Software Engineering."
+description: "Access all courses we create. Structured paths to mastering the essentials of Firmware and Systems Software Engineering."
 thumbnail: "/library/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 900
-define: &lastupdated "27 June 2025"
+define: &enrolled 909
+define: &lastupdated "29 June 2025"
 
 param:
   image: "/library/cover.png"
