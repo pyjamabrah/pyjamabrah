@@ -32,8 +32,8 @@ enroll:
 paybuttonID: ""
 
 discount:
-  code: "LIB25"
-  percentage: "25%"
+  code: "IAMFEELINGLUCKY"
+  percentage: "SURPRISE"
   time: "24"
 
 #
