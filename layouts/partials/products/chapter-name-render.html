@@ -10,6 +10,12 @@
           </div>
         {{ end }}
 
+        {{ if eq .type "image"}}
+          <div class="chapter-icon">
+          <i class="bi bi-card-image"></i>
+          </div>
+        {{ end }}
+
         {{ if eq .type "quiz"}}
           <div class="chapter-icon">
           <i class="bi bi-check-circle"></i>
