@@ -25,16 +25,18 @@ content:
 more: "/library"
 ctaText: "Join the Library!"
 enroll:
-  - plan: "Monthly"
-    link: "https://courses.pyjamabrah.com/web/checkout/686e9483f431fbaaa084272f?utm_source=landingpage&utm_medium=web"
-  - plan: "Yearly"
-    link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7?utm_source=landingpage&utm_medium=web"
+  # - plan: "Monthly"
+  #   link: "https://courses.pyjamabrah.com/web/checkout/686e9483f431fbaaa084272f?utm_source=landingpage&utm_medium=web"
+  # - plan: "Yearly"
+  #   link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7?utm_source=landingpage&utm_medium=web"
+  - plan: "start free trial"
+    link: "https://courses.pyjamabrah.com/web/checkout/68711a098d0069794920894d?utm_source=landingpage&utm_medium=web"
 paybuttonID: ""
 
 discount:
-  code: "IAMFEELINGLUCKY"
-  percentage: "SURPRISE"
-  time: "24"
+  # code: "IAMFEELINGLUCKY"
+  # percentage: "SURPRISE"
+  # time: "24"
 
 #
 # Details below this line are for the landing Page.
