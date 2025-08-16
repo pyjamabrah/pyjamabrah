@@ -79,409 +79,225 @@ param:
         - Compiler optimizations (-O1, -O2, -O3, -Os, -Ofast).
       sections:
         - section: "C Language Tour"
-          description: "The section focuses on the Roadmap, Mindset and the lense through which this course is to be pursued. We also dive into exploring a basic C program so you can learn to spot the patterns when exploring the code outside of the course. To further empower you, we will also look at the three work horse feature of this language."
+          id: "c-tour"
+          description: ""
           open: "open"
-          sectionDuration: 1 hr 4 min
           chapters:
-            - chapter: "The Roadmap and Mindset"
-              preview: ""
-              type: "video"
-              meta: 06:54
-              attachments: ""
-            - chapter: "Sandbox Environment and Basic C Program"
-              preview: ""
-              type: "video"
-              meta: 30:02
-              attachments: ""
-            - chapter: "Sandbox environment and basic C program."
-              preview: ""
-              type: "quiz"
-              meta: "11"
-              attachments: ""
-            - chapter: "Hands on: Fix the Code."
-              preview: ""
-              type: "code"
-              meta: ""
-              attachments: ""
-            - chapter: "Keep an Eye on Functions, Pointers and Structs"
-              preview: ""
-              type: "video"
-              meta: 08:04
-              attachments: ""
-            - chapter: "Keep an Eye on Functions, Pointers and Structs"
-              meta: "7"
-              type: "quiz"
-            - chapter: "Example of the RAW power - Functions, Struct and Pointers"
-              preview: ""
-              type: "video"
-              meta: 19:50
-              attachments: 3
-            - chapter: "Example of the RAW power - Functions, Struct and Pointers"
-              meta: "11"
-              type: "quiz"
-        - section: "Mental Models to Brain tattoo"
+          - chapter: "Roadmap and Mindset"
+            type: "video"
+          - chapter: "Sandbox Environment and Basic C Program"
+            type: "video"
+          - chapter: "Keep an Eye on Functions, Pointers and Structs"
+            type: "video"
+          - chapter: "Example of the RAW power - Functions, Struct and Pointers"
+            preview: "1-GXQFRaHZc"
+            type: "video"
+        - section: "Mental Models to brain tattoo"
+          id: "mental-model"
+          description: ""
           open: "open"
-          description: "In this section we will discuss the mental models that you can use to reason about the programs. In an attempt to doing this, we will explore the models of systems from 1970s. System composition and the CPU, Memory and Interactions with environment. This sets the foundation that will enable you to exactly predict the system behavior as a result of the C program that you write."
-          sectionDuration: "44 min 11 Sec"
           chapters:
-            - chapter: "Mental Model of the System"
-              preview: ""
-              type: "video"
-              meta: 16:43
-              attachments: 0
-            - chapter: "The mental model of the CPU"
-              preview: ""
-              type: "video"
-              meta: 11:41
-              attachments: 0
-            - chapter: "The mental model of the Memory"
-              preview: ""
-              type: "video"
-              meta: 15:47
-              attachments: 0
-        - section: "From text to 0s and 1s"
+          - chapter: "Mental Model of the System"
+            type: "video"
+          - chapter: "The mental model of the CPU"
+            type: "video"
+          - chapter: "The mental model of the Memory"
+            type: "video"
+        - section: "From Text to Binary"
+          id: "text-2-binary"
+          description: ""
           open: "open"
-          description: "In this section, you will learn how the text gets transformed int 0s and 1s that represent the instructions in the memory."
-          sectionDuration: "1 hr 36 min"
           chapters:
-            - chapter: "Instruction Encoding and the rv32i ISA"
-              preview: ""
-              type: "video"
-              meta: 25:52
-              attachments: 0
-            - chapter: "A tour of Toolchain, QEMU, GDB"
-              preview: ""
-              type: "video"
-              meta: 16:23
-              attachments: 0
-            - chapter: "demo - Assembly to binary, QEMU and GDB"
-              preview: ""
-              type: "video"
-              meta: 27:04
-              attachments: 0
-            - chapter: "Instruction Encoder Decoder, Makefile and GDB Dashboard"
-              preview: ""
-              type: "video"
-              meta: 26:43
-              attachments: 0
+          - chapter: "Instruction Encoding and the rv32i ISA"
+            type: "video"
+          - chapter: "A tour of Toolchain, QEMU, GDB"
+            type: "video"
+          - chapter: "Demo - assembly to binary, QEMU and GDB"
+            type: "video"
+          - chapter: "Instruction Encoder Decoder, Makefile and GDB Dashboard"
+            type: "video"
         - section: "Dwelling in the World of Assembly"
+          id: "assembly-101"
+          description: ""
           open: "open"
-          description: "Understanding what the system does as a result of the C program becomes very simple once we know how the C statements may be translated to the assembly code. We will thus spend time mastering the structure of the Assembly programs and the instructions available to us."
-          sectionDuration: "1 hr 13 min"
           chapters:
-            - chapter: "Anatomy of Assembly Program, writing code, debugging in GDB"
-              preview: ""
-              type: "video"
-              meta: 26:59
-              attachments: 0
-            - chapter: "Decomposing C to Assembly and the relation"
-              preview: ""
-              type: "video"
-              meta: 28:15
-              attachments: 0
-            - chapter: "Getting CPU from assembly to jump to C program"
-              preview: ""
-              type: "video"
-              meta: 18:01
-              attachments: 0
-        - section: "C Keywords - Data types"
+          - chapter: "Anatomy of Assembly Program, writing code, debugging in GDB"
+            type: "video"
+          - chapter: "Decomposing C to Assembly and the relation"
+            preview: "2eAv_b4OrAE"
+            type: "video"
+        - section: "C Keywords - Data Types"
+          id: "c-datatypes"
+          description: ""
           open: "open"
-          description: "In this section you will spend time internalizing each of the 32 keywords from the C Language and understand the assembly and system level implications."
-          sectionDuration: "3 hr 30 min"
           chapters:
-            - chapter: "Introducing the C Keywords"
-              preview: ""
-              type: "video"
-              meta: 12:40
-              attachments: 0
-            - chapter: "Data types, Variables and Integers"
-              preview: ""
-              type: "video"
-              meta: 12:47
-              attachments: 0
-            - chapter: "Data types - float and double"
-              preview: ""
-              type: "video"
-              meta: 05:58
-              attachments: 0
-            - chapter: "Exploring sizes of data types and location in memory "
-              preview: ""
-              type: "video"
-              meta: 37:11
-              attachments: 0
-            - chapter: "how integers are stored - 2s complement"
-              preview: ""
-              type: "video"
-              meta: 19:36
-              attachments: 0
-            - chapter: "floating point number encoding and few examples"
-              preview: ""
-              type: "video"
-              meta: 13:51
-              attachments: 0
-            - chapter: "more floating point - float and double"
-              preview: ""
-              type: "video"
-              meta: 17:23
-              attachments: 0
-            - chapter: "signed and unsigned"
-              preview: ""
-              type: "video"
-              meta: 9:56
-              attachments: 0
-            - chapter: "const and volatile"
-              preview: ""
-              type: "video"
-              meta: 11:16
-              attachments: 0
-            - chapter: "demo - const and volatile"
-              preview: ""
-              type: "video"
-              meta: 15:31
-              attachments: 0
-            - chapter: "void, c standard and gnu C manual"
-              preview: ""
-              type: "video"
-              meta: 7:40
-              attachments: 0
-            - chapter: "typedef and sizeof"
-              preview: ""
-              type: "video"
-              meta: 18:30
-              attachments: 0
-            - chapter: "structs and unions"
-              preview: ""
-              type: "video"
-              meta: 30:26
-              attachments: 0
-            - chapter: "enums as named numbers"
-              preview: ""
-              type: "video"
-              meta: 13:22
-              attachments: 0
+          - chapter: "Getting CPU from assembly to jump to C program"
+            type: "video"
+          - chapter: "Introducing the C Keywords"
+            type: "video"
+          - chapter: "Data types, Variables and Integers"
+            type: "video"
+          - chapter: "Datatypes - float and double"
+            type: "video"
+          - chapter: "Exploring sizes of data types and location in memory"
+            type: "video"
+          - chapter: "How integers are stored - 2s complement"
+            type: "video"
+          - chapter: "floating point number encoding and few examples"
+            type: "video"
+          - chapter: "more floating point - float and double"
+            type: "video"
+          - chapter: "signed and unsigned"
+            type: "video"
+          - chapter: "const and volatile"
+            type: "video"
+          - chapter: "demo - const and volatile"
+            type: "video"
+          - chapter: "void, c standard and gnu C manual"
+            type: "video"
+          - chapter: "typedef and sizeof"
+            type: "video"
+          - chapter: "structs and unions"
+            type: "video"
+          - chapter: "enums as named numbers"
+            type: "video"
         - section: "C Keywords - Branching and Looping"
+          id: "c-keywords"
+          description: ""
           open: "open"
-          description: "In this section take a look at the keywords that relate to branching and looping"
-          sectionDuration: "2 hr 30 min"
           chapters:
-            - chapter: "if, else, switch, case, default, do, while, for, continue and break"
-              preview: ""
-              type: "video"
-              meta: 35:20
-              attachments: 0
-            - chapter: "goto and return"
-              preview: ""
-              type: "video"
-              meta: 9:04
-              attachments: 0
-            - chapter: "Demo - if, else if and else effects at assembly level"
-              preview: ""
-              type: "video"
-              meta: 25:04
-              attachments: 0
-            - chapter: "Demo - switch case and effects at assembly level"
-              preview: ""
-              type: "video"
-              meta: 11:27
-              attachments: 0
-            - chapter: "Demo - loops - for, do, while, continue and effects at assembly level"
-              preview: ""
-              type: "video"
-              meta: 22:53
-              attachments: 0
-            - chapter: "Demo - goto and jumps across functions"
-              preview: ""
-              type: "video"
-              meta: 10:20
-              attachments: 0
-            - chapter: "auto, register, extern and static"
-              preview: ""
-              type: "video"
-              meta: 11:01
-              attachments: 0
-            - chapter: "Demo - auto keyword"
-              preview: ""
-              type: "video"
-              meta: 6:33
-              attachments: 0
-            - chapter: "Demo - register keyword"
-              preview: ""
-              type: "video"
-              meta: 7:32
-              attachments: 0
-            - chapter: "Demo - extern keyword"
-              preview: ""
-              type: "video"
-              meta: 9:32
-              attachments: 0
-            - chapter: "Demo - static keyword"
-              preview: ""
-              type: "video"
-              meta: 14:52
-              attachments: 0
+          - chapter: "if, else, switch, case, default, do, while, for, continue and break"
+            type: "video"
+          - chapter: "goto and return"
+            type: "video"
+          - chapter: "Demo - if, else if and else effects at assembly level"
+            type: "video"
+          - chapter: "Demo - switch case and effects at assembly level"
+            type: "video"
+          - chapter: "Demo - loops - for, do, while, continue and effects at assembly level"
+            type: "video"
+          - chapter: "Demo - goto and jumps across functions"
+            type: "video"
+          - chapter: "auto, register, extern and static"
+            type: "video"
+          - chapter: "Demo - auto keyword7"
+            type: "video"
+          - chapter: "Demo - register keyword"
+            type: "video"
+          - chapter: "Demo - extern keyword"
+            type: "video"
+          - chapter: "Demo - static keyword"
+            type: "video"
         - section: "Variables and Functions"
+          id: "variables-and-functions"
+          description: ""
           open: "open"
-          description: "We learn how to write C programs and what role variables and functions play in the context of C programs."
-          sectionDuration: "1 hr"
           chapters:
-            - chapter: "Introduction to Variables and Functions"
-              preview: ""
-              type: "video"
-              meta: 27:44
-              attachments: 0
-            - chapter: "Definition vs Declaration"
-              preview: ""
-              type: "video"
-              meta: 07:59
-              attachments: 0
-            - chapter: "Demo - variable and function names"
-              preview: ""
-              type: "video"
-              meta: 23:56
-              attachments: 0
-            - chapter: "Arithmetic operations and pitfalls"
-              preview: ""
-              type: "video"
-              meta: 36:23
-              attachments: 0
-        - section: "Project 1: Implementing a Calculator"
+          - chapter: "Introduction to Variables and Functions"
+            type: "video"
+          - chapter: "definition vs declaration"
+            type: "video"
+          - chapter: "Demo - variable and function names"
+            type: "video"
+          - chapter: "Arithmetic operations and pitfalls"
+            type: "video"
+        - section: "Project-1: Calculator in C"
+          id: "project-1"
+          description: ""
           open: "open"
-          description: "Our first project based on the learnings in the previous sections."
-          sectionDuration: "22 mins"
           chapters:
-            - chapter: "Problem Statement and Design Consideration"
-              preview: ""
-              type: "pdf"
-              meta:
-              attachments: 0
-            - chapter: "Setup, variables and user input/output"
-              preview: ""
-              type: "video"
-              meta: 22:10
-              attachments: 1
-            - chapter: "Using conditions, switch and loops"
-              preview: ""
-              type: "video"
-              meta: 35:07
-              attachments: 1
-            - chapter: "debugging scanf issue and cleaning up the code"
-              preview: ""
-              type: "video"
-              meta: 20:00
-              attachments: 1
-            - chapter: "guarding against bad inputs and concluding the project"
-              preview: ""
-              type: "video"
-              meta: 15:44
-              attachments: 1
-        - section: "Strings, Arrays and Pointers"
+          - chapter: "Problem statement"
+            type: "pdf"
+          - chapter: "Problem statement walkthrough"
+            type: "video"
+          - chapter: "Setup, variables and I/O"
+            type: "video"
+          - chapter: "Using conditions, switch and loops"
+            type: "video"
+          - chapter: "debugging scanf issue and cleaning up the code"
+            type: "video"
+          - chapter: "guarding against bad inputs and concluding the project"
+            type: "video"
+        - section: "Strings, Array and Pointers"
+          id: "strings"
+          description: ""
           open: "open"
-          description: "We will dive into how data is stored in the memory and referenced when it comes to strings. How we can save multiple instances of data with same data types and what pointers mean."
-          sectionDuration: "3 hrs 30 mins"
           chapters:
-            - chapter: "Strings and concept of array and pointers"
-              preview: ""
-              type: "video"
-              meta: 35
-              attachments: 0
-            - chapter: "Defining and Assigning Arrays"
-              preview: ""
-              type: "video"
-              meta: 16
-              attachments: 0
-            - chapter: "Arrays and out of bound access"
-              preview: ""
-              type: "video"
-              meta: 46
-              attachments: 0
-            - chapter: "Strings and Character arrays"
-              preview: ""
-              type: "video"
-              meta: 20
-              attachments: 0
-            - chapter: "Introduction to the concept of pointers"
-              preview: ""
-              type: "video"
-              meta: 20
-              attachments: 0
-            - chapter: "Syntax related to Pointers"
-              preview: ""
-              type: "video"
-              meta: 18:30
-              attachments: 0
-            - chapter: "Demo - introduction to working with data pointers"
-              preview: ""
-              type: "video"
-              meta: 45
-              attachments: 0
-            - chapter: "Detour - Endianness"
-              preview: ""
-              type: "video"
-              meta: 9
-              attachments: 0
-            - chapter: "Demo - Difference between array and pointers"
-              preview: ""
-              type: "video"
-              meta: 13
-              attachments: 0
-        - section: "Project 2: Digital Audio Synthesis"
+          - chapter: "Strings and concept of array and pointers"
+            type: "video"
+          - chapter: "Defining and Assigning Arrays"
+            type: "video"
+          - chapter: "Arrays and out of bound access"
+            type: "video"
+          - chapter: "Strings and Character arrays"
+            type: "video"
+          - chapter: "Introduction to the concept of pointers"
+            type: "video"
+          - chapter: "Syntax related to Pointers"
+            type: "video"
+          - chapter: "Demo - introduction to working with data pointers"
+            type: "video"
+          - chapter: "Detour - Endianness"
+            type: "video"
+          - chapter: "Demo - Difference between array and pointers"
+            type: "video"
+        - section: "Project-2: Generating Digital Audio"
+          id: "project-2"
+          description: ""
           open: "open"
-          description: "Write the C code to generate the audio samples that the hardware can output to the speaker generating a pure tone."
-          sectionDuration: "1 hr"
           chapters:
-            - chapter: "Problem Statement and Design"
-              preview: ""
-              type: "pdf"
-              meta:
-              attachments: 1
-            - chapter: "Digital audio and project walkthrough"
-              preview: ""
-              type: "video"
-              meta: 10:54
-              attachments: 0
-            - chapter: "Math concepts and sampling"
-              preview: ""
-              type: "video"
-              meta: 27:21
-              attachments: 0
-            - chapter: "Generating samples and file operations"
-              preview: ""
-              type: "video"
-              meta: 12:19
-              attachments: 0
-            - chapter: "Demo - Playing the Digital Audio"
-              preview: ""
-              type: "video"
-              meta: 06:43
-              attachments: 0
-        - section: "Revisiting Data Types - Derived and User Defined"
+          - chapter: "Generating Digital Audio - walkthrough"
+            type: "video"
+          - chapter: "Math concepts and sampling"
+            type: "video"
+          - chapter: "Generating samples and file operations"
+            type: "video"
+          - chapter: "Demo - Playing the Digital Audio"
+            type: "video"
+        - section: "User Defined Data types"
+          id: "user-data-type"
+          description: ""
           open: "open"
-          description: "Exploring ways in which user can define new data types"
-          sectionDuration: "1 hr"
           chapters:
-            - chapter: "Revisiting types of data types"
-              preview: ""
-              type: "video"
-              meta:
-              attachments:
-            - chapter: "Structures - Sneak peak"
-              preview: ""
-              type: "video"
-              meta:
-              attachments:
-            - chapter: "Anatomy of Struct and examples"
-              preview: ""
-              type: "video"
-              meta:
-              attachments:
-            - chapter: "Structs - Demo"
-              preview: ""
-              type: "video"
-              meta:
-              attachments:
-        - section: "Recording in progress!"
+          - chapter: "Revisiting types of data types"
+            type: "video"
+          - chapter: "Structures - Sneak peak"
+            type: "video"
+          - chapter: "Anatomy of Struct and examples"
+            type: "video"
+          - chapter: "Demo - structs"
+            type: "video"
+          - chapter: "unions and how they defer from struct"
+            type: "video"
+          - chapter: "Demo - union"
+            type: "video"
+          - chapter: "Enums and fun experiments"
+            type: "video"
+          - chapter: "Enum and Scope"
+            type: "video"
+        - section: "Project-3: Embedded Sensor Management"
+          id: "project-3"
+          description: ""
           open: "open"
-          description: "This and other sections are being recorded at the moment and will be added soon."
+          chapters:
+          - chapter: "Problem Statement"
+            type: "pdf"
+          - chapter: "Introduction and Walkthrough"
+            type: "video"
+          - chapter: "Converting specification to data structure"
+            type: "video"
+          - chapter: "The case for union and saving memory"
+            type: "video"
+          - chapter: "Accessing elements with nested union and structs"
+            type: "video"
+        - section: "more lectures being recorded"
+          id: "assembly-101"
+          description: ""
+          open: "open"
+          chapters:
+          - chapter: "more being uploaded..."
+            type: ""
+
       requirements:
         - GitHub account to do the hands-on coding in Codespaces.
         - Interest in the lower level working of the system.
@@ -495,7 +311,7 @@ param:
         - Electrical/Electronics Engineers working on hardware programming.
         - Systems Engineer seeking gain system level insights.
         - Those curious to learn the underlying details of Systems and how to program it using C.
-      reviewSectionTitle: "Early praise from YouTube Subscribers"
+      reviewSectionTitle: "Reviews from the learners"
       reviewSectionDescription: "Because the course is brand new, we released some lectures on YouTube to get early feedback, and it has been a banger! You will not regret taking this course..."
       reviews:
         - reviewer: "Jim Nnamdi Samuel"
