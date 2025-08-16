@@ -8,7 +8,7 @@ aliases:
 - /lib/
 - /products/embedded-engineering/
 
-title: "The Library"
+title: "The Embedded Systems Library"
 date: "2025-04-30T10:10:10+05:30"
 tags:
   - bundle
@@ -24,7 +24,7 @@ param:
   image: "/library/cover.png"
   note: "Claim the Discounted Prices while the course is being developed!"
   bundle:
-    - course: "The LIBRARY!"
+    - course: "The Embedded Systems LIBRARY!"
       subtitle: "Reason from `first principles`, design solutions and control the world!"
       description: "Library is a collection of courses that will guide you on the `fundamentals` and `insights` you need to design and implement Embedded Systems based solutions! \n\n
 

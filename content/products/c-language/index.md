@@ -1,31 +1,37 @@
 ---
 layout: products
 
+url: /c
+
+aliases:
+- /c/
+- /c-language/
+- /products/c-language/
+
 title: "The C Language"
 date: "2025-01-08T17:48:22+05:30"
 tags:
   - bundle
 description: "The language, the tools and the programming techniques."
-thumbnail: "/products/c-language/cover.png"
+thumbnail: "/c/cover.png"
 categories: courses
-product: "embedded-engineering"
+product: "c"
 
 define: &enrolled 481
-define: &lastupdated "29 April 2025"
+define: &lastupdated "16 August 2025"
 
 param:
-  image: "/products/c-language/c-course.png"
-  note: "Claim the Discounted Prices while the course is being developed!"
+  image: "/c/c-course.png"
   bundle:
     - course: "The C Language"
       subtitle: "`the language, the tools and the programming techniques`"
       description: "This course dives into the practical applications of the C language, emphasizing hands-on learning to solidify key concepts. Delivered in an engaging and unconventional style, the lessons go beyond theory, equipping you with the skills to apply C programming in real-world scenarios.\n\n By the end of the course, you’ll feel confident in your mastery of the C language, adept at using it alongside the tools and utilities professional C programmers rely on daily."
-      previewCover: "/products/c-language/c-course.png"
-      previewVideo: "https://github.com/pyjamabrah/preview-videos/raw/refs/heads/main/C%20to%20Assembly.mp4"
+      previewCover: "/c/c-course.png"
+      # previewVideo: "https://github.com/pyjamabrah/preview-videos/raw/refs/heads/main/C%20to%20Assembly.mp4"
       bestSeller: "yes"
       beginner: "yes"
       intermediate: "yes"
-      rating: 4.83
+      rating: 5
       ratingCount: 6
       studentsCount: *enrolled
       message: "1053034983?h=5b7a861bb5"
@@ -41,7 +47,7 @@ param:
       length: "~ >20 hr"
       files: 12
       quizzes:
-      certificate: "/products/c-language/certificate.png"
+      certificate: "/c/certificate.png"
       validity: 365 days
       projects: 2
       learning:
@@ -492,113 +498,18 @@ param:
       reviewSectionTitle: "Early praise from YouTube Subscribers"
       reviewSectionDescription: "Because the course is brand new, we released some lectures on YouTube to get early feedback, and it has been a banger! You will not regret taking this course..."
       reviews:
-        - reviewer: "@n.5s4584"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_kwaiEov46AN__mYTLshOyDgJfnS9npGBzAYALfOGI=s88-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "11/Feb/2025"
-          rating: ""
-          review: "I just wanted to take a moment to appreciate the amazing content you create! Your videos are not only engaging but also incredibly valuable. I’ve learned so much from your channel, and I always look forward to your uploads. Thank you for sharing your knowledge and insights—keep up the great work! Wishing you all the success you deserve."
-        - reviewer: "@its_me_to-i4e"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_mj1PTnXtbKrudNYF6unc92tNmWG36cHOfo1udycpGb3U-7ha_eNbAtmaLVWjAoHsi59z0=s88-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "11/Feb/2025"
-          rating: ""
-          review: "Your content is amazing! Last time, I bought the advanced C pointer course, and it was so helpful for embedded systems. Please consider making the course fees more affordable so that students like me can easily access them. Keep up the great work"
-        - reviewer: "@sharifyy"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_mYvoZpJFyDpETsr-Nn2NhLTCwnNju7VLGDF1Bv0px-5A=s88-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "10/Feb/2025"
+        - reviewer: "Jim Nnamdi Samuel"
+          date: "15/05/2025"
           rating: 5
-          review: "your content is amazing, I give it 5 stars"
-        - reviewer: "@techpartel9858"
-          photo: "https://yt3.ggpht.com/rC37PHOuyl8VqqsWdEyVNKdRKgDoPutmfn-MWlL4iAYgwdlPqrjHjCDbrXtKWuv4qgybu_gY=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "2/Feb/2025"
-          rating:
-          review: "The flow of this course is Amazing. It covers a whole system overview of how your C code runs and how it's dumped in your hardware. Everything is excellent. Thank you, @piyush."
-        - reviewer: "@EEShyama"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_lEZ-lojSo_TMLmbjtJocEMwGBz5u_W63aMWrcQJOs=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "2/Feb/2025"
-          rating:
-          review: "Loving these lectures!! Please keep them coming."
-        - reviewer: "@Simi-bc8sb"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_kyiEEZEs-Crzq8SJwJJ9aDaKqD04Ki4w4B0XhTr9o=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "1/Feb/2025"
-          rating:
-          review: "Great content. I really appreciate. Thank you"
-
-        - reviewer: "@ElizabethGreene"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_lzSPNkz-qAuBGX37IqlrjwqU1aWC867oJ0TWJyIcw=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "31/Jan/2025"
+          review: "very insightful"
+        - reviewer: "Pulkit Singla"
           rating: 5
-          review: "Was there any reason why you preferred the RISCV32i chip over an x86 chip in QEMU?  I appreciate the lesson in cross compiling too, but was curious why. Thanks for making these. 10/10"
-
-        - reviewer: "@RavindraBhandari-nf8vs"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_kgeb3tvIBGrdY-IdjHykSG-MSKpwcehWUAO3_O6TXPgadO46BAk4RkoG8qNgXDJBfHxg=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "31/Jan/2025"
-          rating: 4
-          review: "I like your teaching method 🫡"
-
-        - reviewer: "@soumyadipkar9451"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_nfY73MK2vFdOh4b68xvVqUPDnjeQxRGiRhVMKYZiaikQ=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "31/Jan/2025"
+          review: "Fantastic explanation of the basic concepts. This course has helped me a lot in understanding the basics that I struggled with before."
+          date: "21/05/2025"
+        - reviewer: "Aditya Shidlyali"
+          review: "Even though I know C language, after going through this series of lectures I was like wow, just amazing. Thank you so much Piyush and team making me learning embedded systems in joyful way and working on these kind of world was one of my dream and thanks for making me learning these things."
+          date: "16/06/2025"
           rating: 5
-          review: "Enjoyed the session a lot sir! GDB Dashboard is truly amazing! 🔥"
-
-        - reviewer: "@vimalathithand917"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_kgporA3By7tcfvxHINPDGILoCdkyi4KM7s64Zpcn_ikw=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "31/Jan/2025"
-          rating:
-          review: "Just what I was looking for ! I'm sure that this series is going to be a blast ! Please don't stop the series in the middle and thanks a lot !"
-
-        - reviewer: "@aadishm4793"
-          photo: "https://yt3.ggpht.com/SjiVNC30ZvLCyHEerGIbcy6Ye1GCERCPlhQ9A70aJiHm5_o5lphLZPKJotqp6DYXmW68uqONvw=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "30/Jan/2025"
-          rating:
-          review: "Great content!!"
-
-        - reviewer: "@Ujjaval___"
-          photo: "https://yt3.ggpht.com/qrBr5avCgdgeFJDSvuSRes99r73vZ1Px1eKpl8PqB1tw5MYZJmuw5XOsdmtDqytXPE_u8cVm2g=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "30/Jan/2025"
-          rating:
-          review: "AMAZING VIDEOS"
-
-        - reviewer: "@aadishm4793"
-          photo: "https://yt3.ggpht.com/SjiVNC30ZvLCyHEerGIbcy6Ye1GCERCPlhQ9A70aJiHm5_o5lphLZPKJotqp6DYXmW68uqONvw=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "30/Jan/2025"
-          rating:
-          review: "Awesome as all the videos 👍👍🔥"
-
-        - reviewer: "@Padmalayarawal"
-          photo: "https://yt3.ggpht.com/Tus9ambPweMlf-GRcBnNjFG0exRlCo-w7btFq4bhhS1XdInSEpx_QKZgOHExfDqRmPcg-SqIhw=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "30/Jan/2025"
-          rating: 5
-          review: "Really loved your new content, can't ask for more crazy stuff."
-
-        - reviewer: "@shabeehabbas4737"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_kghj6IsyrE1N06BjvWWGHkFWkZx6Hv7zvTIEH4L9xL3Z2pxlwisykzJylXJN4sVl1laQ=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "29/Jan/2025"
-          rating:
-          review: "Hello bro just saw the this video and I cant wait to start the course, the roadmap is unconventional which is why I think its the most awesome one, please dont stop uploading such great content ❤❤❤"
-
-        - reviewer: "@ankitrajbhar6045"
-          photo: "https://yt3.ggpht.com/ytc/AIdro_kMlhmNrwHbb-na93Sx772XJk4WiX5iiD_6LQIu4jxoEbM=s48-c-k-c0x00ffffff-no-rj"
-          featured: ""
-          date: "31/Jan/2025"
-          rating: 5
-          review: "This is what I actually needed in life today.. thanks a tons.."
-
       compare:
         - feature: "Basic C Syntax."
           us: true
