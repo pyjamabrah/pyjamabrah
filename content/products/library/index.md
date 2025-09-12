@@ -18,7 +18,7 @@ categories: courses
 product: "embedded-engineering"
 
 define: &enrolled 2040+
-define: &lastupdated "31 July 2025"
+define: &lastupdated "12 Sept 2025"
 
 param:
   image: "/library/cover.png"
@@ -55,7 +55,7 @@ param:
       lessons: 200+
       length: "200+ hrs"
       files: 10+
-      courseCount: 24
+      courseCount: 25
       quizzes:
       tracks: "/library/tracks.svg"
       certificate: "/library/certificate.png"
@@ -1040,6 +1040,36 @@ param:
             type: "video"
           - chapter: "Continued - One Last Optimisation trick"
             type: "video"
+        - section: "Build and Run Linux Kernel"
+          id: "ldd-scratch"
+          description: "This courses guides on how to go about building and running the Linux kernel from scratch and explains all the preconditions for the kernel to boot."
+          open: "open"
+          chapters:
+          - chapter: "Introduction"
+            type: "title"
+          - chapter: "Introduction"
+            type: "video"
+          - chapter: "Setup, Build and Run"
+            type: "title"
+          - chapter: "Environment and Plan"
+            type: "video"
+          - chapter: "Using docker to create a linux host machine"
+            type: "video"
+          - chapter: "Installing the toolchain and utilities"
+            type: "video"
+          - chapter: "Compiling the kernel"
+            type: "video"
+          - chapter: "ramfs and busybox"
+            type: "video"
+          - chapter: "getting and building busybox"
+            type: "video"
+          - chapter: "creating the ramfs image"
+            type: "video"
+          - chapter: "booting the kernel"
+            type: "video"
+          - chapter: "Analysis"
+            type: "title"
+          - chapter: "lectures being recorded"
         - section: "Linux Device Drivers (101) - Writing and understanding a dummy driver"
           id: "ldd-101"
           description: "A hands on Introduction to Linux Device Driver development. Recommended for those getting started with driver development."

@@ -15,7 +15,7 @@ badges:
   - free: false
 
 content:
-  - feature: Collection of 24 Courses
+  - feature: Collection of 25 Courses
   - videos: "**200+**"
   - duration: "**200+ hours**"
   - certificate: true
@@ -35,7 +35,7 @@ paybuttonID: ""
 
 discount:
   code: "IAMFEELINGLUCKY"
-  percentage: "45%"
+  percentage: "50%"
   time: "24"
 
 #
