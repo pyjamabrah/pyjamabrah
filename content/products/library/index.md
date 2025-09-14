@@ -1045,6 +1045,8 @@ param:
           description: "Unlock the power of low-level system development with this hands-on video course, designed to guide you through the process of building a Linux kernel from source for the ARM64 architecture and running it on the QEMU virtual machine. Perfect for developers, system administrators, and enthusiasts eager to dive into kernel development, this course provides a step-by-step approach to compiling, configuring, and deploying a custom Linux kernel, using BusyBox to create a lightweight userspace environment."
           open: "open"
           chapters:
+          - chapter: "here's a sneak-peak ..."
+            preview: "sxxuAorWep4"
           - chapter: "Introduction"
             type: "title"
           - chapter: "Introduction"
