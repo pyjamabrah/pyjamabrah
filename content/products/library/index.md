@@ -56,6 +56,10 @@ param:
       length: "200+ hrs"
       files: 10+
       courseCount: 25
+      emulator: true
+      hardware: true
+      workshops: true
+      newcontent: true
       quizzes:
       tracks: "/library/tracks.svg"
       certificate: "/library/certificate.png"

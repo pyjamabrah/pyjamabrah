@@ -1,0 +1,36 @@
+# Essentials
+title: "Build and Run Linux Kernel"
+subtitle: "from the source to the prompt"
+poster: "/kernel-from-scratch/cover.png"
+description: "Learn how to compile and boot the Linux Kernel from the source code."
+preview: ""
+
+# course stats
+rating: 5
+bestseller: true
+
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: false
+
+content:
+  - videos: "**15**"
+  - duration: "~**3 Hrs**"
+  - downloads: "**3**"
+  - codeReviews:
+  - projects: "**1**"
+  - enrolled:
+  - certificate:
+
+# Link and Payment options
+more: "/products/kernel"
+ctaText: "take the course"
+enroll:
+  - plan: "take the course"
+    link: "https://courses.pyjamabrah.com/l/db8c35d98f"
+paybuttonID: ""
+
+#
+# Details below this line are for the landing Page.
+#

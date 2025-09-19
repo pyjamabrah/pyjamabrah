@@ -1,10 +1,12 @@
 {{ with . }}
 <h2>includes</h2>
 <div class="prod-content-summary">
+    {{if .courseCount}}
     <div class="bullet-point">
       <i class="bi bi-folder-fill prod-content-summary-tick"></i>
       Collection of&nbsp<b>{{ .courseCount }}&nbsp</b> Courses.
     </div>
+    {{end}}
     <div class="bullet-point">
       <i class="bi bi-play-btn prod-content-summary-tick"></i>
       <b>{{ .length }}&nbsp</b> of recorded video lectures.
@@ -17,7 +19,7 @@
 
     <div class="bullet-point">
       <i class="bi bi-pci-card prod-content-summary-tick"></i>
-      <b>Emulator & Hardware</b>&nbspbased experiments.
+      <b>{{if .emulator}}Emulator{{end}} {{if .hardware}}Hardware{{end}}</b>&nbspbased experiments.
     </div>
 
     <div class="bullet-point">
@@ -25,10 +27,12 @@
       <b>{{ .files }}&nbsp</b> downloadable resources.
     </div>
 
+    {{if .workshops}}
     <div class="bullet-point">
       <i class="bi bi-person-video3 prod-content-summary-tick"></i>
       <b>Workshops&nbsp</b> by industry experts.
     </div>
+    {{end}}
 
     {{ if .quizzes }}
     <div class="bullet-point">
@@ -66,10 +70,12 @@
     </div>
     {{ end }}
 
+    {{if .newcontent}}
     <div class="bullet-point">
       <i class="bi bi-emoji-sunglasses prod-content-summary-tick"></i>
       <b>New content regularly added!</b>
     </div>
+    {{end}}
 </div>
 </br>
 {{ end }}
