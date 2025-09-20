@@ -88,6 +88,13 @@
     /* border: solid var(--linecolor) 1px; */
   }
 
+  .creators-info-card-single {
+    word-wrap: break-word;
+    max-width: 96%;
+    padding: 1%;
+    margin: 1%;
+  }
+
   .button-cta {
     /* display: none; */
   }

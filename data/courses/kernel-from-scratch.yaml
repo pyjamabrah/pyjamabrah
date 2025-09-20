@@ -24,11 +24,11 @@ content:
   - certificate:
 
 # Link and Payment options
-more: "/products/kernel"
+more: "/products/kernel-from-scratch"
 ctaText: "take the course"
 enroll:
   - plan: "take the course"
-    link: "https://courses.pyjamabrah.com/l/db8c35d98f"
+    link: "https://courses.pyjamabrah.com/l/27c91d8528"
 paybuttonID: ""
 
 #

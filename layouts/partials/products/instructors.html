@@ -1,10 +1,14 @@
 {{ with . }}
 
 <h2>Instructors</h2>
-
+{{ $creatorCount := len .creators }}
 <div class="creators-card-collection">
+
 {{ range .creators }}
-  <div class="creators-info-card">
+  <div {{if eq $creatorCount 1}}
+    class="creators-info-card-single"
+    {{else}} class="creators-info-card"
+    {{end}}>
     <div class="creators-meta">
       <img class="creators-photo" src="{{.photo}}">
       </img>
