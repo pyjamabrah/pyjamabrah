@@ -66,7 +66,7 @@ param:
       validity: Monthly and Yearly
       projects: Several
       courselist:
-        - Roadmap and Career Options
+        - Roadmap to Learning Embedded Systems
         - Low Level with Pyjama Brah! (Public Draft)
         - The C Language
         - C Pointers
@@ -114,15 +114,14 @@ param:
         - Dissect FreeRTOS kernel; port to new targets with task scheduling.
         - Develop Linux kernel modules; manage with insmod, rmmod, lsmod.
         - Implement /proc entries, system calls, device drivers in sandbox.
-        - Explore embedded systems roles, job skills, and career paths.
         - Generate digital audio in C using sampling, file operations.
         - Simulate real-world coding with QEMU, Codespace, Multipass.
         - Build mental models of CPU, memory, state machines, scheduling.
         - Tackle technical discussions on C, memory, interrupts, bit manipulation.
         - Complete projects - schedulers, digital audio, Linux drivers.
       sections:
-        - section: "Roadmap and Career Options"
-          description: "This short course focuses on orienting the college graduates and those new to the industry on what the usual roles, responsibilities are and what opportunities they can expect."
+        - section: "Roadmap to Learning Embedded Systems"
+          description: "This short course introduces the field of embedded systems, how to pursue it and what are the some of the possible journeys."
           open: "open"
           id: "roadmap"
           chapters:
@@ -140,7 +139,7 @@ param:
             type: "video"
           - chapter: "State Machines and OS Primitives"
             type: "video"
-          - chapter: "Roles and Exploring job listing"
+          - chapter: "Roles and Exploring listing"
             type: "video"
           - chapter: "Systems Software Engineering"
             type: "title"
@@ -1318,7 +1317,7 @@ param:
           - chapter: "more lectures will be uploaded in due time..."
         - section: "Embedded Systems Podcast!"
           id: "podcast"
-          description: "Casual chats with Industry Experts focused on their career paths, technology trends, skills and opportunities."
+          description: "Casual chats with Industry Experts focused on their journeys, technology trends, skills and opportunities."
           open: "open"
           chapters:
           - chapter: "Manav | SoC Design flow, MIPS, RISC-V and Automotive"
@@ -1431,7 +1430,6 @@ param:
         - Basic understanding of number systems, logic gates, bits and bytes is good to have (but not strictly required).
       audience:
         - Students in Academia with C as a subject in the course.
-        - Early Career Professionals using C as development language.
         - Firmware and System Software Engineers looking to revisit concepts.
         - Electrical/Electronics Engineers working on hardware programming.
         - Systems Engineer seeking gain system level insights.
@@ -1686,7 +1684,7 @@ Having a good understanding of what the CPU does as the result of the C code is 
 
 The ARM Cortex-M 101/102 Introduces the ARM-M Architecture and focuses on booting and programming the CPU in Assembly. You will write a secheduler in assembly as part of these courses, this is deliberate and makes way for understanding FreeRTOS which follows. Going through these courses, you will notice how similar the RISC-V and ARM-M architectures are. By the end of the ARM courses, you will be having the skills of a senior firmware engineer.
 
-The FreeRTOS course is laser focused on tearing down and reasoning about the scheduler and the OS primitives (mutex, semaphores etc). There are many engineers who work with FreeRTOS on a daily basis but don't understand the internals and thus, hit a glass-roof in their career. Being able to reason about OS constructs like mutex, semaphore, spinlocks etc is important. You will also learn the rare skill of porting FreeRTOS from scratch on a new ARM-M target!!
+The FreeRTOS course is laser focused on tearing down and reasoning about the scheduler and the OS primitives (mutex, semaphores etc). There are many engineers who work with FreeRTOS on a daily basis but don't understand the internals and thus, hit a glass-roof in their journey. Being able to reason about OS constructs like mutex, semaphore, spinlocks etc is important. You will also learn the rare skill of porting FreeRTOS from scratch on a new ARM-M target!!
 
 To grow up the ladder you will need to master the CPU's programmer model, architecture and be able to use the toolchain (gcc, ld, as, ar, gdb etc) to place the code/data in the memory, debug the solution and write build automation help.
 
@@ -1700,7 +1698,7 @@ The Application processors are complicated in their architecture and have layers
 
 The courses included focus on the ARM Cortex-A (aarch64) and RISC-V RV64 architectures. The introductory courses give a over all view of the given architecture. Once the architecture is understood, the next in line is the Linux Device Drivers. The 101 course, provides a deep insight into how the Linux Kernel Drivers work and the anatomy of a general character driver.
 
-We focus on the ARM-A class CPUs just because they are very popular and used in Mobiles, Watches, Tablets, Desktops/Laptops and Servers! Investment into learning this architecture is to prepare for the future and bullet proof your career!
+We focus on the ARM-A class CPUs just because they are very popular and used in Mobiles, Watches, Tablets, Desktops/Laptops and Servers!
 
 ## General Skills
 

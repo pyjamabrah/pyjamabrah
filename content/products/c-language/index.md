@@ -310,12 +310,10 @@ param:
         - Basic understanding of number systems, logic gates, bits and bytes is good to have (but not strictly required).
       audience:
         - Students in Academia with C as a subject in the course.
-        - Early Career Professionals using C as development language.
-        - Embedded Systems Engineers.
-        - System Software Engineers.
+        - Those using the C language for development (Embedded Systems Engineers, System Software Engineers etc).
         - Electrical/Electronics Engineers working on hardware programming.
-        - Systems Engineer seeking gain system level insights.
-        - Those curious to learn the underlying details of Systems and how to program it using C.
+        - Anyone seeking gain system level insights.
+        - Anyone curious to learn the underlying details of Systems and how to program it using C.
       reviewSectionTitle: "Reviews from the learners"
       reviewSectionDescription: "Because the course is brand new, we released some lectures on YouTube to get early feedback, and it has been a banger! You will not regret taking this course..."
       reviews:
@@ -407,8 +405,3 @@ The internet is flooded with coding courses—yet none rival this. For over a de
 
 Here’s the truth: **C’s mastery runs deeper than most realize**. The general public and students rarely glimpse its full scope from the sidelines. I’ve lived it, and now I’m pulling back the curtain for you.
 
-### Why I Created This Course
-
-Over years of working with C, I’ve noticed a troubling pattern: most engineers learn and use C the wrong way. This course exists to fix that. It’s not just about coding—it’s about teaching you to see the world through C’s lens, to wield it with precision and purpose. My goal is to show you the right way to master this language.
-
-I’ve been fortunate to mentor dozens of interns, guide recent college graduates, coach early-career professionals, and interviewed nearly 100 industry practitioners for system-level roles on my team. One truth stood out: while many use C daily, few truly understand how to reason about their code at the systems level. That gap inspired this course—a chance to bridge it with real-world insight and hands-on expertise.
