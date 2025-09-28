@@ -1393,6 +1393,8 @@ param:
             type: "video"
           - chapter: "Understanding PCIe (Part II) | 10 June 2025"
             type: "video"
+          - chapter: "How to Embedded Systems? | 27 Sep 2025"
+            type: "video"
           - chapter: "What Every Programmer Should Know About Memory | (tbd)"
             type: "video"
         - section: "Source Code Walkthrough"
