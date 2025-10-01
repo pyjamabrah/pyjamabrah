@@ -9,6 +9,8 @@ preview: ""
 rating:
 bestseller:
 
+type: "free"
+
 badges:
   - beginner: true
   - intermediate: true

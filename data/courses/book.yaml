@@ -6,6 +6,8 @@ description: "I am writing a book to teach C by understanding the CPU/Memory pro
 ctaText:
 more:
 
+type: "free"
+
 enroll:
   - plan: "explore more"
     link: "/library/#book"

@@ -1,3 +1,41 @@
 .landingpage-hero {
   text-align: center;
 }
+
+.courses-container {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+}
+
+.short {
+  grid-column: span 3;
+}
+
+.long {
+  grid-column: span 7;
+}
+
+.equal {
+  grid-column: span 5;
+}
+
+.full-width {
+  grid-column: span 10;
+}
+
+.short, .long, .equal, .full-width {
+  /* border: 1px solid black; */
+  padding: 10px;
+  margin: 0.5%;
+  text-align: center;
+}
+
+video {
+  border: 0px solid black;
+}
+
+@media all and (width < 900px) {
+  .short, .long, .equal {
+    grid-column: span 10;
+  }
+}

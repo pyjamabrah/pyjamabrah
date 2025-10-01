@@ -1,0 +1,160 @@
+<div class="courses-container">
+  {{ range .Site.Data.courses }}{{ if eq .type "bundle"}}
+  <div class="full-width">
+    <h1>learn Embedded Systems</h1>
+  </div>
+
+  {{/*  Left side content  */}}
+  <div class="equal">
+    <video width="100%" controls autoplay muted loop>
+      <source src="https://raw.githubusercontent.com/pyjamabrah/preview-videos/master/C%20to%20Assembly.mp4" type="video/mp4">
+    </video>
+    <div class="product-subtitle">^^ Preview Lecture: Decomposing C code to Assembly!</div>
+  </div>
+
+  {{/*  Right side content  */}}
+  <div class="equal">
+    <h3>The Library Access!</h3>
+    <span class="product-bestseller">Bestseller</span>
+    {{ if .rating }}{{ partial "products/render-stars.html" .rating }}{{ end }}
+    <p>{{ .description | markdownify }}</p>
+    {{ partial "courses/feature-list.html" .content }}
+    <div class="product-cta-button">
+      <a class="btn" href="{{.more}}" target="_blank"><button>Explore the Library!</button></a>
+    </div>
+  {{ end }}
+  {{ end }}
+  </div>
+</div>
+
+<hr/>
+{{/*  Individual Courses, included as part of the Library Access  */}}
+<div class="landingpage-hero">
+  <h1>individual learning tracks</h1>
+  <p>Included in The Library Access, also available as a single offering.</p>
+</div>
+<div class="course-list">
+  {{ range .Site.Data.courses }} {{ if eq .type "single"}}
+  <div class="course-card" href="{{ .enroll }}" >
+    {{ if .preview }}
+      <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/{{.preview}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    {{ else }}
+      <img src="{{.poster}}"/>
+    {{ end }}
+    <h4 class="post-title"> {{ .title | markdownify }} </h4>
+    <div class="product-subtitle">{{.subtitle | markdownify}}</div>
+
+    {{ if .badges}}
+    <div class="product-stats">
+      {{ range .badges }}
+        {{ if .beginner }}
+          <span class="product-beginner">Beginner</span>
+        {{ end }}
+        {{ if .intermediate }}
+        <span class="product-intermediate">Intermediate</span>
+        {{ end }}
+        {{ if .free }}
+        <span class="product-free">FREE!</span>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="product-stats">
+      {{ if .bestseller }}
+        <span class="product-bestseller">Bestseller</span>
+      {{ end }}
+      {{ if .rating }}
+        {{ partial "products/render-stars.html" .rating }}
+      {{ end }}
+    </div>
+
+    <div class="course-card-content">
+      <p>{{ .description | markdownify }}</p>
+      {{ partial "courses/feature-list.html" .content }}
+      {{ if .more }}
+      <b><a href="{{.more}}">more details...</a></b>
+    {{ end }}
+    </div>
+    {{if .paybuttonID}}
+    {{ partial "products/paybutton.html" .paybuttonID }}
+    {{else}}
+
+    <div class="product-cta-button">
+      {{ range .enroll }}
+      <a class="btn" href="{{.link}}" target="_blank">
+        <button>{{ .plan | markdownify}}</button>
+      </a>
+      {{ end }}
+    </div>
+    <br/>
+    {{end}}
+  </div>
+  {{ end }}{{end}}
+</div>
+
+<hr/>
+{{/*  Individual Courses, Offered for Free */}}
+<div class="landingpage-hero">
+  <h1>FREE learning tracks</h1>
+  <p>Included in The Library Access, also available as a single offering.</p>
+</div>
+<div class="course-list">
+  {{ range .Site.Data.courses }} {{ if eq .type "free"}}
+  <div class="course-card" href="{{ .enroll }}" >
+    {{ if .preview }}
+      <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/{{.preview}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    {{ else }}
+      <img src="{{.poster}}"/>
+    {{ end }}
+    <h4 class="post-title"> {{ .title | markdownify }} </h4>
+    <div class="product-subtitle">{{.subtitle | markdownify}}</div>
+
+    {{ if .badges}}
+    <div class="product-stats">
+      {{ range .badges }}
+        {{ if .beginner }}
+          <span class="product-beginner">Beginner</span>
+        {{ end }}
+        {{ if .intermediate }}
+        <span class="product-intermediate">Intermediate</span>
+        {{ end }}
+        {{ if .free }}
+        <span class="product-free">FREE!</span>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="product-stats">
+      {{ if .bestseller }}
+        <span class="product-bestseller">Bestseller</span>
+      {{ end }}
+      {{ if .rating }}
+        {{ partial "products/render-stars.html" .rating }}
+      {{ end }}
+    </div>
+
+    <div class="course-card-content">
+      <p>{{ .description | markdownify }}</p>
+      {{ partial "courses/feature-list.html" .content }}
+      {{ if .more }}
+      <b><a href="{{.more}}">more details...</a></b>
+    {{ end }}
+    </div>
+    {{if .paybuttonID}}
+    {{ partial "products/paybutton.html" .paybuttonID }}
+    {{else}}
+
+    <div class="product-cta-button">
+      {{ range .enroll }}
+      <a class="btn" href="{{.link}}" target="_blank">
+        <button>{{ .plan | markdownify}}</button>
+      </a>
+      {{ end }}
+    </div>
+    <br/>
+    {{end}}
+  </div>
+  {{ end }}{{end}}
+</div>

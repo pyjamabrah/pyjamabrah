@@ -9,6 +9,8 @@ preview: ""
 rating: 4.9
 bestseller: true
 
+type: "bundle"
+
 badges:
   - beginner: true
   - intermediate: true

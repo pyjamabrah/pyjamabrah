@@ -8,6 +8,8 @@ description: "Dive into the world of ARM M-class CPUs with this comprehensive 9-
 rating:
 bestseller: true
 
+type: "free"
+
 badges:
   - beginner: true
   - intermediate: false

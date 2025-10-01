@@ -9,6 +9,8 @@ preview: ""
 rating: 5
 bestseller: true
 
+type: "single"
+
 badges:
   - beginner: true
   - intermediate: true
