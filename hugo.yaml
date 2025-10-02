@@ -17,7 +17,7 @@ menu:
       url: /
       weight: 1
     - identifier: courses
-      name: Resources
+      name: Learn Embedded Systems
       url: /courses/
       weight: 2
     - identifier: Library
