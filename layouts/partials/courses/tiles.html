@@ -1,7 +1,8 @@
 <div class="courses-container">
   {{ range .Site.Data.courses }}{{ if eq .type "bundle"}}
   <div class="full-width">
-    <h1>learn Embedded Systems</h1>
+    <h1 class="landing-section-title">Learn <span class="highlight-title">EMBEDDED SYSTEMS</span> from Scratch</h1>
+    <p>the closest you can get to being the real life magician</p>
   </div>
 
   {{/*  Left side content  */}}
@@ -14,15 +15,24 @@
 
   {{/*  Right side content  */}}
   <div class="equal">
-    <h3>The Library Access!</h3>
+    <h2 class="landing-subsection-title">
+      The Library Access!
+    </h2>
     <span class="product-bestseller">Bestseller</span>
-    {{ if .rating }}{{ partial "products/render-stars.html" .rating }}{{ end }}
+    {{ if .rating }}
+      {{ partial "products/render-stars.html" .rating }}
+    {{ end }}
+    <p>
+    <span class="product-beginner">Beginner</span>
+    <span class="product-intermediate">Intermediate</span>
+    </p>
+
     <p>{{ .description | markdownify }}</p>
     {{ partial "courses/feature-list.html" .content }}
     <div class="product-cta-button">
-      <a class="btn" href="{{.more}}" target="_blank"><button>Explore the Library!</button></a>
+      <a class="btn" href="{{.more}}" target="_blank"><button>explore Library</button></a>
     </div>
-  {{ end }}
+    {{ end }}
   {{ end }}
   </div>
 </div>

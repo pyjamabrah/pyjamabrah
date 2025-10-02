@@ -30,6 +30,16 @@
   text-align: center;
 }
 
+.landing-section-title, .landing-subsection-title {
+  margin: 7px;
+}
+
+.highlight-title {
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
 video {
   border: 0px solid black;
 }

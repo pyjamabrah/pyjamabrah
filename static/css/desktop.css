@@ -19,7 +19,6 @@
 
   .blog-card {
     border: solid var(--linecolor) 1px;
-    margin: 0.425%;
     max-width: 24% !important;
     text-decoration: none;
     cursor: pointer;

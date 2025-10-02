@@ -17,11 +17,11 @@ menu:
       url: /
       weight: 1
     - identifier: courses
-      name: Courses
+      name: Resources
       url: /courses/
       weight: 2
     - identifier: Library
-      name: Library
+      name: The Library
       url: /library
       weight: 3
     - identifier: Login
@@ -38,7 +38,7 @@ markup:
     anchorLineNos: true
 
 params:
-  subtitle: "Back to Basics. Casually!!"
+  subtitle: "lowering the barrier to learning Embedded Systems"
   description: "Reasoning from first principles, everything from AI down to the transistor."
   thumbnail: "/opengraph.png"
   math: true
