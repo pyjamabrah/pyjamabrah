@@ -4,3 +4,6 @@
 [submodule "content/posts"]
 	path = content/posts
 	url = git@github.com:pyjamabrah/pyjamabrah-community-contributions.git
+[submodule "cache"]
+	path = cache
+	url = git@github.com:pyjamabrah/cache.git
