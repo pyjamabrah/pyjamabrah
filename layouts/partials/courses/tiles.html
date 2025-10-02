@@ -2,15 +2,11 @@
   {{ range .Site.Data.courses }}{{ if eq .type "bundle"}}
   <div class="full-width">
     <h1 class="landing-section-title">Learn <span class="highlight-title">EMBEDDED SYSTEMS</span> from Scratch</h1>
-    <p>the closest you can get to being the real life magician</p>
   </div>
 
   {{/*  Left side content  */}}
   <div class="equal">
-    <video width="100%" autoplay muted loop>
-      <source src="https://raw.githubusercontent.com/pyjamabrah/cache/master/teaser.webm" type="video/webm">
-    </video>
-    <div class="product-subtitle">Layers of abstraction</div>
+    {{partial "webvideoAutoplay.html" .teaser }}
   </div>
 
   {{/*  Right side content  */}}
@@ -46,7 +42,11 @@
 <div class="course-list">
   {{ range .Site.Data.courses }} {{ if eq .type "single"}}
   <a class="course-card" href="{{ .more }}" >
+    {{if .teaser}}
+    {{partial "webvideo.html" .teaser }}
+    {{else}}
     <img src="{{.poster}}"/>
+    {{end}}
     <h4 class="post-title"> {{ .title | markdownify }} </h4>
     <div class="product-subtitle">{{.subtitle | markdownify}}</div>
 
