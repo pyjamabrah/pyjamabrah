@@ -207,51 +207,30 @@ param:
           rating: 5
           date: "27/07/2025"
       compare:
-        - feature: "Basic C Syntax."
-          us: true
-          others: true
-        - feature: "Data types, strings, pointers, operators and other basics."
-          us: true
-          others: true
-        - feature: "Code development without IDE, like how the professionals do it."
+        - feature: "Data Structures and Algorithm in C?"
           us: true
           others: false
-        - feature: "Decomposition of C code into Assembly and conversion to machine code."
+        - feature: "Review of the key concepts in the C Language."
           us: true
           others: false
-        - feature: "Mental models to aid thinking and reasoning."
+        - feature: "Dedicated section on Vocabulary used in context of DSA?"
           us: true
           others: false
-        - feature: "A Bottom-Up Approach with the tinge of answering the `Whys`."
+        - feature: "Hands on demo and explanation?"
           us: true
           others: false
-        - feature: "Mixing C with Assembly"
-          us: true
-          others: false
-        - feature: "Real and applicable Case study and programming projects"
-          us: true
-          others: false
-        - feature: "Project-Based Learning - Develop and learn with a simple yet effective project like C shell, memory allocator, etc."
-          us: true
-          others: false
-        - feature: "Teach with insights at the CPU level."
-          us: true
-          others: false
-        - feature: "Cover Assembly Language and Machine code."
-          us: true
-          others: false
-        - feature: "Cover the toolchain utilities like compiler, assembler, linker and debug tools like GDB?"
+        - feature: "Insights focused and based on practical use"
           us: true
           others: false
       faqs:
-        - q: "What is the difference between this course (paid) and the videos on YouTube?"
-          a: "Only few initial videos are put on YouTube. The Full course has many more videos and is a paid offering. Learners will also have access to the notes, source code files and other resources."
+        - q: "Do I need to know the C Language?"
+          a: "Although there is a section dedicated to the review of the key concepts in the C Language, working knowledge of the language is assumed and will make it easy for you to absorb and accept the content more easily."
           open: "open"
         - q: "Is this course good for beginners?"
-          a: "Yes! The course is taught as if the learner has no idea about the C programming language."
+          a: "Yes! The course is taught as if the learner has no idea about Data Structure implementations in C."
           open: "open"
         - q: "Why is the course validity 365 days?"
-          a: "We need to maintain the servers that host the courses. At the moment we have enough capital to keep the server afloat for another until. We are striving to make this a lifetime access course. As the funds trickle in, we will revisit the validity and might update it for all the enrolled learners."
+          a: "We need to maintain the servers that host the courses. At the moment we have enough capital to keep the server afloat for another year. We are striving to make this a lifetime access course. As the funds trickle in, we will revisit the validity and might update it for all the enrolled learners. It is however no a promise!"
           open: "open"
         - q: "Do I need a special machine configuration to take this course?"
           a: "No! All you will need is an internet connection and the Chrome browser. The hands-on examples and lab work is based on GitHub codespaces platform."
@@ -266,13 +245,7 @@ param:
           a: "The name you use on the platform will be printed as is on the Certificate when it is generated."
           open: "open"
         - q: "Can I follow the steps on my own PC?"
-          a: "Yes for the most part. Better yet would be if you have a linux machine."
-          open: "open"
-        - q: "How will the open-source contribution work?"
-          a: "We will host few github repos under pyjamabrah with the skeleton code and details asks (in comments) about the subsequent tasks. You can add the code (with your details in the comment if you'd want), create PR (pull-request) and submit. We will review and merge your PR into main."
-          open: "open"
-        - q: "Will this course be added to `Firmware Engineer's Arsenal`?"
-          a: "No! This is a separate offering and unrelated to my previous work at inpyjama.com. pyjamabrah is exclusively run by me and independent of continuous collaboration with my team."
+          a: "Yes for the most part. Better yet would be if you have a Linux machine."
           open: "open"
 ---
 
