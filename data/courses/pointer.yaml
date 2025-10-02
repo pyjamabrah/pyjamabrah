@@ -9,7 +9,7 @@ preview: ""
 rating: 4.9
 bestseller: true
 
-type: "single"
+type: "free"
 
 badges:
   - beginner: true
@@ -23,7 +23,7 @@ content:
   - certificate: yes
 
 # Link and Payment options
-more: "/products/c-language"
+more: "https://courses.pyjamabrah.com/web/checkout/68de9d603b5ae5948b46c4f7"
 ctaText: "Start Learning"
 enroll:
   - plan: "Learn More"

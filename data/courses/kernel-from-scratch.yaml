@@ -9,7 +9,7 @@ preview: ""
 rating: 5
 bestseller: true
 
-type: "free"
+type: "single"
 
 badges:
   - beginner: true
@@ -22,8 +22,8 @@ content:
   - downloads: "**3**"
   - codeReviews:
   - projects: "**1**"
-  - enrolled:
-  - certificate:
+  - enrolled: 2k+
+  - certificate: yes
 
 # Link and Payment options
 more: "/products/kernel-from-scratch"

@@ -2,7 +2,7 @@
 title: "The C Language"
 subtitle: "the language, the tools and the programming techniques"
 poster: "/c/cover.png"
-description: "Learn C in ways that the professional use."
+description: "Learn C in ways that the machine sees and processes it."
 preview: ""
 
 # course stats
@@ -20,9 +20,9 @@ content:
   - videos: "**73**"
   - duration: "**>20 hours**"
   - downloads: "**12**"
-  - codeReviews: yes
+  - codeReviews:
   - projects: "**3**"
-  - enrolled: "**481**"
+  - enrolled: "**2k+**"
   - certificate: yes
 
 # Link and Payment options
