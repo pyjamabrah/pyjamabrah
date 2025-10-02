@@ -55,7 +55,16 @@ param:
       validity: 365 days
       projects: 5
       learning:
-        - todo
+        - Reasons to use DSA in Embedded Systems
+        - The concept of abstract data type
+        - Space and Time complexity of solutions
+        - Implementation of data structures using the C language
+        - Linked Lists, common operations and practical use
+        - Queues, common operations and practical use
+        - Stacks, common operations and practical use
+        - Graphs, common operations and practical use
+        - Trees, common operations and practical use
+        - Use in open source code
       sections:
         - section: "Introduction"
           id: "dsa-intro"
@@ -119,7 +128,7 @@ param:
             type: "video"
           - chapter: "Shipping the code as static Library"
             type: "video"
-        - section: "Linked Lists"
+        - section: "Queues"
           id: "queues"
           description: ""
           open: "open"
@@ -269,7 +278,5 @@ param:
 
 # The Design and Deliberation
 
-The internet is flooded with coding courses—yet none rival this. For over a decade, C has been my daily driver at work. Unlike kernel developers leaning on abstractions, I’ve wielded C in its purest, most raw form—programming CPUs from scratch, without the crutch of standard libraries. This course hands you that same unfiltered power. By the end, you won’t just know C—you’ll command it like a seasoned pro, bending it to your will in ways most developers never dream of.
-
-Here’s the truth: **C’s mastery runs deeper than most realize**. The general public and students rarely glimpse its full scope from the sidelines. I’ve lived it, and now I’m pulling back the curtain for you.
+As the embedded software gets more nuanced, the answer to performance and reliability usually becomes clever organization of the data and algorithms that leverage that organization. This course is designed with a focus on development in the C language. Special attention is paid to explaining the concepts of C and ways of thinking/reasoning intuitively.
 
