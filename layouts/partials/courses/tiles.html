@@ -45,12 +45,8 @@
 </div>
 <div class="course-list">
   {{ range .Site.Data.courses }} {{ if eq .type "single"}}
-  <div class="course-card" href="{{ .enroll }}" >
-    {{ if .preview }}
-      <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/{{.preview}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    {{ else }}
-      <img src="{{.poster}}"/>
-    {{ end }}
+  <a class="course-card" href="{{ .more }}" >
+    <img src="{{.poster}}"/>
     <h4 class="post-title"> {{ .title | markdownify }} </h4>
     <div class="product-subtitle">{{.subtitle | markdownify}}</div>
 
@@ -82,25 +78,11 @@
     <div class="course-card-content">
       <p>{{ .description | markdownify }}</p>
       {{ partial "courses/feature-list.html" .content }}
-      {{ if .more }}
-      <b><a href="{{.more}}">more details...</a></b>
-    {{ end }}
-    </div>
-    {{if .paybuttonID}}
-    {{ partial "products/paybutton.html" .paybuttonID }}
-    {{else}}
-
-    <div class="product-cta-button">
-      {{ range .enroll }}
-      <a class="btn" href="{{.link}}" target="_blank">
-        <button>{{ .plan | markdownify}}</button>
-      </a>
-      {{ end }}
     </div>
     <br/>
-    {{end}}
-  </div>
-  {{ end }}{{end}}
+  </a>
+  {{ end }}
+  {{end}}
 </div>
 
 <hr/>
@@ -109,14 +91,12 @@
   <h1>FREE learning tracks</h1>
   <p>Included in The Library Access, also available as a single offering.</p>
 </div>
+
+{{/*  Free Courses  */}}
 <div class="course-list">
   {{ range .Site.Data.courses }} {{ if eq .type "free"}}
-  <div class="course-card" href="{{ .enroll }}" >
-    {{ if .preview }}
-      <iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/{{.preview}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    {{ else }}
-      <img src="{{.poster}}"/>
-    {{ end }}
+  <a class="course-card" href="{{ .more }}" >
+    <img src="{{.poster}}"/>
     <h4 class="post-title"> {{ .title | markdownify }} </h4>
     <div class="product-subtitle">{{.subtitle | markdownify}}</div>
 
@@ -144,27 +124,11 @@
         {{ partial "products/render-stars.html" .rating }}
       {{ end }}
     </div>
-
     <div class="course-card-content">
       <p>{{ .description | markdownify }}</p>
       {{ partial "courses/feature-list.html" .content }}
-      {{ if .more }}
-      <b><a href="{{.more}}">more details...</a></b>
-    {{ end }}
+      <br/>
     </div>
-    {{if .paybuttonID}}
-    {{ partial "products/paybutton.html" .paybuttonID }}
-    {{else}}
-
-    <div class="product-cta-button">
-      {{ range .enroll }}
-      <a class="btn" href="{{.link}}" target="_blank">
-        <button>{{ .plan | markdownify}}</button>
-      </a>
-      {{ end }}
-    </div>
-    <br/>
-    {{end}}
-  </div>
+  </a>
   {{ end }}{{end}}
 </div>
