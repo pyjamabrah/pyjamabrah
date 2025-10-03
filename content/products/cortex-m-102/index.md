@@ -32,7 +32,7 @@ param:
       beginner: "yes"
       intermediate: "yes"
       rating: 5
-      ratingCount: 20
+      ratingCount:
       studentsCount: *enrolled
       message: "1124295502"
       courseCount:
@@ -173,10 +173,22 @@ param:
       reviewSectionTitle: "Reviews from the learners"
       reviewSectionDescription: ""
       reviews:
-        - reviewer:
-          date:
-          rating:
-          review:
+        - reviewer: "Ashish Kumar Verma"
+          date: 18/08/2025
+          rating: 5
+          review: "Perfectly what i need to start with freertos , very good structured course."
+        - reviewer: "Prajwal"
+          date: 14/09/2025
+          rating: 5
+          review: "Nicely explained, Thank you for your support."
+        - reviewer: "Davidkumar P"
+          rating: 5
+          review: "Very Useful.Keep doing this we always supports. Here I learned M-Class CPU registers working and scheduler Working Nature and how involved is interrupt and Very great course i recently studied in ARM.Thank you for Your Information!"
+          date: 05/07/2025
+        - reviewer: "RAM AXAYKUMAR"
+          review: "amazing content to i able to understand to how to cpu is actually wotk"
+          rating: 5
+          date: 11/07/2025
       compare:
         - feature: "Use abstractions and be top level."
           us: false
