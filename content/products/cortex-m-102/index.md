@@ -26,7 +26,7 @@ param:
   bundle:
     - course: *course-name
       subtitle: "`Learn arm cortex-m controller assembly programming`"
-      description: "Learn the assembly programming for ARM Cortex-M CPUs by writing a scheduler from scratch, without using any IDE, SDK or boiler plate code. A scheduler is at the heart of every operating system.\n\n By writing one from scratch, not only will you learn how to write assembly core but also how the CPU works and how a single CPU can run more than one process. As part of this course, the goal is to make a single CPU run three infinite `while(1){}` loops!"
+      description: "**Note: This course is already included in the [Library Access](/library)!**\n\nLearn the assembly programming for ARM Cortex-M CPUs by writing a scheduler from scratch, without using any IDE, SDK or boiler plate code. A scheduler is at the heart of every operating system.\n\n By writing one from scratch, not only will you learn how to write assembly code, but also how the CPU works and, how a single CPU can run more than one process. As part of this course, the goal is to make a single CPU run three infinite `while(1){}` loops!"
       previewCover: *cover-art
       bestSeller: "yes"
       beginner: "yes"
@@ -34,7 +34,7 @@ param:
       rating: 5
       ratingCount: 20
       studentsCount: *enrolled
-      message: ""
+      message: "1124295502"
       courseCount:
       emulator: true
       hardware:
@@ -49,7 +49,7 @@ param:
       lastUpdated: *lastupdated
       language: "English"
       lessons: 24
-      length: "~ >5 hr"
+      length: "~ 5 hr"
       files: 3
       quizzes:
       certificate: "/cortex-m-102/certificate.png"
@@ -63,10 +63,9 @@ param:
         - CPU Boot-Up Process
         - Exception Handling
         - Writing Assembly Code
-        - First Assembly Program
+        - Startup Assembly Program
         - Instruction Sets and Encoding
         - Anatomy of Assembly Files
-        - Cortex-M3 Instructions and Experiments
         - Stack Manipulation
         - Scheduler Theory
         - Task Anatomy
@@ -80,10 +79,11 @@ param:
         - Running Multiple Processes
         - Key Considerations for Scheduling
         - Comparison with FreeRTOS
+        - Debugging using GDB
       sections:
       - section: "Environment Setup"
-        id:
-        description:
+        id: "setup"
+        description: "The courses uses the QEMU emulator for a real hardware board (the experiments should also run on real hardware). To ensure that everyone has the same setup and doesn't get tangled in the setup issues - we use the GitHub Codespaces instance running a virtual machine configuration we defined. This section guides through the steps of accessing it."
         open: open
         chapters:
         - chapter: "End Goal"
@@ -163,9 +163,10 @@ param:
 
       requirements:
         - GitHub account to do the hands-on coding in Codespaces.
-        - Interest in learning how to organize data using the C Language and use it in application.
+        - Interest in learning the underlying details of how the CPU works.
+        - Functional internet connection.
       audience:
-        - Students in Academia with DSA as a subject in the course.
+        - Students in Academia with operating systems as a subject in the course.
         - Those wanting to learn assembly programming.
         - Those interested in the ARM Cortex-M CPU working.
         - Those looking to understand how a scheduler works.
@@ -196,11 +197,11 @@ param:
           us: true
           others: false
       faqs:
-        - q: "Do I need to know the C Language?"
-          a: "Although there is a section dedicated to the review of the key concepts in the C Language, working knowledge of the language is assumed and will make it easy for you to absorb and accept the content more easily."
+        - q: "Do I need to know Assembly Language?"
+          a: "No. You will learning the required basics (and advance concepts) as part of the course."
           open: "open"
         - q: "Is this course good for beginners?"
-          a: "Yes! The course is taught as if the learner has no idea about Data Structure implementations in C."
+          a: "Yes! The course is taught as if the learner has no idea about ARM Cortex-M CPUs, Assembly and OS."
           open: "open"
         - q: "Why is the course validity 365 days?"
           a: "We need to maintain the servers that host the courses. At the moment we have enough capital to keep the server afloat for another year. We are striving to make this a lifetime access course. As the funds trickle in, we will revisit the validity and might update it for all the enrolled learners. It is however no a promise!"
@@ -218,12 +219,17 @@ param:
           a: "The name you use on the platform will be printed as is on the Certificate when it is generated."
           open: "open"
         - q: "Can I follow the steps on my own PC?"
-          a: "Yes for the most part. Better yet would be if you have a Linux machine."
+          a: "Yes for the most part. Better yet would be if you have a Linux machine. We will not support debugs on your personal support."
+          open: "open"
+        - q: "Is doubt resolution support provided?"
+          a: "The courses is self-paced. We do not support Q/A or doubt resolution. The platform provides a way for you to ask questions that other students can respond to."
           open: "open"
 ---
 
 # What is so special about this course?
 
-Every complex embedded systems solution uses an OS/RTOS for implementing the state machine. An OS at it's core implements a task scheduler (among other things) and not everyone understands how it works.
+Every complex embedded systems solution uses an OS/RTOS for implementing the state machine. An OS at its core implements a task scheduler (among other things). Not everyone understands how it works.
 
-The design of this course is deliberate in the sense that, in an attempt to implementing the "Scheduler" the student will learn the CPU operations, how assembly programs are written and how scheduling works. Completing this course will set the student up to understand work efficiently with an operating system, like the FreeRTOS.
+The design of this course is deliberate in the sense that - in an attempt to implementing the "Scheduler" you will learn the CPU operations, how assembly programs are written and how scheduling works.
+
+Completing this course should set you up to understand & work efficiently with an operating system (like the FreeRTOS).
