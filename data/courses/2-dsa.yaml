@@ -1,12 +1,12 @@
 # Essentials
-title: "The C Language"
-subtitle: "the language, the tools and the programming techniques"
-poster: "/c/cover.png"
-description: "Learn C in ways that the machine sees and processes it."
+title: "Data Structures"
+subtitle: "Data structures using the C Language"
+poster: "/dsa/cover.png"
+description: "Learn Data structures and algorithms using the C Language."
 preview: ""
 
 # course stats
-rating: 5
+rating: 4.9
 bestseller: true
 
 type: "single"
@@ -17,21 +17,21 @@ badges:
   - free: false
 
 content:
-  - videos: "**73**"
-  - duration: "**>20 hours**"
+  - videos: "**25**"
+  - duration: "**>5 hours**"
   - downloads: "**12**"
   - codeReviews:
-  - projects: "**3**"
+  - projects: "**5+**"
   - enrolled: "**2k+**"
   - certificate: yes
 
 # Link and Payment options
-more: "/products/c-language"
+more: "/dsa"
 ctaText: "Start Learning"
 enroll:
   - plan: "start learning"
-    link: "https://courses.pyjamabrah.com/l/db8c35d98f"
-paybuttonID: ""
+    link: "https://courses.pyjamabrah.com/web/checkout/68dea6e1153ef8f4f7b06bc7"
+
 
 #
 # Details below this line are for the landing Page.

@@ -15,7 +15,7 @@ tags:
 description: "The language, the tools and the programming techniques."
 thumbnail: "/c/cover.png"
 categories: courses
-product: "c"
+product: "1-c"
 
 define: &enrolled 481
 define: &lastupdated "16 August 2025"

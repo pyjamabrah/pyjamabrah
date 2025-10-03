@@ -1,0 +1,37 @@
+# Essentials
+title: "Scheduler Design on ARM Cortex-M"
+subtitle: "learn arm cortex-m controller assembly programming"
+poster: "/images/courses/cortex-m-102.jpg"
+description: "Learn ARM Cortex-M CPU and Assembly by writing a scheduler from scratch."
+preview: ""
+
+# course stats
+rating: 5
+bestseller: true
+
+type: "single"
+
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: false
+
+content:
+  - videos: "**24**"
+  - duration: "**>5 hours**"
+  - downloads: "**3**"
+  - codeReviews:
+  - projects: "**1**"
+  - enrolled: "**2k+**"
+  - certificate: yes
+
+# Link and Payment options
+more: "/cortex-m-102"
+ctaText: "Start Learning"
+enroll:
+  - plan: "start learning"
+    link: "https://courses.pyjamabrah.com/web/checkout/68dfef2ec44e4bda94b9a3e9"
+
+#
+# Details below this line are for the landing Page.
+#

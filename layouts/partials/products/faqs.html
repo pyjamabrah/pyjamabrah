@@ -3,14 +3,9 @@
 <h2>FAQs</h2>
 <div class="dropdown-container">
 {{ range .faqs }}
-  <!-- sections list -->
-  <details class="dropdown-listing" {{ .open }}>
-    <summary class="dropdown-summary">{{ .q }}</summary>
-    <p class="section-description">{{.a}}</p>
-    <!-- use para tags for space at the end -->
-    <p></p>
-  </details>
-  <br>
+  <b>{{ .q }}</b>
+  <p style="margin-top: 0px">{{.a}}</p>
+  <br/>
 {{ end }}
 </div>
 {{ end }}

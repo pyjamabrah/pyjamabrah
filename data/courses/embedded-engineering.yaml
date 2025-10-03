@@ -34,7 +34,7 @@ enroll:
     link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7?utm_source=landingpage&utm_medium=web"
   # - plan: "Free Trail"
   #   link: "https://courses.pyjamabrah.com/web/checkout/68711a098d0069794920894d?utm_source=landingpage&utm_medium=web"
-paybuttonID: ""
+
 
 discount:
   code: "IAMFEELINGLUCKY"

@@ -15,7 +15,7 @@ tags:
 description: "Implement Data Structures and Algorithm using C"
 thumbnail: "/dsa/cover.png"
 categories: courses
-product: "dsa"
+product: "2-dsa"
 
 define: &enrolled 2000+
 define: &lastupdated "2 October 2025"
