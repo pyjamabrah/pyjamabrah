@@ -33,7 +33,7 @@ param:
       rating: 4.9
       ratingCount: 16
       studentsCount: *enrolled
-      message: ""
+      message: "1124451942"
       courseCount:
       emulator: true
       hardware:
