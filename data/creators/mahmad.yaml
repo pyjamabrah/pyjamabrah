@@ -1,0 +1,16 @@
+id: mahmad
+
+# name of the instructor
+name: "Mahmad Bharmal"
+
+# summary line
+designation: "Embedded Engineer (L4), Google"
+
+# contact link
+contactLink: "https://www.linkedin.com/in/streetdogg/"
+
+# photo
+photo: "/images/authors/mb.jpg"
+
+# bio
+bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."

@@ -23,10 +23,10 @@
     {{ if .intermediate }}
       <span class="product-intermediate">Intermediate</span>
     {{ end }}
-    | Delivered by
+    {{/*| Delivered by
     {{ range .creators }}
     <a href="{{ .contactLink }}" target="_blank"><b>{{ .name }}</b></a>
-    {{ end }}
+    {{ end }}  */}}
   </p>
   <p>
     {{ if .rating }}

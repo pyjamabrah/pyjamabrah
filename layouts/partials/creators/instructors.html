@@ -1,0 +1,27 @@
+<!--
+  $courseCreators:  Refers to creators of the current course
+  $creatorDatabase: Refers to global list of creators
+-->
+{{ $creatorCount := len .courseCreators }}
+{{ $creatorList := .courseCreators }}
+
+<h2>Instructors</h2>
+<div class="creators-card-collection">
+{{ range .creatorDatabase }}
+  {{if in $creatorList .id}}
+    <div {{if eq $creatorCount 1}}
+      class="creators-info-card-single"
+      {{else}} class="creators-info-card"
+      {{end}}>
+      <div class="creators-meta">
+        <img class="creators-photo" src="{{.photo}}"></img>
+        <div class="creators-data">
+          <a class="creators-name" href="{{.contactLink}}" target="_blank">{{ .name }} </a>
+          <div class="creators-designation"> {{ .designation }} </div>
+        </div>
+      </div>
+      <div class="creators-bio"> {{ .bio }} </div>
+    </div>
+  {{end}}
+{{ end }}
+</div>

@@ -40,12 +40,7 @@ param:
       hardware:
       workshops:
       newcontent: true
-      creators:
-        - name: "Piyush Itankar"
-          designation: "Embedded Engineer (L5), Google"
-          contactLink: "https://x.com/_streetdogg"
-          photo: "https://avatars.githubusercontent.com/u/2120983?v=4"
-          bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
+      creators: ["piyush"]
       lastUpdated: *lastupdated
       language: "English"
       lessons: 73

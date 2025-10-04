@@ -39,17 +39,7 @@ param:
       studentsCount: *enrolled
       # message: "1080481281?h=39e203cc29"
       message: "1091541001?h=cf0f21acb8"
-      creators:
-        - name: "Piyush Itankar"
-          designation: "Embedded Engineer (L5), Google"
-          contactLink: "https://www.linkedin.com/in/streetdogg/"
-          photo: "/images/authors/pi.jpg"
-          bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
-        - name: "Mahmad Bharmal"
-          designation: "Embedded Engineer (L4), Google"
-          contactLink: "https://www.linkedin.com/in/mahmadbharmal/"
-          photo: "/images/authors/mb.jpg"
-          bio: "Computer Science Engineer with a Masters in Embedded Systems Design. Worked on Firmware for Intel's Bluetooth solutions, followed by Silicon Validation Software for the Tensor SoCs, and presently working on the Pixel Watch Software. He is system software expert with a decade of experience."
+      creators: ["piyush", "mahmad"]
       lastUpdated: *lastupdated
       language: "English"
       lessons: 200+
