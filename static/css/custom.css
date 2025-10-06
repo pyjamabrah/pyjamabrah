@@ -3,7 +3,8 @@
 }
 
 #root {
-  font-family: "JetBrains Mono", monospace;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   max-width: 1366px !important;
 }
 

@@ -14,14 +14,17 @@ menu:
   main: # Change menu as needed
     - identifier: home
       name: Home
+      pre: true
       url: /
       weight: 1
     - identifier: courses
-      name: Learn Embedded Systems
+      name: Courses
       url: /courses/
+      pre: true
       weight: 2
     - identifier: Library
       name: The Library
+      pre: true
       url: /library
       weight: 3
     - identifier: Login
