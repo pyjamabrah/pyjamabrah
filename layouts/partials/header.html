@@ -8,19 +8,20 @@
     </a>
     <div class="text">
       <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
-      <h3>{{ default "Description about Blog Author" .Site.Params.subtitle }}</h3>
+      <h3 class="site-subtitle">{{ default "Description about Blog Author" .Site.Params.subtitle }}</h3>
     </div>
   </div>
+  <hr />
   <nav class="navbar">
-    <hr />
+
     {{ with .Site.Menus.main }}
       {{ range $index, $value := . }}
-        {{ if $index }} | {{ end }}
+        {{ if $index }}  {{ end }}
         <a {{ if .Pre }} class="menu-special"{{ end }}
            href="{{ .URL | relURL }}"
            {{ if .Pre }} {{end}}><b>{{ .Name }}</b></a>
       {{ end }}
     {{ end }}
-    <hr />
   </nav>
+  <hr />
 </header>

@@ -62,6 +62,12 @@ input {
 
 .navbar {
   margin: 0px !important;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu-special {
+  margin-right: 10px;
 }
 
 .sidebar {
@@ -542,8 +548,9 @@ th, td {
 }
 
 .menu-special:hover {
-    box-shadow: 0px 0px 3px 0px var(--shadowDard);
     text-decoration: none;
+    color: white;
+    background-color: red;
 }
 
 .razorpay-payment-button {
@@ -667,4 +674,10 @@ code {
   color: white;
   background-color: red;
   padding: 0px 5px 0px 5px;
+}
+
+#brand {
+  h3 {
+    font-size: 1.1rem !important;
+  }
 }
