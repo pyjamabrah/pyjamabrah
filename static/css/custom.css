@@ -20,16 +20,16 @@ figcaption {
 
 button {
   background-color: var(--theme-primary);
-  opacity: 0.85;
+  opacity: 1;
   border: solid 1px var(--btn-border);
-  border-radius: 5px;
+  border-radius: 2px;
   color: var(--fontcolor);
-  padding: 12px 12px;
+  padding: 8px 10px;
   text-decoration: none;
-  margin: 4px 2px;
+  margin: 10px 2px;
   cursor: pointer;
-  font-size: 1.125em;
-  font-family: monospace;
+  /* font-size: 1.1em; */
+  font-family: "Iosevka", monospace;
   font-weight: 600;
   /* width: 95%; */
 }
@@ -43,7 +43,8 @@ button {
 }
 
 button:hover {
-  opacity: 1;
+  background-color: red;
+  color: white;
 }
 
 input {
@@ -659,4 +660,11 @@ code {
   color: var(--fontcolor);
   text-align: center;
   background-color: var(--bgcolor);
+}
+
+.discount-code {
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  padding: 0px 5px 0px 5px;
 }
