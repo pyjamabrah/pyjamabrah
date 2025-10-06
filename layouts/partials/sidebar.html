@@ -36,7 +36,7 @@
 
   {{ if .discount}}
   <div class="discount">
-    {{if .discount.code}}code <span class="discount-code">{{.discount.code}}</span> for <span class="discount-code">{{.discount.percentage}} discount</span> on Yearly. Expires in <span class="discount-code" id="countdownSidebar"></span>!!{{end}}
+    {{if .discount.code}}code <span class="discount-code">{{.discount.code}}</span> (<b>{{.discount.percentage}} off</b> on Yearly).<br/><b id="countdownSidebar"></b>!!{{end}}
   </div>
   <script>
     // Get today's date
