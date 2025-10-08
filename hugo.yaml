@@ -1,7 +1,7 @@
 baseURL: 'https://pyjamabrah.com/'
 languageCode: 'en-us'
 theme: smigle
-title: Pyjama Brah!
+title: Embedded Systems with Pyjama Brah!
 pagination:
   pagerSize: 20
 

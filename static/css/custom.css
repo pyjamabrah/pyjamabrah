@@ -43,8 +43,8 @@ button {
 }
 
 button:hover {
-  background-color: red;
-  color: white;
+  background-color: var(--tick-green);
+  color: var(--bgcolor);
 }
 
 input {
@@ -551,8 +551,8 @@ th, td {
 
 .menu-special:hover {
     text-decoration: none;
-    color: white;
-    background-color: red;
+    background-color: var(--tick-green);
+    color: var(--bgcolor);
 }
 
 .razorpay-payment-button {
