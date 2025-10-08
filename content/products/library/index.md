@@ -112,7 +112,7 @@ param:
       sections:
         - section: "Roadmap to Learning Embedded Systems"
           description: "This short course introduces the field of embedded systems, how to pursue it and what are the some of the possible journeys."
-          open: "open"
+          open: "close"
           id: "roadmap"
           chapters:
           - chapter: "Understanding Embedded Systems"
@@ -141,7 +141,7 @@ param:
             type: "video"
         - section: "Low Level with Pyjama Brah! (Public Draft)"
           description: "We are writing a book to teach C by understanding the CPU/Memory programmers model, exploring the ISA for RISC-V, the assembly, writing baremetal firmware/driver, and ends with printing “Hello, World!” on the UART.\n\nThe book covers lot more than just C. Things like Assembly, Makefile, GDB based Debugging, Linker Scripts, C, Driver Writing etc… The public draft is available for FREE for online reading. Table of contents is as follows - "
-          open: "open"
+          open: "close"
           id: "book"
           sectionDuration:
           chapters:
@@ -202,7 +202,7 @@ param:
         - section: "The C Language"
           id: "c"
           description: "This course dives into the practical applications of the C language, emphasizing hands-on learning to solidify key concepts. Delivered in an engaging and unconventional style, the lessons go beyond theory, equipping you with the skills to apply C programming in real-world scenarios. By the end of the course, you’ll feel confident in your mastery of the C language, adept at using it alongside the tools and utilities professional C programmers rely on daily."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "C Language Tour"
             type: "title"
@@ -385,7 +385,7 @@ param:
         - section: "C Pointers"
           id: "pointers"
           description: "C pointers are crucial in Firmware and System Software (based on the C language) design. Linux, Unix, FreeRTOs, Zephyr, ThreadX etc kernels use C pointers heavily. This Course dives into the mental models and inner workings of pointers!"
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Mental Models, Motivation and Reasoning about pointers"
             type: "title"
@@ -472,7 +472,7 @@ param:
         - section: "C - Mastering Bit Manipulation"
           id: "bit-manipulation"
           description: "A short course on how to think about and do bit manipulation in the C Language"
-          open: "open"
+          open: "close"
           chapters:
             - chapter: "The idea behind bit manipulation"
               type: "video"
@@ -483,7 +483,7 @@ param:
         - section: "Data Structures (in C)"
           id: "dsa"
           description: "A short course on understanding, implementing and using data structures in C."
-          open: "open"
+          open: "close"
           chapters:
             - chapter: "Introduction"
               type: "title"
@@ -562,7 +562,7 @@ param:
         - section: "ARM Cortex-M (101) - Understanding the Processor"
           id: "m-101"
           description: "An introductory course on the ARM Cortex-M CPUs. How to go about learning them."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction"
             type: "title"
@@ -596,7 +596,7 @@ param:
         - section: "ARM Cortex-M (102) - Scheduler Design using Assembly"
           id: "m-assembly"
           description: "Learn the assembly programming for ARM Cortex-M CPUs by writing a scheduler from scratch, without using any IDE, SDK or boiler plate code. Course is under development. Content will be added when it's ready."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Environment Setup"
             type: "title"
@@ -662,7 +662,7 @@ param:
         - section: "GNU Make and Automation"
           id: "make"
           description: "Make is a build automation tool that automatically updates files in your project based on their dependencies. It's primarily used for compiling source code, but can also be used to run other commands or perform tasks."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "The Basics"
             type: "title"
@@ -703,7 +703,7 @@ param:
         - section: "GNU Linker Script"
           id: "ld"
           description: "This hands-on course dives into the details of writing linker scripts (based on GNU LD). Linker scripts are a must-have skill for firmware and systems engineers who have to deal with scenarios where the placement of various sections (code, data, etc) in the memory needs granular control. Engineers who work on Bootrom, Firmwares, Bootloaders, or otherwise are involved in lower-level systems code."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction and Setup"
             type: "title"
@@ -776,7 +776,7 @@ param:
         - section: "FreeRTOS - Teardown and Porting"
           id: "freertos"
           description: "Learn FreeRTOS kernel by tearing it down to it's bare minimum and doing a port for a new target from scratch. This includes booting the CPU from scratch and placing the code in memory manually."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction and Setup"
             type: "title"
@@ -837,7 +837,7 @@ param:
         - section: "Zephyr 101"
           id: "zephyr-101"
           description: "Zephyr is a very popular RTOS backed by the Linux foundation, for IoT devices. This is a short course that introduces the OS and guides through executing a `hello world!` application on Cortex-M3 controller."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction"
             type: "title"
@@ -883,7 +883,7 @@ param:
         - section: "Git and Gerrit - the collaboration kit"
           id: "git"
           description: "Git and Gerrit are pivotal tools in the software development industry, each serving distinct yet complementary roles that enhance collaboration, code quality, and workflow efficiency."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Orientation, Context and Tour of Git"
             type: "title"
@@ -912,7 +912,7 @@ param:
         - section: "The ART of Technical Discussions"
           id: "discussions"
           description: "Organised collection of topics, projects and questions from the web that a Embedded Engineer should know and be able to reasons about."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Format and Introduction"
             type: "title"
@@ -954,7 +954,7 @@ param:
         - section: "ARM Cortex-A (101) - Introduction to the 64bit ARM CPUs"
           id: "a-101"
           description: "Introduction to ARM-A Class CPUs implementing the AARCH64 architecture."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction"
             type: "title"
@@ -1010,7 +1010,7 @@ param:
         - section: "aarch64 Bare-metal Programming (ARM-A 102)"
           id: "a-102"
           description: "A short course on programming the ARM-A Class CPU (aarch64 based Cortex-A72) from scratch using the Raspberry Pi 4B as the platform."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction and Essentials"
             type: "title"
@@ -1057,7 +1057,7 @@ param:
         - section: "System Components - MMU/SMMU"
           id: "system-components"
           description: "A Course dedicated to understand the concepts of Virtual memory and the hardware components that enable it - the Memory Management Unit (MMU) and the System Memory Management Unit (SMMU)."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Setting the Background"
             type: "title"
@@ -1082,7 +1082,7 @@ param:
         - section: "Build and Run Linux Kernel"
           id: "ldd-scratch"
           description: "Unlock the power of low-level system development with this hands-on video course, designed to guide you through the process of building a Linux kernel from source for the ARM64 architecture and running it on the QEMU virtual machine. Perfect for developers, system administrators, and enthusiasts eager to dive into kernel development, this course provides a step-by-step approach to compiling, configuring, and deploying a custom Linux kernel, using BusyBox to create a lightweight userspace environment."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "here's a sneak-peak ..."
             preview: "sxxuAorWep4"
@@ -1129,7 +1129,7 @@ param:
         - section: "Linux Device Drivers (101) - Writing and understanding a dummy driver"
           id: "ldd-101"
           description: "A hands on Introduction to Linux Device Driver development. Recommended for those getting started with driver development."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Development Environment"
             type: "title"
@@ -1189,7 +1189,7 @@ param:
         - section: "Linux Device Drivers (102) - Controlling the Hardware"
           id: "ldd-102"
           description: "Course on writing and understanding how the Linux Device Drivers controls real hardware. In this course, we write a kernel driver for the GPIO port of Raspberry Pi - 4."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction and Expectations"
             type: "video"
@@ -1203,7 +1203,7 @@ param:
         - section: "Linux Device Drivers: Kernel Facilities & Helper Functions"
           id: "ldd-103"
           description: "The Linux kernel doesn't use the Standard C Library and implements the functions as it's own modern libraries. This course is focused on exploring the facilities and helper functions the kernel provides to manage data and different activities from the driver."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Expectations and Getting Started"
             type: "title"
@@ -1321,7 +1321,7 @@ param:
         - section: "Python Programming"
           id: "python"
           description: "A quick course on getting up and running with the Python programming language for Embedded Engineers. The course focuses on enabling C programmers with the important insights and mental models to be used when working with Python."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Introduction and Setup"
             type: "title"
@@ -1354,7 +1354,7 @@ param:
         - section: "Embedded Systems Podcast!"
           id: "podcast"
           description: "Casual chats with Industry Experts focused on their journeys, technology trends, skills and opportunities."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Manav | SoC Design flow, MIPS, RISC-V and Automotive"
             type: "video"
@@ -1366,7 +1366,7 @@ param:
         - section: "Tech Syncs - Workshops on ad-hoc topics"
           id: "tech-syncs"
           description: "Live Tech Syncs with learners every once in a while where we discuss ad-hoc topics relating to Firmware and System Software Engineering."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "ARM Cortex-M CPUs (part - 1) | 30 April 2025"
             type: "video"
@@ -1392,7 +1392,7 @@ param:
         - section: "Source Code Walkthrough"
           id: "walkthrough"
           description: "Learn how to tame huge code bases written in C. Techniques, tricks and general patterns that help understanding the structure and abstractions used in a repository."
-          open: "open"
+          open: "close"
           chapters:
           - chapter: "Little Kernel (LK)"
             type: "title"
@@ -1436,7 +1436,7 @@ param:
         - section: "FPGA based Hardware Design (101)"
           id: "fpga-101"
           description: "This course focuses on Digital Circuit Design using FPGAs (Field Programmable Gate Arrays). Recommended for Software Engineers to help them understand how the underlying electronic machines work."
-          open: "open"
+          open: "close"
           chapters:
             - chapter: "Quick Demo"
               type: "title"
