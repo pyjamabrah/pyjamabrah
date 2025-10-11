@@ -18,7 +18,7 @@ categories: courses
 product: "embedded-engineering"
 
 define: &enrolled 2040+
-define: &lastupdated "12 Sept 2025"
+define: &lastupdated "11 Oct 2025"
 
 param:
   image: "/library/cover.png"
@@ -379,6 +379,24 @@ param:
           - chapter: "The case for union and saving memory"
             type: "video"
           - chapter: "Accessing elements with nested union and structs"
+            type: "video"
+          - chapter: "Operators"
+            type: "title"
+          - chapter: "Types of operators"
+            type: "video"
+          - chapter: "Arithmetic Operators"
+            type: "video"
+          - chapter: "Arithmetic Operators at Assembly Level"
+            type: "video"
+          - chapter: "Relational Operators"
+            type: "video"
+          - chapter: "Relational Operators - Assembly Level decomposition"
+            type: "video"
+          - chapter: "Use of Relational Operators"
+            type: "video"
+          - chapter: "Logical Operators"
+            type: "video"
+          - chapter: "Logical Operator - Assembly decomposition"
             type: "video"
           - chapter: "more being uploaded..."
             type: ""

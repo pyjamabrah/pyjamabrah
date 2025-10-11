@@ -17,8 +17,8 @@ thumbnail: "/c/cover.png"
 categories: courses
 product: "1-c"
 
-define: &enrolled 481
-define: &lastupdated "16 August 2025"
+define: &enrolled 2000+
+define: &lastupdated "11 October 2025"
 
 param:
   image: "/c/c-course.png"
@@ -289,6 +289,27 @@ param:
           - chapter: "The case for union and saving memory"
             type: "video"
           - chapter: "Accessing elements with nested union and structs"
+            type: "video"
+        - section: "Operators"
+          id: "operators"
+          description: ""
+          open: "open"
+          chapters:
+          - chapter: "Types of operators"
+            type: "video"
+          - chapter: "Arithmetic Operators"
+            type: "video"
+          - chapter: "Arithmetic Operators at Assembly Level"
+            type: "video"
+          - chapter: "Relational Operators"
+            type: "video"
+          - chapter: "Relational Operators - Assembly Level decomposition"
+            type: "video"
+          - chapter: "Use of Relational Operators"
+            type: "video"
+          - chapter: "Logical Operators"
+            type: "video"
+          - chapter: "Logical Operator - Assembly decomposition"
             type: "video"
         - section: "more lectures being recorded"
           id: "assembly-101"
