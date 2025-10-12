@@ -5,6 +5,8 @@ title: Embedded Systems with Pyjama Brah!
 pagination:
   pagerSize: 20
 
+minifyOutput: true
+
 # ignore these files
 ignoreFiles:
   - "content/posts/README.md"
