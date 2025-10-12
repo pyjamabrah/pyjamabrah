@@ -1,0 +1,37 @@
+# Essentials
+title: "FreeRTOS - Teardown and Porting"
+subtitle: "Port FreeRTOS on a new target from scratch!"
+poster: "/images/courses/freeRTOS-101.png"
+description: "Learn what FreeRTOS is, the internals and how to port it on a new target."
+preview: ""
+
+# course stats
+rating: 5
+bestseller: true
+
+type: "single"
+
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: false
+
+content:
+  - videos: "**22**"
+  - duration: "**>5 hours**"
+  - downloads: "**No**"
+  - codeReviews:
+  - projects: "**1**"
+  - enrolled: "**2k+**"
+  - certificate: yes
+
+# Link and Payment options
+more: "/freeRTOS-101"
+ctaText: "Start Learning"
+enroll:
+  - plan: "start learning"
+    link: "https://courses.pyjamabrah.com/web/checkout/68eb5c5f7cd07a91300d8a40"
+
+#
+# Details below this line are for the landing Page.
+#
