@@ -35,7 +35,7 @@ param:
       rating: 4.9
       ratingCount:
       studentsCount: *enrolled
-      message: ""
+      message: "1126600358"
       courseCount:
       emulator: true
       hardware:
@@ -178,39 +178,29 @@ param:
       reviewSectionTitle: "Reviews from the learners"
       reviewSectionDescription: ""
       reviews:
-        - reviewer: "Ashish Kumar Verma"
-          date: 18/08/2025
-          rating: 5
-          review: "Perfectly what i need to start with freertos , very good structured course."
-        - reviewer: "Prajwal"
-          date: 14/09/2025
-          rating: 5
-          review: "Nicely explained, Thank you for your support."
-        - reviewer: "Davidkumar P"
-          rating: 5
-          review: "Very Useful.Keep doing this we always supports. Here I learned M-Class CPU registers working and scheduler Working Nature and how involved is interrupt and Very great course i recently studied in ARM.Thank you for Your Information!"
-          date: 05/07/2025
-        - reviewer: "RAM AXAYKUMAR"
-          review: "amazing content to i able to understand to how to cpu is actually wotk"
-          rating: 5
-          date: 11/07/2025
       compare:
-        - feature: "Use abstractions and be top level."
-          us: false
-          others: true
-        - feature: "Superficial and hand wavy explanation."
-          us: false
-          others: true
-        - feature: "Explain how the CPU works."
+        - feature: "Explain the CPU and the boot process."
           us: true
           others: false
-        - feature: "Details of how the CPU boots."
+        - feature: "Explain the minimum files to enable the FreeRTOS scheduler."
           us: true
           others: false
-        - feature: "Explain how assembly code is written and converted to binary."
+        - feature: "Explain the porting process."
           us: true
           others: false
-        - feature: "Hand code a scheduler."
+        - feature: "Explain the configuration options."
+          us: true
+          others: false
+        - feature: "Dive into the details of the implementation of the tasks."
+          us: true
+          others: false
+        - feature: "Explain how to start the scheduler."
+          us: true
+          others: false
+        - feature: "Explain the details of how to enable the OS for a new target without copy pasting other examples."
+          us: true
+          others: false
+        - feature: "Develop without IDE and automated tools. Enable the port by hand from scratch."
           us: true
           others: false
       faqs:
@@ -218,7 +208,7 @@ param:
           a: "No. You will learning the required basics (and advance concepts) as part of the course."
           open: "open"
         - q: "Is this course good for beginners?"
-          a: "Yes! The course is taught as if the learner has no idea about ARM Cortex-M CPUs, Assembly and OS."
+          a: "Familiarity is not assumed. Some idea of OS keywords can help."
           open: "open"
         - q: "Why is the course validity 365 days?"
           a: "We need to maintain the servers that host the courses. At the moment we have enough capital to keep the server afloat for another year. We are striving to make this a lifetime access course. As the funds trickle in, we will revisit the validity and might update it for all the enrolled learners. It is however no a promise!"
@@ -240,6 +230,9 @@ param:
           open: "open"
         - q: "Is doubt resolution support provided?"
           a: "The courses is self-paced. We do not support Q/A or doubt resolution. The platform provides a way for you to ask questions that other students can respond to."
+          open: "open"
+        - q: "Why is the course based on emulator?"
+          a: "We wanted the learners to be able to experiment without investing into any hardware. Once the learner is comfortable with the material, they can try the experiment on the real hardware."
           open: "open"
 ---
 
