@@ -2,21 +2,24 @@
 title: About
 layout: default
 ---
-Hey there!
+Hey There!
 
-My name is Piyush Itankar. By profession, I am an Embedded Systems, Software Engineer and currently working at Google India.
+[Mahmad Bharmal](https://www.linkedin.com/in/mahmadbharmal/) and [Piyush Itankar](https://www.linkedin.com/in/streetdogg/) are Embedded Systems Engineers. They started Pyjamabrah with the goal of `Lowering the barrier to learning Embedded Systems`.
 
+![](team.png)
 
-![](pim.jpg "Piyush")
+Learning embedded systems can be daunting task. The information available on the internet is scattered and not always explained in ways that a beginner can understand and turn into a reliable skill. The team has been through that journey and it took them a decade to feel confident. A lot of time could have been saved had the information been organized in one place and presented in a structured manner.
 
-I am passionate about studying electricity and use that as a way to understand the world around me. How we can make inanimate matter do our bidding is something that has always fascinated me and leaves me in awe every time I think about it.
+With Pyjamabrah, the effort is to organize reliable information in one place. As part of that the team offers [structured courses](/courses), has a [YouTube channel](https://youtube.com/@pyjamabrah) and maintain a [Discord Server](https://discord.gg/MkWTQjJDD2).
 
-I am deeply interested in exploring the `grey matter between the abstraction layers` and this blog documents the technical exploration `from the transistor to AI`.
+---
 
-**Other Links:**
-- Founder [inpyjama.com (deprecated)](https://inpyjama.com) | [pyjamabrah.com](https://pyjamabrah.com)
-- Non-Technical Blog: [streetdogg.in](https://streetdogg.in)
+## Important
 
-Thank you for dropping by,
+The team **does not** offer any help/services with respect to -
+1. Career Guidance.
+1. Resume Review.
+1. Referrals.
+1. Interview Preparation.
 
--- Piyush Itankar
+The focus is only on curating the content relating to Embedded systems to lower the barrier to learning. This website and other channels are run as a hobby project.
