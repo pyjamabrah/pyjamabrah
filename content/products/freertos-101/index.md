@@ -48,7 +48,7 @@ param:
       length: "~ 5 hr"
       files: "No"
       quizzes:
-      certificate: "/freertos-101/certificate.png"
+      certificate: "/freeRTOS-101/certificate.png"
       validity: 365 days
       projects: 1
       learning:
