@@ -41,7 +41,7 @@ param:
       hardware:
       workshops:
       newcontent: true
-      creators: ["piyush"]
+      creators: ["piyush", "mahmad"]
       lastUpdated: *lastupdated
       language: "English"
       lessons: 22
