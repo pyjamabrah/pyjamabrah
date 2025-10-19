@@ -310,15 +310,34 @@ param:
               type: "video"
       requirements:
         - Interest in Automotive Electronics
+        - Basic Background on Control Theory and Signal Processing
       audience:
-        - students
+        - Students from Automotive, Electrical, Electronics, Mechatronics and Computer science Engineering Discipline.
+        - Those seeking to dip their toes in Automotive Electronics.
       reviewSectionDescription: ""
       reviews:
       compare:
-        - feature: "Explain the CPU and the boot process."
+        - feature: "System-Level Perspective"
           us: true
           others: false
-
+        - feature: "Real Vehicle Relevance"
+          us: true
+          others: false
+        - feature: "Industry Standard Frameworks"
+          us: true
+          others: false
+        - feature: "Modular & Layered Learning Structure"
+          us: true
+          others: false
+        - feature: "Hands-On Demos on examples from EV, ADAS and System Design"
+          us: true
+          others: false
+        - feature: "Industry-Aligned Skill Mapping"
+          us: true
+          others: false
+        - feature: "Future-Ready Topics"
+          us: true
+          others: false
       faqs:
         - q: "Do I need to know Assembly Language?"
           a: "No. You will learning the required basics (and advance concepts) as part of the course."
@@ -328,4 +347,10 @@ param:
 
 # What is so special about this course?
 
-This course is crafted and delivered by industry expert.
+The Automotive Electronics course is first of its kind because it provides a complete system-level understanding of how modern vehicles work — not just isolated topics. It starts with E/E architecture, the backbone of every vehicle, and builds upward through sensors, actuators, diagnostics, control strategies, and software stacks.
+
+Unlike traditional courses, it blends hardware, software, and system engineering to mirror real OEM and Tier-1 workflows. It also covers future-focused technologies like EVs, ADAS, AI applications, and Software-Defined Vehicles (SDV), ensuring learners are aligned with industry evolution.
+
+Hands-on demos such as EV bike simulation, complementary filtering, actuator modeling, and path planning reinforce theory with practical exposure. Learners also gain familiarity with industry standards like AUTOSAR, ASPICE, and UDS, preparing them for real development environments.
+
+Finally, the course provides complete technology overview, showcasing actual automotive development flows, typical job roles, and skill pathways. This makes it ideal for students, embedded developers, and professionals looking to enter or grow in the automotive embedded systems domain.
