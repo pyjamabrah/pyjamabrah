@@ -309,8 +309,8 @@ param:
             - chapter: "Demo Scilab Codes and XCOS Models"
               type: "video"
       requirements:
-        - Interest in Automotive Electronics
-        - Basic Background on Control Theory and Signal Processing
+        - "Interest in Automotive Electronics"
+        - "Basic Background on Control Theory and Signal Processing"
       audience:
         - Students from Automotive, Electrical, Electronics, Mechatronics and Computer science Engineering Discipline.
         - Those seeking to dip their toes in Automotive Electronics.
@@ -339,9 +339,17 @@ param:
           us: true
           others: false
       faqs:
-        - q: "Do I need to know Assembly Language?"
-          a: "No. You will learning the required basics (and advance concepts) as part of the course."
+        - q: "Why is this course not included in the Library Access?"
+          a: "This course is created and delivered by a partner who is not a core member of the pyjambrah team. We need to compensate the partner based on the sales of their content."
           open: "open"
+        - q: "Is this recommended for beginners?"
+          a: "Yes! The courses are taught as if the learner has no idea about the subject."
+        - q: "Do I need a special machine configuration to take this course?"
+          a: "No!"
+        - q: "Can I change my email-id post purchase?"
+          a: "As much as we'd like to support that, your account will be linked to your email-id post purchase."
+        - q: "What name will be printed on the Certificate?"
+          a: "The name you use on the platform will be printed as is on the Certificate when it is generated."
 
 ---
 
