@@ -1,0 +1,37 @@
+# Essentials
+title: "Automotive Electronics"
+subtitle: "Understanding the modern vehicle electronics"
+poster: "/images/courses/automotive-electronics.png"
+description: "A structured, end-to-end understanding of modern vehicle electronics — from foundational E/E architecture and sensors to advanced vehicle diagnostics, software stacks, and the latest automotive trends"
+preview: ""
+
+# course stats
+rating: 5
+bestseller: true
+
+type: "partner"
+
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: false
+
+content:
+  - videos: "**83**"
+  - duration: "**13 Hrs 30 Mins**"
+  - downloads: ""
+  - codeReviews:
+  - projects: "1"
+  - enrolled: "**10+**"
+  - certificate: yes
+
+# Link and Payment options
+more: "/automotive-electronics"
+ctaText: "Start Learning"
+enroll:
+  - plan: "start learning"
+    link: "https://courses.pyjamabrah.com/web/checkout/68ee39deada179bc4c87b8ab"
+
+#
+# Details below this line are for the landing Page.
+#
