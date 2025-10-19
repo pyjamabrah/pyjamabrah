@@ -35,7 +35,7 @@ param:
       rating: 4.9
       ratingCount:
       studentsCount: *enrolled
-      message: ""
+      message:
       courseCount:
       emulator:
       hardware:
@@ -46,11 +46,13 @@ param:
       language: "English"
       lessons: 83
       length: "~ 13 hr 40 mins"
-      files: "No"
+      files:
       quizzes:
       certificate: "/automotive-electronics/certificate.png"
       validity: 365 days
-      projects: 1
+      projects:
+      demo: 5
+      newcontent: no
       learning:
         - "Understand vehicle electrical/electronic (E/E) architecture and its components"
         - "Learn the V-Model for automotive system development and ASPICE framework"

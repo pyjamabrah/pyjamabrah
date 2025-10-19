@@ -21,6 +21,13 @@
       </div>
     {{ end }}
 
+    {{ if .demo }}
+      <div class="course-feature-point">
+        <i class="bi bi-hammer course-feature-point-text"></i>
+        <div>{{.demo | markdownify }} hands on project(s).</div>
+      </div>
+    {{ end }}
+
     {{ if .downloads }}
       <div class="course-feature-point">
         <i class="bi bi-cloud-arrow-down course-feature-point-text"></i>

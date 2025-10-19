@@ -33,7 +33,7 @@ param:
       rating: 4.9
       ratingCount: 16
       studentsCount: *enrolled
-      message: "1124451942"
+      message: "dsa"
       courseCount:
       emulator: true
       hardware:

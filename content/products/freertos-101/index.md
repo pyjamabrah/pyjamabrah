@@ -35,7 +35,7 @@ param:
       rating: 4.9
       ratingCount:
       studentsCount: *enrolled
-      message: "1126600358"
+      message: "freertos"
       courseCount:
       emulator: true
       hardware:

@@ -22,10 +22,12 @@
       <b>{{if .emulator}}Emulator{{end}} {{if .hardware}}Hardware{{end}}</b>&nbspbased experiments.
     </div>
 
+    {{if .files}}
     <div class="bullet-point">
       <i class="bi bi-cloud-arrow-down prod-content-summary-tick"></i>
       <b>{{ .files }}&nbsp</b> downloadable resources.
     </div>
+    {{end}}
 
     {{if .workshops}}
     <div class="bullet-point">
@@ -67,6 +69,13 @@
     <div class="bullet-point">
       <i class="bi bi-hammer prod-content-summary-tick"></i>
       <b>{{ .projects }}&nbsp</b>End-to-end project implementations.
+    </div>
+    {{ end }}
+
+    {{ if .demo }}
+    <div class="bullet-point">
+      <i class="bi bi-hammer prod-content-summary-tick"></i>
+      <b>{{ .demo }}&nbsp</b>demonstrations.
     </div>
     {{ end }}
 

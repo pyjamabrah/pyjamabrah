@@ -19,9 +19,10 @@ badges:
 content:
   - videos: "**83**"
   - duration: "**13 Hrs 30 Mins**"
-  - downloads: ""
+  - downloads:
   - codeReviews:
-  - projects: "1"
+  - projects:
+  - domo: "5"
   - enrolled: "**10+**"
   - certificate: yes
 

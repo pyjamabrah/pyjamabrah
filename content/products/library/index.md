@@ -37,8 +37,7 @@ param:
       rating: 4.9
       ratingCount:
       studentsCount: *enrolled
-      message: "1080481281?h=39e203cc29"
-      # message: "1091541001?h=cf0f21acb8"
+      message: "library"
       creators: ["piyush", "mahmad"]
       lastUpdated: *lastupdated
       language: "English"

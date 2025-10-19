@@ -34,7 +34,7 @@ param:
       rating: 5
       ratingCount:
       studentsCount: *enrolled
-      message: "1124295502"
+      message: "cortex-m-102"
       courseCount:
       emulator: true
       hardware:
