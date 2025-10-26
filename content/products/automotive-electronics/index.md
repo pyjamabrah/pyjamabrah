@@ -8,8 +8,8 @@ aliases:
 - /automotive-embedded
 
 define: &course-name "Automotive Electronics"
-define: &enrolled 10
-define: &lastupdated "19 October 2025"
+define: &enrolled 87
+define: &lastupdated "26 October 2025"
 define: &cover-art "/images/courses/automotive-electronics.png"
 define: &oneliner "end-to-end understanding of modern vehicle electronics"
 
