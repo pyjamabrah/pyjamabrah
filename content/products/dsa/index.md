@@ -18,7 +18,7 @@ categories: courses
 product: "2-dsa"
 
 define: &enrolled 2000+
-define: &lastupdated "2 October 2025"
+define: &lastupdated "31 October 2025"
 
 param:
   image: "/dsa/dsa-course.png"
@@ -136,15 +136,17 @@ param:
               type: "video"
             - chapter: "Fetching the first entry in the Queue"
               type: "video"
-            - chapter: "more lectures to be added in this section"
-              type: "title"
         - section: "Stacks"
           id: "stacks"
           description: ""
           open: "open"
           chapters:
-            - chapter: "more lectures to be added in this section"
-              type: "title"
+            - chapter: "The concept of stacks and various operations"
+              type: "video"
+            - chapter: "Implementing the push operation"
+              type: "video"
+            - chapter: "Implementing the peek and pop operations"
+              type: "video"
         - section: "Graph"
           id: "graph"
           description: ""

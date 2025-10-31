@@ -18,7 +18,7 @@ categories: courses
 product: "embedded-engineering"
 
 define: &enrolled 2040+
-define: &lastupdated "11 Oct 2025"
+define: &lastupdated "31 Oct 2025"
 
 param:
   image: "/library/cover.png"
@@ -562,12 +562,14 @@ param:
               type: "video"
             - chapter: "Fetching the first entry in the Queue"
               type: "video"
-            - chapter: "more lectures to be added in this section"
-              type: ""
             - chapter: "Stacks"
               type: "title"
-            - chapter: "Lectures are being recorded and be released over the weekend."
-              type: ""
+            - chapter: "The concept of stacks and various operations"
+              type: "video"
+            - chapter: "Implementing the push operation"
+              type: "video"
+            - chapter: "Implementing the peek and pop operations"
+              type: "video"
             - chapter: "Graphs"
               type: "title"
             - chapter: "Lectures are being recorded and be released over the weekend."
