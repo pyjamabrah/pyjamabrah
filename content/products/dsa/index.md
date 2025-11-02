@@ -18,7 +18,7 @@ categories: courses
 product: "2-dsa"
 
 define: &enrolled 2000+
-define: &lastupdated "31 October 2025"
+define: &lastupdated "2 November 2025"
 
 param:
   image: "/dsa/dsa-course.png"
@@ -167,6 +167,8 @@ param:
             - chapter: "Implementing the add() api (part - 1)"
               type: "video"
             - chapter: "Debugging the add() api and confirming the addition of nodes"
+              type: "video"
+            - chapter: "traversal - preorder, inorder, post-order and breadth first"
               type: "video"
         - section: "Graph"
           id: "graph"
