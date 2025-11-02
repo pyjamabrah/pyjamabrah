@@ -18,7 +18,7 @@ categories: courses
 product: "embedded-engineering"
 
 define: &enrolled 2040+
-define: &lastupdated "31 Oct 2025"
+define: &lastupdated "2nd November 2025"
 
 param:
   image: "/library/cover.png"
