@@ -1,0 +1,36 @@
+# Essentials
+title: "Pointers (in C)"
+subtitle: "significance, mechanics and use in design."
+poster: "/images/courses/pointers.png"
+description: "A focused course mastering Pointers in C. Learn how to reason about and design using Pointers in C. A course packed with mental models, insights, intuition and visualisations."
+
+preview: ""
+
+# course stats
+rating: 4.9
+bestseller: true
+
+type: "single"
+
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: false
+
+content:
+  - videos: "**33**"
+  - duration: "**5 hrs 16 mins**"
+  - enrolled: "**760+**"
+  - certificate: yes
+
+# Link and Payment options
+more: "/pointers"
+ctaText: "Start Learning"
+enroll:
+  - plan: "Start Learning"
+    link: "https://courses.pyjamabrah.com/web/checkout/690ec081ab69d8a7f38c8066"
+
+
+#
+# Details below this line are for the landing Page.
+#
