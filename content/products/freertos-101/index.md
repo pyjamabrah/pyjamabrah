@@ -9,7 +9,7 @@ aliases:
 
 define: &course-name "FreeRTOS - Teardown and Porting"
 define: &enrolled 2000+
-define: &lastupdated "12 October 2025"
+define: &lastupdated "23 November 2025"
 define: &cover-art "/images/courses/freeRTOS-101.png"
 define: &oneliner "`Port FreeRTOS on a new target from scratch`"
 
@@ -44,9 +44,9 @@ param:
       creators: ["piyush", "mahmad"]
       lastUpdated: *lastupdated
       language: "English"
-      lessons: 22
-      length: "~ 5 hr"
-      files: "No"
+      lessons: 27
+      length: "~ 6 hr 40 mins"
+      files: "1"
       quizzes:
       certificate: "/freeRTOS-101/certificate.png"
       validity: 365 days
@@ -163,6 +163,34 @@ param:
             type: "video"
             preview: ""
           - chapter: "Getting the Scheduling to work"
+            type: "video"
+            preview: ""
+          - chapter: "SVC Handler leading to Hard Fault"
+            type: "pdf"
+            preview: ""
+      - section: "Fixing errors and Testing on real hardware"
+        id: "hardware"
+        open: "open"
+        description: ""
+        chapters:
+          - chapter: "Correcting the Linker script and reasoning about SVC"
+            type: "video"
+            preview: ""
+          - chapter: "Working with the Hardware, uploading the code"
+            type: "video"
+            preview: ""
+          - chapter: "Loading the code to board and exploring task scheduling"
+            type: "video"
+            preview: ""
+      - section: "Conclusion and Next steps"
+        id: "conclusion"
+        open: "open"
+        description: ""
+        chapters:
+          - chapter: "Exploring the Scheduler implementation"
+            type: "video"
+            preview: ""
+          - chapter: "Summary and What to pursue next"
             type: "video"
             preview: ""
 
