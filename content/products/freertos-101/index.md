@@ -171,7 +171,7 @@ param:
       - section: "Fixing errors and Testing on real hardware"
         id: "hardware"
         open: "open"
-        description: ""
+        description: "This section focuses on bridging the gap between the emulator and the real hardware. You will upload and debug the compiled binary to the real board, connect gdb and confirm the scheduler to be working."
         chapters:
           - chapter: "Correcting the Linker script and reasoning about SVC"
             type: "video"
@@ -185,7 +185,7 @@ param:
       - section: "Conclusion and Next steps"
         id: "conclusion"
         open: "open"
-        description: ""
+        description: "As part of this section you will focus on exploring the operation of the freeRTOS scheduler and the various system level components that get it going and how to reverse engineer the mechanics of it. The course ends with a lecture on what to do next on your journey to mastering embedded software development."
         chapters:
           - chapter: "Exploring the Scheduler implementation"
             type: "video"
