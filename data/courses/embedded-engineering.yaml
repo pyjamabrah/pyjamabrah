@@ -31,14 +31,14 @@ enroll:
   - plan: "Monthly (Subscription)"
     link: "https://courses.pyjamabrah.com/web/checkout/680ae32052b5ed6c029e8e6b?utm_source=landingpage&utm_medium=web"
   - plan: "Yearly (One Time)"
-    link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7?couponcode=EARLYBLACKFRIDAY"
+    link: "https://courses.pyjamabrah.com/web/checkout/68200b15f391a0bf84933bc7?couponcode=BLACKFRIDAY"
   # - plan: "Free Trail"
   #   link: "https://courses.pyjamabrah.com/web/checkout/68711a098d0069794920894d?utm_source=landingpage&utm_medium=web"
 
 
 discount:
-  code: "EARLYBLACKFRIDAY"
-  percentage: "75%"
+  code: "BLACKFRIDAY"
+  percentage: "65%"
   time: "24"
 
 #
