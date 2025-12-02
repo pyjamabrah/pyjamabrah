@@ -30,8 +30,12 @@ more: "/products/c-language"
 ctaText: "Start Learning"
 enroll:
   - plan: "start learning"
-    link: "https://courses.pyjamabrah.com/l/db8c35d98f"
+    link: "https://courses.pyjamabrah.com/web/checkout/681025ad8aeb438c463f3fde?couponcode=ILOVEC"
 
+discount:
+  code: "ILOVEC"
+  percentage: "25%"
+  time: "24"
 
 #
 # Details below this line are for the landing Page.
