@@ -1,0 +1,42 @@
+# Essentials
+title: "Firmware Essentials!"
+subtitle: "Master Firmware Engineering."
+poster: "/fw/cover.png"
+teaser: "fw.webm"
+description: "Collection of courses focused on Firmware Development. A structured path to go from zero-to-hero firmware engineering."
+preview: ""
+
+# course stats
+rating: 4.9
+bestseller: true
+
+type: "single"
+
+badges:
+  - beginner: true
+  - intermediate: true
+  - free: false
+
+content:
+  - feature: Collection of ~17 Courses
+  - videos: "**200+**"
+  - duration: "**150+ hours**"
+  - projects: "5"
+  - certificate: true
+  - enrolled: "**3000+**"
+
+# Link and Payment options
+more: "/fw"
+ctaText: "Take the Journey!"
+enroll:
+  - plan: "Take the Journey!"
+    link: "https://courses.pyjamabrah.com/web/checkout/692319aa7f054f8372184a9f?couponcode=LAUNCH"
+
+discount:
+  code: "LAUNCH"
+  percentage: "50%"
+  time: "24"
+
+#
+# Details below this line are for the landing Page.
+#

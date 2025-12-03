@@ -3,9 +3,8 @@
 {{ if .courselist }}
 <h2>list of courses included</h2>
 <p>
-  This offering is a collection of courses, each of which is deliberately designed to give you insights and hands on experience on critical topics. How these are to be pursued is presented as a flow chart below.
-  </br></br>
-  <code>Note:&nbsp</code>Every course the pyjamabrah team makes will be added to this collection. There will be no extra charge.
+  This offering is a collection of courses, each of which is deliberately designed to give you insights and hands on experience on critical topics.
+  </br>
 </p>
 <div class="prod-what-u-learn">
   {{ range .courselist }}
@@ -15,6 +14,12 @@
   </div>
   {{ end }}
 </div>
+{{if .infographic}}
+<h2>the Journey</h2>
+<div class="tracks">
+<img src="{{.infographic}}"></img>
+</div>
+{{end}}
 {{ end }}
 
 {{ if .tracks }}
