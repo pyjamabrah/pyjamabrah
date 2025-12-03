@@ -1076,6 +1076,7 @@ param:
         - Interest in the lower level working of the system.
         - Some exposure to Digital systems is good (but not strictly required).
         - Basic understanding of number systems, logic gates, bits and bytes is good to have (but not strictly required).
+        - (not a hard requirement) ST32VLDISCOVERY board.
       audience:
         - Students in Academia with C as a subject in the course.
         - Firmware and System Software Engineers looking to revisit concepts.
@@ -1255,7 +1256,7 @@ param:
         - feature: "Focused on practical professional insights"
           us: true
           others: false
-        - feature: "Teach multiple CPU architectures (ARM-M, ARM-A, RISC-V)."
+        - feature: "Teach multiple CPU architectures (ARM-M, RISC-V)."
           us: true
           others: false
         - feature: "Cover the toolchain utilities like compiler, assembler, linker and debug tools like GDB?"
@@ -1274,17 +1275,17 @@ param:
           us: false
           others: true
       faqs:
-        - q: "What is the difference between these courses (paid) and the content on YouTube?"
-          a: "Some lectures from different courses have been put on YouTube as Preview. The are not structured and jump to a topic. The Courses in the Subscription are well structured and focused on developing a skill."
-          open: "open"
         - q: "Is this recommended for beginners?"
           a: "Yes! The courses are taught as if the learner has no idea about the subject. Each course starts of by ensuring that the basics needed to understand the followup lectures is understood."
           open: "open"
-        - q: "Why a subscription model?"
-          a: "We are billed for the hosting and bandwidth by the platform provider. While we would very much like to offer lifetime validity, given the recurring bills, we have to ensure we continue to earn enough to be able to fund the effort and bring more value to our learners. The Monthly plan is for those who cannot afford the yearly subscription but can benefit from burst learning. To get the most out of our content, we recommend subscribing to the yearly plan."
+        - q: "What is the difference between these courses (paid) and the content on YouTube?"
+          a: "Some lectures from different courses have been put on YouTube as Preview. The are not structured and jump to a topic. The Courses in this pack are well structured and focused on developing a skill."
           open: "open"
         - q: "Do I need a special machine configuration to take this course?"
           a: "No! All you will need is an internet connection and the Chrome browser. The hands-on examples and lab work is based on GitHub codespaces platform. We use GitHub Codespace to ensure that you don't struggle with the setup and focus on the learnings. You are always free to setup the environment locally. Although, we won't support that, but you are free to do so. The courses, as much possible use a Emulator target of a real board, so if you wanted to run the code on real board. You can do so."
+          open: "open"
+        - q: "What is the hardware used?"
+          a: "We used ST32VLDISCOVERY when developing the courses and examples. Getting the hardware is optional since we use the emulation target available in QEMU. If you want to try all the experiments on hardware, we recommend doing so on a local Linux machine."
           open: "open"
         - q: "Why is a GitHub account needed?"
           a: "The Experiments and Labs are based on the GitHub provided Codespaces virtual machine. Codespaces will enable a common work environment for all the learners and avoid the hassle of special setup."
@@ -1296,7 +1297,10 @@ param:
           a: "The name you use on the platform will be printed as is on the Certificate when it is generated."
           open: "open"
         - q: "Can I follow the steps on my own PC?"
-          a: "Yes for the most part. Better yet would be if you have a linux machine."
+          a: "Yes for the most part. Better yet would be if you have a Linux machine."
+          open: "open"
+        - q: "What is the validity period?"
+          a: "You will have access to the content for 365 days, post which the access expires and you may need to subscribe again."
           open: "open"
         - q: "I previously purchased a course from inpyjama/pyjamabrah, any discount for me?"
           a: "Yes. We can offer a discount on the yearly subscription. Please reach us at support@pyjamabrah.com and be sure to include the details of your past investment. We will work on a custom discount for you."
@@ -1306,6 +1310,8 @@ param:
 ## How to learn Firmware Development
 
 Every embedded system has a CPU with firmware running on it. Being able to master Firmware engineering comes down to mastering the following -
+
+![](/fw/how-to.png "High level view of the courses in this pack!")
 
 ### 1. C Language
 
@@ -1346,5 +1352,12 @@ When developing a firmware, you will usually work with a team. The course on `Gi
 All too often there is also some automation using Python involved, the course on `Python Programming` focuses on demonstrating how python is used. As part of this course, you will learn the object-oriented programming by comparing the language constructs to C.
 
 Finally, the `FPGA based Hardware Design (101)` is to introduce you to the world of hardware engineering and how digital logic is designed. At the end of this course, you will be able to think and reason very clearly about the code you write and how the hardware reacts as a result.
+
+## Hardware
+
+The courses are based on the emulation target for `ST32VLDISCOVERY` available in QEMU. Getting the hardware is not strictly require, but if you do so - we recommend you setup the environment locally on a linux machine.
+
+![](/fw/st32vldiscovery.webp "The ST32VLDISCOVERY development board.")
+
 
 ---
