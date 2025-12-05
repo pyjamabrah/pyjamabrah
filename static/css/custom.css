@@ -3,7 +3,7 @@
 }
 
 #root {
-  font-family: "Iosevka", monospace;
+  font-family: "Share Tech Mono", "Iosevka", monospace;
   font-weight: 400;
   max-width: 1366px !important;
 }
@@ -638,7 +638,7 @@ blockquote {
 
 code {
   line-height: 1.5rem;
-  font-family: monospace;
+  font-family: "Share Tech Mono", monospace;
   font-weight: normal;
   font-size: 1rem;
 }
