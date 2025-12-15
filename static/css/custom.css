@@ -47,6 +47,15 @@ button:hover {
   color: var(--bgcolor);
 }
 
+.btn-disabled {
+  /* Custom styles for a disabled button */
+  opacity: 0.6; /* Makes it look faded */
+  cursor: not-allowed; /* Changes the cursor on hover */
+  background-color: #cccccc; /* Custom background color */
+  color: #666666; /* Custom text color */
+  border: 1px solid #999999;
+}
+
 input {
   padding: 5px;
   margin: 5px;

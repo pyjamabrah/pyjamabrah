@@ -7,12 +7,21 @@
   </div>
   {{end}}
   {{ range .enroll }}
-  <a class="btn" href="{{ .link }}" target="_blank">
-    <button class="btn-{{.plan}}">
-      <span class="bi"></span>
-      {{.plan}}
-    </button>
-  </a>
+    {{if .disabled}}
+    <a class="btn" href="#" target="_blank">
+      <button class="btn-disabled">
+        <span class="bi"></span>
+        {{.plan}} (Slots Full)
+      </button>
+    </a>
+    {{else}}
+    <a class="btn" href="{{ .link }}" target="_blank">
+      <button class="btn-{{.plan}}">
+        <span class="bi"></span>
+        {{.plan}}
+      </button>
+    </a>
+    {{end}}
   {{ end }}
 </div>
 {{ end }}
