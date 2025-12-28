@@ -25,7 +25,7 @@ menu:
       pre: true
       weight: 2
     - identifier: Library
-      name: The Library
+      name: Library
       pre: true
       url: /library
       weight: 3
