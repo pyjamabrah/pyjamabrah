@@ -17,8 +17,8 @@ thumbnail: "/library/cover.png"
 categories: courses
 product: "embedded-engineering"
 
-define: &enrolled 2040+
-define: &lastupdated "2nd November 2025"
+define: &enrolled 3000+
+define: &lastupdated "28 December 2025"
 
 param:
   image: "/library/cover.png"
@@ -1161,7 +1161,12 @@ param:
             type: "video"
           - chapter: "debugging our code with OpenOCD and GDB"
             type: "video"
-          - chapter: "More lectures are being recorded and will be added soon."
+          - chapter: "UART Driver and Printing `Hello, World!`"
+            type: "title"
+          - chapter: "multi-core boot and jumping to C function"
+            type: "video"
+          - chapter: "memory mapped IO and controlling the hardware"
+            type: "video"
         - section: "System Components - MMU/SMMU"
           id: "system-components"
           description: "A Course dedicated to understand the concepts of Virtual memory and the hardware components that enable it - the Memory Management Unit (MMU) and the System Memory Management Unit (SMMU)."
