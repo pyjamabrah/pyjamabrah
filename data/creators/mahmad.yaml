@@ -7,10 +7,10 @@ name: "Mahmad Bharmal"
 designation: "Embedded Engineer (L4), Google"
 
 # contact link
-contactLink: "https://www.linkedin.com/in/streetdogg/"
+contactLink: "https://www.linkedin.com/in/mahmadbharmal/"
 
 # photo
 photo: "/images/authors/mb.jpg"
 
 # bio
-bio: "Electrical Engineer holding a Master’s degree in Embedded Systems, with a proven track record at industry giants. At Intel, contributed expertise to Navigation Firmware, Bluetooth Driver development, and RF validation software. Currently thriving as an Embedded Software Engineer at Google, drove innovation in Firmware development for the Power Management Sub-system on Tensor SoCs (Pixel Phones) and presently advancing system software for the Pixel Watch."
+bio: "Computer Engineer holding a Master’s degree in Embedded Systems. Worked on improving the debug architecture of the Bluetooth Firmware at Intel. Worked on ARM64 architecture, programming and exercising latest ARMv8/v9 extensions - programming in low-level FWs (ARM TF-A, trusty) and kernels (LK and Linux) at Google. Currently exploring the Pixel Watch Kernel and BSP (boot-loaders, Linux Kernel, Android HALs and frameworks)."
