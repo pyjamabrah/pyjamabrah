@@ -4,11 +4,11 @@ title = 'Privacy Policy'
 layout = "default"
 +++
 
-This privacy policy sets out how **Pyjama Brah** uses and protects any information that you give **Pyjama Brah** when you visit their website and/or agree to purchase from them.
+This privacy policy sets out how **Pyjama Cafe (formally Pyjama Brah)** uses and protects any information that you give **Pyjama Cafe (formally Pyjama Brah)** when you visit their website and/or agree to purchase from them.
 
-**Pyjama Brah** is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, and then you can be assured that it will only be used in accordance with this privacy statement.
+**Pyjama Cafe (formally Pyjama Brah)** is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, and then you can be assured that it will only be used in accordance with this privacy statement.
 
-**Pyjama Brah** may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you adhere to these changes.
+**Pyjama Cafe (formally Pyjama Brah)** may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you adhere to these changes.
 
 **We may collect the following information:**
 - Name
@@ -39,8 +39,9 @@ You can choose to accept or decline cookies. Most web browsers automatically acc
 **Controlling your personal information**
 
 You may choose to restrict the collection or use of your personal information in the following ways:
-- whenever you are asked to fill in a form on the website, look for the box that you can click to indicate that you do not want the information to be used by anybody for direct marketing purposes
-- if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at [support@pyjamabrah.com](mailto:support@pyjamabrah.com)
+- whenever you are asked to fill in a form on the website, look for the box that you can click to indicate that you do not want the information to be used by anybody for direct marketing purposes.
+- if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at [support@pyjamabrah.com](mailto:support@pyjamabrah.com).
+- When in doubt, do not fill the details.
 
 We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.
 

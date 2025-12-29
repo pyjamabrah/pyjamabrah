@@ -53,7 +53,7 @@ params:
   thumbnail: "/opengraph.png"
   math: true
   abbrDateFmt: "Jan 2"
-  author: "Team Pyjama Brah!"
+  author: "Team Pyjama Cafe!"
   address: "Keerthi Harmony, Ramamurthy Nagar, Bangalore 560016"
   brandIconFile: "/images/brah.png"
   dateFmt: "2 Jan, 2006"
