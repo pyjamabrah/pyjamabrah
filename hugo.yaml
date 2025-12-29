@@ -1,7 +1,7 @@
 baseURL: 'https://pyjamabrah.com/'
 languageCode: 'en-us'
 theme: smigle
-title: Pyjama Cafe
+title: Pyjama Cafe!
 pagination:
   pagerSize: 20
 
@@ -48,7 +48,7 @@ markup:
     anchorLineNos: true
 
 params:
-  subtitle: "brewing insights"
+  subtitle: "serious skills. comfy setting."
   description: "Reasoning from first principles, everything from AI down to the transistor."
   thumbnail: "/opengraph.png"
   math: true
