@@ -1,7 +1,7 @@
 baseURL: 'https://pyjamabrah.com/'
 languageCode: 'en-us'
 theme: smigle
-title: Embedded Systems with Pyjama Brah!
+title: Pyjama Cafe
 pagination:
   pagerSize: 20
 
@@ -48,7 +48,7 @@ markup:
     anchorLineNos: true
 
 params:
-  subtitle: "lowering the barrier to learning Embedded Systems"
+  subtitle: "brewing insights"
   description: "Reasoning from first principles, everything from AI down to the transistor."
   thumbnail: "/opengraph.png"
   math: true

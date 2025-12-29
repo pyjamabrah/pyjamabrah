@@ -1,5 +1,13 @@
+#brand {
+  flex-direction: row;
+}
+
 #brand .icon {
   max-height: 150px;
+}
+
+#brand .text {
+  margin-left: 10px;
 }
 
 #root {
