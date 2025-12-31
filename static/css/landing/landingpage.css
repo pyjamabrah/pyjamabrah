@@ -2,9 +2,40 @@
   text-align: center;
 }
 
-.courses-container {
+.courses-container, .showcase-container {
   display: grid;
   grid-template-columns: repeat(10, 10%);
+}
+
+.product-showcase {
+  grid-column: span 6;
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid black; */
+}
+
+.product-pitch {
+  grid-column: span 4;
+  margin: 0px;
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+.product-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.product-subsection-title {
+  text-align: center;
+  font-size: 18px;
+  margin: 4px;
+}
+
+.showcase-3d {
+  background: linear-gradient(135deg, #ff000041, #ffffff2a, rgba(255, 195, 195, 0.393));
+  margin: 0px;
 }
 
 .short {
@@ -45,7 +76,7 @@ video {
 }
 
 @media all and (width < 900px) {
-  .short, .long, .equal {
+  .short, .long, .equal, .product-showcase, .product-pitch {
     grid-column: span 10;
   }
 }

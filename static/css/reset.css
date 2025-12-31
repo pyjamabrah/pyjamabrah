@@ -10,6 +10,7 @@ html {
   --precolor: #fff;
   --prebgcolor: #000;
   --theme-primary: #FFE15C;
+  --showcase-background: rgba(220, 220, 220, 0.253);
   --linecolor: grey;
   --btn-border:  black;
   --tick-green: green;
@@ -17,6 +18,7 @@ html {
   --shadowDard: rgba(0,0,0, 0.5);
   --section-title: #ffffff;
   --section-title-background: #000000;
+  --cafe: #ff1423;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,6 +31,7 @@ html {
      --precolor: #fff;
      --prebgcolor: #666666;
      --theme-primary: #ff0000;
+     --showcase-background: rgba(71, 71, 71, 0.3);
      --linecolor: grey;
      --btn-border: black;
      --tick-green: rgb(107, 255, 58);
@@ -36,6 +39,7 @@ html {
      --shadowDard: rgba(122, 122, 122, 0.065);
      --section-title: #ffffff;
      --section-title-background: #ff0000;
+     --cafe: #FFE15C;
   }
 }
 
