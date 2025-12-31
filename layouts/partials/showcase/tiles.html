@@ -1,0 +1,182 @@
+<div class="courses-container">
+  {{ range .Site.Data.courses }}{{ if eq .type "bundle"}}
+  <div class="full-width">
+    <h1 class="landing-section-title">Learn <span class="highlight-title">EMBEDDED SYSTEMS</span> from Scratch</h1>
+  </div>
+
+  {{/*  Left side content  */}}
+  <div class="equal">
+    {{partial "webvideoAutoplay.html" .teaser }}
+  </div>
+
+  {{/*  Right side content  */}}
+  <div class="equal">
+    <h2 class="landing-subsection-title">
+      The Library Access!
+    </h2>
+    <span class="product-bestseller">Bestseller</span>
+    {{ if .rating }}
+      {{ partial "products/render-stars.html" .rating }}
+    {{ end }}
+    <p>
+    <span class="product-beginner">Beginner</span>
+    <span class="product-intermediate">Intermediate</span>
+    </p>
+
+    <p>{{ .description | markdownify }}</p>
+    {{ partial "courses/feature-list.html" .content }}
+    <div class="product-cta-button">
+      <a class="btn" href="{{.more}}" target="_blank"><button>explore Library</button></a>
+    </div>
+    {{ end }}
+  {{ end }}
+  </div>
+</div>
+
+<hr/>
+{{/*  Individual Courses, included as part of the Library Access  */}}
+<div class="landingpage-hero">
+  <h1>individual learning tracks</h1>
+  <p>Included in The Library Access, also available as a single offering.</p>
+</div>
+<div class="course-list">
+  {{ range .Site.Data.courses }} {{ if eq .type "single"}}
+  <a class="course-card" href="{{ .more }}" >
+    {{if .teaser}}
+    {{partial "webvideo.html" .teaser }}
+    {{else}}
+    <img src="{{.poster}}"/>
+    {{end}}
+    <h4 class="post-title"> {{ .title | markdownify }} </h4>
+    <div class="product-subtitle">{{.subtitle | markdownify}}</div>
+
+    {{ if .badges}}
+    <div class="product-stats">
+      {{ range .badges }}
+        {{ if .beginner }}
+          <span class="product-beginner">Beginner</span>
+        {{ end }}
+        {{ if .intermediate }}
+        <span class="product-intermediate">Intermediate</span>
+        {{ end }}
+        {{ if .free }}
+        <span class="product-free">FREE!</span>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="product-stats">
+      {{ if .bestseller }}
+        <span class="product-bestseller">Bestseller</span>
+      {{ end }}
+      {{ if .rating }}
+        {{ partial "products/render-stars.html" .rating }}
+      {{ end }}
+    </div>
+
+    <div class="course-card-content">
+      <p>{{ .description | markdownify }}</p>
+      {{ partial "courses/feature-list.html" .content }}
+    </div>
+    <br/>
+  </a>
+  {{ end }}
+  {{end}}
+</div>
+
+<hr/>
+{{/*  Individual Courses, Offered for Free */}}
+<div class="landingpage-hero">
+  <h1>FREE learning tracks</h1>
+  <p>If you are a student of a beginner, you can try the following courses for <b>free for a month</b> and choose to buy individual courses or the Library access post that.</p>
+</div>
+
+{{/*  Free Courses  */}}
+<div class="course-list">
+  {{ range .Site.Data.courses }} {{ if eq .type "free"}}
+  <a class="course-card" href="{{ .more }}" >
+    <img src="{{.poster}}"/>
+    <h4 class="post-title"> {{ .title | markdownify }} </h4>
+    <div class="product-subtitle">{{.subtitle | markdownify}}</div>
+
+    {{ if .badges}}
+    <div class="product-stats">
+      {{ range .badges }}
+        {{ if .beginner }}
+          <span class="product-beginner">Beginner</span>
+        {{ end }}
+        {{ if .intermediate }}
+        <span class="product-intermediate">Intermediate</span>
+        {{ end }}
+        {{ if .free }}
+        <span class="product-free">FREE!</span>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="product-stats">
+      {{ if .bestseller }}
+        <span class="product-bestseller">Bestseller</span>
+      {{ end }}
+      {{ if .rating }}
+        {{ partial "products/render-stars.html" .rating }}
+      {{ end }}
+    </div>
+    <div class="course-card-content">
+      <p>{{ .description | markdownify }}</p>
+      {{ partial "courses/feature-list.html" .content }}
+      <br/>
+    </div>
+  </a>
+  {{ end }}{{end}}
+</div>
+
+<hr/>
+{{/*  Individual Courses, Offered for Free */}}
+<div class="landingpage-hero" id="partner">
+  <h1>Partner Courses</h1>
+  <p>Courses listed below were developed by Industry Experts and professionals who we trust and recommend. These courses are <b>NOT</b> included in the Library Access</p>
+</div>
+
+{{/*  Partner Courses */}}
+<div class="course-list" >
+  {{ range .Site.Data.courses }} {{ if eq .type "partner"}}
+  <a class="course-card" href="{{ .more }}" >
+    <img src="{{.poster}}"/>
+    <h4 class="post-title"> {{ .title | markdownify }} </h4>
+    <div class="product-subtitle">{{.subtitle | markdownify}}</div>
+
+    {{ if .badges}}
+    <div class="product-stats">
+      {{ range .badges }}
+        {{ if .beginner }}
+          <span class="product-beginner">Beginner</span>
+        {{ end }}
+        {{ if .intermediate }}
+        <span class="product-intermediate">Intermediate</span>
+        {{ end }}
+        {{ if .free }}
+        <span class="product-free">FREE!</span>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="product-stats">
+      {{ if .bestseller }}
+        <span class="product-bestseller">Bestseller</span>
+      {{ end }}
+      {{ if .rating }}
+        {{ partial "products/render-stars.html" .rating }}
+      {{ end }}
+    </div>
+    <div class="course-card-content">
+      <p>{{ .description | markdownify }}</p>
+      {{ partial "courses/feature-list.html" .content }}
+      <br/>
+    </div>
+  </a>
+  {{ end }}{{end}}
+</div>
