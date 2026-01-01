@@ -1811,7 +1811,7 @@ param:
           a: "Yes for the most part. Better yet would be if you have a linux machine."
           open: "open"
         - q: "I previously purchased a course from inpyjama/pyjamabrah, any discount for me?"
-          a: "Yes. We can offer a discount on the yearly subscription. Please reach us at support@pyjamabrah.com and be sure to include the details of your past investment. We will work on a custom discount for you."
+          a: "Yes. We can offer a discount on the yearly subscription. Please reach us at support@pyjamacafe.com and be sure to include the details of your past investment. We will work on a custom discount for you."
           open: "open"
 ---
 

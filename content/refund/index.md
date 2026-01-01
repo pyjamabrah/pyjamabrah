@@ -10,7 +10,7 @@ Thank you for purchasing one of our online courses! We strive to deliver high-qu
 
 ## 1. General Refund Eligibility
 
-Refunds are only available under specific circumstances. To be eligible, `you must submit a refund request within 5 hours of your purchase` by contacting us at support@pyjamabrah.com. Requests made after this period will not be considered.
+Refunds are only available under specific circumstances. To be eligible, `you must submit a refund request within 5 hours of your purchase` by contacting us at [support@pyjamacafe.com](mailto:support@pyjamacafe.com). Requests made after this period will not be considered.
 
 ## 2. Legitimate Refund Requests
 
@@ -38,6 +38,6 @@ All refund requests will be reviewed within 5-7 business days. `The refund shoul
 
 # Reach Us
 
-For refund inquiries, email us at support@pyjamabrah.com with your order details and a clear explanation of your request. We are here to assist with legitimate concerns but ask that you respect our policy.
+For refund inquiries, email us at [support@pyjamacafe.com](mailto:support@pyjamacafe.com) with your order details and a clear explanation of your request. We are here to assist with legitimate concerns but ask that you respect our policy.
 
 By purchasing a course, you acknowledge and agree to these terms.

@@ -40,9 +40,9 @@ You can choose to accept or decline cookies. Most web browsers automatically acc
 
 You may choose to restrict the collection or use of your personal information in the following ways:
 - whenever you are asked to fill in a form on the website, look for the box that you can click to indicate that you do not want the information to be used by anybody for direct marketing purposes.
-- if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at [support@pyjamabrah.com](mailto:support@pyjamabrah.com).
+- if you have previously agreed to us using your personal information for direct marketing purposes, you may change your mind at any time by writing to or emailing us at [support@pyjamacafe.com](mailto:support@pyjamacafe.com).
 - When in doubt, do not fill the details.
 
 We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.
 
-If you believe that any information we are holding on you is incorrect or incomplete, please write to [support@pyjamabrah.com](mailto:support@pyjamabrah.com) as soon as possible. We will promptly correct any information found to be incorrect.
+If you believe that any information we are holding on you is incorrect or incomplete, please write to [support@pyjamacafe.com](mailto:support@pyjamacafe.com) as soon as possible. We will promptly correct any information found to be incorrect.

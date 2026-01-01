@@ -64,13 +64,13 @@ params:
     - name: twitter
       url: https://x.com/i/communities/1869594826557309052
     - name: youtube
-      url: https://youtube.com/@pyjamabrah
+      url: https://youtube.com/@pyjamacafe
     - name: linkedin
       url: https://www.linkedin.com/in/streetdogg/
     - name: envelope
-      url: mailto:support@pyjamabrah.com
+      url: mailto:support@pyjamacafe.com
     - name: github
-      url: https://github.com/pyjamabrah
+      url: https://github.com/pyjamacafe
   legal:
     - name: Privacy Policy
       url: /privacy

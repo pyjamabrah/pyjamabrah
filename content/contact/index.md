@@ -4,4 +4,4 @@ title = 'Contact Us'
 layout = "default"
 +++
 
-You may contact us at [support@pyjamabrah.com](mailto:support@pyjamabrah.com)
+You may contact us at [support@pyjamacafe.com](mailto:support@pyjamacafe.com)
