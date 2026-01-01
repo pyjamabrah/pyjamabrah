@@ -10,7 +10,7 @@ preview: ""
 rating: 4.9
 bestseller: true
 
-type: "bundle"
+type: "single"
 
 badges:
   - beginner: true
