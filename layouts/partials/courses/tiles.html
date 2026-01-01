@@ -42,11 +42,7 @@
 <div class="course-list">
   {{ range .Site.Data.courses }} {{ if eq .type "single"}}
   <a class="course-card" href="{{ .more }}" >
-    {{if .teaser}}
-    {{partial "webvideo.html" .teaser }}
-    {{else}}
     <img src="{{.poster}}"/>
-    {{end}}
     <h4 class="post-title"> {{ .title | markdownify }} </h4>
     <div class="product-subtitle">{{.subtitle | markdownify}}</div>
 
