@@ -1483,6 +1483,8 @@ param:
             type: "video"
           - chapter: "Hardik | How he became a PCB designing"
             type: "video"
+          - chapter: "Aayush Mittal | Career moves, Roles, Teams, and GPU"
+            type: "video"
         - section: "Tech Syncs - Workshops on ad-hoc topics"
           id: "tech-syncs"
           description: "Live Tech Syncs with learners every once in a while where we discuss ad-hoc topics relating to Firmware and System Software Engineering."
