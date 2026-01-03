@@ -7,11 +7,12 @@ aliases:
 - /automotive-middleware-101
 - /automotive-embedded-middleware-101
 
-define: &course-name "Automotive - Middleware 101"
-define: &enrolled 100+
-define: &lastupdated "3 January 2026"
-define: &cover-art "/images/courses/auto-middleware.png"
-define: &oneliner "Introduction to Middleware for Automotive Embedded Systems"
+define:
+  ourse-name: &course-name "Automotive - Middleware 101"
+  enrolled: &enrolled 100+
+  lastupdated: &lastupdated "3 January 2026"
+  cover-art: &cover-art "/images/courses/auto-middleware.png"
+  oneliner: &oneliner "Introduction to Middleware for Automotive Embedded Systems"
 
 title: *course-name
 date: "2025-10-11T17:48:22+05:30"
@@ -40,7 +41,6 @@ param:
       emulator:
       hardware:
       workshops:
-      newcontent: true
       creators: ["jegan"]
       lastUpdated: *lastupdated
       language: "English"

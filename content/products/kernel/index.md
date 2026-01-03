@@ -15,8 +15,9 @@ thumbnail: "/kernel-from-scratch/cover.png"
 categories: courses
 product: "kernel-from-scratch"
 
-define: &enrolled 2000+
-define: &lastupdated "19 September 2025"
+define:
+  enrolled: &enrolled 2000+
+  lastupdated: &lastupdated "19 September 2025"
 
 param:
   image: "/kernel-from-scratch/cover.png"

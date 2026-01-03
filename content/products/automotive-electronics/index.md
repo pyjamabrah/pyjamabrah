@@ -7,11 +7,12 @@ aliases:
 - /automotive-101
 - /automotive-embedded
 
-define: &course-name "Automotive Electronics"
-define: &enrolled 87
-define: &lastupdated "26 October 2025"
-define: &cover-art "/images/courses/automotive-electronics.png"
-define: &oneliner "end-to-end understanding of modern vehicle electronics"
+define:
+  course-name: &course-name "Automotive Electronics"
+  enrolled: &enrolled 87
+  lastupdated: &lastupdated "26 October 2025"
+  cover-art: &cover-art "/images/courses/automotive-electronics.png"
+  oneliner: &oneliner "end-to-end understanding of modern vehicle electronics"
 
 title: *course-name
 date: "2025-10-11T17:48:22+05:30"
@@ -40,7 +41,6 @@ param:
       emulator:
       hardware:
       workshops:
-      newcontent: true
       creators: ["jegan"]
       lastUpdated: *lastupdated
       language: "English"

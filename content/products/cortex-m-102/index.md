@@ -7,10 +7,11 @@ aliases:
 - /m-102/
 - /arm-m-102/
 
-define: &course-name "Scheduler Design on ARM Cortex-M"
-define: &enrolled 2000+
-define: &lastupdated "3 October 2025"
-define: &cover-art "/images/courses/cortex-m-102.png"
+define:
+  course-name: &course-name "Scheduler Design on ARM Cortex-M"
+  enrolled: &enrolled 2000+
+  lastupdated: &lastupdated "3 October 2025"
+  cover-art: &cover-art "/images/courses/cortex-m-102.png"
 
 title: *course-name
 date: "2025-01-08T17:48:22+05:30"

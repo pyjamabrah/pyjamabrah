@@ -17,8 +17,9 @@ thumbnail: "/fw/cover.png"
 categories: courses
 product: "fw"
 
-define: &enrolled 3000+
-define: &lastupdated "1st December 2025"
+define:
+  enrolled: &enrolled 3000+
+  lastupdated: &lastupdated "1st December 2025"
 
 param:
   image: "/fw/cover.png"

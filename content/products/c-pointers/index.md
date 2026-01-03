@@ -16,8 +16,9 @@ thumbnail: "/images/courses/pointers.png"
 categories: courses
 product: "5-pointers"
 
-define: &enrolled 760+
-define: &lastupdated "8 November 2025"
+define:
+  enrolled: &enrolled 760+
+  lastupdated: &lastupdated "8 November 2025"
 
 param:
   image: "/images/courses/pointers.png"

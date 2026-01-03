@@ -17,8 +17,9 @@ thumbnail: "/dsa/cover.png"
 categories: courses
 product: "2-dsa"
 
-define: &enrolled 2000+
-define: &lastupdated "2 November 2025"
+define:
+  enrolled: &enrolled 2000+
+  lastupdated: &lastupdated "2 November 2025"
 
 param:
   image: "/dsa/dsa-course.png"

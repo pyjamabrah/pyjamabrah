@@ -7,11 +7,12 @@ aliases:
 - /freertos-porting/
 - /freertos/
 
-define: &course-name "FreeRTOS - Teardown and Porting"
-define: &enrolled 2000+
-define: &lastupdated "23 November 2025"
-define: &cover-art "/images/courses/freeRTOS-101.png"
-define: &oneliner "`Port FreeRTOS on a new target from scratch`"
+define:
+  course-name: &course-name "FreeRTOS - Teardown and Porting"
+  enrolled: &enrolled 2000+
+  lastupdated: &lastupdated "23 November 2025"
+  cover-art: &cover-art "/images/courses/freeRTOS-101.png"
+  oneliner: &oneliner "`Port FreeRTOS on a new target from scratch`"
 
 title: *course-name
 date: "2025-10-11T17:48:22+05:30"

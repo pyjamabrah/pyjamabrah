@@ -17,8 +17,9 @@ thumbnail: "/c/cover.png"
 categories: courses
 product: "1-c"
 
-define: &enrolled 2000+
-define: &lastupdated "11 October 2025"
+define:
+  enrolled: &enrolled 2000+
+  lastupdated: &lastupdated "11 October 2025"
 
 param:
   image: "/c/c-course.png"
