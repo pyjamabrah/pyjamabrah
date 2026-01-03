@@ -8,10 +8,10 @@ aliases:
 - /automotive-embedded-middleware-101
 
 define: &course-name "Automotive - Middleware 101"
-define: &enrolled 87
-define: &lastupdated "1 January 2026"
+define: &enrolled 100+
+define: &lastupdated "3 January 2026"
 define: &cover-art "/images/courses/auto-middleware.png"
-define: &oneliner "Introduction to Middleware for Automotive"
+define: &oneliner "Introduction to Middleware for Automotive Embedded Systems"
 
 title: *course-name
 date: "2025-10-11T17:48:22+05:30"
@@ -27,7 +27,7 @@ param:
   bundle:
     - course: *course-name
       subtitle: *oneliner
-      description: "**Note:** This is a `Partner Course` and NOT included in the **[Library Access](/library)**!\n\nThis courses introduces the role of middleware in modern embedded systems, covering architectures, real-world examples, and controller vs processor-based designs. Learn driver vs middleware differences, IP case study, OS essentials, why C++ dominates middleware development, and a clear learning roadmap for aspiring embedded middleware engineers."
+      description: "**Note:** This is a `Partner Course` and NOT included in the **[Library Access](/library)**!\n\nThis course introduces the role of middleware in modern automotive embedded systems, covering architectures, real-world examples, and controller vs processor-based designs. Learn driver vs middleware code level differences, Covering the middleware example with a SOME/IP case study, OS essentials required for middleware development, why C++ dominates middleware development, and a clear learning roadmap for aspiring embedded middleware engineers."
       previewCover: *cover-art
       bestSeller: "yes"
       beginner: "yes"
@@ -49,23 +49,21 @@ param:
       files:
       quizzes:
       certificate: "/automotive-middleware/certificate.png"
-      validity: 365 days
+      validity: 30 days
       projects:
       demo: 5
       newcontent: no
       learning:
-        - "Understand vehicle electrical/electronic (E/E) architecture and its components"
-        - "Learn the V-Model for automotive system development and ASPICE framework"
-        - "Explore software testing life cycle and hardware-in-the-loop (HIL) validation"
-        - "Study automotive sensors, including position, pressure, temperature, and virtual sensors"
-        - "Gain knowledge of automotive actuators like solenoids, fuel injectors, and BLDC motors"
-        - "Understand powertrain systems, engine control, and hybrid powertrain configurations"
-        - "Learn vehicle motion control systems, including ABS, TCS, ESP, and ACC"
-        - "Master vehicle diagnostics, OBD standards, and UDS communication protocols"
-        - "Explore Classic and Adaptive AUTOSAR and Linux-based vehicle software stacks"
-        - "Understand emerging trends like electric vehicles, AI, and autonomous driving"
-        - "Learn career roles and development flow in automotive embedded systems"
-        - "Apply practical skills through Scilab and XCOS demos for sensor fusion, actuator modeling, and path planning"
+        - "Explain the role and significance of middleware in embedded systems and position it correctly within the overall software stack."
+        - "Differentiate between driver-level code and middleware abstractions, and justify the need for middleware in scalable embedded products."
+        - "Analyze middleware architectures used in controller-based and processor-based embedded systems."
+        - "Design layered software architectures that follow best practices for embedded middleware development."
+        - "Apply middleware concepts to automotive use cases, including communication, diagnostics, and service-oriented architectures."
+        - "Interpret and evaluate real-world embedded middleware implementations, with emphasis on industry standards."
+        - "Understand SOME/IP fundamentals and workflows through an applied automotive case study."
+        - "Select appropriate programming paradigms and Design Patterns (from C++) for middleware development based on performance and maintainability needs."
+        - "Identify essential OS-level concepts required for effective middleware design and debugging."
+        - "Plan a structured learning roadmap for becoming a professional embedded middleware developer"
       sections:
         - section: "Middleware -Overview"
           id: ""
@@ -111,33 +109,34 @@ param:
             - chapter: "Learning Roadmap for Embedded Middleware Developers"
               type: "video"
       requirements:
+        - "Basic Background on Embedded System/Software development"
         - "Interest in Automotive Electronics"
-        - "Basic Background on Control Theory and Signal Processing"
       audience:
-        - Students from Automotive, Electrical, Electronics, Mechatronics and Computer science Engineering Discipline.
-        - Those seeking to dip their toes in Automotive Electronics.
+        - "Students from Automotive, Electrical, Electronics, Mechatronics and Computer science Engineering Discipline."
+        - "Embedded Automotive Professionals"
+        - Embedded Middleware Developers"
       reviewSectionDescription: ""
       reviews:
       compare:
         - feature: "System-Level Perspective"
           us: true
           others: false
-        - feature: "Real Vehicle Relevance"
+        - feature: "Driver vs Middleware Code level Comparison"
           us: true
           others: false
-        - feature: "Industry Standard Frameworks"
+        - feature: "Controller vs Processor Focus"
           us: true
           others: false
-        - feature: "Modular & Layered Learning Structure"
+        - feature: "Real Automotive Use Cases"
           us: true
           others: false
-        - feature: "Hands-On Demos on examples from EV, ADAS and System Design"
+        - feature: "SOME/IP Case Study"
           us: true
           others: false
-        - feature: "Industry-Aligned Skill Mapping"
+        - feature: "OS Know-How for Middleware Developers"
           us: true
           others: false
-        - feature: "Future-Ready Topics"
+        - feature: "Industry-Oriented Learning Roadmap"
           us: true
           others: false
       faqs:
@@ -157,10 +156,8 @@ param:
 
 # What is so special about this course?
 
-The Automotive Electronics course is first of its kind because it provides a complete system-level understanding of how modern vehicles work — not just isolated topics. It starts with E/E architecture, the backbone of every vehicle, and builds upward through sensors, actuators, diagnostics, control strategies, and software stacks.
+What makes this course special is its end-to-end, system-level view of embedded middleware, going beyond definitions and APIs.
 
-Unlike traditional courses, it blends hardware, software, and system engineering to mirror real OEM and Tier-1 workflows. It also covers future-focused technologies like EVs, ADAS, AI applications, and Software-Defined Vehicles (SDV), ensuring learners are aligned with industry evolution.
+Instead of treating middleware as a black box, the course explains why it exists, where it fits, and how it is designed—from drivers to applications. It connects theory with real automotive use cases, including a practical SOME/IP case study, and highlights real-world middleware architectures used in Automotive production programs.
 
-Hands-on demos such as EV bike simulation, complementary filtering, actuator modeling, and path planning reinforce theory with practical exposure. Learners also gain familiarity with industry standards like AUTOSAR, ASPICE, and UDS, preparing them for real development environments.
-
-Finally, the course provides complete technology overview, showcasing actual automotive development flows, typical job roles, and skill pathways. This makes it ideal for students, embedded developers, and professionals looking to enter or grow in the automotive embedded systems domain.
+The course also bridges critical gaps by covering OS 'Know How' for middleware development and C++ design rationale, and finally provides a clear learning roadmap, enabling learners to confidently grow into industry-ready embedded middleware developers.
